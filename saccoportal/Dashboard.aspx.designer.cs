@@ -13,30 +13,75 @@ namespace SACCOPortal {
     public partial class Dashboard {
         
         /// <summary>
-        /// gvKins control.
+        /// totaldeposits control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvKins;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl totaldeposits;
         
         /// <summary>
-        /// GvBeneficiary control.
+        /// currentsaving control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GvBeneficiary;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl currentsaving;
         
         /// <summary>
-        /// gvMinistatement control.
+        /// toutstandingloans control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvMinistatement;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl toutstandingloans;
+        
+        /// <summary>
+        /// memberNo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableCell memberNo;
+        
+        /// <summary>
+        /// memberName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableCell memberName;
+        
+        /// <summary>
+        /// accountCategory control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableCell accountCategory;
+        
+        /// <summary>
+        /// emailAddress control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableCell emailAddress;
+        
+        /// <summary>
+        /// ViewmyLoansList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView ViewmyLoansList;
     }
 }

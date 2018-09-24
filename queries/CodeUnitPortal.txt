@@ -1,0 +1,250 @@
+OBJECT Codeunit 51516120 PORTALIntegration
+{
+  OBJECT-PROPERTIES
+  {
+    Date=07/12/17;
+    Time=11:48:05;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+    OnRun=BEGIN
+            //fnMemberStatement('000547','Fosa.pdf');
+            //fnFosaStatement('0101-001-00000','fstnt.pdf')
+            //fndividentstatement('000547','divident.pdf')
+            //fnLoanGuranteed('000547','loanstatement.pdf')
+            //fnLoanRepaymentShedule('000547','victorLoanrepay.pdf')
+            //fnLoanGurantorsReport('003720','Guarantors.pdf')
+            //fnAtmApplications('0101-001-00266')
+            //fnUpdatePassword('03501','3648428','0001');
+          END;
+
+  }
+  CODE
+  {
+    VAR
+      objMember@1000000000 : Record 51516223;
+      Vendor@1000000001 : Record 23;
+      VendorLedgEntry@1000000002 : Record 25;
+      FILESPATH@1000000003 : TextConst 'ENU=D:\telepostportal\Downloads\';
+      objLoanRegister@1000000004 : Record 51516230;
+      objAtmapplication@1000000005 : Record 51516321;
+
+    PROCEDURE fnUpdatePassword@1000000000(MemberNo@1000000000 : Code[50];idNo@1000000002 : Code[10];NewPassword@1000000001 : Text[100]) emailAddress : Text;
+    BEGIN
+      objMember.RESET;
+      objMember.SETRANGE(objMember."No.",MemberNo);
+      objMember.SETRANGE(objMember."ID No.",idNo);
+      IF objMember.FIND('-') THEN BEGIN
+       emailAddress:=objMember."E-Mail";
+        objMember.Password:=NewPassword;
+        objMember.MODIFY;
+        END
+        ELSE BEGIN
+      objMember.RESET;
+      objMember.SETRANGE(objMember."Old Account No.",MemberNo);
+      objMember.SETRANGE(objMember."ID No.",idNo);
+      IF objMember.FIND('-') THEN BEGIN
+       emailAddress:=objMember."E-Mail";
+        objMember.Password:=NewPassword;
+        objMember.MODIFY;
+        END
+        ELSE BEGIN
+          objMember.RESET;
+      objMember.SETRANGE(objMember."Payroll/Staff No",MemberNo);
+      objMember.SETRANGE(objMember."ID No.",idNo);
+      IF objMember.FIND('-') THEN BEGIN
+       emailAddress:=objMember."E-Mail";
+        objMember.Password:=NewPassword;
+        objMember.MODIFY;
+        END
+        END
+      END;
+        EXIT(emailAddress);
+    END;
+
+    PROCEDURE MiniStatement@1000000001(MemberNo@1000000000 : Text[100]) MiniStmt : Text;
+    VAR
+      minimunCount@1000000002 : Integer;
+      amount@1000000003 : Decimal;
+    BEGIN
+        BEGIN
+        MiniStmt :='';
+          Vendor.RESET;
+          Vendor.SETRANGE(Vendor."BOSA Account No",MemberNo);
+        IF Vendor.FIND('-') THEN BEGIN
+
+           minimunCount:=1;
+           Vendor.CALCFIELDS(Vendor.Balance);
+
+           VendorLedgEntry.SETCURRENTKEY(VendorLedgEntry."Entry No.");
+           VendorLedgEntry.ASCENDING(FALSE);
+           VendorLedgEntry.SETRANGE(VendorLedgEntry."Vendor No.",Vendor."No.");
+           VendorLedgEntry.SETRANGE(VendorLedgEntry.Reversed,VendorLedgEntry.Reversed::"0");
+          IF VendorLedgEntry.FINDSET THEN BEGIN
+              MiniStmt:='';
+              REPEAT
+                VendorLedgEntry.CALCFIELDS(VendorLedgEntry.Amount);
+              amount:=VendorLedgEntry.Amount;
+                IF amount<1 THEN
+                   amount:= amount*-1;
+                   MiniStmt :=MiniStmt + FORMAT(VendorLedgEntry."Posting Date") +':::'+ COPYSTR(VendorLedgEntry.Description,1,25) +':::' +
+                   FORMAT(amount)+'::::';
+                   minimunCount:= minimunCount +1;
+                   IF minimunCount>5 THEN
+                   EXIT
+               UNTIL VendorLedgEntry.NEXT =0;
+              END
+        END;
+
+        END
+    END;
+
+    PROCEDURE fnMemberStatement@1000000002(MemberNo@1000000000 : Code[50];path@1000000001 : Text[100]);
+    VAR
+      Filename@1000000002 : Text[100];
+    BEGIN
+
+      Filename := FILESPATH+path;
+      MESSAGE(FILESPATH);
+      IF EXISTS(Filename) THEN
+
+        ERASE(Filename);
+        objMember.RESET;
+        objMember.SETRANGE(objMember."No.",MemberNo);
+
+      IF objMember.FIND('-') THEN BEGIN
+        REPORT.SAVEASPDF(51516223,Filename,objMember);
+      END;
+    END;
+
+    PROCEDURE fnFosaStatement@1000000003("Account No"@1000000000 : Code[50];path@1000000001 : Text[100]);
+    VAR
+      Filename@1000000002 : Text[100];
+    BEGIN
+
+      Filename := FILESPATH+path;
+      IF EXISTS(Filename) THEN
+
+        ERASE(Filename);
+        Vendor.RESET;
+        Vendor.SETRANGE(Vendor."No.","Account No");
+
+      IF Vendor.FIND('-') THEN BEGIN
+        REPORT.SAVEASPDF(51516248,Filename,Vendor);
+      END;
+    END;
+
+    PROCEDURE fndividentstatement@1000000004(No@1000000000 : Code[50];Path@1000000001 : Text[100]);
+    VAR
+      filename@1000000002 : Text;
+      "Member No"@1000000003 : Code[50];
+    BEGIN
+      filename := FILESPATH+Path;
+      IF EXISTS(filename) THEN
+
+        ERASE(filename);
+        objMember.RESET;
+        objMember.SETRANGE(objMember."No.",No);
+
+      IF objMember.FIND('-') THEN BEGIN
+        REPORT.SAVEASPDF(51516241,filename,objMember);
+
+      END;
+    END;
+
+    PROCEDURE fnLoanGuranteed@1000000005("Member No"@1000000000 : Code[50];path@1000000001 : Text[100]);
+    VAR
+      Filename@1000000002 : Text[100];
+    BEGIN
+      Filename := FILESPATH+path;
+      IF EXISTS(Filename) THEN
+
+        ERASE(Filename);
+        objMember.RESET;
+        objMember.SETRANGE(objMember."No.","Member No");
+
+      IF objMember.FIND('-') THEN BEGIN
+        REPORT.SAVEASPDF(51516226,Filename,objMember);
+
+      END;
+    END;
+
+    PROCEDURE fnLoanRepaymentShedule@1000000006("Loan No"@1000000000 : Code[50];path@1000000001 : Text[100]);
+    VAR
+      "Member No"@1000000002 : Code[100];
+      filename@1000000003 : Text[250];
+    BEGIN
+      filename := FILESPATH+path;
+      IF EXISTS(filename) THEN
+
+        ERASE(filename);
+        objLoanRegister.RESET;
+        objLoanRegister.SETRANGE(objLoanRegister."Loan  No.","Loan No");
+
+      IF objLoanRegister.FIND('-') THEN BEGIN
+        REPORT.SAVEASPDF(51516231,filename,objLoanRegister);
+
+      END;
+    END;
+
+    PROCEDURE fnLoanGurantorsReport@1000000007("Member No"@1000000000 : Code[10];path@1000000001 : Text);
+    VAR
+      filename@1000000002 : Text[100];
+    BEGIN
+      filename := FILESPATH+path;
+      IF EXISTS(filename) THEN
+
+        ERASE(filename);
+        objMember.RESET;
+        objMember.SETRANGE(objMember."No.","Member No");
+
+      IF objMember.FIND('-') THEN BEGIN
+        REPORT.SAVEASPDF(51516225,filename,objMember);
+        END;
+    END;
+
+    PROCEDURE fnAtmApplications@1000000008(Account@1000000000 : Code[100]);
+    BEGIN
+      objAtmapplication.INIT;
+      objAtmapplication."Account No":=Account;
+      objAtmapplication."Application Date":=TODAY;
+      objAtmapplication."Request Type":=objAtmapplication."Request Type"::New;
+      objAtmapplication."Card Status":=objAtmapplication."Card Status"::Pending;
+      objAtmapplication.VALIDATE(objAtmapplication."Account No");
+      objAtmapplication.INSERT;
+    END;
+
+    PROCEDURE fnAtmBlocking@1000000024(Account@1000000000 : Code[100];ReasonForBlock@1000000001 : Text[250]);
+    BEGIN
+      objAtmapplication.RESET;
+      objAtmapplication.SETRANGE(objAtmapplication."Account No",Account);
+      IF objAtmapplication.FIND('-') THEN BEGIN
+      objAtmapplication."Card Status":=objAtmapplication."Card Status"::Frozen;
+      objAtmapplication."Reason for Account blocking":=ReasonForBlock;
+      objAtmapplication.MODIFY;
+        END;
+    END;
+
+    PROCEDURE fnChangePassword@1000000009(memberNumber@1000000000 : Code[100];currentPass@1000000001 : Code[100];newPass@1000000002 : Code[100]) updated : Boolean;
+    BEGIN
+      updated:=FALSE;
+      objMember.RESET;
+      objMember.SETRANGE(objMember."No.", memberNumber);
+      objMember.SETRANGE(objMember.Password, currentPass);
+      IF objMember.FIND('-') THEN
+        objMember.Password :=newPass;
+      updated := objMember.MODIFY;
+
+      EXIT(updated);
+    END;
+
+    BEGIN
+    {
+      ``
+    }
+    END.
+  }
+}
+

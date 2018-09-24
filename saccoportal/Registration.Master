@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Registration.master.cs" Inherits="SACCOPortal.Registration" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Dimkes Sacco Portal</title>
+
+    <!--<webopt:bundlereference ID="BundleReference1" runat="server" Path="~/Content/css" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Site.css?t=<%= DateTime.Now.Ticks %>"" rel="stylesheet" type="text/css" />
+    <link href="x-icon.png" rel="shortcut icon" type="image/x-icon" />-->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/elegant-icons-style.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/line-icons.css" rel="stylesheet" />
+    <link href="~/Content/style-responsive.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 15px;
+            width: 19px;
+        }
+</style>
+    
+</head>
+<body>
+    <form class="register-form" runat="server"> 
+      
+          <header class="header facebook-bg">
+            <%--<div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="fa fa-navicon"></i></div>
+            </div>--%>
+
+            <!--logo start-->
+            <a href="Dashboard" class="logo">Dimkes <span class="lite">Web portal</span></a>
+            <!--logo end-->
+            
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <li class="dropdown"><a href="Default"> LOG IN</a></li>
+                         
+                    <!-- user login dropdown end -->
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+      </header> 
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+           <footer>
+                <p><span>Copyright &copy; <%: DateTime.Now.Year %> <a target="_blank" href="http://www.dimkessacco.co.ke" style="padding-left:5px">Urithi Premier Sacco Society </a></span><span> | </span><span> Powered by: <a target ="_blank" href="http://surestep.co.ke" style="padding-right:5px">Surestep Systems and Solutions</a></span></p>
+            </footer>
+        </div>       
+
+</form>
+</body>
+</html>

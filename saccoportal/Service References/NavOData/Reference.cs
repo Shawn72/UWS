@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // Original file name:
-// Generation date: 08-May-17 3:21:33 PM
+// Generation date: 09/24/18 09:27:06
 namespace SACCOPortal.NavOData
 {
     
@@ -60,142 +60,6 @@ namespace SACCOPortal.NavOData
             }
             return null;
         }
-        /// <summary>
-        /// There are no comments for ACC_Schedules in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<ACC_Schedules> ACC_Schedules
-        {
-            get
-            {
-                if ((this._ACC_Schedules == null))
-                {
-                    this._ACC_Schedules = base.CreateQuery<ACC_Schedules>("ACC_Schedules");
-                }
-                return this._ACC_Schedules;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<ACC_Schedules> _ACC_Schedules;
-        /// <summary>
-        /// There are no comments for COA in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<COA> COA
-        {
-            get
-            {
-                if ((this._COA == null))
-                {
-                    this._COA = base.CreateQuery<COA>("COA");
-                }
-                return this._COA;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<COA> _COA;
-        /// <summary>
-        /// There are no comments for Loan_Products in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<Loan_Products> Loan_Products
-        {
-            get
-            {
-                if ((this._Loan_Products == null))
-                {
-                    this._Loan_Products = base.CreateQuery<Loan_Products>("Loan_Products");
-                }
-                return this._Loan_Products;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<Loan_Products> _Loan_Products;
-        /// <summary>
-        /// There are no comments for Members in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<Members> Members
-        {
-            get
-            {
-                if ((this._Members == null))
-                {
-                    this._Members = base.CreateQuery<Members>("Members");
-                }
-                return this._Members;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<Members> _Members;
-        /// <summary>
-        /// There are no comments for PBIAccount_Types in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<PBIAccount_Types> PBIAccount_Types
-        {
-            get
-            {
-                if ((this._PBIAccount_Types == null))
-                {
-                    this._PBIAccount_Types = base.CreateQuery<PBIAccount_Types>("PBIAccount_Types");
-                }
-                return this._PBIAccount_Types;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<PBIAccount_Types> _PBIAccount_Types;
-        /// <summary>
-        /// There are no comments for PBIBankLedgerxz in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<PBIBankLedgerxz> PBIBankLedgerxz
-        {
-            get
-            {
-                if ((this._PBIBankLedgerxz == null))
-                {
-                    this._PBIBankLedgerxz = base.CreateQuery<PBIBankLedgerxz>("PBIBankLedgerxz");
-                }
-                return this._PBIBankLedgerxz;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<PBIBankLedgerxz> _PBIBankLedgerxz;
-        /// <summary>
-        /// There are no comments for PBILoan_Register in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<PBILoan_Register> PBILoan_Register
-        {
-            get
-            {
-                if ((this._PBILoan_Register == null))
-                {
-                    this._PBILoan_Register = base.CreateQuery<PBILoan_Register>("PBILoan_Register");
-                }
-                return this._PBILoan_Register;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<PBILoan_Register> _PBILoan_Register;
-        /// <summary>
-        /// There are no comments for PBIMembers in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<PBIMembers> PBIMembers
-        {
-            get
-            {
-                if ((this._PBIMembers == null))
-                {
-                    this._PBIMembers = base.CreateQuery<PBIMembers>("PBIMembers");
-                }
-                return this._PBIMembers;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<PBIMembers> _PBIMembers;
         /// <summary>
         /// There are no comments for powerbifinance in the schema.
         /// </summary>
@@ -248,22 +112,39 @@ namespace SACCOPortal.NavOData
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Data.Services.Client.DataServiceQuery<SalesOrderSalesLines> _SalesOrderSalesLines;
         /// <summary>
-        /// There are no comments for bankdetails in the schema.
+        /// There are no comments for Banks_BI in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<bankdetails> bankdetails
+        public global::System.Data.Services.Client.DataServiceQuery<Banks_BI> Banks_BI
         {
             get
             {
-                if ((this._bankdetails == null))
+                if ((this._Banks_BI == null))
                 {
-                    this._bankdetails = base.CreateQuery<bankdetails>("bankdetails");
+                    this._Banks_BI = base.CreateQuery<Banks_BI>("Banks_BI");
                 }
-                return this._bankdetails;
+                return this._Banks_BI;
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<bankdetails> _bankdetails;
+        private global::System.Data.Services.Client.DataServiceQuery<Banks_BI> _Banks_BI;
+        /// <summary>
+        /// There are no comments for COA in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Data.Services.Client.DataServiceQuery<COA> COA
+        {
+            get
+            {
+                if ((this._COA == null))
+                {
+                    this._COA = base.CreateQuery<COA>("COA");
+                }
+                return this._COA;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceQuery<COA> _COA;
         /// <summary>
         /// There are no comments for FosaAccounts in the schema.
         /// </summary>
@@ -281,6 +162,23 @@ namespace SACCOPortal.NavOData
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Data.Services.Client.DataServiceQuery<FosaAccounts> _FosaAccounts;
+        /// <summary>
+        /// There are no comments for FosaProducts in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Data.Services.Client.DataServiceQuery<FosaProducts> FosaProducts
+        {
+            get
+            {
+                if ((this._FosaProducts == null))
+                {
+                    this._FosaProducts = base.CreateQuery<FosaProducts>("FosaProducts");
+                }
+                return this._FosaProducts;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceQuery<FosaProducts> _FosaProducts;
         /// <summary>
         /// There are no comments for ItemSalesAndProfit in the schema.
         /// </summary>
@@ -316,6 +214,23 @@ namespace SACCOPortal.NavOData
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Data.Services.Client.DataServiceQuery<ItemSalesByCustomer> _ItemSalesByCustomer;
         /// <summary>
+        /// There are no comments for juniors in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Data.Services.Client.DataServiceQuery<juniors> juniors
+        {
+            get
+            {
+                if ((this._juniors == null))
+                {
+                    this._juniors = base.CreateQuery<juniors>("juniors");
+                }
+                return this._juniors;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceQuery<juniors> _juniors;
+        /// <summary>
         /// There are no comments for KeensDetails in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -349,6 +264,40 @@ namespace SACCOPortal.NavOData
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Data.Services.Client.DataServiceQuery<kinsdetail> _kinsdetail;
+        /// <summary>
+        /// There are no comments for LoansFinal in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Data.Services.Client.DataServiceQuery<LoansFinal> LoansFinal
+        {
+            get
+            {
+                if ((this._LoansFinal == null))
+                {
+                    this._LoansFinal = base.CreateQuery<LoansFinal>("LoansFinal");
+                }
+                return this._LoansFinal;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceQuery<LoansFinal> _LoansFinal;
+        /// <summary>
+        /// There are no comments for LoansProductSetUp in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Data.Services.Client.DataServiceQuery<LoansProductSetUp> LoansProductSetUp
+        {
+            get
+            {
+                if ((this._LoansProductSetUp == null))
+                {
+                    this._LoansProductSetUp = base.CreateQuery<LoansProductSetUp>("LoansProductSetUp");
+                }
+                return this._LoansProductSetUp;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceQuery<LoansProductSetUp> _LoansProductSetUp;
         /// <summary>
         /// There are no comments for LoansReg in the schema.
         /// </summary>
@@ -384,73 +333,22 @@ namespace SACCOPortal.NavOData
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Data.Services.Client.DataServiceQuery<MemberList> _MemberList;
         /// <summary>
-        /// There are no comments for ministatement in the schema.
+        /// There are no comments for Members in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<ministatement> ministatement
+        public global::System.Data.Services.Client.DataServiceQuery<Members> Members
         {
             get
             {
-                if ((this._ministatement == null))
+                if ((this._Members == null))
                 {
-                    this._ministatement = base.CreateQuery<ministatement>("ministatement");
+                    this._Members = base.CreateQuery<Members>("Members");
                 }
-                return this._ministatement;
+                return this._Members;
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<ministatement> _ministatement;
-        /// <summary>
-        /// There are no comments for PBIATMTransactions in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<PBIATMTransactions> PBIATMTransactions
-        {
-            get
-            {
-                if ((this._PBIATMTransactions == null))
-                {
-                    this._PBIATMTransactions = base.CreateQuery<PBIATMTransactions>("PBIATMTransactions");
-                }
-                return this._PBIATMTransactions;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<PBIATMTransactions> _PBIATMTransactions;
-        /// <summary>
-        /// There are no comments for PBICASHIERTransactions in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<PBICASHIERTransactions> PBICASHIERTransactions
-        {
-            get
-            {
-                if ((this._PBICASHIERTransactions == null))
-                {
-                    this._PBICASHIERTransactions = base.CreateQuery<PBICASHIERTransactions>("PBICASHIERTransactions");
-                }
-                return this._PBICASHIERTransactions;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<PBICASHIERTransactions> _PBICASHIERTransactions;
-        /// <summary>
-        /// There are no comments for PBIVendors in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<PBIVendors> PBIVendors
-        {
-            get
-            {
-                if ((this._PBIVendors == null))
-                {
-                    this._PBIVendors = base.CreateQuery<PBIVendors>("PBIVendors");
-                }
-                return this._PBIVendors;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<PBIVendors> _PBIVendors;
+        private global::System.Data.Services.Client.DataServiceQuery<Members> _Members;
         /// <summary>
         /// There are no comments for SalesDashboard in the schema.
         /// </summary>
@@ -503,6 +401,23 @@ namespace SACCOPortal.NavOData
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Data.Services.Client.DataServiceQuery<SalesOrdersBySalesPerson> _SalesOrdersBySalesPerson;
         /// <summary>
+        /// There are no comments for SavingsAccounts in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Data.Services.Client.DataServiceQuery<SavingsAccounts> SavingsAccounts
+        {
+            get
+            {
+                if ((this._SavingsAccounts == null))
+                {
+                    this._SavingsAccounts = base.CreateQuery<SavingsAccounts>("SavingsAccounts");
+                }
+                return this._SavingsAccounts;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceQuery<SavingsAccounts> _SavingsAccounts;
+        /// <summary>
         /// There are no comments for TopCustomerOverview in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -537,70 +452,6 @@ namespace SACCOPortal.NavOData
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Data.Services.Client.DataServiceQuery<Company> _Company;
         /// <summary>
-        /// There are no comments for ACC_Schedules in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToACC_Schedules(ACC_Schedules aCC_Schedules)
-        {
-            base.AddObject("ACC_Schedules", aCC_Schedules);
-        }
-        /// <summary>
-        /// There are no comments for COA in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToCOA(COA cOA)
-        {
-            base.AddObject("COA", cOA);
-        }
-        /// <summary>
-        /// There are no comments for Loan_Products in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToLoan_Products(Loan_Products loan_Products)
-        {
-            base.AddObject("Loan_Products", loan_Products);
-        }
-        /// <summary>
-        /// There are no comments for Members in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToMembers(Members members)
-        {
-            base.AddObject("Members", members);
-        }
-        /// <summary>
-        /// There are no comments for PBIAccount_Types in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToPBIAccount_Types(PBIAccount_Types pBIAccount_Types)
-        {
-            base.AddObject("PBIAccount_Types", pBIAccount_Types);
-        }
-        /// <summary>
-        /// There are no comments for PBIBankLedgerxz in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToPBIBankLedgerxz(PBIBankLedgerxz pBIBankLedgerxz)
-        {
-            base.AddObject("PBIBankLedgerxz", pBIBankLedgerxz);
-        }
-        /// <summary>
-        /// There are no comments for PBILoan_Register in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToPBILoan_Register(PBILoan_Register pBILoan_Register)
-        {
-            base.AddObject("PBILoan_Register", pBILoan_Register);
-        }
-        /// <summary>
-        /// There are no comments for PBIMembers in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToPBIMembers(PBIMembers pBIMembers)
-        {
-            base.AddObject("PBIMembers", pBIMembers);
-        }
-        /// <summary>
         /// There are no comments for powerbifinance in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -625,12 +476,20 @@ namespace SACCOPortal.NavOData
             base.AddObject("SalesOrderSalesLines", salesOrderSalesLines);
         }
         /// <summary>
-        /// There are no comments for bankdetails in the schema.
+        /// There are no comments for Banks_BI in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddTobankdetails(bankdetails bankdetails)
+        public void AddToBanks_BI(Banks_BI banks_BI)
         {
-            base.AddObject("bankdetails", bankdetails);
+            base.AddObject("Banks_BI", banks_BI);
+        }
+        /// <summary>
+        /// There are no comments for COA in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public void AddToCOA(COA cOA)
+        {
+            base.AddObject("COA", cOA);
         }
         /// <summary>
         /// There are no comments for FosaAccounts in the schema.
@@ -639,6 +498,14 @@ namespace SACCOPortal.NavOData
         public void AddToFosaAccounts(FosaAccounts fosaAccounts)
         {
             base.AddObject("FosaAccounts", fosaAccounts);
+        }
+        /// <summary>
+        /// There are no comments for FosaProducts in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public void AddToFosaProducts(FosaProducts fosaProducts)
+        {
+            base.AddObject("FosaProducts", fosaProducts);
         }
         /// <summary>
         /// There are no comments for ItemSalesAndProfit in the schema.
@@ -657,6 +524,14 @@ namespace SACCOPortal.NavOData
             base.AddObject("ItemSalesByCustomer", itemSalesByCustomer);
         }
         /// <summary>
+        /// There are no comments for juniors in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public void AddTojuniors(juniors juniors)
+        {
+            base.AddObject("juniors", juniors);
+        }
+        /// <summary>
         /// There are no comments for KeensDetails in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -671,6 +546,22 @@ namespace SACCOPortal.NavOData
         public void AddTokinsdetail(kinsdetail kinsdetail)
         {
             base.AddObject("kinsdetail", kinsdetail);
+        }
+        /// <summary>
+        /// There are no comments for LoansFinal in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public void AddToLoansFinal(LoansFinal loansFinal)
+        {
+            base.AddObject("LoansFinal", loansFinal);
+        }
+        /// <summary>
+        /// There are no comments for LoansProductSetUp in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public void AddToLoansProductSetUp(LoansProductSetUp loansProductSetUp)
+        {
+            base.AddObject("LoansProductSetUp", loansProductSetUp);
         }
         /// <summary>
         /// There are no comments for LoansReg in the schema.
@@ -689,36 +580,12 @@ namespace SACCOPortal.NavOData
             base.AddObject("MemberList", memberList);
         }
         /// <summary>
-        /// There are no comments for ministatement in the schema.
+        /// There are no comments for Members in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToministatement(ministatement ministatement)
+        public void AddToMembers(Members members)
         {
-            base.AddObject("ministatement", ministatement);
-        }
-        /// <summary>
-        /// There are no comments for PBIATMTransactions in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToPBIATMTransactions(PBIATMTransactions pBIATMTransactions)
-        {
-            base.AddObject("PBIATMTransactions", pBIATMTransactions);
-        }
-        /// <summary>
-        /// There are no comments for PBICASHIERTransactions in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToPBICASHIERTransactions(PBICASHIERTransactions pBICASHIERTransactions)
-        {
-            base.AddObject("PBICASHIERTransactions", pBICASHIERTransactions);
-        }
-        /// <summary>
-        /// There are no comments for PBIVendors in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToPBIVendors(PBIVendors pBIVendors)
-        {
-            base.AddObject("PBIVendors", pBIVendors);
+            base.AddObject("Members", members);
         }
         /// <summary>
         /// There are no comments for SalesDashboard in the schema.
@@ -743,6 +610,14 @@ namespace SACCOPortal.NavOData
         public void AddToSalesOrdersBySalesPerson(SalesOrdersBySalesPerson salesOrdersBySalesPerson)
         {
             base.AddObject("SalesOrdersBySalesPerson", salesOrdersBySalesPerson);
+        }
+        /// <summary>
+        /// There are no comments for SavingsAccounts in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public void AddToSavingsAccounts(SavingsAccounts savingsAccounts)
+        {
+            base.AddObject("SavingsAccounts", savingsAccounts);
         }
         /// <summary>
         /// There are no comments for TopCustomerOverview in the schema.
@@ -770,577 +645,229 @@ namespace SACCOPortal.NavOData
                 "x\"><edmx:DataServices m:DataServiceVersion=\"1.0\" m:MaxDataServiceVersion=\"3.0\" x" +
                 "mlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\"><Schema " +
                 "Namespace=\"NAV\" xmlns=\"http://schemas.microsoft.com/ado/2007/05/edm\"><EntityType" +
-                " Name=\"ACC_Schedules\"><Key><PropertyRef Name=\"Line_No\" /><PropertyRef Name=\"Sche" +
-                "dule_Name\" /></Key><Property Name=\"Schedule_Name\" Type=\"Edm.String\" Nullable=\"fa" +
-                "lse\" /><Property Name=\"Line_No\" Type=\"Edm.Int32\" Nullable=\"false\" /><Property Na" +
-                "me=\"CurrentSchedName\" Type=\"Edm.String\" /><Property Name=\"CurrentColumnName\" Typ" +
-                "e=\"Edm.String\" /><Property Name=\"UseAmtsInAddCurr\" Type=\"Edm.Boolean\" /><Propert" +
-                "y Name=\"PeriodType\" Type=\"Edm.String\" /><Property Name=\"DateFilter\" Type=\"Edm.St" +
-                "ring\" /><Property Name=\"Row_No\" Type=\"Edm.String\" /><Property Name=\"Description\"" +
-                " Type=\"Edm.String\" /><Property Name=\"ColumnValues1\" Type=\"Edm.Decimal\" /><Proper" +
-                "ty Name=\"ColumnValues2\" Type=\"Edm.Decimal\" /><Property Name=\"ColumnValues3\" Type" +
-                "=\"Edm.Decimal\" /><Property Name=\"ColumnValues4\" Type=\"Edm.Decimal\" /><Property N" +
-                "ame=\"ColumnValues5\" Type=\"Edm.Decimal\" /><Property Name=\"ColumnValues6\" Type=\"Ed" +
-                "m.Decimal\" /><Property Name=\"ColumnValues7\" Type=\"Edm.Decimal\" /><Property Name=" +
-                "\"ColumnValues8\" Type=\"Edm.Decimal\" /><Property Name=\"ColumnValues9\" Type=\"Edm.De" +
-                "cimal\" /><Property Name=\"ColumnValues10\" Type=\"Edm.Decimal\" /><Property Name=\"Co" +
-                "lumnValues11\" Type=\"Edm.Decimal\" /><Property Name=\"ColumnValues12\" Type=\"Edm.Dec" +
-                "imal\" /><Property Name=\"Dim1Filter\" Type=\"Edm.String\" /><Property Name=\"Dim2Filt" +
-                "er\" Type=\"Edm.String\" /><Property Name=\"Dim3Filter\" Type=\"Edm.String\" /><Propert" +
-                "y Name=\"Dim4Filter\" Type=\"Edm.String\" /><Property Name=\"CostCenterFilter\" Type=\"" +
-                "Edm.String\" /><Property Name=\"CostObjectFilter\" Type=\"Edm.String\" /><Property Na" +
-                "me=\"CashFlowFilter\" Type=\"Edm.String\" /><Property Name=\"G_LBudgetFilter\" Type=\"E" +
-                "dm.String\" /><Property Name=\"CostBudgetFilter\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"ETag\" Type=\"Edm.String\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Na" +
-                "me=\"COA\"><Key><PropertyRef Name=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.Strin" +
-                "g\" Nullable=\"false\" /><Property Name=\"Old_Account_No\" Type=\"Edm.String\" /><Prope" +
-                "rty Name=\"Name\" Type=\"Edm.String\" /><Property Name=\"GIFI_Code\" Type=\"Edm.String\"" +
-                " /><Property Name=\"Income_Balance\" Type=\"Edm.String\" /><Property Name=\"Account_T" +
-                "ype\" Type=\"Edm.String\" /><Property Name=\"Direct_Posting\" Type=\"Edm.Boolean\" /><P" +
-                "roperty Name=\"Totaling\" Type=\"Edm.String\" /><Property Name=\"Gen_Posting_Type\" Ty" +
-                "pe=\"Edm.String\" /><Property Name=\"Gen_Bus_Posting_Group\" Type=\"Edm.String\" /><Pr" +
-                "operty Name=\"Gen_Prod_Posting_Group\" Type=\"Edm.String\" /><Property Name=\"VAT_Bus" +
-                "_Posting_Group\" Type=\"Edm.String\" /><Property Name=\"VAT_Prod_Posting_Group\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Net_Change\" Type=\"Edm.Decimal\" /><Property Name=" +
-                "\"Balance_at_Date\" Type=\"Edm.Decimal\" /><Property Name=\"Balance\" Type=\"Edm.Decima" +
-                "l\" /><Property Name=\"Additional_Currency_Net_Change\" Type=\"Edm.Decimal\" /><Prope" +
-                "rty Name=\"Add_Currency_Balance_at_Date\" Type=\"Edm.Decimal\" /><Property Name=\"Add" +
-                "itional_Currency_Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Consol_Debit_Acc\"" +
-                " Type=\"Edm.String\" /><Property Name=\"Consol_Credit_Acc\" Type=\"Edm.String\" /><Pro" +
-                "perty Name=\"Cost_Type_No\" Type=\"Edm.String\" /><Property Name=\"Consol_Translation" +
-                "_Method\" Type=\"Edm.String\" /><Property Name=\"Default_IC_Partner_G_L_Acc_No\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Default_Deferral_Template_Code\" Type=\"Edm.String" +
-                "\" /><Property Name=\"Business_Unit_Filter\" Type=\"Edm.String\" /><Property Name=\"Gl" +
-                "obal_Dimension_1_Filter\" Type=\"Edm.String\" /><Property Name=\"Global_Dimension_2_" +
-                "Filter\" Type=\"Edm.String\" /><Property Name=\"Date_Filter\" Type=\"Edm.String\" /><Pr" +
-                "operty Name=\"ETag\" Type=\"Edm.String\" ConcurrencyMode=\"Fixed\" /></EntityType><Ent" +
-                "ityType Name=\"Loan_Products\"><Key><PropertyRef Name=\"Code\" /></Key><Property Nam" +
-                "e=\"Code\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Product_Descriptio" +
-                "n\" Type=\"Edm.String\" /><Property Name=\"Source\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Interest_rate\" Type=\"Edm.Decimal\" /><Property Name=\"Repayment_Method\" Type=\"E" +
-                "dm.String\" /><Property Name=\"Grace_Period_Principle_M\" Type=\"Edm.Int32\" /><Prope" +
-                "rty Name=\"Grace_Period_Interest_M\" Type=\"Edm.Int32\" /><Property Name=\"Use_Cycles" +
-                "\" Type=\"Edm.Boolean\" /><Property Name=\"Instalment_Period\" Type=\"Edm.String\" /><P" +
-                "roperty Name=\"No_of_Installment\" Type=\"Edm.Int32\" /><Property Name=\"Default_Inst" +
-                "allements\" Type=\"Edm.Int32\" /><Property Name=\"Penalty_Calculation_Days\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Penalty_Percentage\" Type=\"Edm.Decimal\" /><Property N" +
-                "ame=\"Recovery_Priority\" Type=\"Edm.Int32\" /><Property Name=\"Min_No_Of_Guarantors\"" +
-                " Type=\"Edm.Int32\" /><Property Name=\"Min_Re_application_Period\" Type=\"Edm.String\"" +
-                " /><Property Name=\"Shares_Multiplier\" Type=\"Edm.Decimal\" /><Property Name=\"Penal" +
-                "ty_Calculation_Method\" Type=\"Edm.String\" /><Property Name=\"Penalty_Paid_Account\"" +
-                " Type=\"Edm.String\" /><Property Name=\"Min_Loan_Amount\" Type=\"Edm.Decimal\" /><Prop" +
-                "erty Name=\"Max_Loan_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Loan_Account\" T" +
-                "ype=\"Edm.String\" /><Property Name=\"Loan_Interest_Account\" Type=\"Edm.String\" /><P" +
-                "roperty Name=\"Receivable_Interest_Account\" Type=\"Edm.String\" /><Property Name=\"A" +
-                "ction\" Type=\"Edm.String\" /><Property Name=\"BOSA_Account\" Type=\"Edm.String\" /><Pr" +
-                "operty Name=\"BOSA_Personal_Loan_Account\" Type=\"Edm.String\" /><Property Name=\"Top" +
-                "_Up_Commision_Account\" Type=\"Edm.String\" /><Property Name=\"Top_Up_Commision\" Typ" +
-                "e=\"Edm.Decimal\" /><Property Name=\"Check_Off_Loan_No\" Type=\"Edm.Int32\" /><Propert" +
-                "y Name=\"Repayment_Frequency\" Type=\"Edm.String\" /><Property Name=\"ETag\" Type=\"Edm" +
-                ".String\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"Members\"><Key>" +
-                "<PropertyRef Name=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"f" +
-                "alse\" /><Property Name=\"Old_Account_No\" Type=\"Edm.String\" /><Property Name=\"Name" +
-                "\" Type=\"Edm.String\" /><Property Name=\"Payroll_Staff_No\" Type=\"Edm.String\" /><Pro" +
-                "perty Name=\"ID_No\" Type=\"Edm.String\" /><Property Name=\"Registration_Date\" Type=\"" +
-                "Edm.DateTime\" /><Property Name=\"Phone_No\" Type=\"Edm.String\" /><Property Name=\"E_" +
-                "Mail\" Type=\"Edm.String\" /><Property Name=\"E_Mail_Personal\" Type=\"Edm.String\" /><" +
-                "Property Name=\"FOSA_Account\" Type=\"Edm.String\" /><Property Name=\"Employer_Code\" " +
-                "Type=\"Edm.String\" /><Property Name=\"Date_Filter\" Type=\"Edm.DateTime\" /><Property" +
-                " Name=\"ETag\" Type=\"Edm.String\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityTyp" +
-                "e Name=\"PBIAccount_Types\"><Key><PropertyRef Name=\"Code\" /></Key><Property Name=\"" +
-                "Code\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Description\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Dormancy_Period_M\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Entered_By\" Type=\"Edm.String\" /><Property Name=\"Date_Entered\" Type=\"Edm.DateT" +
-                "ime\" /><Property Name=\"Time_Entered\" Type=\"Edm.String\" /><Property Name=\"Last_Da" +
-                "te_Modified\" Type=\"Edm.DateTime\" /><Property Name=\"Modified_By\" Type=\"Edm.String" +
-                "\" /><Property Name=\"ETag\" Type=\"Edm.String\" ConcurrencyMode=\"Fixed\" /></EntityTy" +
-                "pe><EntityType Name=\"PBIBankLedgerxz\"><Key><PropertyRef Name=\"Entry_No\" /></Key>" +
-                "<Property Name=\"Entry_No\" Type=\"Edm.Int32\" Nullable=\"false\" /><Property Name=\"Ba" +
-                "nk_Account_No\" Type=\"Edm.String\" /><Property Name=\"Posting_Date\" Type=\"Edm.DateT" +
-                "ime\" /><Property Name=\"Document_No\" Type=\"Edm.String\" /><Property Name=\"Descript" +
-                "ion\" Type=\"Edm.String\" /><Property Name=\"Amount\" Type=\"Edm.Decimal\" /><Property " +
-                "Name=\"Remaining_Amount\" Type=\"Edm.Decimal\" /><Property Name";
+                " Name=\"powerbifinance\"><Key><PropertyRef Name=\"Number\" /></Key><Property Name=\"N" +
+                "umber\" Type=\"Edm.Int32\" Nullable=\"false\" /><Property Name=\"Date\" Type=\"Edm.DateT" +
+                "ime\" /><Property Name=\"Closed_Period\" Type=\"Edm.Boolean\" /><Property Name=\"Accou" +
+                "nt_Schedule_Name\" Type=\"Edm.String\" /><Property Name=\"KPI_Code\" Type=\"Edm.String" +
+                "\" /><Property Name=\"KPI_Name\" Type=\"Edm.String\" /><Property Name=\"Net_Change_Act" +
+                "ual\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_at_Date_Actual\" Type=\"Edm.Deci" +
+                "mal\" /><Property Name=\"Net_Change_Budget\" Type=\"Edm.Decimal\" /><Property Name=\"B" +
+                "alance_at_Date_Budget\" Type=\"Edm.Decimal\" /><Property Name=\"Net_Change_Actual_La" +
+                "st_Year\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_at_Date_Actual_Last_Year\" " +
+                "Type=\"Edm.Decimal\" /><Property Name=\"Net_Change_Budget_Last_Year\" Type=\"Edm.Deci" +
+                "mal\" /><Property Name=\"Balance_at_Date_Budget_Last_Year\" Type=\"Edm.Decimal\" /><P" +
+                "roperty Name=\"Net_Change_Forecast\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_" +
+                "at_Date_Forecast\" Type=\"Edm.Decimal\" /><Property Name=\"ETag\" Type=\"Edm.String\" C" +
+                "oncurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"SalesOrder\"><Key><Proper" +
+                "tyRef Name=\"Document_Type\" /><PropertyRef Name=\"No\" /></Key><Property Name=\"Docu" +
+                "ment_Type\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"No\" Type=\"Edm.St" +
+                "ring\" Nullable=\"false\" /><Property Name=\"Sell_to_Customer_Name\" Type=\"Edm.String" +
+                "\" /><Property Name=\"Sell_to_Address\" Type=\"Edm.String\" /><Property Name=\"Sell_to" +
+                "_Address_2\" Type=\"Edm.String\" /><Property Name=\"Sell_to_City\" Type=\"Edm.String\" " +
+                "/><Property Name=\"Sell_to_County\" Type=\"Edm.String\" /><Property Name=\"Sell_to_Po" +
+                "st_Code\" Type=\"Edm.String\" /><Property Name=\"Sell_to_Contact_No\" Type=\"Edm.Strin" +
+                "g\" /><Property Name=\"Sell_to_Contact\" Type=\"Edm.String\" /><Property Name=\"No_of_" +
+                "Archived_Versions\" Type=\"Edm.Int32\" /><Property Name=\"Document_Date\" Type=\"Edm.D" +
+                "ateTime\" /><Property Name=\"Posting_Date\" Type=\"Edm.DateTime\" /><Property Name=\"O" +
+                "rder_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Due_Date\" Type=\"Edm.DateTime\" /" +
+                "><Property Name=\"Requested_Delivery_Date\" Type=\"Edm.DateTime\" /><Property Name=\"" +
+                "Promised_Delivery_Date\" Type=\"Edm.DateTime\" /><Property Name=\"External_Document_" +
+                "No\" Type=\"Edm.String\" /><Property Name=\"Salesperson_Code\" Type=\"Edm.String\" /><P" +
+                "roperty Name=\"Campaign_No\" Type=\"Edm.String\" /><Property Name=\"Opportunity_No\" T" +
+                "ype=\"Edm.String\" /><Property Name=\"Responsibility_Center\" Type=\"Edm.String\" /><P" +
+                "roperty Name=\"Assigned_User_ID\" Type=\"Edm.String\" /><Property Name=\"Job_Queue_St" +
+                "atus\" Type=\"Edm.String\" /><Property Name=\"Status\" Type=\"Edm.String\" /><Property " +
+                "Name=\"Currency_Code\" Type=\"Edm.String\" /><Property Name=\"Shipment_Date\" Type=\"Ed" +
+                "m.DateTime\" /><Property Name=\"Quote_No\" Type=\"Edm.String\" /><Property Name=\"Paym" +
+                "ent_Terms_Code\" Type=\"Edm.String\" /><Property Name=\"Payment_Method_Code\" Type=\"E" +
+                "dm.String\" /><Property Name=\"Tax_Liable\" Type=\"Edm.Boolean\" /><Property Name=\"Ta" +
+                "x_Area_Code\" Type=\"Edm.String\" /><Property Name=\"SelectedPayments\" Type=\"Edm.Str" +
+                "ing\" /><Property Name=\"Transaction_Type\" Type=\"Edm.String\" /><Property Name=\"Sho" +
+                "rtcut_Dimension_1_Code\" Type=\"Edm.String\" /><Property Name=\"Shortcut_Dimension_2" +
+                "_Code\" Type=\"Edm.String\" /><Property Name=\"Payment_Discount_Percent\" Type=\"Edm.D" +
+                "ecimal\" /><Property Name=\"Pmt_Discount_Date\" Type=\"Edm.DateTime\" /><Property Nam" +
+                "e=\"Direct_Debit_Mandate_ID\" Type=\"Edm.String\" /><Property Name=\"Location_Code\" T" +
+                "ype=\"Edm.String\" /><Property Name=\"Shipping_Time\" Type=\"Edm.String\" /><Property " +
+                "Name=\"Late_Order_Shipping\" Type=\"Edm.Boolean\" /><Property Name=\"Shipping_Advice\"" +
+                " Type=\"Edm.String\" /><Property Name=\"Outbound_Whse_Handling_Time\" Type=\"Edm.Stri" +
+                "ng\" /><Property Name=\"ShippingOptions\" Type=\"Edm.String\" /><Property Name=\"Ship_" +
+                "to_Code\" Type=\"Edm.String\" /><Property Name=\"Ship_to_Name\" Type=\"Edm.String\" /><" +
+                "Property Name=\"Ship_to_Address\" Type=\"Edm.String\" /><Property Name=\"Ship_to_Addr" +
+                "ess_2\" Type=\"Edm.String\" /><Property Name=\"Ship_to_City\" Type=\"Edm.String\" /><Pr" +
+                "operty Name=\"Ship_to_County\" Type=\"Edm.String\" /><Property Name=\"Ship_to_Post_Co" +
+                "de\" Type=\"Edm.String\" /><Property Name=\"Ship_to_Country_Region_Code\" Type=\"Edm.S" +
+                "tring\" /><Property Name=\"Ship_to_Contact\" Type=\"Edm.String\" /><Property Name=\"Sh" +
+                "ip_to_UPS_Zone\" Type=\"Edm.String\" /><Property Name=\"Shipment_Method_Code\" Type=\"" +
+                "Edm.String\" /><Property Name=\"Shipping_Agent_Code\" Type=\"Edm.String\" /><Property" +
+                " Name=\"Shipping_Agent_Service_Code\" Type=\"Edm.String\" /><Property Name=\"Package_" +
+                "Tracking_No\" Type=\"Edm.String\" /><Property Name=\"BillToOptions\" Type=\"Edm.String" +
+                "\" /><Property Name=\"Bill_to_Name\" Type=\"Edm.String\" /><Property Name=\"Bill_to_Ad" +
+                "dress\" Type=\"Edm.String\" /><Property Name=\"Bill_to_Address_2\" Type=\"Edm.String\" " +
+                "/><Property Name=\"Bill_to_City\" Type=\"Edm.String\" /><Property Name=\"Bill_to_Coun" +
+                "ty\" Type=\"Edm.String\" /><Property Name=\"Bill_to_Post_Code\" Type=\"Edm.String\" /><" +
+                "Property Name=\"Bill_to_Contact_No\" Type=\"Edm.String\" /><Property Name=\"Bill_to_C" +
+                "ontact\" Type=\"Edm.String\" /><Property Name=\"EU_3_Party_Trade\" Type=\"Edm.Boolean\"" +
+                " /><Property Name=\"Transaction_Specification\" Type=\"Edm.String\" /><Property Name" +
+                "=\"Transport_Method\" Type=\"Edm.String\" /><Property Name=\"Exit_Point\" Type=\"Edm.St" +
+                "ring\" /><Property Name=\"Area\" Type=\"Edm.String\" /><Property Name=\"Prepayment_Per" +
+                "cent\" Type=\"Edm.Decimal\" /><Property Name=\"Compress_Prepayment\" Type=\"Edm.Boolea" +
+                "n\" /><Property Name=\"Prepmt_Payment_Terms_Code\" Type=\"Edm.String\" /><Property Na" +
+                "me=\"Prepayment_Due_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Prepmt_Payment_Di" +
+                "scount_Percent\" Type=\"Edm.Decimal\" /><Property Name=\"Prepmt_Pmt_Discount_Date\" T" +
+                "ype=\"Edm.DateTime\" /><Property Name=\"Prepmt_Include_Tax\" Type=\"Edm.Boolean\" /><P" +
+                "roperty Name=\"Date_Filter\" Type=\"Edm.String\" /><Property Name=\"ETag\" Type=\"Edm.S" +
+                "tring\" ConcurrencyMode=\"Fixed\" /><NavigationProperty Name=\"SalesOrderSalesLines\"" +
+                " Relationship=\"NAV.SalesOrder_SalesOrderSalesLines\" ToRole=\"SalesOrderSalesLines" +
+                "\" FromRole=\"SalesOrder\" /></EntityType><EntityType Name=\"SalesOrderSalesLines\"><" +
+                "Key><PropertyRef Name=\"Document_No\" /><PropertyRef Name=\"Document_Type\" /><Prope" +
+                "rtyRef Name=\"Line_No\" /></Key><Property Name=\"Document_Type\" Type=\"Edm.String\" N" +
+                "ullable=\"false\" /><Property Name=\"Document_No\" Type=\"Edm.String\" Nullable=\"false" +
+                "\" /><Property Name=\"Line_No\" Type=\"Edm.Int32\" Nullable=\"false\" /><Property Name=" +
+                "\"Type\" Type=\"Edm.String\" /><Property Name=\"No\" Type=\"Edm.String\" /><Property Nam" +
+                "e=\"Cross_Reference_No\" Type=\"Edm.String\" /><Property Name=\"IC_Partner_Code\" Type" +
+                "=\"Edm.String\" /><Property Name=\"IC_Partner_Ref_Type\" Type=\"Edm.String\" /><Proper" +
+                "ty Name=\"IC_Partner_Reference\" Type=\"Edm.String\" /><Property Name=\"Variant_Code\"" +
+                " Type=\"Edm.String\" /><Property Name=\"Substitution_Available\" Type=\"Edm.Boolean\" " +
+                "/><Property Name=\"Purchasing_Code\" Type=\"Edm.String\" /><Property Name=\"Nonstock\"" +
+                " Type=\"Edm.Boolean\" /><Property Name=\"VAT_Prod_Posting_Group\" Type=\"Edm.String\" " +
+                "/><Property Name=\"Description\" Type=\"Edm.String\" /><Property Name=\"Drop_Shipment" +
+                "\" Type=\"Edm.Boolean\" /><Property Name=\"Special_Order\" Type=\"Edm.Boolean\" /><Prop" +
+                "erty Name=\"Return_Reason_Code\" Type=\"Edm.String\" /><Property Name=\"Package_Track" +
+                "ing_No\" Type=\"Edm.String\" /><Property Name=\"Location_Code\" Type=\"Edm.String\" /><" +
+                "Property Name=\"Bin_Code\" Type=\"Edm.String\" /><Property Name";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart1 = "=\"Amount_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Bank_Acc_Posting_Group\" Type=\"" +
-                "Edm.String\" /><Property Name=\"Global_Dimension_1_Code\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"Global_Dimension_2_Code\" Type=\"Edm.String\" /><Property Name=\"Our_Cont" +
-                "act_Code\" Type=\"Edm.String\" /><Property Name=\"User_ID\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"Source_Code\" Type=\"Edm.String\" /><Property Name=\"Open\" Type=\"Edm.Bool" +
-                "ean\" /><Property Name=\"Positive\" Type=\"Edm.Boolean\" /><Property Name=\"Closed_by_" +
-                "Entry_No\" Type=\"Edm.Int32\" /><Property Name=\"Closed_at_Date\" Type=\"Edm.DateTime\"" +
-                " /><Property Name=\"Journal_Batch_Name\" Type=\"Edm.String\" /><Property Name=\"Reaso" +
-                "n_Code\" Type=\"Edm.String\" /><Property Name=\"Bal_Account_Type\" Type=\"Edm.String\" " +
-                "/><Property Name=\"Bal_Account_No\" Type=\"Edm.String\" /><Property Name=\"Transactio" +
-                "n_No\" Type=\"Edm.Int32\" /><Property Name=\"Statement_Status\" Type=\"Edm.String\" /><" +
-                "Property Name=\"Statement_No\" Type=\"Edm.String\" /><Property Name=\"Statement_Line_" +
-                "No\" Type=\"Edm.Int32\" /><Property Name=\"Debit_Amount\" Type=\"Edm.Decimal\" /><Prope" +
-                "rty Name=\"Credit_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Debit_Amount_LCY\" " +
-                "Type=\"Edm.Decimal\" /><Property Name=\"Credit_Amount_LCY\" Type=\"Edm.Decimal\" /><Pr" +
-                "operty Name=\"Document_Date\" Type=\"Edm.DateTime\" /><Property Name=\"External_Docum" +
-                "ent_No\" Type=\"Edm.String\" /><Property Name=\"Reversed\" Type=\"Edm.Boolean\" /><Prop" +
+            private const string ModelPart1 = "=\"Reserve\" Type=\"Edm.String\" /><Property Name=\"Quantity\" Type=\"Edm.Decimal\" /><Pr" +
+                "operty Name=\"Qty_to_Assemble_to_Order\" Type=\"Edm.Decimal\" /><Property Name=\"Rese" +
+                "rved_Quantity\" Type=\"Edm.Decimal\" /><Property Name=\"Unit_of_Measure_Code\" Type=\"" +
+                "Edm.String\" /><Property Name=\"Unit_of_Measure\" Type=\"Edm.String\" /><Property Nam" +
+                "e=\"Unit_Cost_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"SalesPriceExist\" Type=\"Ed" +
+                "m.Boolean\" /><Property Name=\"Unit_Price\" Type=\"Edm.Decimal\" /><Property Name=\"Ta" +
+                "x_Liable\" Type=\"Edm.Boolean\" /><Property Name=\"Tax_Area_Code\" Type=\"Edm.String\" " +
+                "/><Property Name=\"Tax_Group_Code\" Type=\"Edm.String\" /><Property Name=\"Line_Amoun" +
+                "t\" Type=\"Edm.Decimal\" /><Property Name=\"Amount_Including_VAT\" Type=\"Edm.Decimal\"" +
+                " /><Property Name=\"SalesLineDiscExists\" Type=\"Edm.Boolean\" /><Property Name=\"Lin" +
+                "e_Discount_Percent\" Type=\"Edm.Decimal\" /><Property Name=\"Line_Discount_Amount\" T" +
+                "ype=\"Edm.Decimal\" /><Property Name=\"Prepayment_Percent\" Type=\"Edm.Decimal\" /><Pr" +
+                "operty Name=\"Prepmt_Line_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Prepmt_Amt" +
+                "_Inv\" Type=\"Edm.Decimal\" /><Property Name=\"Allow_Invoice_Disc\" Type=\"Edm.Boolean" +
+                "\" /><Property Name=\"Inv_Discount_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Qt" +
+                "y_to_Ship\" Type=\"Edm.Decimal\" /><Property Name=\"Quantity_Shipped\" Type=\"Edm.Deci" +
+                "mal\" /><Property Name=\"Qty_to_Invoice\" Type=\"Edm.Decimal\" /><Property Name=\"Quan" +
+                "tity_Invoiced\" Type=\"Edm.Decimal\" /><Property Name=\"Prepmt_Amt_to_Deduct\" Type=\"" +
+                "Edm.Decimal\" /><Property Name=\"Prepmt_Amt_Deducted\" Type=\"Edm.Decimal\" /><Proper" +
+                "ty Name=\"Allow_Item_Charge_Assignment\" Type=\"Edm.Boolean\" /><Property Name=\"Qty_" +
+                "to_Assign\" Type=\"Edm.Decimal\" /><Property Name=\"Qty_Assigned\" Type=\"Edm.Decimal\"" +
+                " /><Property Name=\"Requested_Delivery_Date\" Type=\"Edm.DateTime\" /><Property Name" +
+                "=\"Promised_Delivery_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Planned_Delivery" +
+                "_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Planned_Shipment_Date\" Type=\"Edm.Da" +
+                "teTime\" /><Property Name=\"Shipment_Date\" Type=\"Edm.DateTime\" /><Property Name=\"S" +
+                "hipping_Agent_Code\" Type=\"Edm.String\" /><Property Name=\"Shipping_Agent_Service_C" +
+                "ode\" Type=\"Edm.String\" /><Property Name=\"Shipping_Time\" Type=\"Edm.String\" /><Pro" +
+                "perty Name=\"Work_Type_Code\" Type=\"Edm.String\" /><Property Name=\"Whse_Outstanding" +
+                "_Qty\" Type=\"Edm.Decimal\" /><Property Name=\"Whse_Outstanding_Qty_Base\" Type=\"Edm." +
+                "Decimal\" /><Property Name=\"ATO_Whse_Outstanding_Qty\" Type=\"Edm.Decimal\" /><Prope" +
+                "rty Name=\"ATO_Whse_Outstd_Qty_Base\" Type=\"Edm.Decimal\" /><Property Name=\"Outboun" +
+                "d_Whse_Handling_Time\" Type=\"Edm.String\" /><Property Name=\"Blanket_Order_No\" Type" +
+                "=\"Edm.String\" /><Property Name=\"Blanket_Order_Line_No\" Type=\"Edm.Int32\" /><Prope" +
+                "rty Name=\"FA_Posting_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Depr_until_FA_P" +
+                "osting_Date\" Type=\"Edm.Boolean\" /><Property Name=\"Depreciation_Book_Code\" Type=\"" +
+                "Edm.String\" /><Property Name=\"Use_Duplication_List\" Type=\"Edm.Boolean\" /><Proper" +
+                "ty Name=\"Duplicate_in_Depreciation_Book\" Type=\"Edm.String\" /><Property Name=\"App" +
+                "l_from_Item_Entry\" Type=\"Edm.Int32\" /><Property Name=\"Appl_to_Item_Entry\" Type=\"" +
+                "Edm.Int32\" /><Property Name=\"Deferral_Code\" Type=\"Edm.String\" /><Property Name=\"" +
+                "Shortcut_Dimension_1_Code\" Type=\"Edm.String\" /><Property Name=\"Shortcut_Dimensio" +
+                "n_2_Code\" Type=\"Edm.String\" /><Property Name=\"ShortcutDimCode_x005B_3_x005D_\" Ty" +
+                "pe=\"Edm.String\" /><Property Name=\"ShortcutDimCode_x005B_4_x005D_\" Type=\"Edm.Stri" +
+                "ng\" /><Property Name=\"ShortcutDimCode_x005B_5_x005D_\" Type=\"Edm.String\" /><Prope" +
+                "rty Name=\"ShortcutDimCode_x005B_6_x005D_\" Type=\"Edm.String\" /><Property Name=\"Sh" +
+                "ortcutDimCode_x005B_7_x005D_\" Type=\"Edm.String\" /><Property Name=\"ShortcutDimCod" +
+                "e_x005B_8_x005D_\" Type=\"Edm.String\" /><Property Name=\"TotalSalesLine_Line_Amount" +
+                "\" Type=\"Edm.Decimal\" /><Property Name=\"Invoice_Discount_Amount\" Type=\"Edm.Decima" +
+                "l\" /><Property Name=\"Invoice_Disc_Pct\" Type=\"Edm.Decimal\" /><Property Name=\"Tota" +
+                "l_Amount_Excl_VAT\" Type=\"Edm.Decimal\" /><Property Name=\"Total_VAT_Amount\" Type=\"" +
+                "Edm.Decimal\" /><Property Name=\"Total_Amount_Incl_VAT\" Type=\"Edm.Decimal\" /><Prop" +
                 "erty Name=\"ETag\" Type=\"Edm.String\" ConcurrencyMode=\"Fixed\" /></EntityType><Entit" +
-                "yType Name=\"PBILoan_Register\"><Key><PropertyRef Name=\"Loan_No\" /></Key><Property" +
-                " Name=\"Loan_No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Posted\" Typ" +
-                "e=\"Edm.Boolean\" /><Property Name=\"Fully_Disbursed\" Type=\"Edm.Boolean\" /><Propert" +
-                "y Name=\"Total_Repayment\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Balanc" +
-                "e\" Type=\"Edm.Decimal\" /><Property Name=\"Penalty_Charged\" Type=\"Edm.Decimal\" /><P" +
-                "roperty Name=\"Loan_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Current_Shares\" " +
-                "Type=\"Edm.Decimal\" /><Property Name=\"Application_Date\" Type=\"Edm.DateTime\" /><Pr" +
-                "operty Name=\"Loan_Product_Type\" Type=\"Edm.String\" /><Property Name=\"Client_Code\"" +
-                " Type=\"Edm.String\" /><Property Name=\"Requested_Amount\" Type=\"Edm.Decimal\" /><Pro" +
-                "perty Name=\"Approved_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Interest\" Type" +
-                "=\"Edm.Decimal\" /><Property Name=\"Insurance\" Type=\"Edm.Decimal\" /><Property Name=" +
-                "\"Source_of_Funds\" Type=\"Edm.String\" /><Property Name=\"Loan_Status\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Issued_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Instal" +
-                "lments\" Type=\"Edm.Int32\" /><Property Name=\"Loan_Disbursement_Date\" Type=\"Edm.Dat" +
-                "eTime\" /><Property Name=\"Mode_of_Disbursement\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Date_Approved\" Type=\"Edm.DateTime\" /><Property Name=\"Repayment\" Type=\"Edm.Dec" +
-                "imal\" /><Property Name=\"Amount_Disbursed\" Type=\"Edm.Decimal\" /><Property Name=\"A" +
-                "mount_Disburse\" Type=\"Edm.Decimal\" /><Property Name=\"Employer_Code\" Type=\"Edm.St" +
-                "ring\" /><Property Name=\"Source\" Type=\"Edm.String\" /><Property Name=\"Repayment_Me" +
-                "thod\" Type=\"Edm.String\" /><Property Name=\"Branch_Code\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"Appraisal_Status\" Type=\"Edm.String\" /><Property Name=\"Interest_Paid\" " +
-                "Type=\"Edm.Decimal\" /><Property Name=\"Penalty_Paid\" Type=\"Edm.Decimal\" /><Propert" +
-                "y Name=\"Loan_Repayment\" Type=\"Edm.Decimal\" /><Property Name=\"Loan_Principle_Repa" +
-                "yment\" Type=\"Edm.Decimal\" /><Property Name=\"Loan_Interest_Repayment\" Type=\"Edm.D" +
-                "ecimal\" /><Property Name=\"Current_Repayment\" Type=\"Edm.Decimal\" /><Property Name" +
-                "=\"Oustanding_Interest\" Type=\"Edm.Decimal\" /><Property Name=\"Oustanding_Interest_" +
-                "to_Date\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Balance_to_Date\" Type=" +
-                "\"Edm.Decimal\" /><Property Name=\"Defaulted\" Type=\"Edm.Boolean\" /><Property Name=\"" +
-                "Defaulter\" Type=\"Edm.Boolean\" /><Property Name=\"RAmount\" Type=\"Edm.Decimal\" /><P" +
-                "roperty Name=\"Total_Loan_Guaranted\" Type=\"Edm.Decimal\" /><Property Name=\"Recomme" +
-                "nded_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Total_Loans_Default\" Type=\"Edm" +
-                ".Decimal\" /><Property Name=\"Date_filter\" Type=\"Edm.String\" /><Property Name=\"Cur" +
-                "rency_Filter\" Type=\"Edm.String\" /><Property Name=\"Period_Date_Filter\" Type=\"Edm." +
-                "String\" /><Property Name=\"Document_No_Filter\" Type=\"Edm.String\" /><Property Name" +
-                "=\"ETag\" Type=\"Edm.String\" ConcurrencyMode=\"Fixed\" /><NavigationProperty Name=\"Lo" +
-                "an_Product_Type_Link\" Relationship=\"NAV.PBILoan_Register_Loan_Product_Type_Link\"" +
-                " ToRole=\"Loan_Product_Type_Link\" FromRole=\"PBILoan_Register\" /></EntityType><Ent" +
-                "ityType Name=\"PBIMembers\"><Key><PropertyRef Name=\"No\" /></Key><Property Name=\"No" +
+                "yType Name=\"Banks_BI\"><Key><PropertyRef Name=\"Entry_No\" /></Key><Property Name=\"" +
+                "Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Amount_LCY\" Type=\"Edm.Decimal\" /><P" +
+                "roperty Name=\"Bal_Account_Type\" Type=\"Edm.String\" /><Property Name=\"Bank_Acc_Pos" +
+                "ting_Group\" Type=\"Edm.String\" /><Property Name=\"Bank_Account_No\" Type=\"Edm.Strin" +
+                "g\" /><Property Name=\"Closed_by_Entry_No\" Type=\"Edm.Int32\" /><Property Name=\"Cred" +
+                "it_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Credit_Amount_LCY\" Type=\"Edm.Dec" +
+                "imal\" /><Property Name=\"Debit_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Debit" +
+                "_Amount_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Description\" Type=\"Edm.String\"" +
+                " /><Property Name=\"Document_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Document" +
+                "_No\" Type=\"Edm.String\" /><Property Name=\"Entry_No\" Type=\"Edm.Int32\" Nullable=\"fa" +
+                "lse\" /><Property Name=\"External_Document_No\" Type=\"Edm.String\" /><Property Name=" +
+                "\"Global_Dimension_1_Code\" Type=\"Edm.String\" /><Property Name=\"Global_Dimension_2" +
+                "_Code\" Type=\"Edm.String\" /><Property Name=\"Journal_Batch_Name\" Type=\"Edm.String\"" +
+                " /><Property Name=\"Open\" Type=\"Edm.Boolean\" /><Property Name=\"Our_Contact_Code\" " +
+                "Type=\"Edm.String\" /><Property Name=\"Positive\" Type=\"Edm.Boolean\" /><Property Nam" +
+                "e=\"Posting_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Remaining_Amount\" Type=\"E" +
+                "dm.Decimal\" /><Property Name=\"Reversed\" Type=\"Edm.Boolean\" /><Property Name=\"Sou" +
+                "rce_Code\" Type=\"Edm.String\" /><Property Name=\"Statement_Status\" Type=\"Edm.String" +
+                "\" /><Property Name=\"Transaction_No\" Type=\"Edm.Int32\" /><Property Name=\"User_ID\" " +
+                "Type=\"Edm.String\" /></EntityType><EntityType Name=\"COA\"><Key><PropertyRef Name=\"" +
+                "No\" /></Key><Property Name=\"Account_Type\" Type=\"Edm.String\" /><Property Name=\"Di" +
+                "rect_Posting\" Type=\"Edm.Boolean\" /><Property Name=\"Income_Balance\" Type=\"Edm.Str" +
+                "ing\" /><Property Name=\"Name\" Type=\"Edm.String\" /><Property Name=\"No\" Type=\"Edm.S" +
+                "tring\" Nullable=\"false\" /><Property Name=\"Totaling\" Type=\"Edm.String\" /><Propert" +
+                "y Name=\"Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_at_Date\" Type=\"Edm" +
+                ".Decimal\" /><Property Name=\"Net_Change\" Type=\"Edm.Decimal\" /></EntityType><Entit" +
+                "yType Name=\"FosaAccounts\"><Key><PropertyRef Name=\"No\" /></Key><Property Name=\"No" +
                 "\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Name\" Type=\"Edm.String\" /" +
-                "><Property Name=\"Search_Name\" Type=\"Edm.String\" /><Property Name=\"Phone_No\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Our_Account_No\" Type=\"Edm.String\" /><Property Na" +
-                "me=\"Global_Dimension_1_Code\" Type=\"Edm.String\" /><Property Name=\"Global_Dimensio" +
-                "n_2_Code\" Type=\"Edm.String\" /><Property Name=\"Credit_Limit_LCY\" Type=\"Edm.Decima" +
-                "l\" /><Property Name=\"Customer_Posting_Group\" Type=\"Edm.String\" /><Property Name=" +
-                "\"Balance_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Payments\" Type=\"Edm.Decimal\" " +
-                "/><Property Name=\"Application_Method\" Type=\"Edm.String\" /><Property Name=\"No_of_" +
-                "Members_Guaranteed\" Type=\"Edm.Int32\" /><Property Name=\"Customer_Type\" Type=\"Edm." +
-                "String\" /><Property Name=\"Current_Loan\" Type=\"Edm.Decimal\" /><Property Name=\"Cur" +
-                "rent_Shares\" Type=\"Edm.Decimal\" /><Property Name=\"Total_Repayments\" Type=\"Edm.De" +
-                "cimal\" /><Property Name=\"Principal_Balance\" Type=\"Edm.Decimal\" /><Property Name=" +
-                "\"Principal_Repayment\" Type=\"Edm.Decimal\" /><Property Name=\"Debtors_Type\" Type=\"E" +
-                "dm.String\" /><Property Name=\"Outstanding_Balance\" Type=\"Edm.Decimal\" /><Property" +
-                " Name=\"Status\" Type=\"Edm.String\" /><Property Name=\"FOSA_Account\" Type=\"Edm.Strin" +
-                "g\" /><Property Name=\"Old_Account_No\" Type=\"Edm.String\" /><Property Name=\"Employe" +
-                "r_Code\" Type=\"Edm.String\" /><Property Name=\"FOSA_Outstanding_Balance\" Type=\"Edm." +
-                "Decimal\" /><Property Name=\"FOSA_Oustanding_Interest\" Type=\"Edm.Decimal\" /><Prope" +
-                "rty Name=\"FOSA_Account_Bal\" Type=\"Edm.Decimal\" /><Property Name=\"Active_Loans_Gu" +
-                "arantor\" Type=\"Edm.Int32\" /><Property Name=\"Loans_Guaranteed\" Type=\"Edm.Int32\" /" +
-                "><Property Name=\"Global_Dimension_1_Filter\" Type=\"Edm.String\" /><Property Name=\"" +
-                "Global_Dimension_2_Filter\" Type=\"Edm.String\" /><Property Name=\"Date_Filter\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Currency_Filter\" Type=\"Edm.String\" /><Property N" +
-                "ame=\"Document_No_Filter\" Type=\"Edm.String\" /><Property Name=\"ETag\" Type=\"Edm.Str" +
-                "ing\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"powerbifinance\"><K" +
-                "ey><PropertyRef Name=\"Number\" /></Key><Property Name=\"Number\" Type=\"Edm.Int32\" N" +
-                "ullable=\"false\" /><Property Name=\"Date\" Type=\"Edm.DateTime\" /><Property Name=\"Cl" +
-                "osed_Period\" Type=\"Edm.Boolean\" /><Property Name=\"Account_Schedule_Name\" Type=\"E" +
-                "dm.String\" /><Property Name=\"KPI_Code\" Type=\"Edm.String\" /><Property Name=\"KPI_N" +
-                "ame\" Type=\"Edm.String\" /><Property Name=\"Net_Change_Actual\" Type=\"Edm.Decimal\" /" +
-                "><Property Name=\"Balance_at_Date_Actual\" Type=\"Edm.Decimal\" /><Property Name=\"Ne" +
-                "t_Change_Budget\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_at_Date_Budget\" Ty" +
-                "pe=\"Edm.Decimal\" /><Property Name=\"Net_Change_Actual_Last_Year\" Type=\"Edm.Decima" +
-                "l\" /><Property Name=\"Balance_at_Date_Actual_Last_Year\" Type=\"Edm.Decimal\" /><Pro" +
-                "perty Name=\"Net_Change_Budget_Last_Year\" Type=\"Edm.Decimal\" /><Property Name=\"Ba" +
-                "lance_at_Date_Budget_Last_Year\" Type=\"Edm.Decimal\" /><Property Name=\"Net_Change_" +
-                "Forecast\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_at_Date_Forecast\" Type=\"E" +
-                "dm.Decimal\" /><Property Name=\"ETag\" Type=\"Edm.String\" Concu";
+                "><Property Name=\"Search_Name\" Type=\"Edm.String\" /><Property Name=\"Name_2\" Type=\"" +
+                "Edm.String\" /><Property Name=\"Address\" Type=\"Edm.String\" /><Property Name=\"Addre" +
+                "ss_2\" Type=\"Edm.String\" /><Property Name=\"City\" Type=\"Edm.String\" /><Property Na" +
+                "me=\"Contact\" Type=\"Edm.String\" /><Property Name=\"Phone_No\" Type=\"Edm.String\" /><" +
+                "Property Name=\"Telex_No\" Type=\"Edm.String\" /><Property Name=\"Our_Account_No\" Typ" +
+                "e=\"Edm.String\" /><Property Name=\"Territory_Code\" Type=\"Edm.String\" /><Property N" +
+                "ame=\"Global_Dimension_1_Code\" Type=\"Edm.String\" /><Property Name=\"Global_Dimensi" +
+                "on_2_Code\" Type=\"Edm.String\" /><Property Name=\"Budgeted_Amount\" Type=\"Edm.Decima" +
+                "l\" /><Property Name=\"Vendor_Posting_Group\" Type=\"Edm.String\" /><Property Name=\"C" +
+                "urrency_Code\" Type=\"Edm.String\" /><Property Name=\"Language_Code\" Type=\"Edm.Strin" +
+                "g\" /><Property Name=\"Statistics_Group\" Type=\"Edm.Int32\" /><Property Name=\"Paymen" +
+                "t_Terms_Code\" Type=\"Edm.String\" /><Property Name=\"Fin_Charge_Terms_Code\" Type=\"E" +
+                "dm.String\" /><Property Name=\"Purchaser_Code\" Type=\"Edm.String\" /><Property Name=" +
+                "\"Shipment_Method_Code\" Type=\"Edm.String\" /><Property Name=\"Shipping_Agent_Code\" " +
+                "Type=\"Edm.String\" /><Property Name=\"Invoice_Disc_Code\" Type";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart2 = "rrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"SalesOrder\"><Key><PropertyRef" +
-                " Name=\"Document_Type\" /><PropertyRef Name=\"No\" /></Key><Property Name=\"Document_" +
-                "Type\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"No\" Type=\"Edm.String\"" +
-                " Nullable=\"false\" /><Property Name=\"Sell_to_Customer_No\" Type=\"Edm.String\" /><Pr" +
-                "operty Name=\"Sell_to_Contact_No\" Type=\"Edm.String\" /><Property Name=\"Sell_to_Cus" +
-                "tomer_Name\" Type=\"Edm.String\" /><Property Name=\"Sell_to_Address\" Type=\"Edm.Strin" +
-                "g\" /><Property Name=\"Sell_to_Address_2\" Type=\"Edm.String\" /><Property Name=\"Sell" +
-                "_to_City\" Type=\"Edm.String\" /><Property Name=\"Sell_to_County\" Type=\"Edm.String\" " +
-                "/><Property Name=\"Sell_to_Post_Code\" Type=\"Edm.String\" /><Property Name=\"Sell_to" +
-                "_Contact\" Type=\"Edm.String\" /><Property Name=\"No_of_Archived_Versions\" Type=\"Edm" +
-                ".Int32\" /><Property Name=\"Posting_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Or" +
-                "der_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Document_Date\" Type=\"Edm.DateTim" +
-                "e\" /><Property Name=\"Requested_Delivery_Date\" Type=\"Edm.DateTime\" /><Property Na" +
-                "me=\"Promised_Delivery_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Quote_No\" Type" +
-                "=\"Edm.String\" /><Property Name=\"External_Document_No\" Type=\"Edm.String\" /><Prope" +
-                "rty Name=\"Salesperson_Code\" Type=\"Edm.String\" /><Property Name=\"Campaign_No\" Typ" +
-                "e=\"Edm.String\" /><Property Name=\"Opportunity_No\" Type=\"Edm.String\" /><Property N" +
-                "ame=\"Responsibility_Center\" Type=\"Edm.String\" /><Property Name=\"Assigned_User_ID" +
-                "\" Type=\"Edm.String\" /><Property Name=\"Job_Queue_Status\" Type=\"Edm.String\" /><Pro" +
-                "perty Name=\"Status\" Type=\"Edm.String\" /><Property Name=\"Bill_to_Customer_No\" Typ" +
-                "e=\"Edm.String\" /><Property Name=\"Bill_to_Contact_No\" Type=\"Edm.String\" /><Proper" +
-                "ty Name=\"Bill_to_Name\" Type=\"Edm.String\" /><Property Name=\"Bill_to_Address\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Bill_to_Address_2\" Type=\"Edm.String\" /><Property" +
-                " Name=\"Bill_to_City\" Type=\"Edm.String\" /><Property Name=\"Bill_to_County\" Type=\"E" +
-                "dm.String\" /><Property Name=\"Bill_to_Post_Code\" Type=\"Edm.String\" /><Property Na" +
-                "me=\"Bill_to_Contact\" Type=\"Edm.String\" /><Property Name=\"Shortcut_Dimension_1_Co" +
-                "de\" Type=\"Edm.String\" /><Property Name=\"Shortcut_Dimension_2_Code\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Payment_Terms_Code\" Type=\"Edm.String\" /><Property Name=\"D" +
-                "ue_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Payment_Discount_Percent\" Type=\"E" +
-                "dm.Decimal\" /><Property Name=\"Pmt_Discount_Date\" Type=\"Edm.DateTime\" /><Property" +
-                " Name=\"Payment_Method_Code\" Type=\"Edm.String\" /><Property Name=\"Tax_Liable\" Type" +
-                "=\"Edm.Boolean\" /><Property Name=\"Tax_Area_Code\" Type=\"Edm.String\" /><Property Na" +
-                "me=\"Direct_Debit_Mandate_ID\" Type=\"Edm.String\" /><Property Name=\"Credit_Card_No\"" +
-                " Type=\"Edm.String\" /><Property Name=\"GetCreditcardNumber\" Type=\"Edm.String\" /><P" +
-                "roperty Name=\"Ship_to_Code\" Type=\"Edm.String\" /><Property Name=\"Ship_to_Name\" Ty" +
-                "pe=\"Edm.String\" /><Property Name=\"Ship_to_Address\" Type=\"Edm.String\" /><Property" +
-                " Name=\"Ship_to_Address_2\" Type=\"Edm.String\" /><Property Name=\"Ship_to_City\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Ship_to_County\" Type=\"Edm.String\" /><Property Na" +
-                "me=\"Ship_to_Post_Code\" Type=\"Edm.String\" /><Property Name=\"Ship_to_Contact\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Location_Code\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Outbound_Whse_Handling_Time\" Type=\"Edm.String\" /><Property Name=\"Shipment_Met" +
-                "hod_Code\" Type=\"Edm.String\" /><Property Name=\"Shipping_Agent_Code\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Shipping_Agent_Service_Code\" Type=\"Edm.String\" /><Propert" +
-                "y Name=\"Shipping_Time\" Type=\"Edm.String\" /><Property Name=\"Late_Order_Shipping\" " +
-                "Type=\"Edm.Boolean\" /><Property Name=\"Package_Tracking_No\" Type=\"Edm.String\" /><P" +
-                "roperty Name=\"Shipment_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Shipping_Advi" +
-                "ce\" Type=\"Edm.String\" /><Property Name=\"Currency_Code\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"EU_3_Party_Trade\" Type=\"Edm.Boolean\" /><Property Name=\"Transaction_Ty" +
-                "pe\" Type=\"Edm.String\" /><Property Name=\"Transaction_Specification\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Transport_Method\" Type=\"Edm.String\" /><Property Name=\"Exi" +
-                "t_Point\" Type=\"Edm.String\" /><Property Name=\"Area\" Type=\"Edm.String\" /><Property" +
-                " Name=\"Prepayment_Percent\" Type=\"Edm.Decimal\" /><Property Name=\"Compress_Prepaym" +
-                "ent\" Type=\"Edm.Boolean\" /><Property Name=\"Prepmt_Payment_Terms_Code\" Type=\"Edm.S" +
-                "tring\" /><Property Name=\"Prepayment_Due_Date\" Type=\"Edm.DateTime\" /><Property Na" +
-                "me=\"Prepmt_Payment_Discount_Percent\" Type=\"Edm.Decimal\" /><Property Name=\"Prepmt" +
-                "_Pmt_Discount_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Date_Filter\" Type=\"Edm" +
-                ".String\" /><Property Name=\"ETag\" Type=\"Edm.String\" ConcurrencyMode=\"Fixed\" /><Na" +
-                "vigationProperty Name=\"SalesOrderSalesLines\" Relationship=\"NAV.SalesOrder_SalesO" +
-                "rderSalesLines\" ToRole=\"SalesOrderSalesLines\" FromRole=\"SalesOrder\" /></EntityTy" +
-                "pe><EntityType Name=\"SalesOrderSalesLines\"><Key><PropertyRef Name=\"Document_No\" " +
-                "/><PropertyRef Name=\"Document_Type\" /><PropertyRef Name=\"Line_No\" /></Key><Prope" +
-                "rty Name=\"Document_Type\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Do" +
-                "cument_No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Line_No\" Type=\"E" +
-                "dm.Int32\" Nullable=\"false\" /><Property Name=\"Type\" Type=\"Edm.String\" /><Property" +
-                " Name=\"No\" Type=\"Edm.String\" /><Property Name=\"Cross_Reference_No\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"IC_Partner_Code\" Type=\"Edm.String\" /><Property Name=\"IC_P" +
-                "artner_Ref_Type\" Type=\"Edm.String\" /><Property Name=\"IC_Partner_Reference\" Type=" +
-                "\"Edm.String\" /><Property Name=\"Variant_Code\" Type=\"Edm.String\" /><Property Name=" +
-                "\"Substitution_Available\" Type=\"Edm.Boolean\" /><Property Name=\"Purchasing_Code\" T" +
-                "ype=\"Edm.String\" /><Property Name=\"Nonstock\" Type=\"Edm.Boolean\" /><Property Name" +
-                "=\"VAT_Prod_Posting_Group\" Type=\"Edm.String\" /><Property Name=\"Description\" Type=" +
-                "\"Edm.String\" /><Property Name=\"Drop_Shipment\" Type=\"Edm.Boolean\" /><Property Nam" +
-                "e=\"Special_Order\" Type=\"Edm.Boolean\" /><Property Name=\"Return_Reason_Code\" Type=" +
-                "\"Edm.String\" /><Property Name=\"Location_Code\" Type=\"Edm.String\" /><Property Name" +
-                "=\"Bin_Code\" Type=\"Edm.String\" /><Property Name=\"Reserve\" Type=\"Edm.String\" /><Pr" +
-                "operty Name=\"Quantity\" Type=\"Edm.Decimal\" /><Property Name=\"Qty_to_Assemble_to_O" +
-                "rder\" Type=\"Edm.Decimal\" /><Property Name=\"Reserved_Quantity\" Type=\"Edm.Decimal\"" +
-                " /><Property Name=\"Unit_of_Measure_Code\" Type=\"Edm.String\" /><Property Name=\"Uni" +
-                "t_of_Measure\" Type=\"Edm.String\" /><Property Name=\"Unit_Cost_LCY\" Type=\"Edm.Decim" +
-                "al\" /><Property Name=\"SalesPriceExist\" Type=\"Edm.Boolean\" /><Property Name=\"Unit" +
-                "_Price\" Type=\"Edm.Decimal\" /><Property Name=\"Tax_Liable\" Type=\"Edm.Boolean\" /><P" +
-                "roperty Name=\"Tax_Area_Code\" Type=\"Edm.String\" /><Property Name=\"Tax_Group_Code\"" +
-                " Type=\"Edm.String\" /><Property Name=\"Line_Amount\" Type=\"Edm.Decimal\" /><Property" +
-                " Name=\"Amount_Including_VAT\" Type=\"Edm.Decimal\" /><Property Name=\"SalesLineDiscE" +
-                "xists\" Type=\"Edm.Boolean\" /><Property Name=\"Line_Discount_Percent\" Type=\"Edm.Dec" +
-                "imal\" /><Property Name=\"Line_Discount_Amount\" Type=\"Edm.Decimal\" /><Property Nam" +
-                "e=\"Prepayment_Percent\" Type=\"Edm.Decimal\" /><Property Name=\"Prepmt_Line_Amount\" " +
-                "Type=\"Edm.Decimal\" /><Property Name=\"Prepmt_Amt_Inv\" Type=\"Edm.Decimal\" /><Prope" +
-                "rty Name=\"Allow_Invoice_Disc\" Type=\"Edm.Boolean\" /><Property Name=\"Inv_Discount_" +
-                "Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Qty_to_Ship\" Type=\"Edm.Decimal\" /><" +
-                "Property Name=\"Quantity_Shipped\" Type=\"Edm.Decimal\" /><Property Name=\"Qty_to_Inv" +
-                "oice\" Type=\"Edm.Decimal\" /><Property Name=\"Quantity_Invoiced\" Type=\"Edm.Decimal\"" +
-                " /><Property Name=\"Prepmt_Amt_to_Deduct\" Type=\"Edm.Decimal\" /><Property Name=\"Pr" +
-                "epmt_Amt_Deducted\" Type=\"Edm.Decimal\" /><Property Name=\"All";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart3 = "ow_Item_Charge_Assignment\" Type=\"Edm.Boolean\" /><Property Name=\"Qty_to_Assign\" Ty" +
-                "pe=\"Edm.Decimal\" /><Property Name=\"Qty_Assigned\" Type=\"Edm.Decimal\" /><Property " +
-                "Name=\"Requested_Delivery_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Promised_De" +
-                "livery_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Planned_Delivery_Date\" Type=\"" +
-                "Edm.DateTime\" /><Property Name=\"Planned_Shipment_Date\" Type=\"Edm.DateTime\" /><Pr" +
-                "operty Name=\"Shipment_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Shipping_Agent" +
-                "_Code\" Type=\"Edm.String\" /><Property Name=\"Shipping_Agent_Service_Code\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Shipping_Time\" Type=\"Edm.String\" /><Property Name=\"W" +
-                "ork_Type_Code\" Type=\"Edm.String\" /><Property Name=\"Whse_Outstanding_Qty\" Type=\"E" +
-                "dm.Decimal\" /><Property Name=\"Whse_Outstanding_Qty_Base\" Type=\"Edm.Decimal\" /><P" +
-                "roperty Name=\"ATO_Whse_Outstanding_Qty\" Type=\"Edm.Decimal\" /><Property Name=\"ATO" +
-                "_Whse_Outstd_Qty_Base\" Type=\"Edm.Decimal\" /><Property Name=\"Outbound_Whse_Handli" +
-                "ng_Time\" Type=\"Edm.String\" /><Property Name=\"Blanket_Order_No\" Type=\"Edm.String\"" +
-                " /><Property Name=\"Blanket_Order_Line_No\" Type=\"Edm.Int32\" /><Property Name=\"FA_" +
-                "Posting_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Depr_until_FA_Posting_Date\" " +
-                "Type=\"Edm.Boolean\" /><Property Name=\"Depreciation_Book_Code\" Type=\"Edm.String\" /" +
-                "><Property Name=\"Use_Duplication_List\" Type=\"Edm.Boolean\" /><Property Name=\"Dupl" +
-                "icate_in_Depreciation_Book\" Type=\"Edm.String\" /><Property Name=\"Appl_from_Item_E" +
-                "ntry\" Type=\"Edm.Int32\" /><Property Name=\"Appl_to_Item_Entry\" Type=\"Edm.Int32\" />" +
-                "<Property Name=\"Shortcut_Dimension_1_Code\" Type=\"Edm.String\" /><Property Name=\"S" +
-                "hortcut_Dimension_2_Code\" Type=\"Edm.String\" /><Property Name=\"ShortcutDimCode_x0" +
-                "05B_3_x005D_\" Type=\"Edm.String\" /><Property Name=\"ShortcutDimCode_x005B_4_x005D_" +
-                "\" Type=\"Edm.String\" /><Property Name=\"ShortcutDimCode_x005B_5_x005D_\" Type=\"Edm." +
-                "String\" /><Property Name=\"ShortcutDimCode_x005B_6_x005D_\" Type=\"Edm.String\" /><P" +
-                "roperty Name=\"ShortcutDimCode_x005B_7_x005D_\" Type=\"Edm.String\" /><Property Name" +
-                "=\"ShortcutDimCode_x005B_8_x005D_\" Type=\"Edm.String\" /><Property Name=\"Invoice_Di" +
-                "scount_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Invoice_Disc_Pct\" Type=\"Edm." +
-                "Decimal\" /><Property Name=\"Total_Amount_Excl_VAT\" Type=\"Edm.Decimal\" /><Property" +
-                " Name=\"Total_VAT_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Total_Amount_Incl_" +
-                "VAT\" Type=\"Edm.Decimal\" /><Property Name=\"RefreshTotals\" Type=\"Edm.String\" /><Pr" +
-                "operty Name=\"ETag\" Type=\"Edm.String\" ConcurrencyMode=\"Fixed\" /></EntityType><Ent" +
-                "ityType Name=\"bankdetails\"><Key><PropertyRef Name=\"No\" /></Key><Property Name=\"N" +
-                "o\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Name\" Type=\"Edm.String\" " +
-                "/><Property Name=\"Search_Name\" Type=\"Edm.String\" /><Property Name=\"Name_2\" Type=" +
-                "\"Edm.String\" /><Property Name=\"Address\" Type=\"Edm.String\" /><Property Name=\"Addr" +
-                "ess_2\" Type=\"Edm.String\" /><Property Name=\"City\" Type=\"Edm.String\" /><Property N" +
-                "ame=\"Contact\" Type=\"Edm.String\" /><Property Name=\"Phone_No\" Type=\"Edm.String\" />" +
-                "<Property Name=\"Telex_No\" Type=\"Edm.String\" /><Property Name=\"Bank_Account_No\" T" +
-                "ype=\"Edm.String\" /></EntityType><EntityType Name=\"FosaAccounts\"><Key><PropertyRe" +
-                "f Name=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"false\" /><Pr" +
-                "operty Name=\"Name\" Type=\"Edm.String\" /><Property Name=\"BOSA_Account_No\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Blocked\" Type=\"Edm.String\" /></EntityType><EntityTyp" +
-                "e Name=\"ItemSalesAndProfit\"><Key><PropertyRef Name=\"AuxiliaryIndex1\" /><Property" +
-                "Ref Name=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"false\" /><" +
-                "Property Name=\"Description\" Type=\"Edm.String\" /><Property Name=\"Gen_Prod_Posting" +
-                "_Group\" Type=\"Edm.String\" /><Property Name=\"Item_Disc_Group\" Type=\"Edm.String\" /" +
-                "><Property Name=\"Item_Tracking_Code\" Type=\"Edm.String\" /><Property Name=\"Profit\"" +
-                " Type=\"Edm.Decimal\" /><Property Name=\"Scrap\" Type=\"Edm.Decimal\" /><Property Name" +
-                "=\"Sales_Unit_of_Measure\" Type=\"Edm.String\" /><Property Name=\"Standard_Cost\" Type" +
-                "=\"Edm.Decimal\" /><Property Name=\"Unit_Cost\" Type=\"Edm.Decimal\" /><Property Name=" +
-                "\"Unit_Price\" Type=\"Edm.Decimal\" /><Property Name=\"Unit_Volume\" Type=\"Edm.Decimal" +
-                "\" /><Property Name=\"Vendor_No\" Type=\"Edm.String\" /><Property Name=\"Purch_Unit_of" +
-                "_Measure\" Type=\"Edm.String\" /><Property Name=\"COGS_LCY\" Type=\"Edm.Decimal\" /><Pr" +
-                "operty Name=\"Inventory\" Type=\"Edm.Decimal\" /><Property Name=\"Net_Change\" Type=\"E" +
-                "dm.Decimal\" /><Property Name=\"Net_Invoiced_Qty\" Type=\"Edm.Decimal\" /><Property N" +
-                "ame=\"Purchases_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Purchases_Qty\" Type=\"Ed" +
-                "m.Decimal\" /><Property Name=\"Sales_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Sal" +
-                "es_Qty\" Type=\"Edm.Decimal\" /><Property Name=\"VendorName\" Type=\"Edm.String\" /><Pr" +
-                "operty Name=\"AuxiliaryIndex1\" Type=\"Edm.String\" Nullable=\"false\" /></EntityType>" +
-                "<EntityType Name=\"ItemSalesByCustomer\"><Key><PropertyRef Name=\"AuxiliaryIndex1\" " +
-                "/><PropertyRef Name=\"CustomerNo\" /><PropertyRef Name=\"Entry_No\" /></Key><Propert" +
-                "y Name=\"Entry_No\" Type=\"Edm.Int32\" Nullable=\"false\" /><Property Name=\"Document_N" +
-                "o\" Type=\"Edm.String\" /><Property Name=\"Posting_Date\" Type=\"Edm.DateTime\" /><Prop" +
-                "erty Name=\"Item_No\" Type=\"Edm.String\" /><Property Name=\"Item_Ledger_Entry_Quanti" +
-                "ty\" Type=\"Edm.Decimal\" /><Property Name=\"CustomerNo\" Type=\"Edm.String\" Nullable=" +
-                "\"false\" /><Property Name=\"Name\" Type=\"Edm.String\" /><Property Name=\"Description\"" +
-                " Type=\"Edm.String\" /><Property Name=\"Gen_Prod_Posting_Group\" Type=\"Edm.String\" /" +
-                "><Property Name=\"AuxiliaryIndex1\" Type=\"Edm.String\" Nullable=\"false\" /></EntityT" +
-                "ype><EntityType Name=\"KeensDetails\"><Key><PropertyRef Name=\"Account_No\" /><Prope" +
-                "rtyRef Name=\"AuxiliaryIndex1\" /><PropertyRef Name=\"AuxiliaryIndex2\" /><PropertyR" +
-                "ef Name=\"Name\" /></Key><Property Name=\"Name\" Type=\"Edm.String\" Nullable=\"false\" " +
-                "/><Property Name=\"Relationship\" Type=\"Edm.String\" /><Property Name=\"Beneficiary\"" +
-                " Type=\"Edm.Boolean\" /><Property Name=\"Date_of_Birth\" Type=\"Edm.DateTime\" /><Prop" +
-                "erty Name=\"Address\" Type=\"Edm.String\" /><Property Name=\"Telephone\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Email\" Type=\"Edm.String\" /><Property Name=\"Account_No\" Ty" +
-                "pe=\"Edm.String\" Nullable=\"false\" /><Property Name=\"ID_No\" Type=\"Edm.String\" /><P" +
-                "roperty Name=\"Allocation\" Type=\"Edm.Decimal\" /><Property Name=\"AuxiliaryIndex1\" " +
-                "Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"AuxiliaryIndex2\" Type=\"Edm." +
-                "String\" Nullable=\"false\" /></EntityType><EntityType Name=\"kinsdetail\"><Key><Prop" +
-                "ertyRef Name=\"Account_No\" /><PropertyRef Name=\"Name\" /></Key><Property Name=\"Acc" +
-                "ount_No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Name\" Type=\"Edm.St" +
-                "ring\" Nullable=\"false\" /><Property Name=\"Relationship\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"Beneficiary\" Type=\"Edm.Boolean\" /><Property Name=\"Date_of_Birth\" Type" +
-                "=\"Edm.DateTime\" /><Property Name=\"Address\" Type=\"Edm.String\" /><Property Name=\"T" +
-                "elephone\" Type=\"Edm.String\" /><Property Name=\"Fax\" Type=\"Edm.String\" /><Property" +
-                " Name=\"Email\" Type=\"Edm.String\" /><Property Name=\"ID_No\" Type=\"Edm.String\" /></E" +
-                "ntityType><EntityType Name=\"LoansReg\"><Key><PropertyRef Name=\"Loan_No\" /></Key><" +
-                "Property Name=\"Loan_No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"App" +
-                "lication_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Loan_Product_Type\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Client_Code\" Type=\"Edm.String\" /><Property Name=\"Gro" +
-                "up_Code\" Type=\"Edm.String\" /><Property Name=\"Savings\" Type=\"Edm.Decimal\" /><Prop" +
-                "erty Name=\"Approved_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Interest\" Type=" +
-                "\"Edm.Decimal\" /><Property Name=\"LastPayDateImport\" Type=\"Edm.DateTime\" /><Proper" +
-                "ty Name=\"Total_Loans_Default\" Type=\"Edm.Decimal\" /><Propert";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart4 = "y Name=\"old_no\" Type=\"Edm.String\" /><Property Name=\"Approval_Status\" Type=\"Edm.St" +
-                "ring\" /><Property Name=\"Loan_Product_Type_Name\" Type=\"Edm.String\" /><Property Na" +
-                "me=\"Totals_Loan_Outstanding\" Type=\"Edm.Decimal\" /></EntityType><EntityType Name=" +
-                "\"MemberList\"><Key><PropertyRef Name=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.S" +
-                "tring\" Nullable=\"false\" /><Property Name=\"Name\" Type=\"Edm.String\" /><Property Na" +
-                "me=\"Address_2\" Type=\"Edm.String\" /><Property Name=\"Phone_No\" Type=\"Edm.String\" /" +
-                "><Property Name=\"Payroll_Staff_No\" Type=\"Edm.String\" /><Property Name=\"Account_C" +
-                "ategory\" Type=\"Edm.String\" /><Property Name=\"E_Mail_Personal\" Type=\"Edm.String\" " +
-                "/><Property Name=\"ID_No\" Type=\"Edm.String\" /><Property Name=\"Bank_Account_No\" Ty" +
-                "pe=\"Edm.String\" /><Property Name=\"E_Mail\" Type=\"Edm.String\" /><Property Name=\"pa" +
-                "ssword\" Type=\"Edm.String\" /><Property Name=\"Old_Account_No\" Type=\"Edm.String\" />" +
-                "<Property Name=\"Dividend_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Shares_Ret" +
-                "ained\" Type=\"Edm.Decimal\" /><Property Name=\"Current_Shares\" Type=\"Edm.Decimal\" /" +
-                "><Property Name=\"Un_allocated_Funds\" Type=\"Edm.Decimal\" /><Property Name=\"Benevo" +
-                "lent_Fund\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Balance\" Type=\"Edm.D" +
-                "ecimal\" /><Property Name=\"Outstanding_Interest\" Type=\"Edm.Decimal\" /><Property N" +
-                "ame=\"FOSA_Account_Bal\" Type=\"Edm.Decimal\" /></EntityType><EntityType Name=\"minis" +
-                "tatement\"><Key><PropertyRef Name=\"AuxiliaryIndex1\" /><PropertyRef Name=\"Entry_No" +
-                "\" /></Key><Property Name=\"Debit_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Cre" +
-                "dit_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Amount\" Type=\"Edm.Decimal\" /><P" +
-                "roperty Name=\"Vendor_No\" Type=\"Edm.String\" /><Property Name=\"Vendor_Ledger_Entry" +
-                "_No\" Type=\"Edm.Int32\" /><Property Name=\"Posting_Date\" Type=\"Edm.DateTime\" /><Pro" +
-                "perty Name=\"Document_No\" Type=\"Edm.String\" /><Property Name=\"Entry_No\" Type=\"Edm" +
-                ".Int32\" Nullable=\"false\" /><Property Name=\"Description\" Type=\"Edm.String\" /><Pro" +
-                "perty Name=\"External_Document_No\" Type=\"Edm.String\" /><Property Name=\"AuxiliaryI" +
-                "ndex1\" Type=\"Edm.Int32\" Nullable=\"false\" /></EntityType><EntityType Name=\"PBIATM" +
-                "Transactions\"><Key><PropertyRef Name=\"Entry_No\" /></Key><Property Name=\"Trace_ID" +
-                "\" Type=\"Edm.String\" /><Property Name=\"Posting_Date\" Type=\"Edm.DateTime\" /><Prope" +
-                "rty Name=\"Account_No\" Type=\"Edm.String\" /><Property Name=\"Description\" Type=\"Edm" +
-                ".String\" /><Property Name=\"Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Posting_" +
-                "S\" Type=\"Edm.String\" /><Property Name=\"Posted\" Type=\"Edm.Boolean\" /><Property Na" +
-                "me=\"Unit_ID\" Type=\"Edm.String\" /><Property Name=\"Transaction_Type\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Trans_Time\" Type=\"Edm.String\" /><Property Name=\"Transacti" +
-                "on_Time\" Type=\"Edm.String\" /><Property Name=\"Transaction_Date\" Type=\"Edm.DateTim" +
-                "e\" /><Property Name=\"Source\" Type=\"Edm.String\" /><Property Name=\"Reversed\" Type=" +
-                "\"Edm.Boolean\" /><Property Name=\"Reversed_Posted\" Type=\"Edm.Boolean\" /><Property " +
-                "Name=\"Reversal_Trace_ID\" Type=\"Edm.String\" /><Property Name=\"Transaction_Descrip" +
-                "tion\" Type=\"Edm.String\" /><Property Name=\"Withdrawal_Location\" Type=\"Edm.String\"" +
-                " /><Property Name=\"Entry_No\" Type=\"Edm.Int32\" Nullable=\"false\" /><Property Name=" +
-                "\"Transaction_Type_Charges\" Type=\"Edm.String\" /><Property Name=\"Card_Acceptor_Ter" +
-                "minal_ID\" Type=\"Edm.String\" /><Property Name=\"ATM_Card_No\" Type=\"Edm.String\" /><" +
-                "Property Name=\"Customer_Names\" Type=\"Edm.String\" /><Property Name=\"Process_Code\"" +
-                " Type=\"Edm.String\" /><Property Name=\"Reference_No\" Type=\"Edm.String\" /><Property" +
-                " Name=\"Is_Coop_Bank\" Type=\"Edm.Boolean\" /><Property Name=\"POS_Vendor\" Type=\"Edm." +
-                "String\" /><Property Name=\"Account_Name\" Type=\"Edm.String\" /></EntityType><Entity" +
-                "Type Name=\"PBICASHIERTransactions\"><Key><PropertyRef Name=\"No\" /></Key><Property" +
-                " Name=\"No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Account_No\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Account_Name\" Type=\"Edm.String\" /><Property Name" +
-                "=\"Transaction_Type\" Type=\"Edm.String\" /><Property Name=\"Amount\" Type=\"Edm.Decima" +
-                "l\" /><Property Name=\"Cashier\" Type=\"Edm.String\" /><Property Name=\"Transaction_Da" +
-                "te\" Type=\"Edm.DateTime\" /><Property Name=\"Transaction_Time\" Type=\"Edm.String\" />" +
-                "<Property Name=\"Posted\" Type=\"Edm.Boolean\" /><Property Name=\"No_Series\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Account_Type\" Type=\"Edm.String\" /><Property Name=\"Ac" +
-                "count_Description\" Type=\"Edm.String\" /><Property Name=\"Denomination_Total\" Type=" +
-                "\"Edm.Decimal\" /><Property Name=\"Cheque_Type\" Type=\"Edm.String\" /><Property Name=" +
-                "\"Cheque_No\" Type=\"Edm.String\" /><Property Name=\"Cheque_Date\" Type=\"Edm.DateTime\"" +
-                " /><Property Name=\"Payee\" Type=\"Edm.String\" /><Property Name=\"Bank_No\" Type=\"Edm" +
-                ".String\" /><Property Name=\"Branch_No\" Type=\"Edm.String\" /><Property Name=\"Cleari" +
-                "ng_Charges\" Type=\"Edm.Decimal\" /><Property Name=\"Clearing_Days\" Type=\"Edm.String" +
-                "\" /><Property Name=\"Description\" Type=\"Edm.String\" /><Property Name=\"Bank_Name\" " +
-                "Type=\"Edm.String\" /><Property Name=\"Branch_Name\" Type=\"Edm.String\" /><Property N" +
-                "ame=\"Transaction_Mode\" Type=\"Edm.String\" /><Property Name=\"Type\" Type=\"Edm.Strin" +
-                "g\" /><Property Name=\"Transaction_Description\" Type=\"Edm.String\" /><Property Name" +
-                "=\"Minimum_Account_Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Fee_Below_Minimu" +
-                "m_Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Normal_Withdrawal_Charge\" Type=\"" +
-                "Edm.Decimal\" /><Property Name=\"Authorised\" Type=\"Edm.String\" /><Property Name=\"C" +
-                "hecked_By\" Type=\"Edm.String\" /><Property Name=\"Fee_on_Withdrawal_Interval\" Type=" +
-                "\"Edm.Decimal\" /><Property Name=\"Remarks\" Type=\"Edm.String\" /><Property Name=\"Sta" +
-                "tus\" Type=\"Edm.String\" /><Property Name=\"Date_Posted\" Type=\"Edm.DateTime\" /><Pro" +
-                "perty Name=\"Time_Posted\" Type=\"Edm.String\" /><Property Name=\"Posted_By\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Expected_Maturity_Date\" Type=\"Edm.DateTime\" /><Prope" +
-                "rty Name=\"Currency_Code\" Type=\"Edm.String\" /><Property Name=\"Transaction_Categor" +
-                "y\" Type=\"Edm.String\" /><Property Name=\"Deposited\" Type=\"Edm.Boolean\" /><Property" +
-                " Name=\"Date_Deposited\" Type=\"Edm.DateTime\" /><Property Name=\"Time_Deposited\" Typ" +
-                "e=\"Edm.String\" /><Property Name=\"Deposited_By\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Post_Dated\" Type=\"Edm.Boolean\" /><Property Name=\"Select\" Type=\"Edm.Boolean\" /" +
-                "><Property Name=\"Status_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Status_Time\"" +
-                " Type=\"Edm.String\" /><Property Name=\"Supervisor_Checked\" Type=\"Edm.Boolean\" /><P" +
-                "roperty Name=\"Book_Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Notice_No\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Notice_Cleared\" Type=\"Edm.String\" /><Property Na" +
-                "me=\"Schedule_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Has_Schedule\" Type=\"Ed" +
-                "m.Boolean\" /><Property Name=\"Requested\" Type=\"Edm.Boolean\" /><Property Name=\"Dat" +
-                "e_Requested\" Type=\"Edm.DateTime\" /><Property Name=\"Time_Requested\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Requested_By\" Type=\"Edm.String\" /><Property Name=\"Overdra" +
-                "ft\" Type=\"Edm.Boolean\" /><Property Name=\"Cheque_Processed\" Type=\"Edm.Boolean\" />" +
-                "<Property Name=\"Staff_Payroll_No\" Type=\"Edm.String\" /><Property Name=\"Cheque_Tra" +
-                "nsferred\" Type=\"Edm.String\" /><Property Name=\"Expected_Amount\" Type=\"Edm.Decimal" +
-                "\" /><Property Name=\"Line_Totals\" Type=\"Edm.Decimal\" /><Property Name=\"Transfer_D" +
-                "ate\" Type=\"Edm.DateTime\" /><Property Name=\"BIH_No\" Type=\"Edm.String\" /><Property" +
-                " Name=\"Transfer_No\" Type=\"Edm.String\" /><Property Name=\"Attached\" Type=\"Edm.Bool" +
-                "ean\" /><Property Name=\"BOSA_Account_No\" Type=\"Edm.String\" /><Property Name=\"Sala" +
-                "ry_Processing\" Type=\"Edm.String\" /><Property Name=\"Expense_Account\" Type=\"Edm.St" +
-                "ring\" /><Property Name=\"Expense_Description\" Type=\"Edm.String\" /><Property Name=" +
-                "\"Company_Code\" Type=\"Edm.String\" /><Property Name=\"Schedule";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart5 = "_Type\" Type=\"Edm.String\" /><Property Name=\"Banked_By\" Type=\"Edm.String\" /><Proper" +
-                "ty Name=\"Date_Banked\" Type=\"Edm.DateTime\" /><Property Name=\"Time_Banked\" Type=\"E" +
-                "dm.String\" /><Property Name=\"Banking_Posted\" Type=\"Edm.Boolean\" /><Property Name" +
-                "=\"Cleared_By\" Type=\"Edm.String\" /><Property Name=\"Date_Cleared\" Type=\"Edm.DateTi" +
-                "me\" /><Property Name=\"Time_Cleared\" Type=\"Edm.String\" /><Property Name=\"Clearing" +
-                "_Posted\" Type=\"Edm.Boolean\" /><Property Name=\"Needs_Approval\" Type=\"Edm.String\" " +
-                "/><Property Name=\"ID_Type\" Type=\"Edm.String\" /><Property Name=\"ID_No\" Type=\"Edm." +
-                "String\" /><Property Name=\"Reference_No\" Type=\"Edm.String\" /><Property Name=\"Refu" +
-                "nd_Cheque\" Type=\"Edm.Boolean\" /><Property Name=\"Imported\" Type=\"Edm.Boolean\" /><" +
-                "Property Name=\"External_Account_No\" Type=\"Edm.String\" /><Property Name=\"BOSA_Tra" +
-                "nsactions\" Type=\"Edm.Decimal\" /><Property Name=\"Bank_Account\" Type=\"Edm.String\" " +
-                "/><Property Name=\"Savers_Total\" Type=\"Edm.Decimal\" /><Property Name=\"Mustaafu_To" +
-                "tal\" Type=\"Edm.Decimal\" /><Property Name=\"Junior_Star_Total\" Type=\"Edm.Decimal\" " +
-                "/><Property Name=\"Printed\" Type=\"Edm.Boolean\" /><Property Name=\"Withdrawal_Frequ" +
-                "encyAuthorised\" Type=\"Edm.String\" /><Property Name=\"Frequency_Needs_Approval\" Ty" +
-                "pe=\"Edm.String\" /><Property Name=\"Special_Advance_No\" Type=\"Edm.String\" /><Prope" +
-                "rty Name=\"Bankers_Cheque_Type\" Type=\"Edm.String\" /><Property Name=\"Suspended_Amo" +
-                "unt\" Type=\"Edm.Decimal\" /><Property Name=\"Transferred_By_EFT\" Type=\"Edm.Boolean\"" +
-                " /><Property Name=\"Banking_User\" Type=\"Edm.String\" /><Property Name=\"Company_Tex" +
-                "t_Name\" Type=\"Edm.String\" /><Property Name=\"Total_Salaries\" Type=\"Edm.Int32\" /><" +
-                "Property Name=\"EFT_Transferred\" Type=\"Edm.Boolean\" /><Property Name=\"ATM_Transac" +
-                "tions_Total\" Type=\"Edm.Decimal\" /><Property Name=\"Bank_Code\" Type=\"Edm.String\" /" +
-                "><Property Name=\"External_Account_Name\" Type=\"Edm.String\" /><Property Name=\"Over" +
-                "draft_Limit\" Type=\"Edm.Decimal\" /><Property Name=\"Overdraft_Allowed\" Type=\"Edm.B" +
-                "oolean\" /><Property Name=\"Available_Balance\" Type=\"Edm.Decimal\" /><Property Name" +
-                "=\"Authorisation_Requirement\" Type=\"Edm.String\" /><Property Name=\"Bankers_Cheque_" +
-                "No\" Type=\"Edm.String\" /><Property Name=\"Transaction_Span\" Type=\"Edm.String\" /><P" +
-                "roperty Name=\"Transaction_Available_Balance\" Type=\"Edm.Decimal\" /><Property Name" +
-                "=\"Branch_Account\" Type=\"Edm.String\" /><Property Name=\"Branch_Transaction\" Type=\"" +
-                "Edm.Boolean\" /><Property Name=\"FOSA_Branch_Name\" Type=\"Edm.String\" /><Property N" +
-                "ame=\"Branch_Refference\" Type=\"Edm.String\" /><Property Name=\"Branch_Account_No\" T" +
-                "ype=\"Edm.String\" /><Property Name=\"Branch_Transaction_Date\" Type=\"Edm.DateTime\" " +
-                "/><Property Name=\"Post_Attempted\" Type=\"Edm.Boolean\" /><Property Name=\"Transacti" +
-                "ng_Branch\" Type=\"Edm.String\" /><Property Name=\"Amount_Discounted\" Type=\"Edm.Deci" +
-                "mal\" /><Property Name=\"Dont_Clear\" Type=\"Edm.Boolean\" /><Property Name=\"Other_Ba" +
-                "nkers_No\" Type=\"Edm.String\" /><Property Name=\"N_A_H_Balance\" Type=\"Edm.Decimal\" " +
-                "/><Property Name=\"Cheque_Deposit_Remarks\" Type=\"Edm.String\" /><Property Name=\"Ba" +
-                "lancing_Account\" Type=\"Edm.String\" /><Property Name=\"Balancing_Account_Name\" Typ" +
-                "e=\"Edm.String\" /><Property Name=\"Bankers_Cheque_Payee\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"Atm_Number\" Type=\"Edm.String\" /><Property Name=\"Member_Name\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Savings_Product\" Type=\"Edm.String\" /><Property Name=" +
-                "\"Member_No\" Type=\"Edm.String\" /><Property Name=\"Withdarawal\" Type=\"Edm.Boolean\" " +
-                "/><Property Name=\"Uncleared_Cheques\" Type=\"Edm.Decimal\" /><Property Name=\"Alloca" +
-                "ted_Amount\" Type=\"Edm.Decimal\" /></EntityType><EntityType Name=\"PBIVendors\"><Key" +
-                "><PropertyRef Name=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"" +
-                "false\" /><Property Name=\"Name\" Type=\"Edm.String\" /><Property Name=\"Search_Name\" " +
-                "Type=\"Edm.String\" /><Property Name=\"Name_2\" Type=\"Edm.String\" /><Property Name=\"" +
-                "Address\" Type=\"Edm.String\" /><Property Name=\"Address_2\" Type=\"Edm.String\" /><Pro" +
-                "perty Name=\"City\" Type=\"Edm.String\" /><Property Name=\"Contact\" Type=\"Edm.String\"" +
-                " /><Property Name=\"Phone_No\" Type=\"Edm.String\" /><Property Name=\"Telex_No\" Type=" +
-                "\"Edm.String\" /><Property Name=\"Our_Account_No\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Territory_Code\" Type=\"Edm.String\" /><Property Name=\"Global_Dimension_1_Code\" " +
-                "Type=\"Edm.String\" /><Property Name=\"Global_Dimension_2_Code\" Type=\"Edm.String\" /" +
-                "><Property Name=\"Budgeted_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Vendor_Po" +
-                "sting_Group\" Type=\"Edm.String\" /><Property Name=\"Currency_Code\" Type=\"Edm.String" +
-                "\" /><Property Name=\"Language_Code\" Type=\"Edm.String\" /><Property Name=\"Statistic" +
-                "s_Group\" Type=\"Edm.Int32\" /><Property Name=\"Payment_Terms_Code\" Type=\"Edm.String" +
-                "\" /><Property Name=\"Fin_Charge_Terms_Code\" Type=\"Edm.String\" /><Property Name=\"P" +
-                "urchaser_Code\" Type=\"Edm.String\" /><Property Name=\"Shipment_Method_Code\" Type=\"E" +
-                "dm.String\" /><Property Name=\"Shipping_Agent_Code\" Type=\"Edm.String\" /><Property " +
-                "Name=\"Invoice_Disc_Code\" Type=\"Edm.String\" /><Property Name=\"Country_Region_Code" +
-                "\" Type=\"Edm.String\" /><Property Name=\"Blocked\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Pay_to_Vendor_No\" Type=\"Edm.String\" /><Property Name=\"Priority\" Type=\"Edm.Int" +
-                "32\" /><Property Name=\"Payment_Method_Code\" Type=\"Edm.String\" /><Property Name=\"L" +
-                "ast_Date_Modified\" Type=\"Edm.DateTime\" /><Property Name=\"Application_Method\" Typ" +
-                "e=\"Edm.String\" /><Property Name=\"Prices_Including_VAT\" Type=\"Edm.Boolean\" /><Pro" +
-                "perty Name=\"Fax_No\" Type=\"Edm.String\" /><Property Name=\"Telex_Answer_Back\" Type=" +
-                "\"Edm.String\" /><Property Name=\"VAT_Registration_No\" Type=\"Edm.String\" /><Propert" +
-                "y Name=\"Gen_Bus_Posting_Group\" Type=\"Edm.String\" /><Property Name=\"GLN\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Post_Code\" Type=\"Edm.String\" /><Property Name=\"Count" +
-                "y\" Type=\"Edm.String\" /><Property Name=\"E_Mail\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Home_Page\" Type=\"Edm.String\" /><Property Name=\"No_Series\" Type=\"Edm.String\" /" +
-                "><Property Name=\"Tax_Area_Code\" Type=\"Edm.String\" /><Property Name=\"Tax_Liable\" " +
-                "Type=\"Edm.Boolean\" /><Property Name=\"VAT_Bus_Posting_Group\" Type=\"Edm.String\" />" +
-                "<Property Name=\"Block_Payment_Tolerance\" Type=\"Edm.Boolean\" /><Property Name=\"IC" +
-                "_Partner_Code\" Type=\"Edm.String\" /><Property Name=\"Prepayment\" Type=\"Edm.Decimal" +
-                "\" /><Property Name=\"Partner_Type\" Type=\"Edm.String\" /><Property Name=\"Creditor_N" +
-                "o\" Type=\"Edm.String\" /><Property Name=\"Preferred_Bank_Account\" Type=\"Edm.String\"" +
-                " /><Property Name=\"Cash_Flow_Payment_Terms_Code\" Type=\"Edm.String\" /><Property N" +
-                "ame=\"Primary_Contact_No\" Type=\"Edm.String\" /><Property Name=\"Responsibility_Cent" +
-                "er\" Type=\"Edm.String\" /><Property Name=\"Location_Code\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"Lead_Time_Calculation\" Type=\"Edm.String\" /><Property Name=\"Base_Calen" +
-                "dar_Code\" Type=\"Edm.String\" /><Property Name=\"UPS_Zone\" Type=\"Edm.String\" /><Pro" +
-                "perty Name=\"Federal_ID_No\" Type=\"Edm.String\" /><Property Name=\"Bank_Communicatio" +
-                "n\" Type=\"Edm.String\" /><Property Name=\"Check_Date_Format\" Type=\"Edm.String\" /><P" +
-                "roperty Name=\"Check_Date_Separator\" Type=\"Edm.String\" /><Property Name=\"IRS_1099" +
-                "_Code\" Type=\"Edm.String\" /><Property Name=\"RFC_No\" Type=\"Edm.String\" /><Property" +
-                " Name=\"CURP_No\" Type=\"Edm.String\" /><Property Name=\"State_Inscription\" Type=\"Edm" +
-                ".String\" /><Property Name=\"Tax_Identification_Type\" Type=\"Edm.String\" /><Propert" +
-                "y Name=\"Creditor_Type\" Type=\"Edm.String\" /><Property Name=\"Staff_No\" Type=\"Edm.S" +
-                "tring\" /><Property Name=\"ID_No\" Type=\"Edm.String\" /><Property Name=\"Last_Mainten" +
-                "ance_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Activate_Sweeping_Arrangement\" " +
-                "Type=\"Edm.Boolean\" /><Property Name=\"Sweeping_Balance\" Type=\"Edm.Decimal\" /><Pro" +
-                "perty Name=\"Sweep_To_Account\" Type=\"Edm.String\" /><Property";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart6 = " Name=\"Fixed_Deposit_Status\" Type=\"Edm.String\" /><Property Name=\"Call_Deposit\" Ty" +
-                "pe=\"Edm.Boolean\" /><Property Name=\"Mobile_Phone_No\" Type=\"Edm.String\" /><Propert" +
-                "y Name=\"Marital_Status\" Type=\"Edm.String\" /><Property Name=\"Registration_Date\" T" +
-                "ype=\"Edm.DateTime\" /><Property Name=\"BOSA_Account_No\" Type=\"Edm.String\" /><Prope" +
-                "rty Name=\"Passport_No\" Type=\"Edm.String\" /><Property Name=\"Company_Code\" Type=\"E" +
+            private const string ModelPart2 = "=\"Edm.String\" /><Property Name=\"Country_Region_Code\" Type=\"Edm.String\" /><Propert" +
+                "y Name=\"Blocked\" Type=\"Edm.String\" /><Property Name=\"Pay_to_Vendor_No\" Type=\"Edm" +
+                ".String\" /><Property Name=\"Priority\" Type=\"Edm.Int32\" /><Property Name=\"Payment_" +
+                "Method_Code\" Type=\"Edm.String\" /><Property Name=\"Last_Date_Modified\" Type=\"Edm.D" +
+                "ateTime\" /><Property Name=\"Application_Method\" Type=\"Edm.String\" /><Property Nam" +
+                "e=\"Prices_Including_VAT\" Type=\"Edm.Boolean\" /><Property Name=\"Fax_No\" Type=\"Edm." +
+                "String\" /><Property Name=\"Telex_Answer_Back\" Type=\"Edm.String\" /><Property Name=" +
+                "\"VAT_Registration_No\" Type=\"Edm.String\" /><Property Name=\"Gen_Bus_Posting_Group\"" +
+                " Type=\"Edm.String\" /><Property Name=\"GLN\" Type=\"Edm.String\" /><Property Name=\"Po" +
+                "st_Code\" Type=\"Edm.String\" /><Property Name=\"County\" Type=\"Edm.String\" /><Proper" +
+                "ty Name=\"E_Mail\" Type=\"Edm.String\" /><Property Name=\"Home_Page\" Type=\"Edm.String" +
+                "\" /><Property Name=\"No_Series\" Type=\"Edm.String\" /><Property Name=\"Tax_Area_Code" +
+                "\" Type=\"Edm.String\" /><Property Name=\"Tax_Liable\" Type=\"Edm.Boolean\" /><Property" +
+                " Name=\"VAT_Bus_Posting_Group\" Type=\"Edm.String\" /><Property Name=\"Block_Payment_" +
+                "Tolerance\" Type=\"Edm.Boolean\" /><Property Name=\"IC_Partner_Code\" Type=\"Edm.Strin" +
+                "g\" /><Property Name=\"Prepayment\" Type=\"Edm.Decimal\" /><Property Name=\"Partner_Ty" +
+                "pe\" Type=\"Edm.String\" /><Property Name=\"Creditor_No\" Type=\"Edm.String\" /><Proper" +
+                "ty Name=\"Cash_Flow_Payment_Terms_Code\" Type=\"Edm.String\" /><Property Name=\"Prima" +
+                "ry_Contact_No\" Type=\"Edm.String\" /><Property Name=\"Responsibility_Center\" Type=\"" +
+                "Edm.String\" /><Property Name=\"Location_Code\" Type=\"Edm.String\" /><Property Name=" +
+                "\"Lead_Time_Calculation\" Type=\"Edm.String\" /><Property Name=\"Base_Calendar_Code\" " +
+                "Type=\"Edm.String\" /><Property Name=\"UPS_Zone\" Type=\"Edm.String\" /><Property Name" +
+                "=\"Federal_ID_No\" Type=\"Edm.String\" /><Property Name=\"Bank_Communication\" Type=\"E" +
+                "dm.String\" /><Property Name=\"Check_Date_Format\" Type=\"Edm.String\" /><Property Na" +
+                "me=\"Check_Date_Separator\" Type=\"Edm.String\" /><Property Name=\"IRS_1099_Code\" Typ" +
+                "e=\"Edm.String\" /><Property Name=\"RFC_No\" Type=\"Edm.String\" /><Property Name=\"CUR" +
+                "P_No\" Type=\"Edm.String\" /><Property Name=\"State_Inscription\" Type=\"Edm.String\" /" +
+                "><Property Name=\"Tax_Identification_Type\" Type=\"Edm.String\" /><Property Name=\"Cr" +
+                "editor_Type\" Type=\"Edm.String\" /><Property Name=\"Staff_No\" Type=\"Edm.String\" /><" +
+                "Property Name=\"ID_No\" Type=\"Edm.String\" /><Property Name=\"Last_Maintenance_Date\"" +
+                " Type=\"Edm.DateTime\" /><Property Name=\"Activate_Sweeping_Arrangement\" Type=\"Edm." +
+                "Boolean\" /><Property Name=\"Sweeping_Balance\" Type=\"Edm.Decimal\" /><Property Name" +
+                "=\"Sweep_To_Account\" Type=\"Edm.String\" /><Property Name=\"Fixed_Deposit_Status\" Ty" +
+                "pe=\"Edm.String\" /><Property Name=\"Call_Deposit\" Type=\"Edm.Boolean\" /><Property N" +
+                "ame=\"Mobile_Phone_No\" Type=\"Edm.String\" /><Property Name=\"Marital_Status\" Type=\"" +
+                "Edm.String\" /><Property Name=\"Registration_Date\" Type=\"Edm.DateTime\" /><Property" +
+                " Name=\"BOSA_Account_No\" Type=\"Edm.String\" /><Property Name=\"Passport_No\" Type=\"E" +
                 "dm.String\" /><Property Name=\"Status\" Type=\"Edm.String\" /><Property Name=\"Account" +
                 "_Type\" Type=\"Edm.String\" /><Property Name=\"Account_Category\" Type=\"Edm.String\" /" +
                 "><Property Name=\"FD_Marked_for_Closure\" Type=\"Edm.Boolean\" /><Property Name=\"Las" +
@@ -1363,386 +890,454 @@ namespace SACCOPortal.NavOData
                 "String\" /><Property Name=\"Signing_Instructions\" Type=\"Edm.String\" /><Property Na" +
                 "me=\"Hide\" Type=\"Edm.Boolean\" /><Property Name=\"Monthly_Contribution\" Type=\"Edm.D" +
                 "ecimal\" /><Property Name=\"Not_Qualify_for_Interest\" Type=\"Edm.Boolean\" /><Proper" +
-                "ty Name=\"Gender\" Type=\"Edm.String\" /><Property Name=\"Fixed_Duration\" Type=\"Edm.S" +
-                "tring\" /><Property Name=\"System_Created\" Type=\"Edm.Boolean\" /><Property Name=\"Ex" +
-                "ternal_Account_No\" Type=\"Edm.String\" /><Property Name=\"Bank_Code\" Type=\"Edm.Stri" +
-                "ng\" /><Property Name=\"Enabled\" Type=\"Edm.Boolean\" /><Property Name=\"Defaulted_Lo" +
-                "ans_Recovered\" Type=\"Edm.Boolean\" /><Property Name=\"Formation_Province\" Type=\"Ed" +
-                "m.String\" /><Property Name=\"Division_Department\" Type=\"Edm.String\" /><Property N" +
-                "ame=\"Station_Sections\" Type=\"Edm.String\" /><Property Name=\"Neg_Interest_Rate\" Ty" +
-                "pe=\"Edm.Decimal\" /><Property Name=\"Date_Renewed\" Type=\"Edm.DateTime\" /><Property" +
-                " Name=\"Don_t_Transfer_to_Savings\" Type=\"Edm.Boolean\" /><Property Name=\"Type_Of_O" +
-                "rganisation\" Type=\"Edm.String\" /><Property Name=\"Source_Of_Funds\" Type=\"Edm.Stri" +
-                "ng\" /><Property Name=\"MPESA_Mobile_No\" Type=\"Edm.String\" /><Property Name=\"ATM_P" +
-                "rov_No\" Type=\"Edm.String\" /><Property Name=\"ATM_Approve\" Type=\"Edm.Boolean\" /><P" +
-                "roperty Name=\"Force_No\" Type=\"Edm.String\" /><Property Name=\"Card_Expiry_Date\" Ty" +
-                "pe=\"Edm.DateTime\" /><Property Name=\"Card_Valid_From\" Type=\"Edm.DateTime\" /><Prop" +
-                "erty Name=\"Card_Valid_To\" Type=\"Edm.DateTime\" /><Property Name=\"Service\" Type=\"E" +
-                "dm.String\" /><Property Name=\"Reconciled\" Type=\"Edm.Boolean\" /><Property Name=\"FD" +
-                "_Duration\" Type=\"Edm.Int32\" /><Property Name=\"Employer_P_F\" Type=\"Edm.String\" />" +
-                "<Property Name=\"Outstanding_Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Atm_ca" +
-                "rd_ready\" Type=\"Edm.Boolean\" /><Property Name=\"Current_Shares\" Type=\"Edm.Decimal" +
-                "\" /><Property Name=\"Debtor_Type\" Type=\"Edm.String\" /><Property Name=\"Group_Code\"" +
-                " Type=\"Edm.String\" /><Property Name=\"Group_Account\" Type=\"Edm.Boolean\" /><Proper" +
-                "ty Name=\"Shares_Recovered\" Type=\"Edm.Boolean\" /><Property Name=\"Group_Balance\" T" +
-                "ype=\"Edm.Decimal\" /><Property Name=\"Old_Bosa_Acc_no\" Type=\"Edm.String\" /><Proper" +
-                "ty Name=\"ContactPerson_Relation\" Type=\"Edm.String\" /><Property Name=\"ContactPers" +
-                "on_Occupation\" Type=\"Edm.String\" /><Property Name=\"ContacPerson_Phone\" Type=\"Edm" +
-                ".String\" /><Property Name=\"Recruited_By\" Type=\"Edm.String\" /><Property Name=\"Cla" +
-                "ssB_Shares\" Type=\"Edm.Decimal\" /><Property Name=\"Date_ATM_Linked\" Type=\"Edm.Date" +
-                "Time\" /><Property Name=\"ATM_No\" Type=\"Edm.String\" /><Property Name=\"Reason_For_B" +
-                "locking_Account\" Type=\"Edm.String\" /><Property Name=\"Transfer_Amount_to_Savings\"" +
-                " Type=\"Edm.Decimal\" /><Property Name=\"Notice_Date\" Type=\"Edm.DateTime\" /><Proper" +
-                "ty Name=\"Account_Frozen\" Type=\"Edm.Boolean\" /><Property Name=\"Interest_rate\" Typ" +
-                "e=\"Edm.Decimal\" /><Property Name=\"Fixed_duration2\" Type=\"Edm.Int32\" /><Property " +
-                "Name=\"FDR_Deposit_Status_Type\" Type=\"Edm.String\" /><Property Name=\"ATM_Expiry_Da" +
-                "te\" Type=\"Edm.DateTime\" /><Property Name=\"Net_Salary\" Type=\"Edm.Decimal\" /><Prop" +
-                "erty Name=\"FD_Maturity_Instructions\" Type=\"Edm.String\" /><Property Name=\"ATM_Car" +
-                "d_Approved_by\" Type=\"Edm.String\" /><Property Name=\"Disabled_ATM_Card_No\" Type=\"E" +
-                "dm.String\" /><Property Name=\"Reason_For_Disabling_ATM_Card\" Type=\"Edm.String\" />" +
-                "<Property Name=\"Disable_ATM_Card\" Type=\"Edm.Boolean\" /><Property Name=\"Disabled_" +
-                "By\" Type=\"Edm.String\" /><Property Name=\"Transfer_Type\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"ATM_Alert_Sent\" Type=\"Edm.Boolean\" /><Property Name=\"Old_Vendor_No\" T" +
-                "ype=\"Edm.String\" /><Property Name=\"Loan_No\" Type=\"Edm.String\" /><Property Name=\"" +
-                "Principle_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Interest_Amount\" Type=\"Ed" +
-                "m.Decimal\" /><Property Name=\"Bankers_Cheque_Amount\" Type=\"Edm.Decimal\" /><Proper" +
-                "ty Name=\"Registered_M_Sacco\" Type=\"Edm.Boolean\" /><Property Name=\"Sms_Notificati" +
-                "on\" Type=\"Edm.Boolean\" /><Property Name=\"Parent_Account\" Type=\"Edm.String\" /><Pr" +
-                "operty Name=\"Comment\" Type=\"Edm.Boolean\" /><Property Name=\"Balance\" Type=\"Edm.De" +
-                "cimal\" /><Property Name=\"Balance_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Net_C" +
-                "hange\" Type=\"Edm.Decimal\" /><Property Name=\"Net_Change_LCY\" Type=\"Edm.Decimal\" /" +
-                "><Property Name=\"Purchases_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Inv_Discoun" +
-                "ts_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Pmt_Discounts_LCY\" Type=\"Edm.Decima" +
-                "l\" /><Property Name=\"Balance_Due\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_D" +
-                "ue_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Payments\" Type=\"Edm.Decimal\" /><Pro" +
-                "perty Name=\"Invoice_Amounts\" Type=\"Edm.Decimal\" /><Property Name=\"Cr_Memo_Amount" +
-                "s\" Type=\"Edm.Decimal\" /><Property Name=\"Finance_Charge_Memo_Amounts\" Type=\"Edm.D" +
-                "ecimal\" /><Property Name=\"Payments_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Inv" +
-                "_Amounts_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Cr_Memo_Amounts_LCY\" Type=\"Ed" +
-                "m.Decimal\" /><Property Name=\"Fin_Charge_Memo_Amounts_LCY\" Type=\"Edm.Decimal\" /><" +
-                "Property Name=\"Outstanding_Orders\" Type=\"Edm.Decimal\" /><Property Name=\"Amt_Rcd_" +
-                "Not_Invoiced\" Type=\"Edm.Decimal\" /><Property Name=\"Debit_Amount\" Type=\"Edm.Decim" +
-                "al\" /><Property Name=\"Credit_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Debit_" +
-                "Amount_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Credit_Amount_LCY\" Type=\"Edm.De" +
-                "cimal\" /><Property Name=\"Reminder_Amounts\" Type=\"Edm.Decimal\" /><Property Name=\"" +
-                "Reminder_Amounts_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Orders_LC" +
-                "Y\" Type=\"Edm.Decimal\" /><Property Name=\"Amt_Rcd_Not_Invoiced_LCY\" Type=\"Edm.Deci" +
-                "mal\" /><Property Name=\"Pmt_Disc_Tolerance_LCY\" Type=\"Edm.Decimal\" /><Property Na" +
-                "me=\"Pmt_Tolerance_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Refunds\" Type=\"Edm.D" +
-                "ecimal\" /><Property Name=\"Refunds_LCY\" Type=\"Edm.Decimal\" /";
+                "ty Name=\"Gender\" Type=\"Edm.String\" /><Property Name=\"Fixed_Duration\" Type=\"Edm.I" +
+                "nt32\" /><Property Name=\"System_Created\" Type=\"Edm.Boolean\" /><Property Name=\"Ext" +
+                "ernal_Account_No\" Type=\"Edm.String\" /><Property Name=\"Bank_Code\" Type=\"Edm.Strin" +
+                "g\" /><Property Name=\"Enabled\" Type=\"Edm.Boolean\" /><Property Name=\"Defaulted_Loa" +
+                "ns_Recovered\" Type=\"Edm.Boolean\" /><Property Name=\"Formation_Province\" Type=\"Edm" +
+                ".String\" /><Property Name=\"Division_Department\" Type=\"Edm.String\" /><Property Na" +
+                "me=\"Station_Sections\" Type=\"Edm.String\" /><Property Name=\"Neg_Interest_Rate\" Typ" +
+                "e=\"Edm.Decimal\" /><Property Name=\"Date_Renewed\" Type=\"Edm.DateTime\" /><Property " +
+                "Name=\"Last_Interest_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Don_t_Transfer_t" +
+                "o_Savings\" Type=\"Edm.Boolean\" /><Property Name=\"Type_Of_Organisation\" Type=\"Edm." +
+                "String\" /><Property Name=\"Source_Of_Funds\" Type=\"Edm.String\" /><Property Name=\"M" +
+                "PESA_Mobile_No\" Type=\"Edm.String\" /><Property Name=\"ATM_Prov_No\" Type=\"Edm.Strin" +
+                "g\" /><Property Name=\"ATM_Approve\" Type=\"Edm.Boolean\" /><Property Name=\"Force_No\"" +
+                " Type=\"Edm.String\" /><Property Name=\"Card_Expiry_Date\" Type=\"Edm.DateTime\" /><Pr" +
+                "operty Name=\"Card_Valid_From\" Type=\"Edm.DateTime\" /><Property Name=\"Card_Valid_T" +
+                "o\" Type=\"Edm.DateTime\" /><Property Name=\"Service\" Type=\"Edm.String\" /><Property " +
+                "Name=\"Reconciled\" Type=\"Edm.Boolean\" /><Property Name=\"FD_Duration\" Type=\"Edm.In" +
+                "t32\" /><Property Name=\"Employer_P_F\" Type=\"Edm.String\" /><Property Name=\"Outstan" +
+                "ding_Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Atm_card_ready\" Type=\"Edm.Boo" +
+                "lean\" /><Property Name=\"Current_Shares\" Type=\"Edm.Decimal\" /><Property Name=\"Deb" +
+                "tor_Type\" Type=\"Edm.String\" /><Property Name=\"Group_Code\" Type=\"Edm.String\" /><P" +
+                "roperty Name=\"Group_Account\" Type=\"Edm.Boolean\" /><Property Name=\"Shares_Recover" +
+                "ed\" Type=\"Edm.Boolean\" /><Property Name=\"Group_Balance\" Type=\"Edm.Decimal\" /><Pr" +
+                "operty Name=\"Old_Bosa_Acc_no\" Type=\"Edm.String\" /><Property Name=\"ContactPerson_" +
+                "Relation\" Type=\"Edm.String\" /><Property Name=\"ContactPerson_Occupation\" Type=\"Ed" +
+                "m.String\" /><Property Name=\"ContacPerson_Phone\" Type=\"Edm.String\" /><Property Na" +
+                "me=\"Recruited_By\" Type=\"Edm.String\" /><Property Name=\"ClassB_Shares\" Type=\"Edm.D" +
+                "ecimal\" /><Property Name=\"Date_ATM_Linked\" Type=\"Edm.DateTime\" /><Property Name=" +
+                "\"ATM_No\" Type=\"Edm.String\" /><Property Name=\"Reason_For_Blocking_Account\" Type=\"" +
+                "Edm.String\" /><Property Name=\"Transfer_Amount_to_Savings\" Type=\"Edm.Decimal\" /><" +
+                "Property Name=\"Notice_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Account_Frozen" +
+                "\" Type=\"Edm.Boolean\" /><Property Name=\"Interest_rate\" Type=\"Edm.Decimal\" /><Prop" +
+                "erty Name=\"Fixed_duration2\" Type=\"Edm.String\" /><Property Name=\"FDR_Deposit_Stat" +
+                "us_Type\" Type=\"Edm.String\" /><Property Name=\"ATM_Expiry_Date\" Type=\"Edm.DateTime" +
+                "\" /><Property Name=\"Interest_Amount\" Type=\"Edm.Decimal\" /><";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart7 = "><Property Name=\"Other_Amounts\" Type=\"Edm.Decimal\" /><Property Name=\"Other_Amount" +
-                "s_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Invoices\" Type=\"Edm.Deci" +
-                "mal\" /><Property Name=\"Outstanding_Invoices_LCY\" Type=\"Edm.Decimal\" /><Property " +
-                "Name=\"Pay_to_No_Of_Archived_Doc\" Type=\"Edm.Int32\" /><Property Name=\"Buy_from_No_" +
-                "Of_Archived_Doc\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Pstd_Receipts\" Type=\"E" +
-                "dm.Int32\" /><Property Name=\"No_of_Pstd_Invoices\" Type=\"Edm.Int32\" /><Property Na" +
-                "me=\"No_of_Pstd_Return_Shipments\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Pstd_C" +
-                "redit_Memos\" Type=\"Edm.Int32\" /><Property Name=\"Pay_to_No_of_Orders\" Type=\"Edm.I" +
-                "nt32\" /><Property Name=\"Pay_to_No_of_Invoices\" Type=\"Edm.Int32\" /><Property Name" +
-                "=\"Pay_to_No_of_Return_Orders\" Type=\"Edm.Int32\" /><Property Name=\"Pay_to_No_of_Cr" +
-                "edit_Memos\" Type=\"Edm.Int32\" /><Property Name=\"Pay_to_No_of_Pstd_Receipts\" Type=" +
-                "\"Edm.Int32\" /><Property Name=\"Pay_to_No_of_Pstd_Invoices\" Type=\"Edm.Int32\" /><Pr" +
-                "operty Name=\"Pay_to_No_of_Pstd_Return_S\" Type=\"Edm.Int32\" /><Property Name=\"Pay_" +
-                "to_No_of_Pstd_Cr_Memos\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Quotes\" Type=\"E" +
-                "dm.Int32\" /><Property Name=\"No_of_Blanket_Orders\" Type=\"Edm.Int32\" /><Property N" +
-                "ame=\"No_of_Orders\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Invoices\" Type=\"Edm." +
-                "Int32\" /><Property Name=\"No_of_Return_Orders\" Type=\"Edm.Int32\" /><Property Name=" +
-                "\"No_of_Credit_Memos\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Order_Addresses\" T" +
-                "ype=\"Edm.Int32\" /><Property Name=\"Pay_to_No_of_Quotes\" Type=\"Edm.Int32\" /><Prope" +
-                "rty Name=\"Pay_to_No_of_Blanket_Orders\" Type=\"Edm.Int32\" /><Property Name=\"Balanc" +
-                "e_on_Date\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_on_Date_LCY\" Type=\"Edm.D" +
-                "ecimal\" /><Property Name=\"Uncleared_Cheques\" Type=\"Edm.Decimal\" /><Property Name" +
-                "=\"ATM_Transactions\" Type=\"Edm.Decimal\" /><Property Name=\"Last_Transaction_Date\" " +
-                "Type=\"Edm.DateTime\" /><Property Name=\"Interest_Earned\" Type=\"Edm.Decimal\" /><Pro" +
-                "perty Name=\"Untranfered_Interest\" Type=\"Edm.Decimal\" /><Property Name=\"Current_S" +
-                "alary\" Type=\"Edm.Decimal\" /><Property Name=\"EFT_Transactions\" Type=\"Edm.Decimal\"" +
-                " /><Property Name=\"Last_Interest_Date\" Type=\"Edm.DateTime\" /><Property Name=\"FOS" +
-                "A_Default_Dimension\" Type=\"Edm.Int32\" /><Property Name=\"Dividend_Paid\" Type=\"Edm" +
-                ".Decimal\" /><Property Name=\"Group_Loan_Balance\" Type=\"Edm.Decimal\" /><Property N" +
-                "ame=\"Uncleared_Loans\" Type=\"Edm.Decimal\" /><Property Name=\"NetDis\" Type=\"Edm.Dec" +
-                "imal\" /><Property Name=\"Authorised_Over_Draft\" Type=\"Edm.Decimal\" /><Property Na" +
-                "me=\"Change_Log\" Type=\"Edm.Int32\" /></EntityType><EntityType Name=\"SalesDashboard" +
-                "\"><Key><PropertyRef Name=\"AuxiliaryIndex1\" /><PropertyRef Name=\"AuxiliaryIndex2\"" +
-                " /><PropertyRef Name=\"AuxiliaryIndex3\" /><PropertyRef Name=\"AuxiliaryIndex4\" /><" +
-                "PropertyRef Name=\"Entry_No\" /></Key><Property Name=\"Entry_No\" Type=\"Edm.Int32\" N" +
-                "ullable=\"false\" /><Property Name=\"Document_No\" Type=\"Edm.String\" /><Property Nam" +
-                "e=\"Posting_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Entry_Type\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Quantity\" Type=\"Edm.Decimal\" /><Property Name=\"Sales_Amou" +
-                "nt_Actual\" Type=\"Edm.Decimal\" /><Property Name=\"Sales_Amount_Expected\" Type=\"Edm" +
-                ".Decimal\" /><Property Name=\"Cost_Amount_Actual\" Type=\"Edm.Decimal\" /><Property N" +
-                "ame=\"Cost_Amount_Expected\" Type=\"Edm.Decimal\" /><Property Name=\"CountryRegionNam" +
-                "e\" Type=\"Edm.String\" /><Property Name=\"CustomerName\" Type=\"Edm.String\" /><Proper" +
-                "ty Name=\"Customer_Posting_Group\" Type=\"Edm.String\" /><Property Name=\"Customer_Di" +
-                "sc_Group\" Type=\"Edm.String\" /><Property Name=\"City\" Type=\"Edm.String\" /><Propert" +
-                "y Name=\"Description\" Type=\"Edm.String\" /><Property Name=\"SalesPersonName\" Type=\"" +
-                "Edm.String\" /><Property Name=\"AuxiliaryIndex1\" Type=\"Edm.String\" Nullable=\"false" +
-                "\" /><Property Name=\"AuxiliaryIndex2\" Type=\"Edm.String\" Nullable=\"false\" /><Prope" +
-                "rty Name=\"AuxiliaryIndex3\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"" +
-                "AuxiliaryIndex4\" Type=\"Edm.String\" Nullable=\"false\" /></EntityType><EntityType N" +
-                "ame=\"SalesOpportunities\"><Key><PropertyRef Name=\"No\" /></Key><Property Name=\"No\"" +
-                " Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Description\" Type=\"Edm.Str" +
-                "ing\" /><Property Name=\"Creation_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Clos" +
-                "ed\" Type=\"Edm.Boolean\" /><Property Name=\"Sales_Cycle_Code\" Type=\"Edm.String\" /><" +
-                "Property Name=\"Date_Closed\" Type=\"Edm.DateTime\" /><Property Name=\"Priority\" Type" +
-                "=\"Edm.String\" /><Property Name=\"Status\" Type=\"Edm.String\" /><Property Name=\"Calc" +
-                "d_Current_Value_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Chances_of_Success\" Ty" +
-                "pe=\"Edm.Decimal\" /><Property Name=\"Completed\" Type=\"Edm.Decimal\" /><Property Nam" +
-                "e=\"Contact_Name\" Type=\"Edm.String\" /><Property Name=\"Estimated_Closing_Date\" Typ" +
-                "e=\"Edm.DateTime\" /><Property Name=\"Salesperson_Name\" Type=\"Edm.String\" /><Proper" +
-                "ty Name=\"Estimated_Value_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Contact_Compa" +
-                "ny_Name\" Type=\"Edm.String\" /></EntityType><EntityType Name=\"SalesOrdersBySalesPe" +
-                "rson\"><Key><PropertyRef Name=\"AuxiliaryIndex1\" /><PropertyRef Name=\"AuxiliaryInd" +
-                "ex2\" /><PropertyRef Name=\"AuxiliaryIndex3\" /><PropertyRef Name=\"AuxiliaryIndex4\"" +
-                " /><PropertyRef Name=\"Document_No\" /><PropertyRef Name=\"Line_No\" /><PropertyRef " +
-                "Name=\"SalesPersonCode\" /></Key><Property Name=\"ItemNo\" Type=\"Edm.String\" /><Prop" +
-                "erty Name=\"ItemDescription\" Type=\"Edm.String\" /><Property Name=\"Document_No\" Typ" +
-                "e=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Amount\" Type=\"Edm.Decimal\" /><" +
-                "Property Name=\"Line_No\" Type=\"Edm.Int32\" Nullable=\"false\" /><Property Name=\"Post" +
-                "ing_Date\" Type=\"Edm.DateTime\" /><Property Name=\"CurrenyDescription\" Type=\"Edm.St" +
-                "ring\" /><Property Name=\"Currency_Code\" Type=\"Edm.String\" /><Property Name=\"Sales" +
-                "PersonCode\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"SalesPersonName" +
+            private const string ModelPart3 = "Property Name=\"Comment\" Type=\"Edm.Boolean\" /><Property Name=\"Balance\" Type=\"Edm.D" +
+                "ecimal\" /><Property Name=\"Balance_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Net_" +
+                "Change\" Type=\"Edm.Decimal\" /><Property Name=\"Net_Change_LCY\" Type=\"Edm.Decimal\" " +
+                "/><Property Name=\"Purchases_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Inv_Discou" +
+                "nts_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Pmt_Discounts_LCY\" Type=\"Edm.Decim" +
+                "al\" /><Property Name=\"Balance_Due\" Type=\"Edm.Decimal\" /><Property Name=\"Balance_" +
+                "Due_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Payments\" Type=\"Edm.Decimal\" /><Pr" +
+                "operty Name=\"Invoice_Amounts\" Type=\"Edm.Decimal\" /><Property Name=\"Cr_Memo_Amoun" +
+                "ts\" Type=\"Edm.Decimal\" /><Property Name=\"Finance_Charge_Memo_Amounts\" Type=\"Edm." +
+                "Decimal\" /><Property Name=\"Payments_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"In" +
+                "v_Amounts_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Cr_Memo_Amounts_LCY\" Type=\"E" +
+                "dm.Decimal\" /><Property Name=\"Fin_Charge_Memo_Amounts_LCY\" Type=\"Edm.Decimal\" />" +
+                "<Property Name=\"Outstanding_Orders\" Type=\"Edm.Decimal\" /><Property Name=\"Amt_Rcd" +
+                "_Not_Invoiced\" Type=\"Edm.Decimal\" /><Property Name=\"Debit_Amount\" Type=\"Edm.Deci" +
+                "mal\" /><Property Name=\"Credit_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Debit" +
+                "_Amount_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Credit_Amount_LCY\" Type=\"Edm.D" +
+                "ecimal\" /><Property Name=\"Reminder_Amounts\" Type=\"Edm.Decimal\" /><Property Name=" +
+                "\"Reminder_Amounts_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Orders_L" +
+                "CY\" Type=\"Edm.Decimal\" /><Property Name=\"Amt_Rcd_Not_Invoiced_LCY\" Type=\"Edm.Dec" +
+                "imal\" /><Property Name=\"Pmt_Disc_Tolerance_LCY\" Type=\"Edm.Decimal\" /><Property N" +
+                "ame=\"Pmt_Tolerance_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Refunds\" Type=\"Edm." +
+                "Decimal\" /><Property Name=\"Refunds_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Oth" +
+                "er_Amounts\" Type=\"Edm.Decimal\" /><Property Name=\"Other_Amounts_LCY\" Type=\"Edm.De" +
+                "cimal\" /><Property Name=\"Outstanding_Invoices\" Type=\"Edm.Decimal\" /><Property Na" +
+                "me=\"Outstanding_Invoices_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Pay_to_No_Of_" +
+                "Archived_Doc\" Type=\"Edm.Int32\" /><Property Name=\"Buy_from_No_Of_Archived_Doc\" Ty" +
+                "pe=\"Edm.Int32\" /><Property Name=\"No_of_Pstd_Receipts\" Type=\"Edm.Int32\" /><Proper" +
+                "ty Name=\"No_of_Pstd_Invoices\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Pstd_Retu" +
+                "rn_Shipments\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Pstd_Credit_Memos\" Type=\"" +
+                "Edm.Int32\" /><Property Name=\"Pay_to_No_of_Orders\" Type=\"Edm.Int32\" /><Property N" +
+                "ame=\"Pay_to_No_of_Invoices\" Type=\"Edm.Int32\" /><Property Name=\"Pay_to_No_of_Retu" +
+                "rn_Orders\" Type=\"Edm.Int32\" /><Property Name=\"Pay_to_No_of_Credit_Memos\" Type=\"E" +
+                "dm.Int32\" /><Property Name=\"Pay_to_No_of_Pstd_Receipts\" Type=\"Edm.Int32\" /><Prop" +
+                "erty Name=\"Pay_to_No_of_Pstd_Invoices\" Type=\"Edm.Int32\" /><Property Name=\"Pay_to" +
+                "_No_of_Pstd_Return_S\" Type=\"Edm.Int32\" /><Property Name=\"Pay_to_No_of_Pstd_Cr_Me" +
+                "mos\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Quotes\" Type=\"Edm.Int32\" /><Proper" +
+                "ty Name=\"No_of_Blanket_Orders\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Orders\" " +
+                "Type=\"Edm.Int32\" /><Property Name=\"No_of_Invoices\" Type=\"Edm.Int32\" /><Property " +
+                "Name=\"No_of_Return_Orders\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Credit_Memos" +
+                "\" Type=\"Edm.Int32\" /><Property Name=\"No_of_Order_Addresses\" Type=\"Edm.Int32\" /><" +
+                "Property Name=\"Pay_to_No_of_Quotes\" Type=\"Edm.Int32\" /><Property Name=\"Pay_to_No" +
+                "_of_Blanket_Orders\" Type=\"Edm.Int32\" /><Property Name=\"Balance_on_Date\" Type=\"Ed" +
+                "m.Decimal\" /><Property Name=\"Balance_on_Date_LCY\" Type=\"Edm.Decimal\" /><Property" +
+                " Name=\"Uncleared_Cheques\" Type=\"Edm.Decimal\" /><Property Name=\"ATM_Transactions\"" +
+                " Type=\"Edm.Decimal\" /><Property Name=\"Last_Transaction_Date\" Type=\"Edm.DateTime\"" +
+                " /><Property Name=\"Interest_Earned\" Type=\"Edm.Decimal\" /><Property Name=\"Untranf" +
+                "ered_Interest\" Type=\"Edm.Decimal\" /><Property Name=\"Current_Salary\" Type=\"Edm.De" +
+                "cimal\" /><Property Name=\"EFT_Transactions\" Type=\"Edm.Decimal\" /><Property Name=\"" +
+                "FOSA_Default_Dimension\" Type=\"Edm.Int32\" /><Property Name=\"Dividend_Paid\" Type=\"" +
+                "Edm.Decimal\" /><Property Name=\"Group_Loan_Balance\" Type=\"Edm.Decimal\" /><Propert" +
+                "y Name=\"Uncleared_Loans\" Type=\"Edm.Decimal\" /><Property Name=\"NetDis\" Type=\"Edm." +
+                "Decimal\" /></EntityType><EntityType Name=\"FosaProducts\"><Key><PropertyRef Name=\"" +
+                "Code\" /></Key><Property Name=\"Code\" Type=\"Edm.String\" Nullable=\"false\" /><Proper" +
+                "ty Name=\"Date_Entered\" Type=\"Edm.DateTime\" /><Property Name=\"Description\" Type=\"" +
+                "Edm.String\" /><Property Name=\"Dormancy_Period_M\" Type=\"Edm.String\" /><Property N" +
+                "ame=\"Entered_By\" Type=\"Edm.String\" /><Property Name=\"Last_Date_Modified\" Type=\"E" +
+                "dm.DateTime\" /><Property Name=\"Modified_By\" Type=\"Edm.String\" /><Property Name=\"" +
+                "Time_Entered\" Type=\"Edm.String\" /></EntityType><EntityType Name=\"ItemSalesAndPro" +
+                "fit\"><Key><PropertyRef Name=\"AuxiliaryIndex1\" /><PropertyRef Name=\"No\" /></Key><" +
+                "Property Name=\"No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Descript" +
+                "ion\" Type=\"Edm.String\" /><Property Name=\"Gen_Prod_Posting_Group\" Type=\"Edm.Strin" +
+                "g\" /><Property Name=\"Item_Disc_Group\" Type=\"Edm.String\" /><Property Name=\"Item_T" +
+                "racking_Code\" Type=\"Edm.String\" /><Property Name=\"Profit\" Type=\"Edm.Decimal\" /><" +
+                "Property Name=\"Scrap\" Type=\"Edm.Decimal\" /><Property Name=\"Sales_Unit_of_Measure" +
+                "\" Type=\"Edm.String\" /><Property Name=\"Standard_Cost\" Type=\"Edm.Decimal\" /><Prope" +
+                "rty Name=\"Unit_Cost\" Type=\"Edm.Decimal\" /><Property Name=\"Unit_Price\" Type=\"Edm." +
+                "Decimal\" /><Property Name=\"Unit_Volume\" Type=\"Edm.Decimal\" /><Property Name=\"Ven" +
+                "dor_No\" Type=\"Edm.String\" /><Property Name=\"Purch_Unit_of_Measure\" Type=\"Edm.Str" +
+                "ing\" /><Property Name=\"COGS_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Inventory\"" +
+                " Type=\"Edm.Decimal\" /><Property Name=\"Net_Change\" Type=\"Edm.Decimal\" /><Property" +
+                " Name=\"Net_Invoiced_Qty\" Type=\"Edm.Decimal\" /><Property Name=\"Purchases_LCY\" Typ" +
+                "e=\"Edm.Decimal\" /><Property Name=\"Purchases_Qty\" Type=\"Edm.Decimal\" /><Property " +
+                "Name=\"Sales_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Sales_Qty\" Type=\"Edm.Decim" +
+                "al\" /><Property Name=\"VendorName\" Type=\"Edm.String\" /><Property Name=\"AuxiliaryI" +
+                "ndex1\" Type=\"Edm.String\" Nullable=\"false\" /></EntityType><EntityType Name=\"ItemS" +
+                "alesByCustomer\"><Key><PropertyRef Name=\"AuxiliaryIndex1\" /><PropertyRef Name=\"Cu" +
+                "stomerNo\" /><PropertyRef Name=\"Entry_No\" /></Key><Property Name=\"Entry_No\" Type=" +
+                "\"Edm.Int32\" Nullable=\"false\" /><Property Name=\"Document_No\" Type=\"Edm.String\" />" +
+                "<Property Name=\"Posting_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Item_No\" Typ" +
+                "e=\"Edm.String\" /><Property Name=\"Item_Ledger_Entry_Quantity\" Type=\"Edm.Decimal\" " +
+                "/><Property Name=\"Dimension_Set_ID\" Type=\"Edm.Int32\" /><Property Name=\"CustomerN" +
+                "o\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Name\" Type=\"Edm.String\" " +
+                "/><Property Name=\"Description\" Type=\"Edm.String\" /><Property Name=\"Gen_Prod_Post" +
+                "ing_Group\" Type=\"Edm.String\" /><Property Name=\"AuxiliaryIndex1\" Type=\"Edm.String" +
+                "\" Nullable=\"false\" /></EntityType><EntityType Name=\"juniors\"><Key><PropertyRef N" +
+                "ame=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"false\" /><Prope" +
+                "rty Name=\"Name\" Type=\"Edm.String\" /><Property Name=\"Account_Category\" Type=\"Edm." +
+                "String\" /><Property Name=\"Parent_Membership_No\" Type=\"Edm.String\" /></EntityType" +
+                "><EntityType Name=\"KeensDetails\"><Key><PropertyRef Name=\"Account_No\" /><Property" +
+                "Ref Name=\"Name\" /></Key><Property Name=\"Name\" Type=\"Edm.String\" Nullable=\"false\"" +
+                " /><Property Name=\"Relationship\" Type=\"Edm.String\" /><Property Name=\"Beneficiary" +
+                "\" Type=\"Edm.Boolean\" /><Property Name=\"Date_of_Birth\" Type=\"Edm.DateTime\" /><Pro" +
+                "perty Name=\"Address\" Type=\"Edm.String\" /><Property Name=\"Telephone\" Type=\"Edm.St" +
+                "ring\" /><Property Name=\"Email\" Type=\"Edm.String\" /><Propert";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart4 = "y Name=\"Account_No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"ID_No\" T" +
+                "ype=\"Edm.String\" /><Property Name=\"Allocation\" Type=\"Edm.Decimal\" /></EntityType" +
+                "><EntityType Name=\"kinsdetail\"><Key><PropertyRef Name=\"Account_No\" /><PropertyRe" +
+                "f Name=\"Name\" /></Key><Property Name=\"Account_No\" Type=\"Edm.String\" Nullable=\"fa" +
+                "lse\" /><Property Name=\"Name\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name" +
+                "=\"Relationship\" Type=\"Edm.String\" /><Property Name=\"Beneficiary\" Type=\"Edm.Boole" +
+                "an\" /><Property Name=\"Date_of_Birth\" Type=\"Edm.DateTime\" /><Property Name=\"Addre" +
+                "ss\" Type=\"Edm.String\" /><Property Name=\"Telephone\" Type=\"Edm.String\" /><Property" +
+                " Name=\"Fax\" Type=\"Edm.String\" /><Property Name=\"Email\" Type=\"Edm.String\" /><Prop" +
+                "erty Name=\"ID_No\" Type=\"Edm.String\" /></EntityType><EntityType Name=\"LoansFinal\"" +
+                "><Key><PropertyRef Name=\"Loan_No\" /></Key><Property Name=\"Loan_No\" Type=\"Edm.Str" +
+                "ing\" Nullable=\"false\" /></EntityType><EntityType Name=\"LoansProductSetUp\"><Key><" +
+                "PropertyRef Name=\"Code\" /></Key><Property Name=\"Code\" Type=\"Edm.String\" Nullable" +
+                "=\"false\" /><Property Name=\"Product_Description\" Type=\"Edm.String\" /><Property Na" +
+                "me=\"Source_of_Financing\" Type=\"Edm.String\" /><Property Name=\"Interest_rate\" Type" +
+                "=\"Edm.Decimal\" /><Property Name=\"Interest_Calculation_Method\" Type=\"Edm.String\" " +
+                "/><Property Name=\"Insurance\" Type=\"Edm.Decimal\" /><Property Name=\"Grace_Period\" " +
+                "Type=\"Edm.String\" /><Property Name=\"Name_of_Source_of_Funding\" Type=\"Edm.String\"" +
+                " /><Property Name=\"Rounding\" Type=\"Edm.String\" /><Property Name=\"Rounding_Precis" +
+                "ion\" Type=\"Edm.Decimal\" /><Property Name=\"Loan_Appraisal\" Type=\"Edm.Decimal\" /><" +
+                "Property Name=\"No_of_Installment\" Type=\"Edm.Int32\" /><Property Name=\"Instalment_" +
+                "Period\" Type=\"Edm.String\" /><Property Name=\"Loan_to_Share_Ratio\" Type=\"Edm.Decim" +
+                "al\" /><Property Name=\"Penalty_Calculation_Days\" Type=\"Edm.String\" /><Property Na" +
+                "me=\"Penalty_Percentage\" Type=\"Edm.Decimal\" /><Property Name=\"Penalty_Calculation" +
+                "_Method\" Type=\"Edm.String\" /><Property Name=\"Penalty_Paid_Account\" Type=\"Edm.Str" +
+                "ing\" /><Property Name=\"Max_Loan_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Min" +
+                "_Loan_Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Recovery_Priority\" Type=\"Edm." +
+                "Int32\" /><Property Name=\"Repayment_Method\" Type=\"Edm.String\" /><Property Name=\"R" +
+                "epayment_Frequency\" Type=\"Edm.String\" /><Property Name=\"Source\" Type=\"Edm.String" +
+                "\" /><Property Name=\"Recovery_Mode\" Type=\"Edm.String\" /></EntityType><EntityType " +
+                "Name=\"LoansReg\"><Key><PropertyRef Name=\"Loan_No\" /></Key><Property Name=\"Loan_No" +
+                "\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Application_Date\" Type=\"E" +
+                "dm.DateTime\" /><Property Name=\"Loan_Product_Type\" Type=\"Edm.String\" /><Property " +
+                "Name=\"Client_Code\" Type=\"Edm.String\" /><Property Name=\"Group_Code\" Type=\"Edm.Str" +
+                "ing\" /><Property Name=\"Savings\" Type=\"Edm.Decimal\" /><Property Name=\"Approved_Am" +
+                "ount\" Type=\"Edm.Decimal\" /><Property Name=\"Interest\" Type=\"Edm.Decimal\" /><Prope" +
+                "rty Name=\"old_no\" Type=\"Edm.String\" /><Property Name=\"Approval_Status\" Type=\"Edm" +
+                ".String\" /><Property Name=\"Loan_Product_Type_Name\" Type=\"Edm.String\" /><Property" +
+                " Name=\"Client_Name\" Type=\"Edm.String\" /><Property Name=\"Requested_Amount\" Type=\"" +
+                "Edm.Decimal\" /><Property Name=\"Insurance\" Type=\"Edm.Decimal\" /><Property Name=\"I" +
+                "nstallments\" Type=\"Edm.Int32\" /><Property Name=\"Source\" Type=\"Edm.String\" /><Pro" +
+                "perty Name=\"Loan_Status\" Type=\"Edm.String\" /><Property Name=\"Repayment_Method\" T" +
+                "ype=\"Edm.String\" /><Property Name=\"LastPayDateImport\" Type=\"Edm.DateTime\" /><Pro" +
+                "perty Name=\"Total_Loans_Default\" Type=\"Edm.Decimal\" /><Property Name=\"Oustanding" +
+                "_Interest\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Balance\" Type=\"Edm.D" +
+                "ecimal\" /></EntityType><EntityType Name=\"MemberList\"><Key><PropertyRef Name=\"No\"" +
+                " /></Key><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name" +
+                "=\"Name\" Type=\"Edm.String\" /><Property Name=\"Address_2\" Type=\"Edm.String\" /><Prop" +
+                "erty Name=\"Phone_No\" Type=\"Edm.String\" /><Property Name=\"Payroll_Staff_No\" Type=" +
+                "\"Edm.String\" /><Property Name=\"Account_Category\" Type=\"Edm.String\" /><Property N" +
+                "ame=\"E_Mail_Personal\" Type=\"Edm.String\" /><Property Name=\"ID_No\" Type=\"Edm.Strin" +
+                "g\" /><Property Name=\"Bank_Account_No\" Type=\"Edm.String\" /><Property Name=\"E_Mail" +
+                "\" Type=\"Edm.String\" /><Property Name=\"Old_Account_No\" Type=\"Edm.String\" /><Prope" +
+                "rty Name=\"FOSA_Account_Bal\" Type=\"Edm.Decimal\" /><Property Name=\"Password\" Type=" +
+                "\"Edm.String\" /><Property Name=\"Personal_No\" Type=\"Edm.String\" /><Property Name=\"" +
+                "Monthly_Contribution\" Type=\"Edm.Decimal\" /><Property Name=\"Free_Shares\" Type=\"Ed" +
+                "m.Decimal\" /><Property Name=\"Shares_Retained\" Type=\"Edm.Decimal\" /><Property Nam" +
+                "e=\"Current_Shares\" Type=\"Edm.Decimal\" /><Property Name=\"Holiday_Savings\" Type=\"E" +
+                "dm.Decimal\" /><Property Name=\"Dividend_Amount\" Type=\"Edm.Decimal\" /><Property Na" +
+                "me=\"Outstanding_Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Intere" +
+                "st\" Type=\"Edm.Decimal\" /><Property Name=\"Current_Loan\" Type=\"Edm.Decimal\" /><Pro" +
+                "perty Name=\"Current_Savings\" Type=\"Edm.Decimal\" /><Property Name=\"Accrued_Intere" +
+                "st\" Type=\"Edm.Decimal\" /><Property Name=\"Total_Loans_Outstanding\" Type=\"Edm.Deci" +
+                "mal\" /></EntityType><EntityType Name=\"Members\"><Key><PropertyRef Name=\"No\" /></K" +
+                "ey><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"Name" +
+                "\" Type=\"Edm.String\" /><Property Name=\"Address_2\" Type=\"Edm.String\" /><Property N" +
+                "ame=\"Phone_No\" Type=\"Edm.String\" /><Property Name=\"Payroll_Staff_No\" Type=\"Edm.S" +
+                "tring\" /><Property Name=\"Account_Category\" Type=\"Edm.String\" /><Property Name=\"E" +
+                "_Mail_Personal\" Type=\"Edm.String\" /><Property Name=\"ID_No\" Type=\"Edm.String\" /><" +
+                "Property Name=\"Bank_Account_No\" Type=\"Edm.String\" /><Property Name=\"E_Mail\" Type" +
+                "=\"Edm.String\" /><Property Name=\"Old_Account_No\" Type=\"Edm.String\" /><Property Na" +
+                "me=\"FOSA_Account_Bal\" Type=\"Edm.Decimal\" /><Property Name=\"Password\" Type=\"Edm.S" +
+                "tring\" /><Property Name=\"Shares_Retained\" Type=\"Edm.Decimal\" /><Property Name=\"C" +
+                "urrent_Shares\" Type=\"Edm.Decimal\" /><Property Name=\"Un_allocated_Funds\" Type=\"Ed" +
+                "m.Decimal\" /><Property Name=\"Dividend_Amount\" Type=\"Edm.Decimal\" /><Property Nam" +
+                "e=\"Outstanding_Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Outstanding_Interes" +
+                "t\" Type=\"Edm.Decimal\" /></EntityType><EntityType Name=\"SalesDashboard\"><Key><Pro" +
+                "pertyRef Name=\"AuxiliaryIndex1\" /><PropertyRef Name=\"AuxiliaryIndex2\" /><Propert" +
+                "yRef Name=\"AuxiliaryIndex3\" /><PropertyRef Name=\"AuxiliaryIndex4\" /><PropertyRef" +
+                " Name=\"Entry_No\" /></Key><Property Name=\"Entry_No\" Type=\"Edm.Int32\" Nullable=\"fa" +
+                "lse\" /><Property Name=\"Document_No\" Type=\"Edm.String\" /><Property Name=\"Posting_" +
+                "Date\" Type=\"Edm.DateTime\" /><Property Name=\"Entry_Type\" Type=\"Edm.String\" /><Pro" +
+                "perty Name=\"Quantity\" Type=\"Edm.Decimal\" /><Property Name=\"Dimension_Set_ID\" Typ" +
+                "e=\"Edm.Int32\" /><Property Name=\"Sales_Amount_Actual\" Type=\"Edm.Decimal\" /><Prope" +
+                "rty Name=\"Sales_Amount_Expected\" Type=\"Edm.Decimal\" /><Property Name=\"Cost_Amoun" +
+                "t_Actual\" Type=\"Edm.Decimal\" /><Property Name=\"Cost_Amount_Expected\" Type=\"Edm.D" +
+                "ecimal\" /><Property Name=\"CountryRegionName\" Type=\"Edm.String\" /><Property Name=" +
+                "\"CustomerName\" Type=\"Edm.String\" /><Property Name=\"Customer_Posting_Group\" Type=" +
+                "\"Edm.String\" /><Property Name=\"Customer_Disc_Group\" Type=\"Edm.String\" /><Propert" +
+                "y Name=\"City\" Type=\"Edm.String\" /><Property Name=\"Description\" Type=\"Edm.String\"" +
+                " /><Property Name=\"SalesPersonName\" Type=\"Edm.String\" /><Property Name=\"Auxiliar" +
+                "yIndex1\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"AuxiliaryIndex2\" T" +
+                "ype=\"Edm.String\" Nullable=\"false\" /><Property Name=\"AuxiliaryIndex3\" Type=\"Edm.S" +
+                "tring\" Nullable=\"false\" /><Property Name=\"AuxiliaryIndex4\" ";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart5 = "Type=\"Edm.String\" Nullable=\"false\" /></EntityType><EntityType Name=\"SalesOpportun" +
+                "ities\"><Key><PropertyRef Name=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.String\"" +
+                " Nullable=\"false\" /><Property Name=\"Description\" Type=\"Edm.String\" /><Property N" +
+                "ame=\"Creation_Date\" Type=\"Edm.DateTime\" /><Property Name=\"Closed\" Type=\"Edm.Bool" +
+                "ean\" /><Property Name=\"Sales_Cycle_Code\" Type=\"Edm.String\" /><Property Name=\"Dat" +
+                "e_Closed\" Type=\"Edm.DateTime\" /><Property Name=\"Priority\" Type=\"Edm.String\" /><P" +
+                "roperty Name=\"Status\" Type=\"Edm.String\" /><Property Name=\"Calcd_Current_Value_LC" +
+                "Y\" Type=\"Edm.Decimal\" /><Property Name=\"Chances_of_Success\" Type=\"Edm.Decimal\" /" +
+                "><Property Name=\"Completed\" Type=\"Edm.Decimal\" /><Property Name=\"Contact_Name\" T" +
+                "ype=\"Edm.String\" /><Property Name=\"Estimated_Closing_Date\" Type=\"Edm.DateTime\" /" +
+                "><Property Name=\"Salesperson_Name\" Type=\"Edm.String\" /><Property Name=\"Estimated" +
+                "_Value_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"Contact_Company_Name\" Type=\"Edm" +
+                ".String\" /></EntityType><EntityType Name=\"SalesOrdersBySalesPerson\"><Key><Proper" +
+                "tyRef Name=\"AuxiliaryIndex1\" /><PropertyRef Name=\"AuxiliaryIndex2\" /><PropertyRe" +
+                "f Name=\"AuxiliaryIndex3\" /><PropertyRef Name=\"AuxiliaryIndex4\" /><PropertyRef Na" +
+                "me=\"Document_No\" /><PropertyRef Name=\"Line_No\" /><PropertyRef Name=\"SalesPersonC" +
+                "ode\" /></Key><Property Name=\"ItemNo\" Type=\"Edm.String\" /><Property Name=\"ItemDes" +
+                "cription\" Type=\"Edm.String\" /><Property Name=\"Document_No\" Type=\"Edm.String\" Nul" +
+                "lable=\"false\" /><Property Name=\"Amount\" Type=\"Edm.Decimal\" /><Property Name=\"Lin" +
+                "e_No\" Type=\"Edm.Int32\" Nullable=\"false\" /><Property Name=\"Dimension_Set_ID\" Type" +
+                "=\"Edm.Int32\" /><Property Name=\"Posting_Date\" Type=\"Edm.DateTime\" /><Property Nam" +
+                "e=\"CurrenyDescription\" Type=\"Edm.String\" /><Property Name=\"Currency_Code\" Type=\"" +
+                "Edm.String\" /><Property Name=\"SalesPersonCode\" Type=\"Edm.String\" Nullable=\"false" +
+                "\" /><Property Name=\"SalesPersonName\" Type=\"Edm.String\" /><Property Name=\"Auxilia" +
+                "ryIndex1\" Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"AuxiliaryIndex2\" " +
+                "Type=\"Edm.String\" Nullable=\"false\" /><Property Name=\"AuxiliaryIndex3\" Type=\"Edm." +
+                "String\" Nullable=\"false\" /><Property Name=\"AuxiliaryIndex4\" Type=\"Edm.String\" Nu" +
+                "llable=\"false\" /></EntityType><EntityType Name=\"SavingsAccounts\"><Key><PropertyR" +
+                "ef Name=\"No\" /></Key><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"false\" /><P" +
+                "roperty Name=\"Name\" Type=\"Edm.String\" /><Property Name=\"Account_Type\" Type=\"Edm." +
+                "String\" /><Property Name=\"Balance\" Type=\"Edm.Decimal\" /><Property Name=\"Credit_A" +
+                "mount\" Type=\"Edm.Decimal\" /><Property Name=\"Debit_Amount\" Type=\"Edm.Decimal\" /><" +
+                "/EntityType><EntityType Name=\"TopCustomerOverview\"><Key><PropertyRef Name=\"Auxil" +
+                "iaryIndex1\" /><PropertyRef Name=\"AuxiliaryIndex2\" /><PropertyRef Name=\"No\" /></K" +
+                "ey><Property Name=\"Name\" Type=\"Edm.String\" /><Property Name=\"No\" Type=\"Edm.Strin" +
+                "g\" Nullable=\"false\" /><Property Name=\"Country_Region_Code\" Type=\"Edm.String\" /><" +
+                "Property Name=\"City\" Type=\"Edm.String\" /><Property Name=\"Global_Dimension_1_Code" +
+                "\" Type=\"Edm.String\" /><Property Name=\"Global_Dimension_2_Code\" Type=\"Edm.String\"" +
+                " /><Property Name=\"Salesperson_Code\" Type=\"Edm.String\" /><Property Name=\"Sales_L" +
+                "CY\" Type=\"Edm.Decimal\" /><Property Name=\"Profit_LCY\" Type=\"Edm.Decimal\" /><Prope" +
+                "rty Name=\"SalesPersonName\" Type=\"Edm.String\" /><Property Name=\"CountryRegionName" +
                 "\" Type=\"Edm.String\" /><Property Name=\"AuxiliaryIndex1\" Type=\"Edm.String\" Nullabl" +
                 "e=\"false\" /><Property Name=\"AuxiliaryIndex2\" Type=\"Edm.String\" Nullable=\"false\" " +
-                "/><Property Name=\"AuxiliaryIndex3\" Type=\"Edm.String\" Nullable=\"false\" /><Propert" +
-                "y Name=\"AuxiliaryIndex4\" Type=\"Edm.String\" Nullable=\"false\" /></EntityType><Enti" +
-                "tyType Name=\"TopCustomerOverview\"><Key><PropertyRef Name=\"AuxiliaryIndex1\" /><Pr" +
-                "opertyRef Name=\"AuxiliaryIndex2\" /><PropertyRef Name=\"No\" /></Key><Property Name" +
-                "=\"Name\" Type=\"Edm.String\" /><Property Name=\"No\" Type=\"Edm.String\" Nullable=\"fals" +
-                "e\" /><Property Name=\"Country_Region_Code\" Type=\"Edm.String\" /><Property Name=\"Ci" +
-                "ty\" Type=\"Edm.String\" /><Property Name=\"Global_Dimension_1_Code\" Type=\"Edm.Strin" +
-                "g\" /><Property Name=\"Global_Dimension_2_Code\" Type=\"Edm.String\" /><Property Name" +
-                "=\"Salesperson_Code\" Type=\"Edm.String\" /><Property Name=\"Sales_LCY\" Type=\"Edm.Dec" +
-                "imal\" /><Property Name=\"Profit_LCY\" Type=\"Edm.Decimal\" /><Property Name=\"SalesPe" +
-                "rsonName\" Type=\"Edm.String\" /><Property Name=\"CountryRegionName\" Type=\"Edm.Strin" +
-                "g\" /><Property Name=\"AuxiliaryIndex1\" Type=\"Edm.String\" Nullable=\"false\" /><Prop" +
-                "erty Name=\"AuxiliaryIndex2\" Type=\"Edm.String\" Nullable=\"false\" /></EntityType><E" +
-                "ntityType Name=\"Company\"><Key><PropertyRef Name=\"Name\" /></Key><Property Name=\"N" +
-                "ame\" Type=\"Edm.String\" Nullable=\"false\" /><NavigationProperty Name=\"ACC_Schedule" +
-                "s\" Relationship=\"NAV.Company_ACC_Schedules\" ToRole=\"ACC_Schedules\" FromRole=\"Com" +
-                "pany\" /><NavigationProperty Name=\"COA\" Relationship=\"NAV.Company_COA\" ToRole=\"CO" +
-                "A\" FromRole=\"Company\" /><NavigationProperty Name=\"Loan_Products\" Relationship=\"N" +
-                "AV.Company_Loan_Products\" ToRole=\"Loan_Products\" FromRole=\"Company\" /><Navigatio" +
-                "nProperty Name=\"Members\" Relationship=\"NAV.Company_Members\" ToRole=\"Members\" Fro" +
-                "mRole=\"Company\" /><NavigationProperty Name=\"PBIAccount_Type";
+                "/></EntityType><EntityType Name=\"Company\"><Key><PropertyRef Name=\"Name\" /></Key>" +
+                "<Property Name=\"Name\" Type=\"Edm.String\" Nullable=\"false\" /><NavigationProperty N" +
+                "ame=\"powerbifinance\" Relationship=\"NAV.Company_powerbifinance\" ToRole=\"powerbifi" +
+                "nance\" FromRole=\"Company\" /><NavigationProperty Name=\"SalesOrder\" Relationship=\"" +
+                "NAV.Company_SalesOrder\" ToRole=\"SalesOrder\" FromRole=\"Company\" /><NavigationProp" +
+                "erty Name=\"SalesOrderSalesLines\" Relationship=\"NAV.Company_SalesOrderSalesLines\"" +
+                " ToRole=\"SalesOrderSalesLines\" FromRole=\"Company\" /><NavigationProperty Name=\"Ba" +
+                "nks_BI\" Relationship=\"NAV.Company_Banks_BI\" ToRole=\"Banks_BI\" FromRole=\"Company\"" +
+                " /><NavigationProperty Name=\"COA\" Relationship=\"NAV.Company_COA\" ToRole=\"COA\" Fr" +
+                "omRole=\"Company\" /><NavigationProperty Name=\"FosaAccounts\" Relationship=\"NAV.Com" +
+                "pany_FosaAccounts\" ToRole=\"FosaAccounts\" FromRole=\"Company\" /><NavigationPropert" +
+                "y Name=\"FosaProducts\" Relationship=\"NAV.Company_FosaProducts\" ToRole=\"FosaProduc" +
+                "ts\" FromRole=\"Company\" /><NavigationProperty Name=\"ItemSalesAndProfit\" Relations" +
+                "hip=\"NAV.Company_ItemSalesAndProfit\" ToRole=\"ItemSalesAndProfit\" FromRole=\"Compa" +
+                "ny\" /><NavigationProperty Name=\"ItemSalesByCustomer\" Relationship=\"NAV.Company_I" +
+                "temSalesByCustomer\" ToRole=\"ItemSalesByCustomer\" FromRole=\"Company\" /><Navigatio" +
+                "nProperty Name=\"juniors\" Relationship=\"NAV.Company_juniors\" ToRole=\"juniors\" Fro" +
+                "mRole=\"Company\" /><NavigationProperty Name=\"KeensDetails\" Relationship=\"NAV.Comp" +
+                "any_KeensDetails\" ToRole=\"KeensDetails\" FromRole=\"Company\" /><NavigationProperty" +
+                " Name=\"kinsdetail\" Relationship=\"NAV.Company_kinsdetail\" ToRole=\"kinsdetail\" Fro" +
+                "mRole=\"Company\" /><NavigationProperty Name=\"LoansFinal\" Relationship=\"NAV.Compan" +
+                "y_LoansFinal\" ToRole=\"LoansFinal\" FromRole=\"Company\" /><NavigationProperty Name=" +
+                "\"LoansProductSetUp\" Relationship=\"NAV.Company_LoansProductSetUp\" ToRole=\"LoansPr" +
+                "oductSetUp\" FromRole=\"Company\" /><NavigationProperty Name=\"LoansReg\" Relationshi" +
+                "p=\"NAV.Company_LoansReg\" ToRole=\"LoansReg\" FromRole=\"Company\" /><NavigationPrope" +
+                "rty Name=\"MemberList\" Relationship=\"NAV.Company_MemberList\" ToRole=\"MemberList\" " +
+                "FromRole=\"Company\" /><NavigationProperty Name=\"Members\" Relationship=\"NAV.Compan" +
+                "y_Members\" ToRole=\"Members\" FromRole=\"Company\" /><NavigationProperty Name=\"Sales" +
+                "Dashboard\" Relationship=\"NAV.Company_SalesDashboard\" ToRole=\"SalesDashboard\" Fro" +
+                "mRole=\"Company\" /><NavigationProperty Name=\"SalesOpportunities\" Relationship=\"NA" +
+                "V.Company_SalesOpportunities\" ToRole=\"SalesOpportunities\" FromRole=\"Company\" /><" +
+                "NavigationProperty Name=\"SalesOrdersBySalesPerson\" Relationship=\"NAV.Company_Sal" +
+                "esOrdersBySalesPerson\" ToRole=\"SalesOrdersBySalesPerson\" FromRole=\"Company\" /><N" +
+                "avigationProperty Name=\"SavingsAccounts\" Relationship=\"NAV.Company_SavingsAccoun" +
+                "ts\" ToRole=\"SavingsAccounts\" FromRole=\"Company\" /><NavigationProperty Name=\"TopC" +
+                "ustomerOverview\" Relationship=\"NAV.Company_TopCustomerOverview\" ToRole=\"TopCusto" +
+                "merOverview\" FromRole=\"Company\" /></EntityType><Association Name=\"SalesOrder_Sal" +
+                "esOrderSalesLines\"><End Type=\"NAV.SalesOrderSalesLines\" Role=\"SalesOrderSalesLin" +
+                "es\" Multiplicity=\"*\" /><End Type=\"NAV.SalesOrder\" Role=\"SalesOrder\" Multiplicity" +
+                "=\"*\" /></Association><Association Name=\"Company_powerbifinance\"><End Type=\"NAV.p" +
+                "owerbifinance\" Role=\"powerbifinance\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" " +
+                "Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Company_Sales" +
+                "Order\"><End Type=\"NAV.SalesOrder\" Role=\"SalesOrder\" Multiplicity=\"*\" /><End Type" +
+                "=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name" +
+                "=\"Company_SalesOrderSalesLines\"><End Type=\"NAV.SalesOrderSalesLines\" Role=\"Sales" +
+                "OrderSalesLines\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multi" +
+                "plicity=\"*\" /></Association><Association Name=\"Company_Banks_BI\"><End Type=\"NAV." +
+                "Company\" Role=\"Company\" Multiplicity=\"*\" /><End Type=\"NAV.Banks_BI\" Role=\"Banks_" +
+                "BI\" Multiplicity=\"*\" /></Association><Association Name=\"Company_COA\"><End Type=\"" +
+                "NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /><End Type=\"NAV.COA\" Role=\"COA\" Mu" +
+                "ltiplicity=\"*\" /></Association><Association Name=\"Company_F";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart8 = "s\" Relationship=\"NAV.Company_PBIAccount_Types\" ToRole=\"PBIAccount_Types\" FromRole" +
-                "=\"Company\" /><NavigationProperty Name=\"PBIBankLedgerxz\" Relationship=\"NAV.Compan" +
-                "y_PBIBankLedgerxz\" ToRole=\"PBIBankLedgerxz\" FromRole=\"Company\" /><NavigationProp" +
-                "erty Name=\"PBILoan_Register\" Relationship=\"NAV.Company_PBILoan_Register\" ToRole=" +
-                "\"PBILoan_Register\" FromRole=\"Company\" /><NavigationProperty Name=\"PBIMembers\" Re" +
-                "lationship=\"NAV.Company_PBIMembers\" ToRole=\"PBIMembers\" FromRole=\"Company\" /><Na" +
-                "vigationProperty Name=\"powerbifinance\" Relationship=\"NAV.Company_powerbifinance\"" +
-                " ToRole=\"powerbifinance\" FromRole=\"Company\" /><NavigationProperty Name=\"SalesOrd" +
-                "er\" Relationship=\"NAV.Company_SalesOrder\" ToRole=\"SalesOrder\" FromRole=\"Company\"" +
-                " /><NavigationProperty Name=\"SalesOrderSalesLines\" Relationship=\"NAV.Company_Sal" +
-                "esOrderSalesLines\" ToRole=\"SalesOrderSalesLines\" FromRole=\"Company\" /><Navigatio" +
-                "nProperty Name=\"bankdetails\" Relationship=\"NAV.Company_bankdetails\" ToRole=\"bank" +
-                "details\" FromRole=\"Company\" /><NavigationProperty Name=\"FosaAccounts\" Relationsh" +
-                "ip=\"NAV.Company_FosaAccounts\" ToRole=\"FosaAccounts\" FromRole=\"Company\" /><Naviga" +
-                "tionProperty Name=\"ItemSalesAndProfit\" Relationship=\"NAV.Company_ItemSalesAndPro" +
-                "fit\" ToRole=\"ItemSalesAndProfit\" FromRole=\"Company\" /><NavigationProperty Name=\"" +
-                "ItemSalesByCustomer\" Relationship=\"NAV.Company_ItemSalesByCustomer\" ToRole=\"Item" +
-                "SalesByCustomer\" FromRole=\"Company\" /><NavigationProperty Name=\"KeensDetails\" Re" +
-                "lationship=\"NAV.Company_KeensDetails\" ToRole=\"KeensDetails\" FromRole=\"Company\" /" +
-                "><NavigationProperty Name=\"kinsdetail\" Relationship=\"NAV.Company_kinsdetail\" ToR" +
-                "ole=\"kinsdetail\" FromRole=\"Company\" /><NavigationProperty Name=\"LoansReg\" Relati" +
-                "onship=\"NAV.Company_LoansReg\" ToRole=\"LoansReg\" FromRole=\"Company\" /><Navigation" +
-                "Property Name=\"MemberList\" Relationship=\"NAV.Company_MemberList\" ToRole=\"MemberL" +
-                "ist\" FromRole=\"Company\" /><NavigationProperty Name=\"ministatement\" Relationship=" +
-                "\"NAV.Company_ministatement\" ToRole=\"ministatement\" FromRole=\"Company\" /><Navigat" +
-                "ionProperty Name=\"PBIATMTransactions\" Relationship=\"NAV.Company_PBIATMTransactio" +
-                "ns\" ToRole=\"PBIATMTransactions\" FromRole=\"Company\" /><NavigationProperty Name=\"P" +
-                "BICASHIERTransactions\" Relationship=\"NAV.Company_PBICASHIERTransactions\" ToRole=" +
-                "\"PBICASHIERTransactions\" FromRole=\"Company\" /><NavigationProperty Name=\"PBIVendo" +
-                "rs\" Relationship=\"NAV.Company_PBIVendors\" ToRole=\"PBIVendors\" FromRole=\"Company\"" +
-                " /><NavigationProperty Name=\"SalesDashboard\" Relationship=\"NAV.Company_SalesDash" +
-                "board\" ToRole=\"SalesDashboard\" FromRole=\"Company\" /><NavigationProperty Name=\"Sa" +
-                "lesOpportunities\" Relationship=\"NAV.Company_SalesOpportunities\" ToRole=\"SalesOpp" +
-                "ortunities\" FromRole=\"Company\" /><NavigationProperty Name=\"SalesOrdersBySalesPer" +
-                "son\" Relationship=\"NAV.Company_SalesOrdersBySalesPerson\" ToRole=\"SalesOrdersBySa" +
-                "lesPerson\" FromRole=\"Company\" /><NavigationProperty Name=\"TopCustomerOverview\" R" +
-                "elationship=\"NAV.Company_TopCustomerOverview\" ToRole=\"TopCustomerOverview\" FromR" +
-                "ole=\"Company\" /></EntityType><Association Name=\"PBILoan_Register_Loan_Product_Ty" +
-                "pe_Link\"><End Type=\"NAV.PBILoan_Register\" Role=\"PBILoan_Register\" Multiplicity=\"" +
-                "*\" /><End Type=\"NAV.Loan_Products\" Role=\"Loan_Product_Type_Link\" Multiplicity=\"0" +
-                "..1\" /></Association><Association Name=\"SalesOrder_SalesOrderSalesLines\"><End Ty" +
-                "pe=\"NAV.SalesOrderSalesLines\" Role=\"SalesOrderSalesLines\" Multiplicity=\"*\" /><En" +
-                "d Type=\"NAV.SalesOrder\" Role=\"SalesOrder\" Multiplicity=\"*\" /></Association><Asso" +
-                "ciation Name=\"Company_ACC_Schedules\"><End Type=\"NAV.Company\" Role=\"Company\" Mult" +
-                "iplicity=\"*\" /><End Type=\"NAV.ACC_Schedules\" Role=\"ACC_Schedules\" Multiplicity=\"" +
-                "*\" /></Association><Association Name=\"Company_COA\"><End Type=\"NAV.Company\" Role=" +
-                "\"Company\" Multiplicity=\"*\" /><End Type=\"NAV.COA\" Role=\"COA\" Multiplicity=\"*\" /><" +
-                "/Association><Association Name=\"Company_Loan_Products\"><End Type=\"NAV.Loan_Produ" +
-                "cts\" Role=\"Loan_Products\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Compa" +
-                "ny\" Multiplicity=\"*\" /></Association><Association Name=\"Company_Members\"><End Ty" +
-                "pe=\"NAV.Members\" Role=\"Members\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=" +
-                "\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Company_PBIAccount" +
-                "_Types\"><End Type=\"NAV.PBIAccount_Types\" Role=\"PBIAccount_Types\" Multiplicity=\"*" +
-                "\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Ass" +
-                "ociation Name=\"Company_PBIBankLedgerxz\"><End Type=\"NAV.PBIBankLedgerxz\" Role=\"PB" +
-                "IBankLedgerxz\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multipl" +
-                "icity=\"*\" /></Association><Association Name=\"Company_PBILoan_Register\"><End Type" +
-                "=\"NAV.PBILoan_Register\" Role=\"PBILoan_Register\" Multiplicity=\"*\" /><End Type=\"NA" +
-                "V.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Co" +
-                "mpany_PBIMembers\"><End Type=\"NAV.PBIMembers\" Role=\"PBIMembers\" Multiplicity=\"*\" " +
-                "/><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Assoc" +
-                "iation Name=\"Company_powerbifinance\"><End Type=\"NAV.powerbifinance\" Role=\"powerb" +
-                "ifinance\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity" +
-                "=\"*\" /></Association><Association Name=\"Company_SalesOrder\"><End Type=\"NAV.Sales" +
-                "Order\" Role=\"SalesOrder\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Compan" +
-                "y\" Multiplicity=\"*\" /></Association><Association Name=\"Company_SalesOrderSalesLi" +
-                "nes\"><End Type=\"NAV.SalesOrderSalesLines\" Role=\"SalesOrderSalesLines\" Multiplici" +
-                "ty=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association" +
-                "><Association Name=\"Company_bankdetails\"><End Type=\"NAV.bankdetails\" Role=\"bankd" +
-                "etails\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"" +
-                "*\" /></Association><Association Name=\"Company_FosaAccounts\"><End Type=\"NAV.FosaA" +
-                "ccounts\" Role=\"FosaAccounts\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Co" +
-                "mpany\" Multiplicity=\"*\" /></Association><Association Name=\"Company_ItemSalesAndP" +
-                "rofit\"><End Type=\"NAV.ItemSalesAndProfit\" Role=\"ItemSalesAndProfit\" Multiplicity" +
-                "=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><" +
-                "Association Name=\"Company_ItemSalesByCustomer\"><End Type=\"NAV.ItemSalesByCustome" +
-                "r\" Role=\"ItemSalesByCustomer\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"C" +
-                "ompany\" Multiplicity=\"*\" /></Association><Association Name=\"Company_KeensDetails" +
-                "\"><End Type=\"NAV.KeensDetails\" Role=\"KeensDetails\" Multiplicity=\"*\" /><End Type=" +
-                "\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=" +
-                "\"Company_kinsdetail\"><End Type=\"NAV.kinsdetail\" Role=\"kinsdetail\" Multiplicity=\"" +
-                "*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><As" +
-                "sociation Name=\"Company_LoansReg\"><End Type=\"NAV.LoansReg\" Role=\"LoansReg\" Multi" +
-                "plicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Associ" +
-                "ation><Association Name=\"Company_MemberList\"><End Type=\"NAV.MemberList\" Role=\"Me" +
-                "mberList\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity" +
-                "=\"*\" /></Association><Association Name=\"Company_ministatement\"><End Type=\"NAV.mi" +
-                "nistatement\" Role=\"ministatement\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Rol" +
-                "e=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Company_PBIATMTr" +
-                "ansactions\"><End Type=\"NAV.PBIATMTransactions\" Role=\"PBIATMTransactions\" Multipl" +
+            private const string ModelPart6 = "osaAccounts\"><End Type=\"NAV.FosaAccounts\" Role=\"FosaAccounts\" Multiplicity=\"*\" />" +
+                "<End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Associa" +
+                "tion Name=\"Company_FosaProducts\"><End Type=\"NAV.FosaProducts\" Role=\"FosaProducts" +
+                "\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /><" +
+                "/Association><Association Name=\"Company_ItemSalesAndProfit\"><End Type=\"NAV.ItemS" +
+                "alesAndProfit\" Role=\"ItemSalesAndProfit\" Multiplicity=\"*\" /><End Type=\"NAV.Compa" +
+                "ny\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Company_I" +
+                "temSalesByCustomer\"><End Type=\"NAV.ItemSalesByCustomer\" Role=\"ItemSalesByCustome" +
+                "r\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" />" +
+                "</Association><Association Name=\"Company_juniors\"><End Type=\"NAV.juniors\" Role=\"" +
+                "juniors\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=" +
+                "\"*\" /></Association><Association Name=\"Company_KeensDetails\"><End Type=\"NAV.Keen" +
+                "sDetails\" Role=\"KeensDetails\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"C" +
+                "ompany\" Multiplicity=\"*\" /></Association><Association Name=\"Company_kinsdetail\">" +
+                "<End Type=\"NAV.kinsdetail\" Role=\"kinsdetail\" Multiplicity=\"*\" /><End Type=\"NAV.C" +
+                "ompany\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Compa" +
+                "ny_LoansFinal\"><End Type=\"NAV.LoansFinal\" Role=\"LoansFinal\" Multiplicity=\"*\" /><" +
+                "End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Associat" +
+                "ion Name=\"Company_LoansProductSetUp\"><End Type=\"NAV.LoansProductSetUp\" Role=\"Loa" +
+                "nsProductSetUp\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multip" +
+                "licity=\"*\" /></Association><Association Name=\"Company_LoansReg\"><End Type=\"NAV.L" +
+                "oansReg\" Role=\"LoansReg\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Compan" +
+                "y\" Multiplicity=\"*\" /></Association><Association Name=\"Company_MemberList\"><End " +
+                "Type=\"NAV.MemberList\" Role=\"MemberList\" Multiplicity=\"*\" /><End Type=\"NAV.Compan" +
+                "y\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Company_Me" +
+                "mbers\"><End Type=\"NAV.Members\" Role=\"Members\" Multiplicity=\"*\" /><End Type=\"NAV." +
+                "Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Comp" +
+                "any_SalesDashboard\"><End Type=\"NAV.SalesDashboard\" Role=\"SalesDashboard\" Multipl" +
                 "icity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Associat" +
-                "ion><Association Name=\"Company_PBICASHIERTransactions\"><End Type=\"NAV.PBICASHIER" +
-                "Transactions\" Role=\"PBICASHIERTransactions\" Multiplicity=\"*\" /><End Type=\"NAV.Co" +
-                "mpany\" Role=\"Company\" Multiplicity=\"*\" /></Association><Ass";
+                "ion><Association Name=\"Company_SalesOpportunities\"><End Type=\"NAV.SalesOpportuni" +
+                "ties\" Role=\"SalesOpportunities\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=" +
+                "\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Company_SalesOrder" +
+                "sBySalesPerson\"><End Type=\"NAV.SalesOrdersBySalesPerson\" Role=\"SalesOrdersBySale" +
+                "sPerson\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=" +
+                "\"*\" /></Association><Association Name=\"Company_SavingsAccounts\"><End Type=\"NAV.S" +
+                "avingsAccounts\" Role=\"SavingsAccounts\" Multiplicity=\"*\" /><End Type=\"NAV.Company" +
+                "\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Company_Top" +
+                "CustomerOverview\"><End Type=\"NAV.TopCustomerOverview\" Role=\"TopCustomerOverview\"" +
+                " Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></" +
+                "Association><EntityContainer Name=\"NAV\" m:IsDefaultEntityContainer=\"true\"><Entit" +
+                "ySet Name=\"powerbifinance\" EntityType=\"NAV.powerbifinance\" /><EntitySet Name=\"Sa" +
+                "lesOrder\" EntityType=\"NAV.SalesOrder\" /><EntitySet Name=\"SalesOrderSalesLines\" E" +
+                "ntityType=\"NAV.SalesOrderSalesLines\" /><EntitySet Name=\"Banks_BI\" EntityType=\"NA" +
+                "V.Banks_BI\" /><EntitySet Name=\"COA\" EntityType=\"NAV.COA\" /><EntitySet Name=\"Fosa" +
+                "Accounts\" EntityType=\"NAV.FosaAccounts\" /><EntitySet Name=\"FosaProducts\" EntityT" +
+                "ype=\"NAV.FosaProducts\" /><EntitySet Name=\"ItemSalesAndProfit\" EntityType=\"NAV.It" +
+                "emSalesAndProfit\" /><EntitySet Name=\"ItemSalesByCustomer\" EntityType=\"NAV.ItemSa" +
+                "lesByCustomer\" /><EntitySet Name=\"juniors\" EntityType=\"NAV.juniors\" /><EntitySet" +
+                " Name=\"KeensDetails\" EntityType=\"NAV.KeensDetails\" /><EntitySet Name=\"kinsdetail" +
+                "\" EntityType=\"NAV.kinsdetail\" /><EntitySet Name=\"LoansFinal\" EntityType=\"NAV.Loa" +
+                "nsFinal\" /><EntitySet Name=\"LoansProductSetUp\" EntityType=\"NAV.LoansProductSetUp" +
+                "\" /><EntitySet Name=\"LoansReg\" EntityType=\"NAV.LoansReg\" /><EntitySet Name=\"Memb" +
+                "erList\" EntityType=\"NAV.MemberList\" /><EntitySet Name=\"Members\" EntityType=\"NAV." +
+                "Members\" /><EntitySet Name=\"SalesDashboard\" EntityType=\"NAV.SalesDashboard\" /><E" +
+                "ntitySet Name=\"SalesOpportunities\" EntityType=\"NAV.SalesOpportunities\" /><Entity" +
+                "Set Name=\"SalesOrdersBySalesPerson\" EntityType=\"NAV.SalesOrdersBySalesPerson\" />" +
+                "<EntitySet Name=\"SavingsAccounts\" EntityType=\"NAV.SavingsAccounts\" /><EntitySet " +
+                "Name=\"TopCustomerOverview\" EntityType=\"NAV.TopCustomerOverview\" /><EntitySet Nam" +
+                "e=\"Company\" EntityType=\"NAV.Company\" /><AssociationSet Name=\"SalesOrder_SalesOrd" +
+                "erSalesLines_SalesOrderSalesLines\" Association=\"NAV.SalesOrder_SalesOrderSalesLi" +
+                "nes\"><End Role=\"SalesOrder\" EntitySet=\"SalesOrder\" /><End Role=\"SalesOrderSalesL" +
+                "ines\" EntitySet=\"SalesOrderSalesLines\" /></AssociationSet><AssociationSet Name=\"" +
+                "Company_powerbifinance_powerbifinance\" Association=\"NAV.Company_powerbifinance\">" +
+                "<End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"powerbifinance\" EntitySet=\"" +
+                "powerbifinance\" /></AssociationSet><AssociationSet Name=\"Company_SalesOrder_Sale" +
+                "sOrder\" Association=\"NAV.Company_SalesOrder\"><End Role=\"Company\" EntitySet=\"Comp" +
+                "any\" /><End Role=\"SalesOrder\" EntitySet=\"SalesOrder\" /></AssociationSet><Associa" +
+                "tionSet Name=\"Company_SalesOrderSalesLines_SalesOrderSalesLines\" Association=\"NA" +
+                "V.Company_SalesOrderSalesLines\"><End Role=\"Company\" EntitySet=\"Company\" /><End R" +
+                "ole=\"SalesOrderSalesLines\" EntitySet=\"SalesOrderSalesLines\" /></AssociationSet><" +
+                "AssociationSet Name=\"Company_Banks_BI_Banks_BI\" Association=\"NAV.Company_Banks_B" +
+                "I\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"Banks_BI\" EntitySet=\"Ban" +
+                "ks_BI\" /></AssociationSet><AssociationSet Name=\"Company_COA_COA\" Association=\"NA" +
+                "V.Company_COA\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"COA\" EntityS" +
+                "et=\"COA\" /></AssociationSet><AssociationSet Name=\"Company_FosaAccounts_FosaAccou" +
+                "nts\" Association=\"NAV.Company_FosaAccounts\"><End Role=\"Company\" EntitySet=\"Compa" +
+                "ny\" /><End Role=\"FosaAccounts\" EntitySet=\"FosaAccounts\" /></AssociationSet><Asso" +
+                "ciationSet Name=\"Company_FosaProducts_FosaProducts\" Association=\"NAV.Company_Fos" +
+                "aProducts\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"FosaProducts\" En" +
+                "titySet=\"FosaProducts\" /></AssociationSet><AssociationSet Name=\"Company_ItemSale" +
+                "sAndProfit_ItemSalesAndProfit\" Association=\"NAV.Company_ItemSalesAndProfit\"><End" +
+                " Role=\"Company\" EntitySet=\"Company\" /><End Role=\"ItemSalesAndProfit\" EntitySet=\"" +
+                "ItemSalesAndProfit\" /></AssociationSet><AssociationSet Name=\"Company_ItemSalesBy" +
+                "Customer_ItemSalesByCustomer\" Association=\"NAV.Company_ItemSalesByCustomer\"><End" +
+                " Role=\"Company\" EntitySet=\"Company\" /><End Role=\"ItemSalesByCustomer\" EntitySet=" +
+                "\"ItemSalesByCustomer\" /></AssociationSet><AssociationSet Name=\"Company_juniors_j" +
+                "uniors\" Association=\"NAV.Company_juniors\"><End Role=\"Company\" EntitySet=\"Company" +
+                "\" /><End Role=\"juniors\" EntitySet=\"juniors\" /></AssociationSet><AssociationSet N" +
+                "ame=\"Company_KeensDetails_KeensDetails\" Association=\"NAV.Company_KeensDetails\"><" +
+                "End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"KeensDetails\" EntitySet=\"Kee" +
+                "nsDetails\" /></AssociationSet><AssociationSet Name=\"Company_kinsdetail_kinsdetai" +
+                "l\" Association=\"NAV.Company_kinsdetail\"><End Role=\"Company\" EntitySet=\"Company\" " +
+                "/><End Role=\"kinsdetail\" EntitySet=\"kinsdetail\" /></AssociationSet><AssociationS" +
+                "et Name=\"Company_LoansFinal_LoansFinal\" Association=\"NAV.Co";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart9 = "ociation Name=\"Company_PBIVendors\"><End Type=\"NAV.PBIVendors\" Role=\"PBIVendors\" M" +
-                "ultiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></As" +
-                "sociation><Association Name=\"Company_SalesDashboard\"><End Type=\"NAV.SalesDashboa" +
-                "rd\" Role=\"SalesDashboard\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Compa" +
-                "ny\" Multiplicity=\"*\" /></Association><Association Name=\"Company_SalesOpportuniti" +
-                "es\"><End Type=\"NAV.SalesOpportunities\" Role=\"SalesOpportunities\" Multiplicity=\"*" +
-                "\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /></Association><Ass" +
-                "ociation Name=\"Company_SalesOrdersBySalesPerson\"><End Type=\"NAV.SalesOrdersBySal" +
-                "esPerson\" Role=\"SalesOrdersBySalesPerson\" Multiplicity=\"*\" /><End Type=\"NAV.Comp" +
-                "any\" Role=\"Company\" Multiplicity=\"*\" /></Association><Association Name=\"Company_" +
-                "TopCustomerOverview\"><End Type=\"NAV.TopCustomerOverview\" Role=\"TopCustomerOvervi" +
-                "ew\" Multiplicity=\"*\" /><End Type=\"NAV.Company\" Role=\"Company\" Multiplicity=\"*\" /" +
-                "></Association><EntityContainer Name=\"NAV\" m:IsDefaultEntityContainer=\"true\"><En" +
-                "titySet Name=\"ACC_Schedules\" EntityType=\"NAV.ACC_Schedules\" /><EntitySet Name=\"C" +
-                "OA\" EntityType=\"NAV.COA\" /><EntitySet Name=\"Loan_Products\" EntityType=\"NAV.Loan_" +
-                "Products\" /><EntitySet Name=\"Members\" EntityType=\"NAV.Members\" /><EntitySet Name" +
-                "=\"PBIAccount_Types\" EntityType=\"NAV.PBIAccount_Types\" /><EntitySet Name=\"PBIBank" +
-                "Ledgerxz\" EntityType=\"NAV.PBIBankLedgerxz\" /><EntitySet Name=\"PBILoan_Register\" " +
-                "EntityType=\"NAV.PBILoan_Register\" /><EntitySet Name=\"PBIMembers\" EntityType=\"NAV" +
-                ".PBIMembers\" /><EntitySet Name=\"powerbifinance\" EntityType=\"NAV.powerbifinance\" " +
-                "/><EntitySet Name=\"SalesOrder\" EntityType=\"NAV.SalesOrder\" /><EntitySet Name=\"Sa" +
-                "lesOrderSalesLines\" EntityType=\"NAV.SalesOrderSalesLines\" /><EntitySet Name=\"ban" +
-                "kdetails\" EntityType=\"NAV.bankdetails\" /><EntitySet Name=\"FosaAccounts\" EntityTy" +
-                "pe=\"NAV.FosaAccounts\" /><EntitySet Name=\"ItemSalesAndProfit\" EntityType=\"NAV.Ite" +
-                "mSalesAndProfit\" /><EntitySet Name=\"ItemSalesByCustomer\" EntityType=\"NAV.ItemSal" +
-                "esByCustomer\" /><EntitySet Name=\"KeensDetails\" EntityType=\"NAV.KeensDetails\" /><" +
-                "EntitySet Name=\"kinsdetail\" EntityType=\"NAV.kinsdetail\" /><EntitySet Name=\"Loans" +
-                "Reg\" EntityType=\"NAV.LoansReg\" /><EntitySet Name=\"MemberList\" EntityType=\"NAV.Me" +
-                "mberList\" /><EntitySet Name=\"ministatement\" EntityType=\"NAV.ministatement\" /><En" +
-                "titySet Name=\"PBIATMTransactions\" EntityType=\"NAV.PBIATMTransactions\" /><EntityS" +
-                "et Name=\"PBICASHIERTransactions\" EntityType=\"NAV.PBICASHIERTransactions\" /><Enti" +
-                "tySet Name=\"PBIVendors\" EntityType=\"NAV.PBIVendors\" /><EntitySet Name=\"SalesDash" +
-                "board\" EntityType=\"NAV.SalesDashboard\" /><EntitySet Name=\"SalesOpportunities\" En" +
-                "tityType=\"NAV.SalesOpportunities\" /><EntitySet Name=\"SalesOrdersBySalesPerson\" E" +
-                "ntityType=\"NAV.SalesOrdersBySalesPerson\" /><EntitySet Name=\"TopCustomerOverview\"" +
-                " EntityType=\"NAV.TopCustomerOverview\" /><EntitySet Name=\"Company\" EntityType=\"NA" +
-                "V.Company\" /><AssociationSet Name=\"PBILoan_Register_Loan_Product_Type_Link_Loan_" +
-                "Products\" Association=\"NAV.PBILoan_Register_Loan_Product_Type_Link\"><End Role=\"P" +
-                "BILoan_Register\" EntitySet=\"PBILoan_Register\" /><End Role=\"Loan_Product_Type_Lin" +
-                "k\" EntitySet=\"Loan_Products\" /></AssociationSet><AssociationSet Name=\"SalesOrder" +
-                "_SalesOrderSalesLines_SalesOrderSalesLines\" Association=\"NAV.SalesOrder_SalesOrd" +
-                "erSalesLines\"><End Role=\"SalesOrder\" EntitySet=\"SalesOrder\" /><End Role=\"SalesOr" +
-                "derSalesLines\" EntitySet=\"SalesOrderSalesLines\" /></AssociationSet><AssociationS" +
-                "et Name=\"Company_ACC_Schedules_ACC_Schedules\" Association=\"NAV.Company_ACC_Sched" +
-                "ules\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"ACC_Schedules\" Entity" +
-                "Set=\"ACC_Schedules\" /></AssociationSet><AssociationSet Name=\"Company_COA_COA\" As" +
-                "sociation=\"NAV.Company_COA\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=" +
-                "\"COA\" EntitySet=\"COA\" /></AssociationSet><AssociationSet Name=\"Company_Loan_Prod" +
-                "ucts_Loan_Products\" Association=\"NAV.Company_Loan_Products\"><End Role=\"Company\" " +
-                "EntitySet=\"Company\" /><End Role=\"Loan_Products\" EntitySet=\"Loan_Products\" /></As" +
-                "sociationSet><AssociationSet Name=\"Company_Members_Members\" Association=\"NAV.Com" +
-                "pany_Members\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"Members\" Enti" +
-                "tySet=\"Members\" /></AssociationSet><AssociationSet Name=\"Company_PBIAccount_Type" +
-                "s_PBIAccount_Types\" Association=\"NAV.Company_PBIAccount_Types\"><End Role=\"Compan" +
-                "y\" EntitySet=\"Company\" /><End Role=\"PBIAccount_Types\" EntitySet=\"PBIAccount_Type" +
-                "s\" /></AssociationSet><AssociationSet Name=\"Company_PBIBankLedgerxz_PBIBankLedge" +
-                "rxz\" Association=\"NAV.Company_PBIBankLedgerxz\"><End Role=\"Company\" EntitySet=\"Co" +
-                "mpany\" /><End Role=\"PBIBankLedgerxz\" EntitySet=\"PBIBankLedgerxz\" /></Association" +
-                "Set><AssociationSet Name=\"Company_PBILoan_Register_PBILoan_Register\" Association" +
-                "=\"NAV.Company_PBILoan_Register\"><End Role=\"Company\" EntitySet=\"Company\" /><End R" +
-                "ole=\"PBILoan_Register\" EntitySet=\"PBILoan_Register\" /></AssociationSet><Associat" +
-                "ionSet Name=\"Company_PBIMembers_PBIMembers\" Association=\"NAV.Company_PBIMembers\"" +
-                "><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"PBIMembers\" EntitySet=\"PBI" +
-                "Members\" /></AssociationSet><AssociationSet Name=\"Company_powerbifinance_powerbi" +
-                "finance\" Association=\"NAV.Company_powerbifinance\"><End Role=\"Company\" EntitySet=" +
-                "\"Company\" /><End Role=\"powerbifinance\" EntitySet=\"powerbifinance\" /></Associatio" +
-                "nSet><AssociationSet Name=\"Company_SalesOrder_SalesOrder\" Association=\"NAV.Compa" +
-                "ny_SalesOrder\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"SalesOrder\" " +
-                "EntitySet=\"SalesOrder\" /></AssociationSet><AssociationSet Name=\"Company_SalesOrd" +
-                "erSalesLines_SalesOrderSalesLines\" Association=\"NAV.Company_SalesOrderSalesLines" +
-                "\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"SalesOrderSalesLines\" Ent" +
-                "itySet=\"SalesOrderSalesLines\" /></AssociationSet><AssociationSet Name=\"Company_b" +
-                "ankdetails_bankdetails\" Association=\"NAV.Company_bankdetails\"><End Role=\"Company" +
-                "\" EntitySet=\"Company\" /><End Role=\"bankdetails\" EntitySet=\"bankdetails\" /></Asso" +
-                "ciationSet><AssociationSet Name=\"Company_FosaAccounts_FosaAccounts\" Association=" +
-                "\"NAV.Company_FosaAccounts\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"" +
-                "FosaAccounts\" EntitySet=\"FosaAccounts\" /></AssociationSet><AssociationSet Name=\"" +
-                "Company_ItemSalesAndProfit_ItemSalesAndProfit\" Association=\"NAV.Company_ItemSale" +
-                "sAndProfit\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"ItemSalesAndPro" +
-                "fit\" EntitySet=\"ItemSalesAndProfit\" /></AssociationSet><AssociationSet Name=\"Com" +
-                "pany_ItemSalesByCustomer_ItemSalesByCustomer\" Association=\"NAV.Company_ItemSales" +
-                "ByCustomer\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"ItemSalesByCust" +
-                "omer\" EntitySet=\"ItemSalesByCustomer\" /></AssociationSet><AssociationSet Name=\"C" +
-                "ompany_KeensDetails_KeensDetails\" Association=\"NAV.Company_KeensDetails\"><End Ro" +
-                "le=\"Company\" EntitySet=\"Company\" /><End Role=\"KeensDetails\" EntitySet=\"KeensDeta" +
-                "ils\" /></AssociationSet><AssociationSet Name=\"Company_kinsdetail_kinsdetail\" Ass" +
-                "ociation=\"NAV.Company_kinsdetail\"><End Role=\"Company\" EntitySet=\"Company\" /><End" +
-                " Role=\"kinsdetail\" EntitySet=\"kinsdetail\" /></AssociationSet><AssociationSet Nam" +
-                "e=\"Company_LoansReg_LoansReg\" Association=\"NAV.Company_LoansReg\"><End Role=\"Comp" +
-                "any\" EntitySet=\"Company\" /><End Role=\"LoansReg\" EntitySet=\"LoansReg\" /></Associa" +
-                "tionSet><AssociationSet Name=\"Company_MemberList_MemberList\" Association=\"NAV.Co" +
-                "mpany_MemberList\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"MemberLis" +
-                "t\" EntitySet=\"MemberList\" /></AssociationSet><AssociationSet Name=\"Company_minis" +
-                "tatement_ministatement\" Association=\"NAV.Company_ministatem";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart10 = "ent\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"ministatement\" EntitySe" +
-                "t=\"ministatement\" /></AssociationSet><AssociationSet Name=\"Company_PBIATMTransac" +
-                "tions_PBIATMTransactions\" Association=\"NAV.Company_PBIATMTransactions\"><End Role" +
-                "=\"Company\" EntitySet=\"Company\" /><End Role=\"PBIATMTransactions\" EntitySet=\"PBIAT" +
-                "MTransactions\" /></AssociationSet><AssociationSet Name=\"Company_PBICASHIERTransa" +
-                "ctions_PBICASHIERTransactions\" Association=\"NAV.Company_PBICASHIERTransactions\">" +
-                "<End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"PBICASHIERTransactions\" Ent" +
-                "itySet=\"PBICASHIERTransactions\" /></AssociationSet><AssociationSet Name=\"Company" +
-                "_PBIVendors_PBIVendors\" Association=\"NAV.Company_PBIVendors\"><End Role=\"Company\"" +
-                " EntitySet=\"Company\" /><End Role=\"PBIVendors\" EntitySet=\"PBIVendors\" /></Associa" +
-                "tionSet><AssociationSet Name=\"Company_SalesDashboard_SalesDashboard\" Association" +
-                "=\"NAV.Company_SalesDashboard\"><End Role=\"Company\" EntitySet=\"Company\" /><End Rol" +
-                "e=\"SalesDashboard\" EntitySet=\"SalesDashboard\" /></AssociationSet><AssociationSet" +
-                " Name=\"Company_SalesOpportunities_SalesOpportunities\" Association=\"NAV.Company_S" +
-                "alesOpportunities\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"SalesOpp" +
-                "ortunities\" EntitySet=\"SalesOpportunities\" /></AssociationSet><AssociationSet Na" +
-                "me=\"Company_SalesOrdersBySalesPerson_SalesOrdersBySalesPerson\" Association=\"NAV." +
-                "Company_SalesOrdersBySalesPerson\"><End Role=\"Company\" EntitySet=\"Company\" /><End" +
-                " Role=\"SalesOrdersBySalesPerson\" EntitySet=\"SalesOrdersBySalesPerson\" /></Associ" +
-                "ationSet><AssociationSet Name=\"Company_TopCustomerOverview_TopCustomerOverview\" " +
-                "Association=\"NAV.Company_TopCustomerOverview\"><End Role=\"Company\" EntitySet=\"Com" +
-                "pany\" /><End Role=\"TopCustomerOverview\" EntitySet=\"TopCustomerOverview\" /></Asso" +
-                "ciationSet></EntityContainer></Schema></edmx:DataServices></edmx:Edmx>";
+            private const string ModelPart7 = "mpany_LoansFinal\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"LoansFinal" +
+                "\" EntitySet=\"LoansFinal\" /></AssociationSet><AssociationSet Name=\"Company_LoansP" +
+                "roductSetUp_LoansProductSetUp\" Association=\"NAV.Company_LoansProductSetUp\"><End " +
+                "Role=\"Company\" EntitySet=\"Company\" /><End Role=\"LoansProductSetUp\" EntitySet=\"Lo" +
+                "ansProductSetUp\" /></AssociationSet><AssociationSet Name=\"Company_LoansReg_Loans" +
+                "Reg\" Association=\"NAV.Company_LoansReg\"><End Role=\"Company\" EntitySet=\"Company\" " +
+                "/><End Role=\"LoansReg\" EntitySet=\"LoansReg\" /></AssociationSet><AssociationSet N" +
+                "ame=\"Company_MemberList_MemberList\" Association=\"NAV.Company_MemberList\"><End Ro" +
+                "le=\"Company\" EntitySet=\"Company\" /><End Role=\"MemberList\" EntitySet=\"MemberList\"" +
+                " /></AssociationSet><AssociationSet Name=\"Company_Members_Members\" Association=\"" +
+                "NAV.Company_Members\"><End Role=\"Company\" EntitySet=\"Company\" /><End Role=\"Member" +
+                "s\" EntitySet=\"Members\" /></AssociationSet><AssociationSet Name=\"Company_SalesDas" +
+                "hboard_SalesDashboard\" Association=\"NAV.Company_SalesDashboard\"><End Role=\"Compa" +
+                "ny\" EntitySet=\"Company\" /><End Role=\"SalesDashboard\" EntitySet=\"SalesDashboard\" " +
+                "/></AssociationSet><AssociationSet Name=\"Company_SalesOpportunities_SalesOpportu" +
+                "nities\" Association=\"NAV.Company_SalesOpportunities\"><End Role=\"Company\" EntityS" +
+                "et=\"Company\" /><End Role=\"SalesOpportunities\" EntitySet=\"SalesOpportunities\" /><" +
+                "/AssociationSet><AssociationSet Name=\"Company_SalesOrdersBySalesPerson_SalesOrde" +
+                "rsBySalesPerson\" Association=\"NAV.Company_SalesOrdersBySalesPerson\"><End Role=\"C" +
+                "ompany\" EntitySet=\"Company\" /><End Role=\"SalesOrdersBySalesPerson\" EntitySet=\"Sa" +
+                "lesOrdersBySalesPerson\" /></AssociationSet><AssociationSet Name=\"Company_Savings" +
+                "Accounts_SavingsAccounts\" Association=\"NAV.Company_SavingsAccounts\"><End Role=\"C" +
+                "ompany\" EntitySet=\"Company\" /><End Role=\"SavingsAccounts\" EntitySet=\"SavingsAcco" +
+                "unts\" /></AssociationSet><AssociationSet Name=\"Company_TopCustomerOverview_TopCu" +
+                "stomerOverview\" Association=\"NAV.Company_TopCustomerOverview\"><End Role=\"Company" +
+                "\" EntitySet=\"Company\" /><End Role=\"TopCustomerOverview\" EntitySet=\"TopCustomerOv" +
+                "erview\" /></AssociationSet></EntityContainer></Schema></edmx:DataServices></edmx" +
+                ":Edmx>";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
             private static string GetConcatenatedEdmxString()
             {
-                return string.Concat(ModelPart0, ModelPart1, ModelPart2, ModelPart3, ModelPart4, ModelPart5, ModelPart6, ModelPart7, ModelPart8, ModelPart9, ModelPart10);
+                return string.Concat(ModelPart0, ModelPart1, ModelPart2, ModelPart3, ModelPart4, ModelPart5, ModelPart6, ModelPart7);
             }
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
             public static global::Microsoft.Data.Edm.IEdmModel GetInstance()
@@ -1769,5129 +1364,6 @@ namespace SACCOPortal.NavOData
                 return global::System.Xml.XmlReader.Create(new global::System.IO.StringReader(edmxToParse));
             }
         }
-    }
-    /// <summary>
-    /// There are no comments for NAV.ACC_Schedules in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Line_No
-    /// Schedule_Name
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Line_No", "Schedule_Name")]
-    public partial class ACC_Schedules
-    {
-        /// <summary>
-        /// Create a new ACC_Schedules object.
-        /// </summary>
-        /// <param name="schedule_Name">Initial value of Schedule_Name.</param>
-        /// <param name="line_No">Initial value of Line_No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static ACC_Schedules CreateACC_Schedules(string schedule_Name, int line_No)
-        {
-            ACC_Schedules aCC_Schedules = new ACC_Schedules();
-            aCC_Schedules.Schedule_Name = schedule_Name;
-            aCC_Schedules.Line_No = line_No;
-            return aCC_Schedules;
-        }
-        /// <summary>
-        /// There are no comments for Property Schedule_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Schedule_Name
-        {
-            get
-            {
-                return this._Schedule_Name;
-            }
-            set
-            {
-                this.OnSchedule_NameChanging(value);
-                this._Schedule_Name = value;
-                this.OnSchedule_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Schedule_Name;
-        partial void OnSchedule_NameChanging(string value);
-        partial void OnSchedule_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Line_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public int Line_No
-        {
-            get
-            {
-                return this._Line_No;
-            }
-            set
-            {
-                this.OnLine_NoChanging(value);
-                this._Line_No = value;
-                this.OnLine_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private int _Line_No;
-        partial void OnLine_NoChanging(int value);
-        partial void OnLine_NoChanged();
-        /// <summary>
-        /// There are no comments for Property CurrentSchedName in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string CurrentSchedName
-        {
-            get
-            {
-                return this._CurrentSchedName;
-            }
-            set
-            {
-                this.OnCurrentSchedNameChanging(value);
-                this._CurrentSchedName = value;
-                this.OnCurrentSchedNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _CurrentSchedName;
-        partial void OnCurrentSchedNameChanging(string value);
-        partial void OnCurrentSchedNameChanged();
-        /// <summary>
-        /// There are no comments for Property CurrentColumnName in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string CurrentColumnName
-        {
-            get
-            {
-                return this._CurrentColumnName;
-            }
-            set
-            {
-                this.OnCurrentColumnNameChanging(value);
-                this._CurrentColumnName = value;
-                this.OnCurrentColumnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _CurrentColumnName;
-        partial void OnCurrentColumnNameChanging(string value);
-        partial void OnCurrentColumnNameChanged();
-        /// <summary>
-        /// There are no comments for Property UseAmtsInAddCurr in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> UseAmtsInAddCurr
-        {
-            get
-            {
-                return this._UseAmtsInAddCurr;
-            }
-            set
-            {
-                this.OnUseAmtsInAddCurrChanging(value);
-                this._UseAmtsInAddCurr = value;
-                this.OnUseAmtsInAddCurrChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _UseAmtsInAddCurr;
-        partial void OnUseAmtsInAddCurrChanging(global::System.Nullable<bool> value);
-        partial void OnUseAmtsInAddCurrChanged();
-        /// <summary>
-        /// There are no comments for Property PeriodType in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string PeriodType
-        {
-            get
-            {
-                return this._PeriodType;
-            }
-            set
-            {
-                this.OnPeriodTypeChanging(value);
-                this._PeriodType = value;
-                this.OnPeriodTypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _PeriodType;
-        partial void OnPeriodTypeChanging(string value);
-        partial void OnPeriodTypeChanged();
-        /// <summary>
-        /// There are no comments for Property DateFilter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string DateFilter
-        {
-            get
-            {
-                return this._DateFilter;
-            }
-            set
-            {
-                this.OnDateFilterChanging(value);
-                this._DateFilter = value;
-                this.OnDateFilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _DateFilter;
-        partial void OnDateFilterChanging(string value);
-        partial void OnDateFilterChanged();
-        /// <summary>
-        /// There are no comments for Property Row_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Row_No
-        {
-            get
-            {
-                return this._Row_No;
-            }
-            set
-            {
-                this.OnRow_NoChanging(value);
-                this._Row_No = value;
-                this.OnRow_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Row_No;
-        partial void OnRow_NoChanging(string value);
-        partial void OnRow_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Description
-        {
-            get
-            {
-                return this._Description;
-            }
-            set
-            {
-                this.OnDescriptionChanging(value);
-                this._Description = value;
-                this.OnDescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Description;
-        partial void OnDescriptionChanging(string value);
-        partial void OnDescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property ColumnValues1 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues1
-        {
-            get
-            {
-                return this._ColumnValues1;
-            }
-            set
-            {
-                this.OnColumnValues1Changing(value);
-                this._ColumnValues1 = value;
-                this.OnColumnValues1Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues1;
-        partial void OnColumnValues1Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues1Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues2 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues2
-        {
-            get
-            {
-                return this._ColumnValues2;
-            }
-            set
-            {
-                this.OnColumnValues2Changing(value);
-                this._ColumnValues2 = value;
-                this.OnColumnValues2Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues2;
-        partial void OnColumnValues2Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues2Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues3 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues3
-        {
-            get
-            {
-                return this._ColumnValues3;
-            }
-            set
-            {
-                this.OnColumnValues3Changing(value);
-                this._ColumnValues3 = value;
-                this.OnColumnValues3Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues3;
-        partial void OnColumnValues3Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues3Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues4 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues4
-        {
-            get
-            {
-                return this._ColumnValues4;
-            }
-            set
-            {
-                this.OnColumnValues4Changing(value);
-                this._ColumnValues4 = value;
-                this.OnColumnValues4Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues4;
-        partial void OnColumnValues4Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues4Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues5 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues5
-        {
-            get
-            {
-                return this._ColumnValues5;
-            }
-            set
-            {
-                this.OnColumnValues5Changing(value);
-                this._ColumnValues5 = value;
-                this.OnColumnValues5Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues5;
-        partial void OnColumnValues5Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues5Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues6 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues6
-        {
-            get
-            {
-                return this._ColumnValues6;
-            }
-            set
-            {
-                this.OnColumnValues6Changing(value);
-                this._ColumnValues6 = value;
-                this.OnColumnValues6Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues6;
-        partial void OnColumnValues6Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues6Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues7 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues7
-        {
-            get
-            {
-                return this._ColumnValues7;
-            }
-            set
-            {
-                this.OnColumnValues7Changing(value);
-                this._ColumnValues7 = value;
-                this.OnColumnValues7Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues7;
-        partial void OnColumnValues7Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues7Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues8 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues8
-        {
-            get
-            {
-                return this._ColumnValues8;
-            }
-            set
-            {
-                this.OnColumnValues8Changing(value);
-                this._ColumnValues8 = value;
-                this.OnColumnValues8Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues8;
-        partial void OnColumnValues8Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues8Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues9 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues9
-        {
-            get
-            {
-                return this._ColumnValues9;
-            }
-            set
-            {
-                this.OnColumnValues9Changing(value);
-                this._ColumnValues9 = value;
-                this.OnColumnValues9Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues9;
-        partial void OnColumnValues9Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues9Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues10 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues10
-        {
-            get
-            {
-                return this._ColumnValues10;
-            }
-            set
-            {
-                this.OnColumnValues10Changing(value);
-                this._ColumnValues10 = value;
-                this.OnColumnValues10Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues10;
-        partial void OnColumnValues10Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues10Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues11 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues11
-        {
-            get
-            {
-                return this._ColumnValues11;
-            }
-            set
-            {
-                this.OnColumnValues11Changing(value);
-                this._ColumnValues11 = value;
-                this.OnColumnValues11Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues11;
-        partial void OnColumnValues11Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues11Changed();
-        /// <summary>
-        /// There are no comments for Property ColumnValues12 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ColumnValues12
-        {
-            get
-            {
-                return this._ColumnValues12;
-            }
-            set
-            {
-                this.OnColumnValues12Changing(value);
-                this._ColumnValues12 = value;
-                this.OnColumnValues12Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ColumnValues12;
-        partial void OnColumnValues12Changing(global::System.Nullable<decimal> value);
-        partial void OnColumnValues12Changed();
-        /// <summary>
-        /// There are no comments for Property Dim1Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Dim1Filter
-        {
-            get
-            {
-                return this._Dim1Filter;
-            }
-            set
-            {
-                this.OnDim1FilterChanging(value);
-                this._Dim1Filter = value;
-                this.OnDim1FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Dim1Filter;
-        partial void OnDim1FilterChanging(string value);
-        partial void OnDim1FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Dim2Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Dim2Filter
-        {
-            get
-            {
-                return this._Dim2Filter;
-            }
-            set
-            {
-                this.OnDim2FilterChanging(value);
-                this._Dim2Filter = value;
-                this.OnDim2FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Dim2Filter;
-        partial void OnDim2FilterChanging(string value);
-        partial void OnDim2FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Dim3Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Dim3Filter
-        {
-            get
-            {
-                return this._Dim3Filter;
-            }
-            set
-            {
-                this.OnDim3FilterChanging(value);
-                this._Dim3Filter = value;
-                this.OnDim3FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Dim3Filter;
-        partial void OnDim3FilterChanging(string value);
-        partial void OnDim3FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Dim4Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Dim4Filter
-        {
-            get
-            {
-                return this._Dim4Filter;
-            }
-            set
-            {
-                this.OnDim4FilterChanging(value);
-                this._Dim4Filter = value;
-                this.OnDim4FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Dim4Filter;
-        partial void OnDim4FilterChanging(string value);
-        partial void OnDim4FilterChanged();
-        /// <summary>
-        /// There are no comments for Property CostCenterFilter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string CostCenterFilter
-        {
-            get
-            {
-                return this._CostCenterFilter;
-            }
-            set
-            {
-                this.OnCostCenterFilterChanging(value);
-                this._CostCenterFilter = value;
-                this.OnCostCenterFilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _CostCenterFilter;
-        partial void OnCostCenterFilterChanging(string value);
-        partial void OnCostCenterFilterChanged();
-        /// <summary>
-        /// There are no comments for Property CostObjectFilter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string CostObjectFilter
-        {
-            get
-            {
-                return this._CostObjectFilter;
-            }
-            set
-            {
-                this.OnCostObjectFilterChanging(value);
-                this._CostObjectFilter = value;
-                this.OnCostObjectFilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _CostObjectFilter;
-        partial void OnCostObjectFilterChanging(string value);
-        partial void OnCostObjectFilterChanged();
-        /// <summary>
-        /// There are no comments for Property CashFlowFilter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string CashFlowFilter
-        {
-            get
-            {
-                return this._CashFlowFilter;
-            }
-            set
-            {
-                this.OnCashFlowFilterChanging(value);
-                this._CashFlowFilter = value;
-                this.OnCashFlowFilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _CashFlowFilter;
-        partial void OnCashFlowFilterChanging(string value);
-        partial void OnCashFlowFilterChanged();
-        /// <summary>
-        /// There are no comments for Property G_LBudgetFilter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string G_LBudgetFilter
-        {
-            get
-            {
-                return this._G_LBudgetFilter;
-            }
-            set
-            {
-                this.OnG_LBudgetFilterChanging(value);
-                this._G_LBudgetFilter = value;
-                this.OnG_LBudgetFilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _G_LBudgetFilter;
-        partial void OnG_LBudgetFilterChanging(string value);
-        partial void OnG_LBudgetFilterChanged();
-        /// <summary>
-        /// There are no comments for Property CostBudgetFilter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string CostBudgetFilter
-        {
-            get
-            {
-                return this._CostBudgetFilter;
-            }
-            set
-            {
-                this.OnCostBudgetFilterChanging(value);
-                this._CostBudgetFilter = value;
-                this.OnCostBudgetFilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _CostBudgetFilter;
-        partial void OnCostBudgetFilterChanging(string value);
-        partial void OnCostBudgetFilterChanged();
-        /// <summary>
-        /// There are no comments for Property ETag in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ETag
-        {
-            get
-            {
-                return this._ETag;
-            }
-            set
-            {
-                this.OnETagChanging(value);
-                this._ETag = value;
-                this.OnETagChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ETag;
-        partial void OnETagChanging(string value);
-        partial void OnETagChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.COA in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
-    public partial class COA
-    {
-        /// <summary>
-        /// Create a new COA object.
-        /// </summary>
-        /// <param name="no">Initial value of No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static COA CreateCOA(string no)
-        {
-            COA cOA = new COA();
-            cOA.No = no;
-            return cOA;
-        }
-        /// <summary>
-        /// There are no comments for Property No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No
-        {
-            get
-            {
-                return this._No;
-            }
-            set
-            {
-                this.OnNoChanging(value);
-                this._No = value;
-                this.OnNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No;
-        partial void OnNoChanging(string value);
-        partial void OnNoChanged();
-        /// <summary>
-        /// There are no comments for Property Old_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Old_Account_No
-        {
-            get
-            {
-                return this._Old_Account_No;
-            }
-            set
-            {
-                this.OnOld_Account_NoChanging(value);
-                this._Old_Account_No = value;
-                this.OnOld_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Old_Account_No;
-        partial void OnOld_Account_NoChanging(string value);
-        partial void OnOld_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property GIFI_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string GIFI_Code
-        {
-            get
-            {
-                return this._GIFI_Code;
-            }
-            set
-            {
-                this.OnGIFI_CodeChanging(value);
-                this._GIFI_Code = value;
-                this.OnGIFI_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _GIFI_Code;
-        partial void OnGIFI_CodeChanging(string value);
-        partial void OnGIFI_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Income_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Income_Balance
-        {
-            get
-            {
-                return this._Income_Balance;
-            }
-            set
-            {
-                this.OnIncome_BalanceChanging(value);
-                this._Income_Balance = value;
-                this.OnIncome_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Income_Balance;
-        partial void OnIncome_BalanceChanging(string value);
-        partial void OnIncome_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Account_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_Type
-        {
-            get
-            {
-                return this._Account_Type;
-            }
-            set
-            {
-                this.OnAccount_TypeChanging(value);
-                this._Account_Type = value;
-                this.OnAccount_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_Type;
-        partial void OnAccount_TypeChanging(string value);
-        partial void OnAccount_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Direct_Posting in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Direct_Posting
-        {
-            get
-            {
-                return this._Direct_Posting;
-            }
-            set
-            {
-                this.OnDirect_PostingChanging(value);
-                this._Direct_Posting = value;
-                this.OnDirect_PostingChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Direct_Posting;
-        partial void OnDirect_PostingChanging(global::System.Nullable<bool> value);
-        partial void OnDirect_PostingChanged();
-        /// <summary>
-        /// There are no comments for Property Totaling in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Totaling
-        {
-            get
-            {
-                return this._Totaling;
-            }
-            set
-            {
-                this.OnTotalingChanging(value);
-                this._Totaling = value;
-                this.OnTotalingChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Totaling;
-        partial void OnTotalingChanging(string value);
-        partial void OnTotalingChanged();
-        /// <summary>
-        /// There are no comments for Property Gen_Posting_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Gen_Posting_Type
-        {
-            get
-            {
-                return this._Gen_Posting_Type;
-            }
-            set
-            {
-                this.OnGen_Posting_TypeChanging(value);
-                this._Gen_Posting_Type = value;
-                this.OnGen_Posting_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Gen_Posting_Type;
-        partial void OnGen_Posting_TypeChanging(string value);
-        partial void OnGen_Posting_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Gen_Bus_Posting_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Gen_Bus_Posting_Group
-        {
-            get
-            {
-                return this._Gen_Bus_Posting_Group;
-            }
-            set
-            {
-                this.OnGen_Bus_Posting_GroupChanging(value);
-                this._Gen_Bus_Posting_Group = value;
-                this.OnGen_Bus_Posting_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Gen_Bus_Posting_Group;
-        partial void OnGen_Bus_Posting_GroupChanging(string value);
-        partial void OnGen_Bus_Posting_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property Gen_Prod_Posting_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Gen_Prod_Posting_Group
-        {
-            get
-            {
-                return this._Gen_Prod_Posting_Group;
-            }
-            set
-            {
-                this.OnGen_Prod_Posting_GroupChanging(value);
-                this._Gen_Prod_Posting_Group = value;
-                this.OnGen_Prod_Posting_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Gen_Prod_Posting_Group;
-        partial void OnGen_Prod_Posting_GroupChanging(string value);
-        partial void OnGen_Prod_Posting_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property VAT_Bus_Posting_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string VAT_Bus_Posting_Group
-        {
-            get
-            {
-                return this._VAT_Bus_Posting_Group;
-            }
-            set
-            {
-                this.OnVAT_Bus_Posting_GroupChanging(value);
-                this._VAT_Bus_Posting_Group = value;
-                this.OnVAT_Bus_Posting_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _VAT_Bus_Posting_Group;
-        partial void OnVAT_Bus_Posting_GroupChanging(string value);
-        partial void OnVAT_Bus_Posting_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property VAT_Prod_Posting_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string VAT_Prod_Posting_Group
-        {
-            get
-            {
-                return this._VAT_Prod_Posting_Group;
-            }
-            set
-            {
-                this.OnVAT_Prod_Posting_GroupChanging(value);
-                this._VAT_Prod_Posting_Group = value;
-                this.OnVAT_Prod_Posting_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _VAT_Prod_Posting_Group;
-        partial void OnVAT_Prod_Posting_GroupChanging(string value);
-        partial void OnVAT_Prod_Posting_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property Net_Change in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Net_Change
-        {
-            get
-            {
-                return this._Net_Change;
-            }
-            set
-            {
-                this.OnNet_ChangeChanging(value);
-                this._Net_Change = value;
-                this.OnNet_ChangeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Net_Change;
-        partial void OnNet_ChangeChanging(global::System.Nullable<decimal> value);
-        partial void OnNet_ChangeChanged();
-        /// <summary>
-        /// There are no comments for Property Balance_at_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Balance_at_Date
-        {
-            get
-            {
-                return this._Balance_at_Date;
-            }
-            set
-            {
-                this.OnBalance_at_DateChanging(value);
-                this._Balance_at_Date = value;
-                this.OnBalance_at_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Balance_at_Date;
-        partial void OnBalance_at_DateChanging(global::System.Nullable<decimal> value);
-        partial void OnBalance_at_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Balance
-        {
-            get
-            {
-                return this._Balance;
-            }
-            set
-            {
-                this.OnBalanceChanging(value);
-                this._Balance = value;
-                this.OnBalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Balance;
-        partial void OnBalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnBalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Additional_Currency_Net_Change in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Additional_Currency_Net_Change
-        {
-            get
-            {
-                return this._Additional_Currency_Net_Change;
-            }
-            set
-            {
-                this.OnAdditional_Currency_Net_ChangeChanging(value);
-                this._Additional_Currency_Net_Change = value;
-                this.OnAdditional_Currency_Net_ChangeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Additional_Currency_Net_Change;
-        partial void OnAdditional_Currency_Net_ChangeChanging(global::System.Nullable<decimal> value);
-        partial void OnAdditional_Currency_Net_ChangeChanged();
-        /// <summary>
-        /// There are no comments for Property Add_Currency_Balance_at_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Add_Currency_Balance_at_Date
-        {
-            get
-            {
-                return this._Add_Currency_Balance_at_Date;
-            }
-            set
-            {
-                this.OnAdd_Currency_Balance_at_DateChanging(value);
-                this._Add_Currency_Balance_at_Date = value;
-                this.OnAdd_Currency_Balance_at_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Add_Currency_Balance_at_Date;
-        partial void OnAdd_Currency_Balance_at_DateChanging(global::System.Nullable<decimal> value);
-        partial void OnAdd_Currency_Balance_at_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Additional_Currency_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Additional_Currency_Balance
-        {
-            get
-            {
-                return this._Additional_Currency_Balance;
-            }
-            set
-            {
-                this.OnAdditional_Currency_BalanceChanging(value);
-                this._Additional_Currency_Balance = value;
-                this.OnAdditional_Currency_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Additional_Currency_Balance;
-        partial void OnAdditional_Currency_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnAdditional_Currency_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Consol_Debit_Acc in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Consol_Debit_Acc
-        {
-            get
-            {
-                return this._Consol_Debit_Acc;
-            }
-            set
-            {
-                this.OnConsol_Debit_AccChanging(value);
-                this._Consol_Debit_Acc = value;
-                this.OnConsol_Debit_AccChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Consol_Debit_Acc;
-        partial void OnConsol_Debit_AccChanging(string value);
-        partial void OnConsol_Debit_AccChanged();
-        /// <summary>
-        /// There are no comments for Property Consol_Credit_Acc in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Consol_Credit_Acc
-        {
-            get
-            {
-                return this._Consol_Credit_Acc;
-            }
-            set
-            {
-                this.OnConsol_Credit_AccChanging(value);
-                this._Consol_Credit_Acc = value;
-                this.OnConsol_Credit_AccChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Consol_Credit_Acc;
-        partial void OnConsol_Credit_AccChanging(string value);
-        partial void OnConsol_Credit_AccChanged();
-        /// <summary>
-        /// There are no comments for Property Cost_Type_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Cost_Type_No
-        {
-            get
-            {
-                return this._Cost_Type_No;
-            }
-            set
-            {
-                this.OnCost_Type_NoChanging(value);
-                this._Cost_Type_No = value;
-                this.OnCost_Type_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Cost_Type_No;
-        partial void OnCost_Type_NoChanging(string value);
-        partial void OnCost_Type_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Consol_Translation_Method in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Consol_Translation_Method
-        {
-            get
-            {
-                return this._Consol_Translation_Method;
-            }
-            set
-            {
-                this.OnConsol_Translation_MethodChanging(value);
-                this._Consol_Translation_Method = value;
-                this.OnConsol_Translation_MethodChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Consol_Translation_Method;
-        partial void OnConsol_Translation_MethodChanging(string value);
-        partial void OnConsol_Translation_MethodChanged();
-        /// <summary>
-        /// There are no comments for Property Default_IC_Partner_G_L_Acc_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Default_IC_Partner_G_L_Acc_No
-        {
-            get
-            {
-                return this._Default_IC_Partner_G_L_Acc_No;
-            }
-            set
-            {
-                this.OnDefault_IC_Partner_G_L_Acc_NoChanging(value);
-                this._Default_IC_Partner_G_L_Acc_No = value;
-                this.OnDefault_IC_Partner_G_L_Acc_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Default_IC_Partner_G_L_Acc_No;
-        partial void OnDefault_IC_Partner_G_L_Acc_NoChanging(string value);
-        partial void OnDefault_IC_Partner_G_L_Acc_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Default_Deferral_Template_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Default_Deferral_Template_Code
-        {
-            get
-            {
-                return this._Default_Deferral_Template_Code;
-            }
-            set
-            {
-                this.OnDefault_Deferral_Template_CodeChanging(value);
-                this._Default_Deferral_Template_Code = value;
-                this.OnDefault_Deferral_Template_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Default_Deferral_Template_Code;
-        partial void OnDefault_Deferral_Template_CodeChanging(string value);
-        partial void OnDefault_Deferral_Template_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Business_Unit_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Business_Unit_Filter
-        {
-            get
-            {
-                return this._Business_Unit_Filter;
-            }
-            set
-            {
-                this.OnBusiness_Unit_FilterChanging(value);
-                this._Business_Unit_Filter = value;
-                this.OnBusiness_Unit_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Business_Unit_Filter;
-        partial void OnBusiness_Unit_FilterChanging(string value);
-        partial void OnBusiness_Unit_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Global_Dimension_1_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Global_Dimension_1_Filter
-        {
-            get
-            {
-                return this._Global_Dimension_1_Filter;
-            }
-            set
-            {
-                this.OnGlobal_Dimension_1_FilterChanging(value);
-                this._Global_Dimension_1_Filter = value;
-                this.OnGlobal_Dimension_1_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Global_Dimension_1_Filter;
-        partial void OnGlobal_Dimension_1_FilterChanging(string value);
-        partial void OnGlobal_Dimension_1_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Global_Dimension_2_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Global_Dimension_2_Filter
-        {
-            get
-            {
-                return this._Global_Dimension_2_Filter;
-            }
-            set
-            {
-                this.OnGlobal_Dimension_2_FilterChanging(value);
-                this._Global_Dimension_2_Filter = value;
-                this.OnGlobal_Dimension_2_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Global_Dimension_2_Filter;
-        partial void OnGlobal_Dimension_2_FilterChanging(string value);
-        partial void OnGlobal_Dimension_2_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Date_Filter
-        {
-            get
-            {
-                return this._Date_Filter;
-            }
-            set
-            {
-                this.OnDate_FilterChanging(value);
-                this._Date_Filter = value;
-                this.OnDate_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Date_Filter;
-        partial void OnDate_FilterChanging(string value);
-        partial void OnDate_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property ETag in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ETag
-        {
-            get
-            {
-                return this._ETag;
-            }
-            set
-            {
-                this.OnETagChanging(value);
-                this._ETag = value;
-                this.OnETagChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ETag;
-        partial void OnETagChanging(string value);
-        partial void OnETagChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.Loan_Products in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Code
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Code")]
-    public partial class Loan_Products
-    {
-        /// <summary>
-        /// Create a new Loan_Products object.
-        /// </summary>
-        /// <param name="code">Initial value of Code.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static Loan_Products CreateLoan_Products(string code)
-        {
-            Loan_Products loan_Products = new Loan_Products();
-            loan_Products.Code = code;
-            return loan_Products;
-        }
-        /// <summary>
-        /// There are no comments for Property Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Code
-        {
-            get
-            {
-                return this._Code;
-            }
-            set
-            {
-                this.OnCodeChanging(value);
-                this._Code = value;
-                this.OnCodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Code;
-        partial void OnCodeChanging(string value);
-        partial void OnCodeChanged();
-        /// <summary>
-        /// There are no comments for Property Product_Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Product_Description
-        {
-            get
-            {
-                return this._Product_Description;
-            }
-            set
-            {
-                this.OnProduct_DescriptionChanging(value);
-                this._Product_Description = value;
-                this.OnProduct_DescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Product_Description;
-        partial void OnProduct_DescriptionChanging(string value);
-        partial void OnProduct_DescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Source in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Source
-        {
-            get
-            {
-                return this._Source;
-            }
-            set
-            {
-                this.OnSourceChanging(value);
-                this._Source = value;
-                this.OnSourceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Source;
-        partial void OnSourceChanging(string value);
-        partial void OnSourceChanged();
-        /// <summary>
-        /// There are no comments for Property Interest_rate in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Interest_rate
-        {
-            get
-            {
-                return this._Interest_rate;
-            }
-            set
-            {
-                this.OnInterest_rateChanging(value);
-                this._Interest_rate = value;
-                this.OnInterest_rateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Interest_rate;
-        partial void OnInterest_rateChanging(global::System.Nullable<decimal> value);
-        partial void OnInterest_rateChanged();
-        /// <summary>
-        /// There are no comments for Property Repayment_Method in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Repayment_Method
-        {
-            get
-            {
-                return this._Repayment_Method;
-            }
-            set
-            {
-                this.OnRepayment_MethodChanging(value);
-                this._Repayment_Method = value;
-                this.OnRepayment_MethodChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Repayment_Method;
-        partial void OnRepayment_MethodChanging(string value);
-        partial void OnRepayment_MethodChanged();
-        /// <summary>
-        /// There are no comments for Property Grace_Period_Principle_M in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Grace_Period_Principle_M
-        {
-            get
-            {
-                return this._Grace_Period_Principle_M;
-            }
-            set
-            {
-                this.OnGrace_Period_Principle_MChanging(value);
-                this._Grace_Period_Principle_M = value;
-                this.OnGrace_Period_Principle_MChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Grace_Period_Principle_M;
-        partial void OnGrace_Period_Principle_MChanging(global::System.Nullable<int> value);
-        partial void OnGrace_Period_Principle_MChanged();
-        /// <summary>
-        /// There are no comments for Property Grace_Period_Interest_M in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Grace_Period_Interest_M
-        {
-            get
-            {
-                return this._Grace_Period_Interest_M;
-            }
-            set
-            {
-                this.OnGrace_Period_Interest_MChanging(value);
-                this._Grace_Period_Interest_M = value;
-                this.OnGrace_Period_Interest_MChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Grace_Period_Interest_M;
-        partial void OnGrace_Period_Interest_MChanging(global::System.Nullable<int> value);
-        partial void OnGrace_Period_Interest_MChanged();
-        /// <summary>
-        /// There are no comments for Property Use_Cycles in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Use_Cycles
-        {
-            get
-            {
-                return this._Use_Cycles;
-            }
-            set
-            {
-                this.OnUse_CyclesChanging(value);
-                this._Use_Cycles = value;
-                this.OnUse_CyclesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Use_Cycles;
-        partial void OnUse_CyclesChanging(global::System.Nullable<bool> value);
-        partial void OnUse_CyclesChanged();
-        /// <summary>
-        /// There are no comments for Property Instalment_Period in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Instalment_Period
-        {
-            get
-            {
-                return this._Instalment_Period;
-            }
-            set
-            {
-                this.OnInstalment_PeriodChanging(value);
-                this._Instalment_Period = value;
-                this.OnInstalment_PeriodChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Instalment_Period;
-        partial void OnInstalment_PeriodChanging(string value);
-        partial void OnInstalment_PeriodChanged();
-        /// <summary>
-        /// There are no comments for Property No_of_Installment in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> No_of_Installment
-        {
-            get
-            {
-                return this._No_of_Installment;
-            }
-            set
-            {
-                this.OnNo_of_InstallmentChanging(value);
-                this._No_of_Installment = value;
-                this.OnNo_of_InstallmentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _No_of_Installment;
-        partial void OnNo_of_InstallmentChanging(global::System.Nullable<int> value);
-        partial void OnNo_of_InstallmentChanged();
-        /// <summary>
-        /// There are no comments for Property Default_Installements in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Default_Installements
-        {
-            get
-            {
-                return this._Default_Installements;
-            }
-            set
-            {
-                this.OnDefault_InstallementsChanging(value);
-                this._Default_Installements = value;
-                this.OnDefault_InstallementsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Default_Installements;
-        partial void OnDefault_InstallementsChanging(global::System.Nullable<int> value);
-        partial void OnDefault_InstallementsChanged();
-        /// <summary>
-        /// There are no comments for Property Penalty_Calculation_Days in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Penalty_Calculation_Days
-        {
-            get
-            {
-                return this._Penalty_Calculation_Days;
-            }
-            set
-            {
-                this.OnPenalty_Calculation_DaysChanging(value);
-                this._Penalty_Calculation_Days = value;
-                this.OnPenalty_Calculation_DaysChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Penalty_Calculation_Days;
-        partial void OnPenalty_Calculation_DaysChanging(string value);
-        partial void OnPenalty_Calculation_DaysChanged();
-        /// <summary>
-        /// There are no comments for Property Penalty_Percentage in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Penalty_Percentage
-        {
-            get
-            {
-                return this._Penalty_Percentage;
-            }
-            set
-            {
-                this.OnPenalty_PercentageChanging(value);
-                this._Penalty_Percentage = value;
-                this.OnPenalty_PercentageChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Penalty_Percentage;
-        partial void OnPenalty_PercentageChanging(global::System.Nullable<decimal> value);
-        partial void OnPenalty_PercentageChanged();
-        /// <summary>
-        /// There are no comments for Property Recovery_Priority in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Recovery_Priority
-        {
-            get
-            {
-                return this._Recovery_Priority;
-            }
-            set
-            {
-                this.OnRecovery_PriorityChanging(value);
-                this._Recovery_Priority = value;
-                this.OnRecovery_PriorityChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Recovery_Priority;
-        partial void OnRecovery_PriorityChanging(global::System.Nullable<int> value);
-        partial void OnRecovery_PriorityChanged();
-        /// <summary>
-        /// There are no comments for Property Min_No_Of_Guarantors in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Min_No_Of_Guarantors
-        {
-            get
-            {
-                return this._Min_No_Of_Guarantors;
-            }
-            set
-            {
-                this.OnMin_No_Of_GuarantorsChanging(value);
-                this._Min_No_Of_Guarantors = value;
-                this.OnMin_No_Of_GuarantorsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Min_No_Of_Guarantors;
-        partial void OnMin_No_Of_GuarantorsChanging(global::System.Nullable<int> value);
-        partial void OnMin_No_Of_GuarantorsChanged();
-        /// <summary>
-        /// There are no comments for Property Min_Re_application_Period in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Min_Re_application_Period
-        {
-            get
-            {
-                return this._Min_Re_application_Period;
-            }
-            set
-            {
-                this.OnMin_Re_application_PeriodChanging(value);
-                this._Min_Re_application_Period = value;
-                this.OnMin_Re_application_PeriodChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Min_Re_application_Period;
-        partial void OnMin_Re_application_PeriodChanging(string value);
-        partial void OnMin_Re_application_PeriodChanged();
-        /// <summary>
-        /// There are no comments for Property Shares_Multiplier in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Shares_Multiplier
-        {
-            get
-            {
-                return this._Shares_Multiplier;
-            }
-            set
-            {
-                this.OnShares_MultiplierChanging(value);
-                this._Shares_Multiplier = value;
-                this.OnShares_MultiplierChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Shares_Multiplier;
-        partial void OnShares_MultiplierChanging(global::System.Nullable<decimal> value);
-        partial void OnShares_MultiplierChanged();
-        /// <summary>
-        /// There are no comments for Property Penalty_Calculation_Method in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Penalty_Calculation_Method
-        {
-            get
-            {
-                return this._Penalty_Calculation_Method;
-            }
-            set
-            {
-                this.OnPenalty_Calculation_MethodChanging(value);
-                this._Penalty_Calculation_Method = value;
-                this.OnPenalty_Calculation_MethodChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Penalty_Calculation_Method;
-        partial void OnPenalty_Calculation_MethodChanging(string value);
-        partial void OnPenalty_Calculation_MethodChanged();
-        /// <summary>
-        /// There are no comments for Property Penalty_Paid_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Penalty_Paid_Account
-        {
-            get
-            {
-                return this._Penalty_Paid_Account;
-            }
-            set
-            {
-                this.OnPenalty_Paid_AccountChanging(value);
-                this._Penalty_Paid_Account = value;
-                this.OnPenalty_Paid_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Penalty_Paid_Account;
-        partial void OnPenalty_Paid_AccountChanging(string value);
-        partial void OnPenalty_Paid_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Min_Loan_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Min_Loan_Amount
-        {
-            get
-            {
-                return this._Min_Loan_Amount;
-            }
-            set
-            {
-                this.OnMin_Loan_AmountChanging(value);
-                this._Min_Loan_Amount = value;
-                this.OnMin_Loan_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Min_Loan_Amount;
-        partial void OnMin_Loan_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnMin_Loan_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Max_Loan_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Max_Loan_Amount
-        {
-            get
-            {
-                return this._Max_Loan_Amount;
-            }
-            set
-            {
-                this.OnMax_Loan_AmountChanging(value);
-                this._Max_Loan_Amount = value;
-                this.OnMax_Loan_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Max_Loan_Amount;
-        partial void OnMax_Loan_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnMax_Loan_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_Account
-        {
-            get
-            {
-                return this._Loan_Account;
-            }
-            set
-            {
-                this.OnLoan_AccountChanging(value);
-                this._Loan_Account = value;
-                this.OnLoan_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_Account;
-        partial void OnLoan_AccountChanging(string value);
-        partial void OnLoan_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Interest_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_Interest_Account
-        {
-            get
-            {
-                return this._Loan_Interest_Account;
-            }
-            set
-            {
-                this.OnLoan_Interest_AccountChanging(value);
-                this._Loan_Interest_Account = value;
-                this.OnLoan_Interest_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_Interest_Account;
-        partial void OnLoan_Interest_AccountChanging(string value);
-        partial void OnLoan_Interest_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Receivable_Interest_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Receivable_Interest_Account
-        {
-            get
-            {
-                return this._Receivable_Interest_Account;
-            }
-            set
-            {
-                this.OnReceivable_Interest_AccountChanging(value);
-                this._Receivable_Interest_Account = value;
-                this.OnReceivable_Interest_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Receivable_Interest_Account;
-        partial void OnReceivable_Interest_AccountChanging(string value);
-        partial void OnReceivable_Interest_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Action in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Action
-        {
-            get
-            {
-                return this._Action;
-            }
-            set
-            {
-                this.OnActionChanging(value);
-                this._Action = value;
-                this.OnActionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Action;
-        partial void OnActionChanging(string value);
-        partial void OnActionChanged();
-        /// <summary>
-        /// There are no comments for Property BOSA_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string BOSA_Account
-        {
-            get
-            {
-                return this._BOSA_Account;
-            }
-            set
-            {
-                this.OnBOSA_AccountChanging(value);
-                this._BOSA_Account = value;
-                this.OnBOSA_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _BOSA_Account;
-        partial void OnBOSA_AccountChanging(string value);
-        partial void OnBOSA_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property BOSA_Personal_Loan_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string BOSA_Personal_Loan_Account
-        {
-            get
-            {
-                return this._BOSA_Personal_Loan_Account;
-            }
-            set
-            {
-                this.OnBOSA_Personal_Loan_AccountChanging(value);
-                this._BOSA_Personal_Loan_Account = value;
-                this.OnBOSA_Personal_Loan_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _BOSA_Personal_Loan_Account;
-        partial void OnBOSA_Personal_Loan_AccountChanging(string value);
-        partial void OnBOSA_Personal_Loan_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Top_Up_Commision_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Top_Up_Commision_Account
-        {
-            get
-            {
-                return this._Top_Up_Commision_Account;
-            }
-            set
-            {
-                this.OnTop_Up_Commision_AccountChanging(value);
-                this._Top_Up_Commision_Account = value;
-                this.OnTop_Up_Commision_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Top_Up_Commision_Account;
-        partial void OnTop_Up_Commision_AccountChanging(string value);
-        partial void OnTop_Up_Commision_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Top_Up_Commision in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Top_Up_Commision
-        {
-            get
-            {
-                return this._Top_Up_Commision;
-            }
-            set
-            {
-                this.OnTop_Up_CommisionChanging(value);
-                this._Top_Up_Commision = value;
-                this.OnTop_Up_CommisionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Top_Up_Commision;
-        partial void OnTop_Up_CommisionChanging(global::System.Nullable<decimal> value);
-        partial void OnTop_Up_CommisionChanged();
-        /// <summary>
-        /// There are no comments for Property Check_Off_Loan_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Check_Off_Loan_No
-        {
-            get
-            {
-                return this._Check_Off_Loan_No;
-            }
-            set
-            {
-                this.OnCheck_Off_Loan_NoChanging(value);
-                this._Check_Off_Loan_No = value;
-                this.OnCheck_Off_Loan_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Check_Off_Loan_No;
-        partial void OnCheck_Off_Loan_NoChanging(global::System.Nullable<int> value);
-        partial void OnCheck_Off_Loan_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Repayment_Frequency in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Repayment_Frequency
-        {
-            get
-            {
-                return this._Repayment_Frequency;
-            }
-            set
-            {
-                this.OnRepayment_FrequencyChanging(value);
-                this._Repayment_Frequency = value;
-                this.OnRepayment_FrequencyChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Repayment_Frequency;
-        partial void OnRepayment_FrequencyChanging(string value);
-        partial void OnRepayment_FrequencyChanged();
-        /// <summary>
-        /// There are no comments for Property ETag in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ETag
-        {
-            get
-            {
-                return this._ETag;
-            }
-            set
-            {
-                this.OnETagChanging(value);
-                this._ETag = value;
-                this.OnETagChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ETag;
-        partial void OnETagChanging(string value);
-        partial void OnETagChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.Members in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
-    public partial class Members
-    {
-        /// <summary>
-        /// Create a new Members object.
-        /// </summary>
-        /// <param name="no">Initial value of No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static Members CreateMembers(string no)
-        {
-            Members members = new Members();
-            members.No = no;
-            return members;
-        }
-        /// <summary>
-        /// There are no comments for Property No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No
-        {
-            get
-            {
-                return this._No;
-            }
-            set
-            {
-                this.OnNoChanging(value);
-                this._No = value;
-                this.OnNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No;
-        partial void OnNoChanging(string value);
-        partial void OnNoChanged();
-        /// <summary>
-        /// There are no comments for Property Old_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Old_Account_No
-        {
-            get
-            {
-                return this._Old_Account_No;
-            }
-            set
-            {
-                this.OnOld_Account_NoChanging(value);
-                this._Old_Account_No = value;
-                this.OnOld_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Old_Account_No;
-        partial void OnOld_Account_NoChanging(string value);
-        partial void OnOld_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property Payroll_Staff_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Payroll_Staff_No
-        {
-            get
-            {
-                return this._Payroll_Staff_No;
-            }
-            set
-            {
-                this.OnPayroll_Staff_NoChanging(value);
-                this._Payroll_Staff_No = value;
-                this.OnPayroll_Staff_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Payroll_Staff_No;
-        partial void OnPayroll_Staff_NoChanging(string value);
-        partial void OnPayroll_Staff_NoChanged();
-        /// <summary>
-        /// There are no comments for Property ID_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ID_No
-        {
-            get
-            {
-                return this._ID_No;
-            }
-            set
-            {
-                this.OnID_NoChanging(value);
-                this._ID_No = value;
-                this.OnID_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ID_No;
-        partial void OnID_NoChanging(string value);
-        partial void OnID_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Registration_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Registration_Date
-        {
-            get
-            {
-                return this._Registration_Date;
-            }
-            set
-            {
-                this.OnRegistration_DateChanging(value);
-                this._Registration_Date = value;
-                this.OnRegistration_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Registration_Date;
-        partial void OnRegistration_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnRegistration_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Phone_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Phone_No
-        {
-            get
-            {
-                return this._Phone_No;
-            }
-            set
-            {
-                this.OnPhone_NoChanging(value);
-                this._Phone_No = value;
-                this.OnPhone_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Phone_No;
-        partial void OnPhone_NoChanging(string value);
-        partial void OnPhone_NoChanged();
-        /// <summary>
-        /// There are no comments for Property E_Mail in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string E_Mail
-        {
-            get
-            {
-                return this._E_Mail;
-            }
-            set
-            {
-                this.OnE_MailChanging(value);
-                this._E_Mail = value;
-                this.OnE_MailChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _E_Mail;
-        partial void OnE_MailChanging(string value);
-        partial void OnE_MailChanged();
-        /// <summary>
-        /// There are no comments for Property E_Mail_Personal in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string E_Mail_Personal
-        {
-            get
-            {
-                return this._E_Mail_Personal;
-            }
-            set
-            {
-                this.OnE_Mail_PersonalChanging(value);
-                this._E_Mail_Personal = value;
-                this.OnE_Mail_PersonalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _E_Mail_Personal;
-        partial void OnE_Mail_PersonalChanging(string value);
-        partial void OnE_Mail_PersonalChanged();
-        /// <summary>
-        /// There are no comments for Property FOSA_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string FOSA_Account
-        {
-            get
-            {
-                return this._FOSA_Account;
-            }
-            set
-            {
-                this.OnFOSA_AccountChanging(value);
-                this._FOSA_Account = value;
-                this.OnFOSA_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _FOSA_Account;
-        partial void OnFOSA_AccountChanging(string value);
-        partial void OnFOSA_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Employer_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Employer_Code
-        {
-            get
-            {
-                return this._Employer_Code;
-            }
-            set
-            {
-                this.OnEmployer_CodeChanging(value);
-                this._Employer_Code = value;
-                this.OnEmployer_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Employer_Code;
-        partial void OnEmployer_CodeChanging(string value);
-        partial void OnEmployer_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_Filter
-        {
-            get
-            {
-                return this._Date_Filter;
-            }
-            set
-            {
-                this.OnDate_FilterChanging(value);
-                this._Date_Filter = value;
-                this.OnDate_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_Filter;
-        partial void OnDate_FilterChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property ETag in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ETag
-        {
-            get
-            {
-                return this._ETag;
-            }
-            set
-            {
-                this.OnETagChanging(value);
-                this._ETag = value;
-                this.OnETagChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ETag;
-        partial void OnETagChanging(string value);
-        partial void OnETagChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.PBIAccount_Types in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Code
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Code")]
-    public partial class PBIAccount_Types
-    {
-        /// <summary>
-        /// Create a new PBIAccount_Types object.
-        /// </summary>
-        /// <param name="code">Initial value of Code.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static PBIAccount_Types CreatePBIAccount_Types(string code)
-        {
-            PBIAccount_Types pBIAccount_Types = new PBIAccount_Types();
-            pBIAccount_Types.Code = code;
-            return pBIAccount_Types;
-        }
-        /// <summary>
-        /// There are no comments for Property Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Code
-        {
-            get
-            {
-                return this._Code;
-            }
-            set
-            {
-                this.OnCodeChanging(value);
-                this._Code = value;
-                this.OnCodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Code;
-        partial void OnCodeChanging(string value);
-        partial void OnCodeChanged();
-        /// <summary>
-        /// There are no comments for Property Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Description
-        {
-            get
-            {
-                return this._Description;
-            }
-            set
-            {
-                this.OnDescriptionChanging(value);
-                this._Description = value;
-                this.OnDescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Description;
-        partial void OnDescriptionChanging(string value);
-        partial void OnDescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Dormancy_Period_M in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Dormancy_Period_M
-        {
-            get
-            {
-                return this._Dormancy_Period_M;
-            }
-            set
-            {
-                this.OnDormancy_Period_MChanging(value);
-                this._Dormancy_Period_M = value;
-                this.OnDormancy_Period_MChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Dormancy_Period_M;
-        partial void OnDormancy_Period_MChanging(string value);
-        partial void OnDormancy_Period_MChanged();
-        /// <summary>
-        /// There are no comments for Property Entered_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Entered_By
-        {
-            get
-            {
-                return this._Entered_By;
-            }
-            set
-            {
-                this.OnEntered_ByChanging(value);
-                this._Entered_By = value;
-                this.OnEntered_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Entered_By;
-        partial void OnEntered_ByChanging(string value);
-        partial void OnEntered_ByChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Entered in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_Entered
-        {
-            get
-            {
-                return this._Date_Entered;
-            }
-            set
-            {
-                this.OnDate_EnteredChanging(value);
-                this._Date_Entered = value;
-                this.OnDate_EnteredChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_Entered;
-        partial void OnDate_EnteredChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_EnteredChanged();
-        /// <summary>
-        /// There are no comments for Property Time_Entered in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Time_Entered
-        {
-            get
-            {
-                return this._Time_Entered;
-            }
-            set
-            {
-                this.OnTime_EnteredChanging(value);
-                this._Time_Entered = value;
-                this.OnTime_EnteredChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Time_Entered;
-        partial void OnTime_EnteredChanging(string value);
-        partial void OnTime_EnteredChanged();
-        /// <summary>
-        /// There are no comments for Property Last_Date_Modified in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Last_Date_Modified
-        {
-            get
-            {
-                return this._Last_Date_Modified;
-            }
-            set
-            {
-                this.OnLast_Date_ModifiedChanging(value);
-                this._Last_Date_Modified = value;
-                this.OnLast_Date_ModifiedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Last_Date_Modified;
-        partial void OnLast_Date_ModifiedChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnLast_Date_ModifiedChanged();
-        /// <summary>
-        /// There are no comments for Property Modified_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Modified_By
-        {
-            get
-            {
-                return this._Modified_By;
-            }
-            set
-            {
-                this.OnModified_ByChanging(value);
-                this._Modified_By = value;
-                this.OnModified_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Modified_By;
-        partial void OnModified_ByChanging(string value);
-        partial void OnModified_ByChanged();
-        /// <summary>
-        /// There are no comments for Property ETag in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ETag
-        {
-            get
-            {
-                return this._ETag;
-            }
-            set
-            {
-                this.OnETagChanging(value);
-                this._ETag = value;
-                this.OnETagChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ETag;
-        partial void OnETagChanging(string value);
-        partial void OnETagChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.PBIBankLedgerxz in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Entry_No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Entry_No")]
-    public partial class PBIBankLedgerxz
-    {
-        /// <summary>
-        /// Create a new PBIBankLedgerxz object.
-        /// </summary>
-        /// <param name="entry_No">Initial value of Entry_No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static PBIBankLedgerxz CreatePBIBankLedgerxz(int entry_No)
-        {
-            PBIBankLedgerxz pBIBankLedgerxz = new PBIBankLedgerxz();
-            pBIBankLedgerxz.Entry_No = entry_No;
-            return pBIBankLedgerxz;
-        }
-        /// <summary>
-        /// There are no comments for Property Entry_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public int Entry_No
-        {
-            get
-            {
-                return this._Entry_No;
-            }
-            set
-            {
-                this.OnEntry_NoChanging(value);
-                this._Entry_No = value;
-                this.OnEntry_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private int _Entry_No;
-        partial void OnEntry_NoChanging(int value);
-        partial void OnEntry_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Bank_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bank_Account_No
-        {
-            get
-            {
-                return this._Bank_Account_No;
-            }
-            set
-            {
-                this.OnBank_Account_NoChanging(value);
-                this._Bank_Account_No = value;
-                this.OnBank_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bank_Account_No;
-        partial void OnBank_Account_NoChanging(string value);
-        partial void OnBank_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Posting_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Posting_Date
-        {
-            get
-            {
-                return this._Posting_Date;
-            }
-            set
-            {
-                this.OnPosting_DateChanging(value);
-                this._Posting_Date = value;
-                this.OnPosting_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Posting_Date;
-        partial void OnPosting_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnPosting_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Document_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Document_No
-        {
-            get
-            {
-                return this._Document_No;
-            }
-            set
-            {
-                this.OnDocument_NoChanging(value);
-                this._Document_No = value;
-                this.OnDocument_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Document_No;
-        partial void OnDocument_NoChanging(string value);
-        partial void OnDocument_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Description
-        {
-            get
-            {
-                return this._Description;
-            }
-            set
-            {
-                this.OnDescriptionChanging(value);
-                this._Description = value;
-                this.OnDescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Description;
-        partial void OnDescriptionChanging(string value);
-        partial void OnDescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Amount
-        {
-            get
-            {
-                return this._Amount;
-            }
-            set
-            {
-                this.OnAmountChanging(value);
-                this._Amount = value;
-                this.OnAmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Amount;
-        partial void OnAmountChanging(global::System.Nullable<decimal> value);
-        partial void OnAmountChanged();
-        /// <summary>
-        /// There are no comments for Property Remaining_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Remaining_Amount
-        {
-            get
-            {
-                return this._Remaining_Amount;
-            }
-            set
-            {
-                this.OnRemaining_AmountChanging(value);
-                this._Remaining_Amount = value;
-                this.OnRemaining_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Remaining_Amount;
-        partial void OnRemaining_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnRemaining_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Amount_LCY in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Amount_LCY
-        {
-            get
-            {
-                return this._Amount_LCY;
-            }
-            set
-            {
-                this.OnAmount_LCYChanging(value);
-                this._Amount_LCY = value;
-                this.OnAmount_LCYChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Amount_LCY;
-        partial void OnAmount_LCYChanging(global::System.Nullable<decimal> value);
-        partial void OnAmount_LCYChanged();
-        /// <summary>
-        /// There are no comments for Property Bank_Acc_Posting_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bank_Acc_Posting_Group
-        {
-            get
-            {
-                return this._Bank_Acc_Posting_Group;
-            }
-            set
-            {
-                this.OnBank_Acc_Posting_GroupChanging(value);
-                this._Bank_Acc_Posting_Group = value;
-                this.OnBank_Acc_Posting_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bank_Acc_Posting_Group;
-        partial void OnBank_Acc_Posting_GroupChanging(string value);
-        partial void OnBank_Acc_Posting_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property Global_Dimension_1_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Global_Dimension_1_Code
-        {
-            get
-            {
-                return this._Global_Dimension_1_Code;
-            }
-            set
-            {
-                this.OnGlobal_Dimension_1_CodeChanging(value);
-                this._Global_Dimension_1_Code = value;
-                this.OnGlobal_Dimension_1_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Global_Dimension_1_Code;
-        partial void OnGlobal_Dimension_1_CodeChanging(string value);
-        partial void OnGlobal_Dimension_1_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Global_Dimension_2_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Global_Dimension_2_Code
-        {
-            get
-            {
-                return this._Global_Dimension_2_Code;
-            }
-            set
-            {
-                this.OnGlobal_Dimension_2_CodeChanging(value);
-                this._Global_Dimension_2_Code = value;
-                this.OnGlobal_Dimension_2_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Global_Dimension_2_Code;
-        partial void OnGlobal_Dimension_2_CodeChanging(string value);
-        partial void OnGlobal_Dimension_2_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Our_Contact_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Our_Contact_Code
-        {
-            get
-            {
-                return this._Our_Contact_Code;
-            }
-            set
-            {
-                this.OnOur_Contact_CodeChanging(value);
-                this._Our_Contact_Code = value;
-                this.OnOur_Contact_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Our_Contact_Code;
-        partial void OnOur_Contact_CodeChanging(string value);
-        partial void OnOur_Contact_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property User_ID in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string User_ID
-        {
-            get
-            {
-                return this._User_ID;
-            }
-            set
-            {
-                this.OnUser_IDChanging(value);
-                this._User_ID = value;
-                this.OnUser_IDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _User_ID;
-        partial void OnUser_IDChanging(string value);
-        partial void OnUser_IDChanged();
-        /// <summary>
-        /// There are no comments for Property Source_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Source_Code
-        {
-            get
-            {
-                return this._Source_Code;
-            }
-            set
-            {
-                this.OnSource_CodeChanging(value);
-                this._Source_Code = value;
-                this.OnSource_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Source_Code;
-        partial void OnSource_CodeChanging(string value);
-        partial void OnSource_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Open in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Open
-        {
-            get
-            {
-                return this._Open;
-            }
-            set
-            {
-                this.OnOpenChanging(value);
-                this._Open = value;
-                this.OnOpenChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Open;
-        partial void OnOpenChanging(global::System.Nullable<bool> value);
-        partial void OnOpenChanged();
-        /// <summary>
-        /// There are no comments for Property Positive in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Positive
-        {
-            get
-            {
-                return this._Positive;
-            }
-            set
-            {
-                this.OnPositiveChanging(value);
-                this._Positive = value;
-                this.OnPositiveChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Positive;
-        partial void OnPositiveChanging(global::System.Nullable<bool> value);
-        partial void OnPositiveChanged();
-        /// <summary>
-        /// There are no comments for Property Closed_by_Entry_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Closed_by_Entry_No
-        {
-            get
-            {
-                return this._Closed_by_Entry_No;
-            }
-            set
-            {
-                this.OnClosed_by_Entry_NoChanging(value);
-                this._Closed_by_Entry_No = value;
-                this.OnClosed_by_Entry_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Closed_by_Entry_No;
-        partial void OnClosed_by_Entry_NoChanging(global::System.Nullable<int> value);
-        partial void OnClosed_by_Entry_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Closed_at_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Closed_at_Date
-        {
-            get
-            {
-                return this._Closed_at_Date;
-            }
-            set
-            {
-                this.OnClosed_at_DateChanging(value);
-                this._Closed_at_Date = value;
-                this.OnClosed_at_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Closed_at_Date;
-        partial void OnClosed_at_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnClosed_at_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Journal_Batch_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Journal_Batch_Name
-        {
-            get
-            {
-                return this._Journal_Batch_Name;
-            }
-            set
-            {
-                this.OnJournal_Batch_NameChanging(value);
-                this._Journal_Batch_Name = value;
-                this.OnJournal_Batch_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Journal_Batch_Name;
-        partial void OnJournal_Batch_NameChanging(string value);
-        partial void OnJournal_Batch_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Reason_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Reason_Code
-        {
-            get
-            {
-                return this._Reason_Code;
-            }
-            set
-            {
-                this.OnReason_CodeChanging(value);
-                this._Reason_Code = value;
-                this.OnReason_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Reason_Code;
-        partial void OnReason_CodeChanging(string value);
-        partial void OnReason_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Bal_Account_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bal_Account_Type
-        {
-            get
-            {
-                return this._Bal_Account_Type;
-            }
-            set
-            {
-                this.OnBal_Account_TypeChanging(value);
-                this._Bal_Account_Type = value;
-                this.OnBal_Account_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bal_Account_Type;
-        partial void OnBal_Account_TypeChanging(string value);
-        partial void OnBal_Account_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Bal_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bal_Account_No
-        {
-            get
-            {
-                return this._Bal_Account_No;
-            }
-            set
-            {
-                this.OnBal_Account_NoChanging(value);
-                this._Bal_Account_No = value;
-                this.OnBal_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bal_Account_No;
-        partial void OnBal_Account_NoChanging(string value);
-        partial void OnBal_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Transaction_No
-        {
-            get
-            {
-                return this._Transaction_No;
-            }
-            set
-            {
-                this.OnTransaction_NoChanging(value);
-                this._Transaction_No = value;
-                this.OnTransaction_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Transaction_No;
-        partial void OnTransaction_NoChanging(global::System.Nullable<int> value);
-        partial void OnTransaction_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Statement_Status in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Statement_Status
-        {
-            get
-            {
-                return this._Statement_Status;
-            }
-            set
-            {
-                this.OnStatement_StatusChanging(value);
-                this._Statement_Status = value;
-                this.OnStatement_StatusChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Statement_Status;
-        partial void OnStatement_StatusChanging(string value);
-        partial void OnStatement_StatusChanged();
-        /// <summary>
-        /// There are no comments for Property Statement_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Statement_No
-        {
-            get
-            {
-                return this._Statement_No;
-            }
-            set
-            {
-                this.OnStatement_NoChanging(value);
-                this._Statement_No = value;
-                this.OnStatement_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Statement_No;
-        partial void OnStatement_NoChanging(string value);
-        partial void OnStatement_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Statement_Line_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Statement_Line_No
-        {
-            get
-            {
-                return this._Statement_Line_No;
-            }
-            set
-            {
-                this.OnStatement_Line_NoChanging(value);
-                this._Statement_Line_No = value;
-                this.OnStatement_Line_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Statement_Line_No;
-        partial void OnStatement_Line_NoChanging(global::System.Nullable<int> value);
-        partial void OnStatement_Line_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Debit_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Debit_Amount
-        {
-            get
-            {
-                return this._Debit_Amount;
-            }
-            set
-            {
-                this.OnDebit_AmountChanging(value);
-                this._Debit_Amount = value;
-                this.OnDebit_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Debit_Amount;
-        partial void OnDebit_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnDebit_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Credit_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Credit_Amount
-        {
-            get
-            {
-                return this._Credit_Amount;
-            }
-            set
-            {
-                this.OnCredit_AmountChanging(value);
-                this._Credit_Amount = value;
-                this.OnCredit_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Credit_Amount;
-        partial void OnCredit_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnCredit_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Debit_Amount_LCY in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Debit_Amount_LCY
-        {
-            get
-            {
-                return this._Debit_Amount_LCY;
-            }
-            set
-            {
-                this.OnDebit_Amount_LCYChanging(value);
-                this._Debit_Amount_LCY = value;
-                this.OnDebit_Amount_LCYChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Debit_Amount_LCY;
-        partial void OnDebit_Amount_LCYChanging(global::System.Nullable<decimal> value);
-        partial void OnDebit_Amount_LCYChanged();
-        /// <summary>
-        /// There are no comments for Property Credit_Amount_LCY in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Credit_Amount_LCY
-        {
-            get
-            {
-                return this._Credit_Amount_LCY;
-            }
-            set
-            {
-                this.OnCredit_Amount_LCYChanging(value);
-                this._Credit_Amount_LCY = value;
-                this.OnCredit_Amount_LCYChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Credit_Amount_LCY;
-        partial void OnCredit_Amount_LCYChanging(global::System.Nullable<decimal> value);
-        partial void OnCredit_Amount_LCYChanged();
-        /// <summary>
-        /// There are no comments for Property Document_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Document_Date
-        {
-            get
-            {
-                return this._Document_Date;
-            }
-            set
-            {
-                this.OnDocument_DateChanging(value);
-                this._Document_Date = value;
-                this.OnDocument_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Document_Date;
-        partial void OnDocument_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDocument_DateChanged();
-        /// <summary>
-        /// There are no comments for Property External_Document_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string External_Document_No
-        {
-            get
-            {
-                return this._External_Document_No;
-            }
-            set
-            {
-                this.OnExternal_Document_NoChanging(value);
-                this._External_Document_No = value;
-                this.OnExternal_Document_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _External_Document_No;
-        partial void OnExternal_Document_NoChanging(string value);
-        partial void OnExternal_Document_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Reversed in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Reversed
-        {
-            get
-            {
-                return this._Reversed;
-            }
-            set
-            {
-                this.OnReversedChanging(value);
-                this._Reversed = value;
-                this.OnReversedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Reversed;
-        partial void OnReversedChanging(global::System.Nullable<bool> value);
-        partial void OnReversedChanged();
-        /// <summary>
-        /// There are no comments for Property ETag in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ETag
-        {
-            get
-            {
-                return this._ETag;
-            }
-            set
-            {
-                this.OnETagChanging(value);
-                this._ETag = value;
-                this.OnETagChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ETag;
-        partial void OnETagChanging(string value);
-        partial void OnETagChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.PBILoan_Register in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Loan_No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Loan_No")]
-    public partial class PBILoan_Register
-    {
-        /// <summary>
-        /// Create a new PBILoan_Register object.
-        /// </summary>
-        /// <param name="loan_No">Initial value of Loan_No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static PBILoan_Register CreatePBILoan_Register(string loan_No)
-        {
-            PBILoan_Register pBILoan_Register = new PBILoan_Register();
-            pBILoan_Register.Loan_No = loan_No;
-            return pBILoan_Register;
-        }
-        /// <summary>
-        /// There are no comments for Property Loan_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_No
-        {
-            get
-            {
-                return this._Loan_No;
-            }
-            set
-            {
-                this.OnLoan_NoChanging(value);
-                this._Loan_No = value;
-                this.OnLoan_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_No;
-        partial void OnLoan_NoChanging(string value);
-        partial void OnLoan_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Posted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Posted
-        {
-            get
-            {
-                return this._Posted;
-            }
-            set
-            {
-                this.OnPostedChanging(value);
-                this._Posted = value;
-                this.OnPostedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Posted;
-        partial void OnPostedChanging(global::System.Nullable<bool> value);
-        partial void OnPostedChanged();
-        /// <summary>
-        /// There are no comments for Property Fully_Disbursed in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Fully_Disbursed
-        {
-            get
-            {
-                return this._Fully_Disbursed;
-            }
-            set
-            {
-                this.OnFully_DisbursedChanging(value);
-                this._Fully_Disbursed = value;
-                this.OnFully_DisbursedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Fully_Disbursed;
-        partial void OnFully_DisbursedChanging(global::System.Nullable<bool> value);
-        partial void OnFully_DisbursedChanged();
-        /// <summary>
-        /// There are no comments for Property Total_Repayment in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Total_Repayment
-        {
-            get
-            {
-                return this._Total_Repayment;
-            }
-            set
-            {
-                this.OnTotal_RepaymentChanging(value);
-                this._Total_Repayment = value;
-                this.OnTotal_RepaymentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Total_Repayment;
-        partial void OnTotal_RepaymentChanging(global::System.Nullable<decimal> value);
-        partial void OnTotal_RepaymentChanged();
-        /// <summary>
-        /// There are no comments for Property Outstanding_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Outstanding_Balance
-        {
-            get
-            {
-                return this._Outstanding_Balance;
-            }
-            set
-            {
-                this.OnOutstanding_BalanceChanging(value);
-                this._Outstanding_Balance = value;
-                this.OnOutstanding_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Outstanding_Balance;
-        partial void OnOutstanding_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnOutstanding_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Penalty_Charged in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Penalty_Charged
-        {
-            get
-            {
-                return this._Penalty_Charged;
-            }
-            set
-            {
-                this.OnPenalty_ChargedChanging(value);
-                this._Penalty_Charged = value;
-                this.OnPenalty_ChargedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Penalty_Charged;
-        partial void OnPenalty_ChargedChanging(global::System.Nullable<decimal> value);
-        partial void OnPenalty_ChargedChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Loan_Amount
-        {
-            get
-            {
-                return this._Loan_Amount;
-            }
-            set
-            {
-                this.OnLoan_AmountChanging(value);
-                this._Loan_Amount = value;
-                this.OnLoan_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Loan_Amount;
-        partial void OnLoan_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnLoan_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Current_Shares in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Current_Shares
-        {
-            get
-            {
-                return this._Current_Shares;
-            }
-            set
-            {
-                this.OnCurrent_SharesChanging(value);
-                this._Current_Shares = value;
-                this.OnCurrent_SharesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Current_Shares;
-        partial void OnCurrent_SharesChanging(global::System.Nullable<decimal> value);
-        partial void OnCurrent_SharesChanged();
-        /// <summary>
-        /// There are no comments for Property Application_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Application_Date
-        {
-            get
-            {
-                return this._Application_Date;
-            }
-            set
-            {
-                this.OnApplication_DateChanging(value);
-                this._Application_Date = value;
-                this.OnApplication_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Application_Date;
-        partial void OnApplication_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnApplication_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Product_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_Product_Type
-        {
-            get
-            {
-                return this._Loan_Product_Type;
-            }
-            set
-            {
-                this.OnLoan_Product_TypeChanging(value);
-                this._Loan_Product_Type = value;
-                this.OnLoan_Product_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_Product_Type;
-        partial void OnLoan_Product_TypeChanging(string value);
-        partial void OnLoan_Product_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Client_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Client_Code
-        {
-            get
-            {
-                return this._Client_Code;
-            }
-            set
-            {
-                this.OnClient_CodeChanging(value);
-                this._Client_Code = value;
-                this.OnClient_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Client_Code;
-        partial void OnClient_CodeChanging(string value);
-        partial void OnClient_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Requested_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Requested_Amount
-        {
-            get
-            {
-                return this._Requested_Amount;
-            }
-            set
-            {
-                this.OnRequested_AmountChanging(value);
-                this._Requested_Amount = value;
-                this.OnRequested_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Requested_Amount;
-        partial void OnRequested_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnRequested_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Approved_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Approved_Amount
-        {
-            get
-            {
-                return this._Approved_Amount;
-            }
-            set
-            {
-                this.OnApproved_AmountChanging(value);
-                this._Approved_Amount = value;
-                this.OnApproved_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Approved_Amount;
-        partial void OnApproved_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnApproved_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Interest in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Interest
-        {
-            get
-            {
-                return this._Interest;
-            }
-            set
-            {
-                this.OnInterestChanging(value);
-                this._Interest = value;
-                this.OnInterestChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Interest;
-        partial void OnInterestChanging(global::System.Nullable<decimal> value);
-        partial void OnInterestChanged();
-        /// <summary>
-        /// There are no comments for Property Insurance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Insurance
-        {
-            get
-            {
-                return this._Insurance;
-            }
-            set
-            {
-                this.OnInsuranceChanging(value);
-                this._Insurance = value;
-                this.OnInsuranceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Insurance;
-        partial void OnInsuranceChanging(global::System.Nullable<decimal> value);
-        partial void OnInsuranceChanged();
-        /// <summary>
-        /// There are no comments for Property Source_of_Funds in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Source_of_Funds
-        {
-            get
-            {
-                return this._Source_of_Funds;
-            }
-            set
-            {
-                this.OnSource_of_FundsChanging(value);
-                this._Source_of_Funds = value;
-                this.OnSource_of_FundsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Source_of_Funds;
-        partial void OnSource_of_FundsChanging(string value);
-        partial void OnSource_of_FundsChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Status in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_Status
-        {
-            get
-            {
-                return this._Loan_Status;
-            }
-            set
-            {
-                this.OnLoan_StatusChanging(value);
-                this._Loan_Status = value;
-                this.OnLoan_StatusChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_Status;
-        partial void OnLoan_StatusChanging(string value);
-        partial void OnLoan_StatusChanged();
-        /// <summary>
-        /// There are no comments for Property Issued_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Issued_Date
-        {
-            get
-            {
-                return this._Issued_Date;
-            }
-            set
-            {
-                this.OnIssued_DateChanging(value);
-                this._Issued_Date = value;
-                this.OnIssued_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Issued_Date;
-        partial void OnIssued_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnIssued_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Installments in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Installments
-        {
-            get
-            {
-                return this._Installments;
-            }
-            set
-            {
-                this.OnInstallmentsChanging(value);
-                this._Installments = value;
-                this.OnInstallmentsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Installments;
-        partial void OnInstallmentsChanging(global::System.Nullable<int> value);
-        partial void OnInstallmentsChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Disbursement_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Loan_Disbursement_Date
-        {
-            get
-            {
-                return this._Loan_Disbursement_Date;
-            }
-            set
-            {
-                this.OnLoan_Disbursement_DateChanging(value);
-                this._Loan_Disbursement_Date = value;
-                this.OnLoan_Disbursement_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Loan_Disbursement_Date;
-        partial void OnLoan_Disbursement_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnLoan_Disbursement_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Mode_of_Disbursement in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Mode_of_Disbursement
-        {
-            get
-            {
-                return this._Mode_of_Disbursement;
-            }
-            set
-            {
-                this.OnMode_of_DisbursementChanging(value);
-                this._Mode_of_Disbursement = value;
-                this.OnMode_of_DisbursementChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Mode_of_Disbursement;
-        partial void OnMode_of_DisbursementChanging(string value);
-        partial void OnMode_of_DisbursementChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Approved in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_Approved
-        {
-            get
-            {
-                return this._Date_Approved;
-            }
-            set
-            {
-                this.OnDate_ApprovedChanging(value);
-                this._Date_Approved = value;
-                this.OnDate_ApprovedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_Approved;
-        partial void OnDate_ApprovedChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_ApprovedChanged();
-        /// <summary>
-        /// There are no comments for Property Repayment in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Repayment
-        {
-            get
-            {
-                return this._Repayment;
-            }
-            set
-            {
-                this.OnRepaymentChanging(value);
-                this._Repayment = value;
-                this.OnRepaymentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Repayment;
-        partial void OnRepaymentChanging(global::System.Nullable<decimal> value);
-        partial void OnRepaymentChanged();
-        /// <summary>
-        /// There are no comments for Property Amount_Disbursed in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Amount_Disbursed
-        {
-            get
-            {
-                return this._Amount_Disbursed;
-            }
-            set
-            {
-                this.OnAmount_DisbursedChanging(value);
-                this._Amount_Disbursed = value;
-                this.OnAmount_DisbursedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Amount_Disbursed;
-        partial void OnAmount_DisbursedChanging(global::System.Nullable<decimal> value);
-        partial void OnAmount_DisbursedChanged();
-        /// <summary>
-        /// There are no comments for Property Amount_Disburse in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Amount_Disburse
-        {
-            get
-            {
-                return this._Amount_Disburse;
-            }
-            set
-            {
-                this.OnAmount_DisburseChanging(value);
-                this._Amount_Disburse = value;
-                this.OnAmount_DisburseChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Amount_Disburse;
-        partial void OnAmount_DisburseChanging(global::System.Nullable<decimal> value);
-        partial void OnAmount_DisburseChanged();
-        /// <summary>
-        /// There are no comments for Property Employer_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Employer_Code
-        {
-            get
-            {
-                return this._Employer_Code;
-            }
-            set
-            {
-                this.OnEmployer_CodeChanging(value);
-                this._Employer_Code = value;
-                this.OnEmployer_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Employer_Code;
-        partial void OnEmployer_CodeChanging(string value);
-        partial void OnEmployer_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Source in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Source
-        {
-            get
-            {
-                return this._Source;
-            }
-            set
-            {
-                this.OnSourceChanging(value);
-                this._Source = value;
-                this.OnSourceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Source;
-        partial void OnSourceChanging(string value);
-        partial void OnSourceChanged();
-        /// <summary>
-        /// There are no comments for Property Repayment_Method in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Repayment_Method
-        {
-            get
-            {
-                return this._Repayment_Method;
-            }
-            set
-            {
-                this.OnRepayment_MethodChanging(value);
-                this._Repayment_Method = value;
-                this.OnRepayment_MethodChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Repayment_Method;
-        partial void OnRepayment_MethodChanging(string value);
-        partial void OnRepayment_MethodChanged();
-        /// <summary>
-        /// There are no comments for Property Branch_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Branch_Code
-        {
-            get
-            {
-                return this._Branch_Code;
-            }
-            set
-            {
-                this.OnBranch_CodeChanging(value);
-                this._Branch_Code = value;
-                this.OnBranch_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Branch_Code;
-        partial void OnBranch_CodeChanging(string value);
-        partial void OnBranch_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Appraisal_Status in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Appraisal_Status
-        {
-            get
-            {
-                return this._Appraisal_Status;
-            }
-            set
-            {
-                this.OnAppraisal_StatusChanging(value);
-                this._Appraisal_Status = value;
-                this.OnAppraisal_StatusChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Appraisal_Status;
-        partial void OnAppraisal_StatusChanging(string value);
-        partial void OnAppraisal_StatusChanged();
-        /// <summary>
-        /// There are no comments for Property Interest_Paid in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Interest_Paid
-        {
-            get
-            {
-                return this._Interest_Paid;
-            }
-            set
-            {
-                this.OnInterest_PaidChanging(value);
-                this._Interest_Paid = value;
-                this.OnInterest_PaidChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Interest_Paid;
-        partial void OnInterest_PaidChanging(global::System.Nullable<decimal> value);
-        partial void OnInterest_PaidChanged();
-        /// <summary>
-        /// There are no comments for Property Penalty_Paid in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Penalty_Paid
-        {
-            get
-            {
-                return this._Penalty_Paid;
-            }
-            set
-            {
-                this.OnPenalty_PaidChanging(value);
-                this._Penalty_Paid = value;
-                this.OnPenalty_PaidChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Penalty_Paid;
-        partial void OnPenalty_PaidChanging(global::System.Nullable<decimal> value);
-        partial void OnPenalty_PaidChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Repayment in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Loan_Repayment
-        {
-            get
-            {
-                return this._Loan_Repayment;
-            }
-            set
-            {
-                this.OnLoan_RepaymentChanging(value);
-                this._Loan_Repayment = value;
-                this.OnLoan_RepaymentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Loan_Repayment;
-        partial void OnLoan_RepaymentChanging(global::System.Nullable<decimal> value);
-        partial void OnLoan_RepaymentChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Principle_Repayment in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Loan_Principle_Repayment
-        {
-            get
-            {
-                return this._Loan_Principle_Repayment;
-            }
-            set
-            {
-                this.OnLoan_Principle_RepaymentChanging(value);
-                this._Loan_Principle_Repayment = value;
-                this.OnLoan_Principle_RepaymentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Loan_Principle_Repayment;
-        partial void OnLoan_Principle_RepaymentChanging(global::System.Nullable<decimal> value);
-        partial void OnLoan_Principle_RepaymentChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Interest_Repayment in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Loan_Interest_Repayment
-        {
-            get
-            {
-                return this._Loan_Interest_Repayment;
-            }
-            set
-            {
-                this.OnLoan_Interest_RepaymentChanging(value);
-                this._Loan_Interest_Repayment = value;
-                this.OnLoan_Interest_RepaymentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Loan_Interest_Repayment;
-        partial void OnLoan_Interest_RepaymentChanging(global::System.Nullable<decimal> value);
-        partial void OnLoan_Interest_RepaymentChanged();
-        /// <summary>
-        /// There are no comments for Property Current_Repayment in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Current_Repayment
-        {
-            get
-            {
-                return this._Current_Repayment;
-            }
-            set
-            {
-                this.OnCurrent_RepaymentChanging(value);
-                this._Current_Repayment = value;
-                this.OnCurrent_RepaymentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Current_Repayment;
-        partial void OnCurrent_RepaymentChanging(global::System.Nullable<decimal> value);
-        partial void OnCurrent_RepaymentChanged();
-        /// <summary>
-        /// There are no comments for Property Oustanding_Interest in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Oustanding_Interest
-        {
-            get
-            {
-                return this._Oustanding_Interest;
-            }
-            set
-            {
-                this.OnOustanding_InterestChanging(value);
-                this._Oustanding_Interest = value;
-                this.OnOustanding_InterestChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Oustanding_Interest;
-        partial void OnOustanding_InterestChanging(global::System.Nullable<decimal> value);
-        partial void OnOustanding_InterestChanged();
-        /// <summary>
-        /// There are no comments for Property Oustanding_Interest_to_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Oustanding_Interest_to_Date
-        {
-            get
-            {
-                return this._Oustanding_Interest_to_Date;
-            }
-            set
-            {
-                this.OnOustanding_Interest_to_DateChanging(value);
-                this._Oustanding_Interest_to_Date = value;
-                this.OnOustanding_Interest_to_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Oustanding_Interest_to_Date;
-        partial void OnOustanding_Interest_to_DateChanging(global::System.Nullable<decimal> value);
-        partial void OnOustanding_Interest_to_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Outstanding_Balance_to_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Outstanding_Balance_to_Date
-        {
-            get
-            {
-                return this._Outstanding_Balance_to_Date;
-            }
-            set
-            {
-                this.OnOutstanding_Balance_to_DateChanging(value);
-                this._Outstanding_Balance_to_Date = value;
-                this.OnOutstanding_Balance_to_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Outstanding_Balance_to_Date;
-        partial void OnOutstanding_Balance_to_DateChanging(global::System.Nullable<decimal> value);
-        partial void OnOutstanding_Balance_to_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Defaulted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Defaulted
-        {
-            get
-            {
-                return this._Defaulted;
-            }
-            set
-            {
-                this.OnDefaultedChanging(value);
-                this._Defaulted = value;
-                this.OnDefaultedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Defaulted;
-        partial void OnDefaultedChanging(global::System.Nullable<bool> value);
-        partial void OnDefaultedChanged();
-        /// <summary>
-        /// There are no comments for Property Defaulter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Defaulter
-        {
-            get
-            {
-                return this._Defaulter;
-            }
-            set
-            {
-                this.OnDefaulterChanging(value);
-                this._Defaulter = value;
-                this.OnDefaulterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Defaulter;
-        partial void OnDefaulterChanging(global::System.Nullable<bool> value);
-        partial void OnDefaulterChanged();
-        /// <summary>
-        /// There are no comments for Property RAmount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> RAmount
-        {
-            get
-            {
-                return this._RAmount;
-            }
-            set
-            {
-                this.OnRAmountChanging(value);
-                this._RAmount = value;
-                this.OnRAmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _RAmount;
-        partial void OnRAmountChanging(global::System.Nullable<decimal> value);
-        partial void OnRAmountChanged();
-        /// <summary>
-        /// There are no comments for Property Total_Loan_Guaranted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Total_Loan_Guaranted
-        {
-            get
-            {
-                return this._Total_Loan_Guaranted;
-            }
-            set
-            {
-                this.OnTotal_Loan_GuarantedChanging(value);
-                this._Total_Loan_Guaranted = value;
-                this.OnTotal_Loan_GuarantedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Total_Loan_Guaranted;
-        partial void OnTotal_Loan_GuarantedChanging(global::System.Nullable<decimal> value);
-        partial void OnTotal_Loan_GuarantedChanged();
-        /// <summary>
-        /// There are no comments for Property Recommended_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Recommended_Amount
-        {
-            get
-            {
-                return this._Recommended_Amount;
-            }
-            set
-            {
-                this.OnRecommended_AmountChanging(value);
-                this._Recommended_Amount = value;
-                this.OnRecommended_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Recommended_Amount;
-        partial void OnRecommended_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnRecommended_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Total_Loans_Default in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Total_Loans_Default
-        {
-            get
-            {
-                return this._Total_Loans_Default;
-            }
-            set
-            {
-                this.OnTotal_Loans_DefaultChanging(value);
-                this._Total_Loans_Default = value;
-                this.OnTotal_Loans_DefaultChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Total_Loans_Default;
-        partial void OnTotal_Loans_DefaultChanging(global::System.Nullable<decimal> value);
-        partial void OnTotal_Loans_DefaultChanged();
-        /// <summary>
-        /// There are no comments for Property Date_filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Date_filter
-        {
-            get
-            {
-                return this._Date_filter;
-            }
-            set
-            {
-                this.OnDate_filterChanging(value);
-                this._Date_filter = value;
-                this.OnDate_filterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Date_filter;
-        partial void OnDate_filterChanging(string value);
-        partial void OnDate_filterChanged();
-        /// <summary>
-        /// There are no comments for Property Currency_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Currency_Filter
-        {
-            get
-            {
-                return this._Currency_Filter;
-            }
-            set
-            {
-                this.OnCurrency_FilterChanging(value);
-                this._Currency_Filter = value;
-                this.OnCurrency_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Currency_Filter;
-        partial void OnCurrency_FilterChanging(string value);
-        partial void OnCurrency_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Period_Date_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Period_Date_Filter
-        {
-            get
-            {
-                return this._Period_Date_Filter;
-            }
-            set
-            {
-                this.OnPeriod_Date_FilterChanging(value);
-                this._Period_Date_Filter = value;
-                this.OnPeriod_Date_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Period_Date_Filter;
-        partial void OnPeriod_Date_FilterChanging(string value);
-        partial void OnPeriod_Date_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Document_No_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Document_No_Filter
-        {
-            get
-            {
-                return this._Document_No_Filter;
-            }
-            set
-            {
-                this.OnDocument_No_FilterChanging(value);
-                this._Document_No_Filter = value;
-                this.OnDocument_No_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Document_No_Filter;
-        partial void OnDocument_No_FilterChanging(string value);
-        partial void OnDocument_No_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property ETag in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ETag
-        {
-            get
-            {
-                return this._ETag;
-            }
-            set
-            {
-                this.OnETagChanging(value);
-                this._ETag = value;
-                this.OnETagChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ETag;
-        partial void OnETagChanging(string value);
-        partial void OnETagChanged();
-        /// <summary>
-        /// There are no comments for Loan_Product_Type_Link in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public Loan_Products Loan_Product_Type_Link
-        {
-            get
-            {
-                return this._Loan_Product_Type_Link;
-            }
-            set
-            {
-                this._Loan_Product_Type_Link = value;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private Loan_Products _Loan_Product_Type_Link;
-    }
-    /// <summary>
-    /// There are no comments for NAV.PBIMembers in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
-    public partial class PBIMembers
-    {
-        /// <summary>
-        /// Create a new PBIMembers object.
-        /// </summary>
-        /// <param name="no">Initial value of No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static PBIMembers CreatePBIMembers(string no)
-        {
-            PBIMembers pBIMembers = new PBIMembers();
-            pBIMembers.No = no;
-            return pBIMembers;
-        }
-        /// <summary>
-        /// There are no comments for Property No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No
-        {
-            get
-            {
-                return this._No;
-            }
-            set
-            {
-                this.OnNoChanging(value);
-                this._No = value;
-                this.OnNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No;
-        partial void OnNoChanging(string value);
-        partial void OnNoChanged();
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property Search_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Search_Name
-        {
-            get
-            {
-                return this._Search_Name;
-            }
-            set
-            {
-                this.OnSearch_NameChanging(value);
-                this._Search_Name = value;
-                this.OnSearch_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Search_Name;
-        partial void OnSearch_NameChanging(string value);
-        partial void OnSearch_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Phone_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Phone_No
-        {
-            get
-            {
-                return this._Phone_No;
-            }
-            set
-            {
-                this.OnPhone_NoChanging(value);
-                this._Phone_No = value;
-                this.OnPhone_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Phone_No;
-        partial void OnPhone_NoChanging(string value);
-        partial void OnPhone_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Our_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Our_Account_No
-        {
-            get
-            {
-                return this._Our_Account_No;
-            }
-            set
-            {
-                this.OnOur_Account_NoChanging(value);
-                this._Our_Account_No = value;
-                this.OnOur_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Our_Account_No;
-        partial void OnOur_Account_NoChanging(string value);
-        partial void OnOur_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Global_Dimension_1_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Global_Dimension_1_Code
-        {
-            get
-            {
-                return this._Global_Dimension_1_Code;
-            }
-            set
-            {
-                this.OnGlobal_Dimension_1_CodeChanging(value);
-                this._Global_Dimension_1_Code = value;
-                this.OnGlobal_Dimension_1_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Global_Dimension_1_Code;
-        partial void OnGlobal_Dimension_1_CodeChanging(string value);
-        partial void OnGlobal_Dimension_1_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Global_Dimension_2_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Global_Dimension_2_Code
-        {
-            get
-            {
-                return this._Global_Dimension_2_Code;
-            }
-            set
-            {
-                this.OnGlobal_Dimension_2_CodeChanging(value);
-                this._Global_Dimension_2_Code = value;
-                this.OnGlobal_Dimension_2_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Global_Dimension_2_Code;
-        partial void OnGlobal_Dimension_2_CodeChanging(string value);
-        partial void OnGlobal_Dimension_2_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Credit_Limit_LCY in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Credit_Limit_LCY
-        {
-            get
-            {
-                return this._Credit_Limit_LCY;
-            }
-            set
-            {
-                this.OnCredit_Limit_LCYChanging(value);
-                this._Credit_Limit_LCY = value;
-                this.OnCredit_Limit_LCYChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Credit_Limit_LCY;
-        partial void OnCredit_Limit_LCYChanging(global::System.Nullable<decimal> value);
-        partial void OnCredit_Limit_LCYChanged();
-        /// <summary>
-        /// There are no comments for Property Customer_Posting_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Customer_Posting_Group
-        {
-            get
-            {
-                return this._Customer_Posting_Group;
-            }
-            set
-            {
-                this.OnCustomer_Posting_GroupChanging(value);
-                this._Customer_Posting_Group = value;
-                this.OnCustomer_Posting_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Customer_Posting_Group;
-        partial void OnCustomer_Posting_GroupChanging(string value);
-        partial void OnCustomer_Posting_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property Balance_LCY in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Balance_LCY
-        {
-            get
-            {
-                return this._Balance_LCY;
-            }
-            set
-            {
-                this.OnBalance_LCYChanging(value);
-                this._Balance_LCY = value;
-                this.OnBalance_LCYChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Balance_LCY;
-        partial void OnBalance_LCYChanging(global::System.Nullable<decimal> value);
-        partial void OnBalance_LCYChanged();
-        /// <summary>
-        /// There are no comments for Property Payments in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Payments
-        {
-            get
-            {
-                return this._Payments;
-            }
-            set
-            {
-                this.OnPaymentsChanging(value);
-                this._Payments = value;
-                this.OnPaymentsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Payments;
-        partial void OnPaymentsChanging(global::System.Nullable<decimal> value);
-        partial void OnPaymentsChanged();
-        /// <summary>
-        /// There are no comments for Property Application_Method in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Application_Method
-        {
-            get
-            {
-                return this._Application_Method;
-            }
-            set
-            {
-                this.OnApplication_MethodChanging(value);
-                this._Application_Method = value;
-                this.OnApplication_MethodChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Application_Method;
-        partial void OnApplication_MethodChanging(string value);
-        partial void OnApplication_MethodChanged();
-        /// <summary>
-        /// There are no comments for Property No_of_Members_Guaranteed in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> No_of_Members_Guaranteed
-        {
-            get
-            {
-                return this._No_of_Members_Guaranteed;
-            }
-            set
-            {
-                this.OnNo_of_Members_GuaranteedChanging(value);
-                this._No_of_Members_Guaranteed = value;
-                this.OnNo_of_Members_GuaranteedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _No_of_Members_Guaranteed;
-        partial void OnNo_of_Members_GuaranteedChanging(global::System.Nullable<int> value);
-        partial void OnNo_of_Members_GuaranteedChanged();
-        /// <summary>
-        /// There are no comments for Property Customer_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Customer_Type
-        {
-            get
-            {
-                return this._Customer_Type;
-            }
-            set
-            {
-                this.OnCustomer_TypeChanging(value);
-                this._Customer_Type = value;
-                this.OnCustomer_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Customer_Type;
-        partial void OnCustomer_TypeChanging(string value);
-        partial void OnCustomer_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Current_Loan in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Current_Loan
-        {
-            get
-            {
-                return this._Current_Loan;
-            }
-            set
-            {
-                this.OnCurrent_LoanChanging(value);
-                this._Current_Loan = value;
-                this.OnCurrent_LoanChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Current_Loan;
-        partial void OnCurrent_LoanChanging(global::System.Nullable<decimal> value);
-        partial void OnCurrent_LoanChanged();
-        /// <summary>
-        /// There are no comments for Property Current_Shares in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Current_Shares
-        {
-            get
-            {
-                return this._Current_Shares;
-            }
-            set
-            {
-                this.OnCurrent_SharesChanging(value);
-                this._Current_Shares = value;
-                this.OnCurrent_SharesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Current_Shares;
-        partial void OnCurrent_SharesChanging(global::System.Nullable<decimal> value);
-        partial void OnCurrent_SharesChanged();
-        /// <summary>
-        /// There are no comments for Property Total_Repayments in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Total_Repayments
-        {
-            get
-            {
-                return this._Total_Repayments;
-            }
-            set
-            {
-                this.OnTotal_RepaymentsChanging(value);
-                this._Total_Repayments = value;
-                this.OnTotal_RepaymentsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Total_Repayments;
-        partial void OnTotal_RepaymentsChanging(global::System.Nullable<decimal> value);
-        partial void OnTotal_RepaymentsChanged();
-        /// <summary>
-        /// There are no comments for Property Principal_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Principal_Balance
-        {
-            get
-            {
-                return this._Principal_Balance;
-            }
-            set
-            {
-                this.OnPrincipal_BalanceChanging(value);
-                this._Principal_Balance = value;
-                this.OnPrincipal_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Principal_Balance;
-        partial void OnPrincipal_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnPrincipal_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Principal_Repayment in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Principal_Repayment
-        {
-            get
-            {
-                return this._Principal_Repayment;
-            }
-            set
-            {
-                this.OnPrincipal_RepaymentChanging(value);
-                this._Principal_Repayment = value;
-                this.OnPrincipal_RepaymentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Principal_Repayment;
-        partial void OnPrincipal_RepaymentChanging(global::System.Nullable<decimal> value);
-        partial void OnPrincipal_RepaymentChanged();
-        /// <summary>
-        /// There are no comments for Property Debtors_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Debtors_Type
-        {
-            get
-            {
-                return this._Debtors_Type;
-            }
-            set
-            {
-                this.OnDebtors_TypeChanging(value);
-                this._Debtors_Type = value;
-                this.OnDebtors_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Debtors_Type;
-        partial void OnDebtors_TypeChanging(string value);
-        partial void OnDebtors_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Outstanding_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Outstanding_Balance
-        {
-            get
-            {
-                return this._Outstanding_Balance;
-            }
-            set
-            {
-                this.OnOutstanding_BalanceChanging(value);
-                this._Outstanding_Balance = value;
-                this.OnOutstanding_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Outstanding_Balance;
-        partial void OnOutstanding_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnOutstanding_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Status in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Status
-        {
-            get
-            {
-                return this._Status;
-            }
-            set
-            {
-                this.OnStatusChanging(value);
-                this._Status = value;
-                this.OnStatusChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Status;
-        partial void OnStatusChanging(string value);
-        partial void OnStatusChanged();
-        /// <summary>
-        /// There are no comments for Property FOSA_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string FOSA_Account
-        {
-            get
-            {
-                return this._FOSA_Account;
-            }
-            set
-            {
-                this.OnFOSA_AccountChanging(value);
-                this._FOSA_Account = value;
-                this.OnFOSA_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _FOSA_Account;
-        partial void OnFOSA_AccountChanging(string value);
-        partial void OnFOSA_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Old_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Old_Account_No
-        {
-            get
-            {
-                return this._Old_Account_No;
-            }
-            set
-            {
-                this.OnOld_Account_NoChanging(value);
-                this._Old_Account_No = value;
-                this.OnOld_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Old_Account_No;
-        partial void OnOld_Account_NoChanging(string value);
-        partial void OnOld_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Employer_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Employer_Code
-        {
-            get
-            {
-                return this._Employer_Code;
-            }
-            set
-            {
-                this.OnEmployer_CodeChanging(value);
-                this._Employer_Code = value;
-                this.OnEmployer_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Employer_Code;
-        partial void OnEmployer_CodeChanging(string value);
-        partial void OnEmployer_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property FOSA_Outstanding_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> FOSA_Outstanding_Balance
-        {
-            get
-            {
-                return this._FOSA_Outstanding_Balance;
-            }
-            set
-            {
-                this.OnFOSA_Outstanding_BalanceChanging(value);
-                this._FOSA_Outstanding_Balance = value;
-                this.OnFOSA_Outstanding_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _FOSA_Outstanding_Balance;
-        partial void OnFOSA_Outstanding_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnFOSA_Outstanding_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property FOSA_Oustanding_Interest in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> FOSA_Oustanding_Interest
-        {
-            get
-            {
-                return this._FOSA_Oustanding_Interest;
-            }
-            set
-            {
-                this.OnFOSA_Oustanding_InterestChanging(value);
-                this._FOSA_Oustanding_Interest = value;
-                this.OnFOSA_Oustanding_InterestChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _FOSA_Oustanding_Interest;
-        partial void OnFOSA_Oustanding_InterestChanging(global::System.Nullable<decimal> value);
-        partial void OnFOSA_Oustanding_InterestChanged();
-        /// <summary>
-        /// There are no comments for Property FOSA_Account_Bal in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> FOSA_Account_Bal
-        {
-            get
-            {
-                return this._FOSA_Account_Bal;
-            }
-            set
-            {
-                this.OnFOSA_Account_BalChanging(value);
-                this._FOSA_Account_Bal = value;
-                this.OnFOSA_Account_BalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _FOSA_Account_Bal;
-        partial void OnFOSA_Account_BalChanging(global::System.Nullable<decimal> value);
-        partial void OnFOSA_Account_BalChanged();
-        /// <summary>
-        /// There are no comments for Property Active_Loans_Guarantor in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Active_Loans_Guarantor
-        {
-            get
-            {
-                return this._Active_Loans_Guarantor;
-            }
-            set
-            {
-                this.OnActive_Loans_GuarantorChanging(value);
-                this._Active_Loans_Guarantor = value;
-                this.OnActive_Loans_GuarantorChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Active_Loans_Guarantor;
-        partial void OnActive_Loans_GuarantorChanging(global::System.Nullable<int> value);
-        partial void OnActive_Loans_GuarantorChanged();
-        /// <summary>
-        /// There are no comments for Property Loans_Guaranteed in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Loans_Guaranteed
-        {
-            get
-            {
-                return this._Loans_Guaranteed;
-            }
-            set
-            {
-                this.OnLoans_GuaranteedChanging(value);
-                this._Loans_Guaranteed = value;
-                this.OnLoans_GuaranteedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Loans_Guaranteed;
-        partial void OnLoans_GuaranteedChanging(global::System.Nullable<int> value);
-        partial void OnLoans_GuaranteedChanged();
-        /// <summary>
-        /// There are no comments for Property Global_Dimension_1_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Global_Dimension_1_Filter
-        {
-            get
-            {
-                return this._Global_Dimension_1_Filter;
-            }
-            set
-            {
-                this.OnGlobal_Dimension_1_FilterChanging(value);
-                this._Global_Dimension_1_Filter = value;
-                this.OnGlobal_Dimension_1_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Global_Dimension_1_Filter;
-        partial void OnGlobal_Dimension_1_FilterChanging(string value);
-        partial void OnGlobal_Dimension_1_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Global_Dimension_2_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Global_Dimension_2_Filter
-        {
-            get
-            {
-                return this._Global_Dimension_2_Filter;
-            }
-            set
-            {
-                this.OnGlobal_Dimension_2_FilterChanging(value);
-                this._Global_Dimension_2_Filter = value;
-                this.OnGlobal_Dimension_2_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Global_Dimension_2_Filter;
-        partial void OnGlobal_Dimension_2_FilterChanging(string value);
-        partial void OnGlobal_Dimension_2_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Date_Filter
-        {
-            get
-            {
-                return this._Date_Filter;
-            }
-            set
-            {
-                this.OnDate_FilterChanging(value);
-                this._Date_Filter = value;
-                this.OnDate_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Date_Filter;
-        partial void OnDate_FilterChanging(string value);
-        partial void OnDate_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Currency_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Currency_Filter
-        {
-            get
-            {
-                return this._Currency_Filter;
-            }
-            set
-            {
-                this.OnCurrency_FilterChanging(value);
-                this._Currency_Filter = value;
-                this.OnCurrency_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Currency_Filter;
-        partial void OnCurrency_FilterChanging(string value);
-        partial void OnCurrency_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property Document_No_Filter in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Document_No_Filter
-        {
-            get
-            {
-                return this._Document_No_Filter;
-            }
-            set
-            {
-                this.OnDocument_No_FilterChanging(value);
-                this._Document_No_Filter = value;
-                this.OnDocument_No_FilterChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Document_No_Filter;
-        partial void OnDocument_No_FilterChanging(string value);
-        partial void OnDocument_No_FilterChanged();
-        /// <summary>
-        /// There are no comments for Property ETag in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ETag
-        {
-            get
-            {
-                return this._ETag;
-            }
-            set
-            {
-                this.OnETagChanging(value);
-                this._ETag = value;
-                this.OnETagChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ETag;
-        partial void OnETagChanging(string value);
-        partial void OnETagChanged();
     }
     /// <summary>
     /// There are no comments for NAV.powerbifinance in the schema.
@@ -7337,48 +1809,6 @@ namespace SACCOPortal.NavOData
         partial void OnNoChanging(string value);
         partial void OnNoChanged();
         /// <summary>
-        /// There are no comments for Property Sell_to_Customer_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Sell_to_Customer_No
-        {
-            get
-            {
-                return this._Sell_to_Customer_No;
-            }
-            set
-            {
-                this.OnSell_to_Customer_NoChanging(value);
-                this._Sell_to_Customer_No = value;
-                this.OnSell_to_Customer_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Sell_to_Customer_No;
-        partial void OnSell_to_Customer_NoChanging(string value);
-        partial void OnSell_to_Customer_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Sell_to_Contact_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Sell_to_Contact_No
-        {
-            get
-            {
-                return this._Sell_to_Contact_No;
-            }
-            set
-            {
-                this.OnSell_to_Contact_NoChanging(value);
-                this._Sell_to_Contact_No = value;
-                this.OnSell_to_Contact_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Sell_to_Contact_No;
-        partial void OnSell_to_Contact_NoChanging(string value);
-        partial void OnSell_to_Contact_NoChanged();
-        /// <summary>
         /// There are no comments for Property Sell_to_Customer_Name in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -7505,6 +1935,27 @@ namespace SACCOPortal.NavOData
         partial void OnSell_to_Post_CodeChanging(string value);
         partial void OnSell_to_Post_CodeChanged();
         /// <summary>
+        /// There are no comments for Property Sell_to_Contact_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Sell_to_Contact_No
+        {
+            get
+            {
+                return this._Sell_to_Contact_No;
+            }
+            set
+            {
+                this.OnSell_to_Contact_NoChanging(value);
+                this._Sell_to_Contact_No = value;
+                this.OnSell_to_Contact_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Sell_to_Contact_No;
+        partial void OnSell_to_Contact_NoChanging(string value);
+        partial void OnSell_to_Contact_NoChanged();
+        /// <summary>
         /// There are no comments for Property Sell_to_Contact in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -7546,6 +1997,27 @@ namespace SACCOPortal.NavOData
         private global::System.Nullable<int> _No_of_Archived_Versions;
         partial void OnNo_of_Archived_VersionsChanging(global::System.Nullable<int> value);
         partial void OnNo_of_Archived_VersionsChanged();
+        /// <summary>
+        /// There are no comments for Property Document_Date in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Document_Date
+        {
+            get
+            {
+                return this._Document_Date;
+            }
+            set
+            {
+                this.OnDocument_DateChanging(value);
+                this._Document_Date = value;
+                this.OnDocument_DateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Document_Date;
+        partial void OnDocument_DateChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnDocument_DateChanged();
         /// <summary>
         /// There are no comments for Property Posting_Date in the schema.
         /// </summary>
@@ -7589,26 +2061,26 @@ namespace SACCOPortal.NavOData
         partial void OnOrder_DateChanging(global::System.Nullable<global::System.DateTime> value);
         partial void OnOrder_DateChanged();
         /// <summary>
-        /// There are no comments for Property Document_Date in the schema.
+        /// There are no comments for Property Due_Date in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Document_Date
+        public global::System.Nullable<global::System.DateTime> Due_Date
         {
             get
             {
-                return this._Document_Date;
+                return this._Due_Date;
             }
             set
             {
-                this.OnDocument_DateChanging(value);
-                this._Document_Date = value;
-                this.OnDocument_DateChanged();
+                this.OnDue_DateChanging(value);
+                this._Due_Date = value;
+                this.OnDue_DateChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Document_Date;
-        partial void OnDocument_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDocument_DateChanged();
+        private global::System.Nullable<global::System.DateTime> _Due_Date;
+        partial void OnDue_DateChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnDue_DateChanged();
         /// <summary>
         /// There are no comments for Property Requested_Delivery_Date in the schema.
         /// </summary>
@@ -7651,27 +2123,6 @@ namespace SACCOPortal.NavOData
         private global::System.Nullable<global::System.DateTime> _Promised_Delivery_Date;
         partial void OnPromised_Delivery_DateChanging(global::System.Nullable<global::System.DateTime> value);
         partial void OnPromised_Delivery_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Quote_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Quote_No
-        {
-            get
-            {
-                return this._Quote_No;
-            }
-            set
-            {
-                this.OnQuote_NoChanging(value);
-                this._Quote_No = value;
-                this.OnQuote_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Quote_No;
-        partial void OnQuote_NoChanging(string value);
-        partial void OnQuote_NoChanged();
         /// <summary>
         /// There are no comments for Property External_Document_No in the schema.
         /// </summary>
@@ -7841,236 +2292,68 @@ namespace SACCOPortal.NavOData
         partial void OnStatusChanging(string value);
         partial void OnStatusChanged();
         /// <summary>
-        /// There are no comments for Property Bill_to_Customer_No in the schema.
+        /// There are no comments for Property Currency_Code in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_Customer_No
+        public string Currency_Code
         {
             get
             {
-                return this._Bill_to_Customer_No;
+                return this._Currency_Code;
             }
             set
             {
-                this.OnBill_to_Customer_NoChanging(value);
-                this._Bill_to_Customer_No = value;
-                this.OnBill_to_Customer_NoChanged();
+                this.OnCurrency_CodeChanging(value);
+                this._Currency_Code = value;
+                this.OnCurrency_CodeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_Customer_No;
-        partial void OnBill_to_Customer_NoChanging(string value);
-        partial void OnBill_to_Customer_NoChanged();
+        private string _Currency_Code;
+        partial void OnCurrency_CodeChanging(string value);
+        partial void OnCurrency_CodeChanged();
         /// <summary>
-        /// There are no comments for Property Bill_to_Contact_No in the schema.
+        /// There are no comments for Property Shipment_Date in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_Contact_No
+        public global::System.Nullable<global::System.DateTime> Shipment_Date
         {
             get
             {
-                return this._Bill_to_Contact_No;
+                return this._Shipment_Date;
             }
             set
             {
-                this.OnBill_to_Contact_NoChanging(value);
-                this._Bill_to_Contact_No = value;
-                this.OnBill_to_Contact_NoChanged();
+                this.OnShipment_DateChanging(value);
+                this._Shipment_Date = value;
+                this.OnShipment_DateChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_Contact_No;
-        partial void OnBill_to_Contact_NoChanging(string value);
-        partial void OnBill_to_Contact_NoChanged();
+        private global::System.Nullable<global::System.DateTime> _Shipment_Date;
+        partial void OnShipment_DateChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnShipment_DateChanged();
         /// <summary>
-        /// There are no comments for Property Bill_to_Name in the schema.
+        /// There are no comments for Property Quote_No in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_Name
+        public string Quote_No
         {
             get
             {
-                return this._Bill_to_Name;
+                return this._Quote_No;
             }
             set
             {
-                this.OnBill_to_NameChanging(value);
-                this._Bill_to_Name = value;
-                this.OnBill_to_NameChanged();
+                this.OnQuote_NoChanging(value);
+                this._Quote_No = value;
+                this.OnQuote_NoChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_Name;
-        partial void OnBill_to_NameChanging(string value);
-        partial void OnBill_to_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Bill_to_Address in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_Address
-        {
-            get
-            {
-                return this._Bill_to_Address;
-            }
-            set
-            {
-                this.OnBill_to_AddressChanging(value);
-                this._Bill_to_Address = value;
-                this.OnBill_to_AddressChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_Address;
-        partial void OnBill_to_AddressChanging(string value);
-        partial void OnBill_to_AddressChanged();
-        /// <summary>
-        /// There are no comments for Property Bill_to_Address_2 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_Address_2
-        {
-            get
-            {
-                return this._Bill_to_Address_2;
-            }
-            set
-            {
-                this.OnBill_to_Address_2Changing(value);
-                this._Bill_to_Address_2 = value;
-                this.OnBill_to_Address_2Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_Address_2;
-        partial void OnBill_to_Address_2Changing(string value);
-        partial void OnBill_to_Address_2Changed();
-        /// <summary>
-        /// There are no comments for Property Bill_to_City in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_City
-        {
-            get
-            {
-                return this._Bill_to_City;
-            }
-            set
-            {
-                this.OnBill_to_CityChanging(value);
-                this._Bill_to_City = value;
-                this.OnBill_to_CityChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_City;
-        partial void OnBill_to_CityChanging(string value);
-        partial void OnBill_to_CityChanged();
-        /// <summary>
-        /// There are no comments for Property Bill_to_County in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_County
-        {
-            get
-            {
-                return this._Bill_to_County;
-            }
-            set
-            {
-                this.OnBill_to_CountyChanging(value);
-                this._Bill_to_County = value;
-                this.OnBill_to_CountyChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_County;
-        partial void OnBill_to_CountyChanging(string value);
-        partial void OnBill_to_CountyChanged();
-        /// <summary>
-        /// There are no comments for Property Bill_to_Post_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_Post_Code
-        {
-            get
-            {
-                return this._Bill_to_Post_Code;
-            }
-            set
-            {
-                this.OnBill_to_Post_CodeChanging(value);
-                this._Bill_to_Post_Code = value;
-                this.OnBill_to_Post_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_Post_Code;
-        partial void OnBill_to_Post_CodeChanging(string value);
-        partial void OnBill_to_Post_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Bill_to_Contact in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bill_to_Contact
-        {
-            get
-            {
-                return this._Bill_to_Contact;
-            }
-            set
-            {
-                this.OnBill_to_ContactChanging(value);
-                this._Bill_to_Contact = value;
-                this.OnBill_to_ContactChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bill_to_Contact;
-        partial void OnBill_to_ContactChanging(string value);
-        partial void OnBill_to_ContactChanged();
-        /// <summary>
-        /// There are no comments for Property Shortcut_Dimension_1_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Shortcut_Dimension_1_Code
-        {
-            get
-            {
-                return this._Shortcut_Dimension_1_Code;
-            }
-            set
-            {
-                this.OnShortcut_Dimension_1_CodeChanging(value);
-                this._Shortcut_Dimension_1_Code = value;
-                this.OnShortcut_Dimension_1_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Shortcut_Dimension_1_Code;
-        partial void OnShortcut_Dimension_1_CodeChanging(string value);
-        partial void OnShortcut_Dimension_1_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Shortcut_Dimension_2_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Shortcut_Dimension_2_Code
-        {
-            get
-            {
-                return this._Shortcut_Dimension_2_Code;
-            }
-            set
-            {
-                this.OnShortcut_Dimension_2_CodeChanging(value);
-                this._Shortcut_Dimension_2_Code = value;
-                this.OnShortcut_Dimension_2_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Shortcut_Dimension_2_Code;
-        partial void OnShortcut_Dimension_2_CodeChanging(string value);
-        partial void OnShortcut_Dimension_2_CodeChanged();
+        private string _Quote_No;
+        partial void OnQuote_NoChanging(string value);
+        partial void OnQuote_NoChanged();
         /// <summary>
         /// There are no comments for Property Payment_Terms_Code in the schema.
         /// </summary>
@@ -8092,69 +2375,6 @@ namespace SACCOPortal.NavOData
         private string _Payment_Terms_Code;
         partial void OnPayment_Terms_CodeChanging(string value);
         partial void OnPayment_Terms_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Due_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Due_Date
-        {
-            get
-            {
-                return this._Due_Date;
-            }
-            set
-            {
-                this.OnDue_DateChanging(value);
-                this._Due_Date = value;
-                this.OnDue_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Due_Date;
-        partial void OnDue_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDue_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Payment_Discount_Percent in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Payment_Discount_Percent
-        {
-            get
-            {
-                return this._Payment_Discount_Percent;
-            }
-            set
-            {
-                this.OnPayment_Discount_PercentChanging(value);
-                this._Payment_Discount_Percent = value;
-                this.OnPayment_Discount_PercentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Payment_Discount_Percent;
-        partial void OnPayment_Discount_PercentChanging(global::System.Nullable<decimal> value);
-        partial void OnPayment_Discount_PercentChanged();
-        /// <summary>
-        /// There are no comments for Property Pmt_Discount_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Pmt_Discount_Date
-        {
-            get
-            {
-                return this._Pmt_Discount_Date;
-            }
-            set
-            {
-                this.OnPmt_Discount_DateChanging(value);
-                this._Pmt_Discount_Date = value;
-                this.OnPmt_Discount_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Pmt_Discount_Date;
-        partial void OnPmt_Discount_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnPmt_Discount_DateChanged();
         /// <summary>
         /// There are no comments for Property Payment_Method_Code in the schema.
         /// </summary>
@@ -8219,6 +2439,132 @@ namespace SACCOPortal.NavOData
         partial void OnTax_Area_CodeChanging(string value);
         partial void OnTax_Area_CodeChanged();
         /// <summary>
+        /// There are no comments for Property SelectedPayments in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string SelectedPayments
+        {
+            get
+            {
+                return this._SelectedPayments;
+            }
+            set
+            {
+                this.OnSelectedPaymentsChanging(value);
+                this._SelectedPayments = value;
+                this.OnSelectedPaymentsChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _SelectedPayments;
+        partial void OnSelectedPaymentsChanging(string value);
+        partial void OnSelectedPaymentsChanged();
+        /// <summary>
+        /// There are no comments for Property Transaction_Type in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Transaction_Type
+        {
+            get
+            {
+                return this._Transaction_Type;
+            }
+            set
+            {
+                this.OnTransaction_TypeChanging(value);
+                this._Transaction_Type = value;
+                this.OnTransaction_TypeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Transaction_Type;
+        partial void OnTransaction_TypeChanging(string value);
+        partial void OnTransaction_TypeChanged();
+        /// <summary>
+        /// There are no comments for Property Shortcut_Dimension_1_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Shortcut_Dimension_1_Code
+        {
+            get
+            {
+                return this._Shortcut_Dimension_1_Code;
+            }
+            set
+            {
+                this.OnShortcut_Dimension_1_CodeChanging(value);
+                this._Shortcut_Dimension_1_Code = value;
+                this.OnShortcut_Dimension_1_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Shortcut_Dimension_1_Code;
+        partial void OnShortcut_Dimension_1_CodeChanging(string value);
+        partial void OnShortcut_Dimension_1_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Shortcut_Dimension_2_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Shortcut_Dimension_2_Code
+        {
+            get
+            {
+                return this._Shortcut_Dimension_2_Code;
+            }
+            set
+            {
+                this.OnShortcut_Dimension_2_CodeChanging(value);
+                this._Shortcut_Dimension_2_Code = value;
+                this.OnShortcut_Dimension_2_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Shortcut_Dimension_2_Code;
+        partial void OnShortcut_Dimension_2_CodeChanging(string value);
+        partial void OnShortcut_Dimension_2_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Payment_Discount_Percent in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Payment_Discount_Percent
+        {
+            get
+            {
+                return this._Payment_Discount_Percent;
+            }
+            set
+            {
+                this.OnPayment_Discount_PercentChanging(value);
+                this._Payment_Discount_Percent = value;
+                this.OnPayment_Discount_PercentChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Payment_Discount_Percent;
+        partial void OnPayment_Discount_PercentChanging(global::System.Nullable<decimal> value);
+        partial void OnPayment_Discount_PercentChanged();
+        /// <summary>
+        /// There are no comments for Property Pmt_Discount_Date in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Pmt_Discount_Date
+        {
+            get
+            {
+                return this._Pmt_Discount_Date;
+            }
+            set
+            {
+                this.OnPmt_Discount_DateChanging(value);
+                this._Pmt_Discount_Date = value;
+                this.OnPmt_Discount_DateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Pmt_Discount_Date;
+        partial void OnPmt_Discount_DateChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnPmt_Discount_DateChanged();
+        /// <summary>
         /// There are no comments for Property Direct_Debit_Mandate_ID in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -8240,47 +2586,131 @@ namespace SACCOPortal.NavOData
         partial void OnDirect_Debit_Mandate_IDChanging(string value);
         partial void OnDirect_Debit_Mandate_IDChanged();
         /// <summary>
-        /// There are no comments for Property Credit_Card_No in the schema.
+        /// There are no comments for Property Location_Code in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Credit_Card_No
+        public string Location_Code
         {
             get
             {
-                return this._Credit_Card_No;
+                return this._Location_Code;
             }
             set
             {
-                this.OnCredit_Card_NoChanging(value);
-                this._Credit_Card_No = value;
-                this.OnCredit_Card_NoChanged();
+                this.OnLocation_CodeChanging(value);
+                this._Location_Code = value;
+                this.OnLocation_CodeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Credit_Card_No;
-        partial void OnCredit_Card_NoChanging(string value);
-        partial void OnCredit_Card_NoChanged();
+        private string _Location_Code;
+        partial void OnLocation_CodeChanging(string value);
+        partial void OnLocation_CodeChanged();
         /// <summary>
-        /// There are no comments for Property GetCreditcardNumber in the schema.
+        /// There are no comments for Property Shipping_Time in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string GetCreditcardNumber
+        public string Shipping_Time
         {
             get
             {
-                return this._GetCreditcardNumber;
+                return this._Shipping_Time;
             }
             set
             {
-                this.OnGetCreditcardNumberChanging(value);
-                this._GetCreditcardNumber = value;
-                this.OnGetCreditcardNumberChanged();
+                this.OnShipping_TimeChanging(value);
+                this._Shipping_Time = value;
+                this.OnShipping_TimeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _GetCreditcardNumber;
-        partial void OnGetCreditcardNumberChanging(string value);
-        partial void OnGetCreditcardNumberChanged();
+        private string _Shipping_Time;
+        partial void OnShipping_TimeChanging(string value);
+        partial void OnShipping_TimeChanged();
+        /// <summary>
+        /// There are no comments for Property Late_Order_Shipping in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<bool> Late_Order_Shipping
+        {
+            get
+            {
+                return this._Late_Order_Shipping;
+            }
+            set
+            {
+                this.OnLate_Order_ShippingChanging(value);
+                this._Late_Order_Shipping = value;
+                this.OnLate_Order_ShippingChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<bool> _Late_Order_Shipping;
+        partial void OnLate_Order_ShippingChanging(global::System.Nullable<bool> value);
+        partial void OnLate_Order_ShippingChanged();
+        /// <summary>
+        /// There are no comments for Property Shipping_Advice in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Shipping_Advice
+        {
+            get
+            {
+                return this._Shipping_Advice;
+            }
+            set
+            {
+                this.OnShipping_AdviceChanging(value);
+                this._Shipping_Advice = value;
+                this.OnShipping_AdviceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Shipping_Advice;
+        partial void OnShipping_AdviceChanging(string value);
+        partial void OnShipping_AdviceChanged();
+        /// <summary>
+        /// There are no comments for Property Outbound_Whse_Handling_Time in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Outbound_Whse_Handling_Time
+        {
+            get
+            {
+                return this._Outbound_Whse_Handling_Time;
+            }
+            set
+            {
+                this.OnOutbound_Whse_Handling_TimeChanging(value);
+                this._Outbound_Whse_Handling_Time = value;
+                this.OnOutbound_Whse_Handling_TimeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Outbound_Whse_Handling_Time;
+        partial void OnOutbound_Whse_Handling_TimeChanging(string value);
+        partial void OnOutbound_Whse_Handling_TimeChanged();
+        /// <summary>
+        /// There are no comments for Property ShippingOptions in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string ShippingOptions
+        {
+            get
+            {
+                return this._ShippingOptions;
+            }
+            set
+            {
+                this.OnShippingOptionsChanging(value);
+                this._ShippingOptions = value;
+                this.OnShippingOptionsChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _ShippingOptions;
+        partial void OnShippingOptionsChanging(string value);
+        partial void OnShippingOptionsChanged();
         /// <summary>
         /// There are no comments for Property Ship_to_Code in the schema.
         /// </summary>
@@ -8429,6 +2859,27 @@ namespace SACCOPortal.NavOData
         partial void OnShip_to_Post_CodeChanging(string value);
         partial void OnShip_to_Post_CodeChanged();
         /// <summary>
+        /// There are no comments for Property Ship_to_Country_Region_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Ship_to_Country_Region_Code
+        {
+            get
+            {
+                return this._Ship_to_Country_Region_Code;
+            }
+            set
+            {
+                this.OnShip_to_Country_Region_CodeChanging(value);
+                this._Ship_to_Country_Region_Code = value;
+                this.OnShip_to_Country_Region_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Ship_to_Country_Region_Code;
+        partial void OnShip_to_Country_Region_CodeChanging(string value);
+        partial void OnShip_to_Country_Region_CodeChanged();
+        /// <summary>
         /// There are no comments for Property Ship_to_Contact in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -8450,47 +2901,26 @@ namespace SACCOPortal.NavOData
         partial void OnShip_to_ContactChanging(string value);
         partial void OnShip_to_ContactChanged();
         /// <summary>
-        /// There are no comments for Property Location_Code in the schema.
+        /// There are no comments for Property Ship_to_UPS_Zone in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Location_Code
+        public string Ship_to_UPS_Zone
         {
             get
             {
-                return this._Location_Code;
+                return this._Ship_to_UPS_Zone;
             }
             set
             {
-                this.OnLocation_CodeChanging(value);
-                this._Location_Code = value;
-                this.OnLocation_CodeChanged();
+                this.OnShip_to_UPS_ZoneChanging(value);
+                this._Ship_to_UPS_Zone = value;
+                this.OnShip_to_UPS_ZoneChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Location_Code;
-        partial void OnLocation_CodeChanging(string value);
-        partial void OnLocation_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Outbound_Whse_Handling_Time in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Outbound_Whse_Handling_Time
-        {
-            get
-            {
-                return this._Outbound_Whse_Handling_Time;
-            }
-            set
-            {
-                this.OnOutbound_Whse_Handling_TimeChanging(value);
-                this._Outbound_Whse_Handling_Time = value;
-                this.OnOutbound_Whse_Handling_TimeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Outbound_Whse_Handling_Time;
-        partial void OnOutbound_Whse_Handling_TimeChanging(string value);
-        partial void OnOutbound_Whse_Handling_TimeChanged();
+        private string _Ship_to_UPS_Zone;
+        partial void OnShip_to_UPS_ZoneChanging(string value);
+        partial void OnShip_to_UPS_ZoneChanged();
         /// <summary>
         /// There are no comments for Property Shipment_Method_Code in the schema.
         /// </summary>
@@ -8555,48 +2985,6 @@ namespace SACCOPortal.NavOData
         partial void OnShipping_Agent_Service_CodeChanging(string value);
         partial void OnShipping_Agent_Service_CodeChanged();
         /// <summary>
-        /// There are no comments for Property Shipping_Time in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Shipping_Time
-        {
-            get
-            {
-                return this._Shipping_Time;
-            }
-            set
-            {
-                this.OnShipping_TimeChanging(value);
-                this._Shipping_Time = value;
-                this.OnShipping_TimeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Shipping_Time;
-        partial void OnShipping_TimeChanging(string value);
-        partial void OnShipping_TimeChanged();
-        /// <summary>
-        /// There are no comments for Property Late_Order_Shipping in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Late_Order_Shipping
-        {
-            get
-            {
-                return this._Late_Order_Shipping;
-            }
-            set
-            {
-                this.OnLate_Order_ShippingChanging(value);
-                this._Late_Order_Shipping = value;
-                this.OnLate_Order_ShippingChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Late_Order_Shipping;
-        partial void OnLate_Order_ShippingChanging(global::System.Nullable<bool> value);
-        partial void OnLate_Order_ShippingChanged();
-        /// <summary>
         /// There are no comments for Property Package_Tracking_No in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -8618,68 +3006,194 @@ namespace SACCOPortal.NavOData
         partial void OnPackage_Tracking_NoChanging(string value);
         partial void OnPackage_Tracking_NoChanged();
         /// <summary>
-        /// There are no comments for Property Shipment_Date in the schema.
+        /// There are no comments for Property BillToOptions in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Shipment_Date
+        public string BillToOptions
         {
             get
             {
-                return this._Shipment_Date;
+                return this._BillToOptions;
             }
             set
             {
-                this.OnShipment_DateChanging(value);
-                this._Shipment_Date = value;
-                this.OnShipment_DateChanged();
+                this.OnBillToOptionsChanging(value);
+                this._BillToOptions = value;
+                this.OnBillToOptionsChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Shipment_Date;
-        partial void OnShipment_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnShipment_DateChanged();
+        private string _BillToOptions;
+        partial void OnBillToOptionsChanging(string value);
+        partial void OnBillToOptionsChanged();
         /// <summary>
-        /// There are no comments for Property Shipping_Advice in the schema.
+        /// There are no comments for Property Bill_to_Name in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Shipping_Advice
+        public string Bill_to_Name
         {
             get
             {
-                return this._Shipping_Advice;
+                return this._Bill_to_Name;
             }
             set
             {
-                this.OnShipping_AdviceChanging(value);
-                this._Shipping_Advice = value;
-                this.OnShipping_AdviceChanged();
+                this.OnBill_to_NameChanging(value);
+                this._Bill_to_Name = value;
+                this.OnBill_to_NameChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Shipping_Advice;
-        partial void OnShipping_AdviceChanging(string value);
-        partial void OnShipping_AdviceChanged();
+        private string _Bill_to_Name;
+        partial void OnBill_to_NameChanging(string value);
+        partial void OnBill_to_NameChanged();
         /// <summary>
-        /// There are no comments for Property Currency_Code in the schema.
+        /// There are no comments for Property Bill_to_Address in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Currency_Code
+        public string Bill_to_Address
         {
             get
             {
-                return this._Currency_Code;
+                return this._Bill_to_Address;
             }
             set
             {
-                this.OnCurrency_CodeChanging(value);
-                this._Currency_Code = value;
-                this.OnCurrency_CodeChanged();
+                this.OnBill_to_AddressChanging(value);
+                this._Bill_to_Address = value;
+                this.OnBill_to_AddressChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Currency_Code;
-        partial void OnCurrency_CodeChanging(string value);
-        partial void OnCurrency_CodeChanged();
+        private string _Bill_to_Address;
+        partial void OnBill_to_AddressChanging(string value);
+        partial void OnBill_to_AddressChanged();
+        /// <summary>
+        /// There are no comments for Property Bill_to_Address_2 in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Bill_to_Address_2
+        {
+            get
+            {
+                return this._Bill_to_Address_2;
+            }
+            set
+            {
+                this.OnBill_to_Address_2Changing(value);
+                this._Bill_to_Address_2 = value;
+                this.OnBill_to_Address_2Changed();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Bill_to_Address_2;
+        partial void OnBill_to_Address_2Changing(string value);
+        partial void OnBill_to_Address_2Changed();
+        /// <summary>
+        /// There are no comments for Property Bill_to_City in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Bill_to_City
+        {
+            get
+            {
+                return this._Bill_to_City;
+            }
+            set
+            {
+                this.OnBill_to_CityChanging(value);
+                this._Bill_to_City = value;
+                this.OnBill_to_CityChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Bill_to_City;
+        partial void OnBill_to_CityChanging(string value);
+        partial void OnBill_to_CityChanged();
+        /// <summary>
+        /// There are no comments for Property Bill_to_County in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Bill_to_County
+        {
+            get
+            {
+                return this._Bill_to_County;
+            }
+            set
+            {
+                this.OnBill_to_CountyChanging(value);
+                this._Bill_to_County = value;
+                this.OnBill_to_CountyChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Bill_to_County;
+        partial void OnBill_to_CountyChanging(string value);
+        partial void OnBill_to_CountyChanged();
+        /// <summary>
+        /// There are no comments for Property Bill_to_Post_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Bill_to_Post_Code
+        {
+            get
+            {
+                return this._Bill_to_Post_Code;
+            }
+            set
+            {
+                this.OnBill_to_Post_CodeChanging(value);
+                this._Bill_to_Post_Code = value;
+                this.OnBill_to_Post_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Bill_to_Post_Code;
+        partial void OnBill_to_Post_CodeChanging(string value);
+        partial void OnBill_to_Post_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Bill_to_Contact_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Bill_to_Contact_No
+        {
+            get
+            {
+                return this._Bill_to_Contact_No;
+            }
+            set
+            {
+                this.OnBill_to_Contact_NoChanging(value);
+                this._Bill_to_Contact_No = value;
+                this.OnBill_to_Contact_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Bill_to_Contact_No;
+        partial void OnBill_to_Contact_NoChanging(string value);
+        partial void OnBill_to_Contact_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Bill_to_Contact in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Bill_to_Contact
+        {
+            get
+            {
+                return this._Bill_to_Contact;
+            }
+            set
+            {
+                this.OnBill_to_ContactChanging(value);
+                this._Bill_to_Contact = value;
+                this.OnBill_to_ContactChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Bill_to_Contact;
+        partial void OnBill_to_ContactChanging(string value);
+        partial void OnBill_to_ContactChanged();
         /// <summary>
         /// There are no comments for Property EU_3_Party_Trade in the schema.
         /// </summary>
@@ -8701,27 +3215,6 @@ namespace SACCOPortal.NavOData
         private global::System.Nullable<bool> _EU_3_Party_Trade;
         partial void OnEU_3_Party_TradeChanging(global::System.Nullable<bool> value);
         partial void OnEU_3_Party_TradeChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Type
-        {
-            get
-            {
-                return this._Transaction_Type;
-            }
-            set
-            {
-                this.OnTransaction_TypeChanging(value);
-                this._Transaction_Type = value;
-                this.OnTransaction_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Type;
-        partial void OnTransaction_TypeChanging(string value);
-        partial void OnTransaction_TypeChanged();
         /// <summary>
         /// There are no comments for Property Transaction_Specification in the schema.
         /// </summary>
@@ -8932,6 +3425,27 @@ namespace SACCOPortal.NavOData
         private global::System.Nullable<global::System.DateTime> _Prepmt_Pmt_Discount_Date;
         partial void OnPrepmt_Pmt_Discount_DateChanging(global::System.Nullable<global::System.DateTime> value);
         partial void OnPrepmt_Pmt_Discount_DateChanged();
+        /// <summary>
+        /// There are no comments for Property Prepmt_Include_Tax in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<bool> Prepmt_Include_Tax
+        {
+            get
+            {
+                return this._Prepmt_Include_Tax;
+            }
+            set
+            {
+                this.OnPrepmt_Include_TaxChanging(value);
+                this._Prepmt_Include_Tax = value;
+                this.OnPrepmt_Include_TaxChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<bool> _Prepmt_Include_Tax;
+        partial void OnPrepmt_Include_TaxChanging(global::System.Nullable<bool> value);
+        partial void OnPrepmt_Include_TaxChanged();
         /// <summary>
         /// There are no comments for Property Date_Filter in the schema.
         /// </summary>
@@ -9399,6 +3913,27 @@ namespace SACCOPortal.NavOData
         private string _Return_Reason_Code;
         partial void OnReturn_Reason_CodeChanging(string value);
         partial void OnReturn_Reason_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Package_Tracking_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Package_Tracking_No
+        {
+            get
+            {
+                return this._Package_Tracking_No;
+            }
+            set
+            {
+                this.OnPackage_Tracking_NoChanging(value);
+                this._Package_Tracking_No = value;
+                this.OnPackage_Tracking_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Package_Tracking_No;
+        partial void OnPackage_Tracking_NoChanging(string value);
+        partial void OnPackage_Tracking_NoChanged();
         /// <summary>
         /// There are no comments for Property Location_Code in the schema.
         /// </summary>
@@ -10576,6 +5111,27 @@ namespace SACCOPortal.NavOData
         partial void OnAppl_to_Item_EntryChanging(global::System.Nullable<int> value);
         partial void OnAppl_to_Item_EntryChanged();
         /// <summary>
+        /// There are no comments for Property Deferral_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Deferral_Code
+        {
+            get
+            {
+                return this._Deferral_Code;
+            }
+            set
+            {
+                this.OnDeferral_CodeChanging(value);
+                this._Deferral_Code = value;
+                this.OnDeferral_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Deferral_Code;
+        partial void OnDeferral_CodeChanging(string value);
+        partial void OnDeferral_CodeChanged();
+        /// <summary>
         /// There are no comments for Property Shortcut_Dimension_1_Code in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -10744,6 +5300,27 @@ namespace SACCOPortal.NavOData
         partial void OnShortcutDimCode_x005B_8_x005D_Changing(string value);
         partial void OnShortcutDimCode_x005B_8_x005D_Changed();
         /// <summary>
+        /// There are no comments for Property TotalSalesLine_Line_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> TotalSalesLine_Line_Amount
+        {
+            get
+            {
+                return this._TotalSalesLine_Line_Amount;
+            }
+            set
+            {
+                this.OnTotalSalesLine_Line_AmountChanging(value);
+                this._TotalSalesLine_Line_Amount = value;
+                this.OnTotalSalesLine_Line_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _TotalSalesLine_Line_Amount;
+        partial void OnTotalSalesLine_Line_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnTotalSalesLine_Line_AmountChanged();
+        /// <summary>
         /// There are no comments for Property Invoice_Discount_Amount in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -10849,27 +5426,6 @@ namespace SACCOPortal.NavOData
         partial void OnTotal_Amount_Incl_VATChanging(global::System.Nullable<decimal> value);
         partial void OnTotal_Amount_Incl_VATChanged();
         /// <summary>
-        /// There are no comments for Property RefreshTotals in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string RefreshTotals
-        {
-            get
-            {
-                return this._RefreshTotals;
-            }
-            set
-            {
-                this.OnRefreshTotalsChanging(value);
-                this._RefreshTotals = value;
-                this.OnRefreshTotalsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _RefreshTotals;
-        partial void OnRefreshTotalsChanging(string value);
-        partial void OnRefreshTotalsChanged();
-        /// <summary>
         /// There are no comments for Property ETag in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -10892,2146 +5448,109 @@ namespace SACCOPortal.NavOData
         partial void OnETagChanged();
     }
     /// <summary>
-    /// There are no comments for NAV.bankdetails in the schema.
+    /// There are no comments for NAV.Banks_BI in the schema.
     /// </summary>
     /// <KeyProperties>
-    /// No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
-    public partial class bankdetails
-    {
-        /// <summary>
-        /// Create a new bankdetails object.
-        /// </summary>
-        /// <param name="no">Initial value of No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static bankdetails Createbankdetails(string no)
-        {
-            bankdetails bankdetails = new bankdetails();
-            bankdetails.No = no;
-            return bankdetails;
-        }
-        /// <summary>
-        /// There are no comments for Property No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No
-        {
-            get
-            {
-                return this._No;
-            }
-            set
-            {
-                this.OnNoChanging(value);
-                this._No = value;
-                this.OnNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No;
-        partial void OnNoChanging(string value);
-        partial void OnNoChanged();
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property Search_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Search_Name
-        {
-            get
-            {
-                return this._Search_Name;
-            }
-            set
-            {
-                this.OnSearch_NameChanging(value);
-                this._Search_Name = value;
-                this.OnSearch_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Search_Name;
-        partial void OnSearch_NameChanging(string value);
-        partial void OnSearch_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Name_2 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name_2
-        {
-            get
-            {
-                return this._Name_2;
-            }
-            set
-            {
-                this.OnName_2Changing(value);
-                this._Name_2 = value;
-                this.OnName_2Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name_2;
-        partial void OnName_2Changing(string value);
-        partial void OnName_2Changed();
-        /// <summary>
-        /// There are no comments for Property Address in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Address
-        {
-            get
-            {
-                return this._Address;
-            }
-            set
-            {
-                this.OnAddressChanging(value);
-                this._Address = value;
-                this.OnAddressChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Address;
-        partial void OnAddressChanging(string value);
-        partial void OnAddressChanged();
-        /// <summary>
-        /// There are no comments for Property Address_2 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Address_2
-        {
-            get
-            {
-                return this._Address_2;
-            }
-            set
-            {
-                this.OnAddress_2Changing(value);
-                this._Address_2 = value;
-                this.OnAddress_2Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Address_2;
-        partial void OnAddress_2Changing(string value);
-        partial void OnAddress_2Changed();
-        /// <summary>
-        /// There are no comments for Property City in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string City
-        {
-            get
-            {
-                return this._City;
-            }
-            set
-            {
-                this.OnCityChanging(value);
-                this._City = value;
-                this.OnCityChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _City;
-        partial void OnCityChanging(string value);
-        partial void OnCityChanged();
-        /// <summary>
-        /// There are no comments for Property Contact in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Contact
-        {
-            get
-            {
-                return this._Contact;
-            }
-            set
-            {
-                this.OnContactChanging(value);
-                this._Contact = value;
-                this.OnContactChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Contact;
-        partial void OnContactChanging(string value);
-        partial void OnContactChanged();
-        /// <summary>
-        /// There are no comments for Property Phone_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Phone_No
-        {
-            get
-            {
-                return this._Phone_No;
-            }
-            set
-            {
-                this.OnPhone_NoChanging(value);
-                this._Phone_No = value;
-                this.OnPhone_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Phone_No;
-        partial void OnPhone_NoChanging(string value);
-        partial void OnPhone_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Telex_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Telex_No
-        {
-            get
-            {
-                return this._Telex_No;
-            }
-            set
-            {
-                this.OnTelex_NoChanging(value);
-                this._Telex_No = value;
-                this.OnTelex_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Telex_No;
-        partial void OnTelex_NoChanging(string value);
-        partial void OnTelex_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Bank_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bank_Account_No
-        {
-            get
-            {
-                return this._Bank_Account_No;
-            }
-            set
-            {
-                this.OnBank_Account_NoChanging(value);
-                this._Bank_Account_No = value;
-                this.OnBank_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bank_Account_No;
-        partial void OnBank_Account_NoChanging(string value);
-        partial void OnBank_Account_NoChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.FosaAccounts in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
-    public partial class FosaAccounts
-    {
-        /// <summary>
-        /// Create a new FosaAccounts object.
-        /// </summary>
-        /// <param name="no">Initial value of No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static FosaAccounts CreateFosaAccounts(string no)
-        {
-            FosaAccounts fosaAccounts = new FosaAccounts();
-            fosaAccounts.No = no;
-            return fosaAccounts;
-        }
-        /// <summary>
-        /// There are no comments for Property No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No
-        {
-            get
-            {
-                return this._No;
-            }
-            set
-            {
-                this.OnNoChanging(value);
-                this._No = value;
-                this.OnNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No;
-        partial void OnNoChanging(string value);
-        partial void OnNoChanged();
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property BOSA_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string BOSA_Account_No
-        {
-            get
-            {
-                return this._BOSA_Account_No;
-            }
-            set
-            {
-                this.OnBOSA_Account_NoChanging(value);
-                this._BOSA_Account_No = value;
-                this.OnBOSA_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _BOSA_Account_No;
-        partial void OnBOSA_Account_NoChanging(string value);
-        partial void OnBOSA_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Blocked in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Blocked
-        {
-            get
-            {
-                return this._Blocked;
-            }
-            set
-            {
-                this.OnBlockedChanging(value);
-                this._Blocked = value;
-                this.OnBlockedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Blocked;
-        partial void OnBlockedChanging(string value);
-        partial void OnBlockedChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.ItemSalesAndProfit in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// AuxiliaryIndex1
-    /// No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("AuxiliaryIndex1", "No")]
-    public partial class ItemSalesAndProfit
-    {
-        /// <summary>
-        /// Create a new ItemSalesAndProfit object.
-        /// </summary>
-        /// <param name="no">Initial value of No.</param>
-        /// <param name="auxiliaryIndex1">Initial value of AuxiliaryIndex1.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static ItemSalesAndProfit CreateItemSalesAndProfit(string no, string auxiliaryIndex1)
-        {
-            ItemSalesAndProfit itemSalesAndProfit = new ItemSalesAndProfit();
-            itemSalesAndProfit.No = no;
-            itemSalesAndProfit.AuxiliaryIndex1 = auxiliaryIndex1;
-            return itemSalesAndProfit;
-        }
-        /// <summary>
-        /// There are no comments for Property No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No
-        {
-            get
-            {
-                return this._No;
-            }
-            set
-            {
-                this.OnNoChanging(value);
-                this._No = value;
-                this.OnNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No;
-        partial void OnNoChanging(string value);
-        partial void OnNoChanged();
-        /// <summary>
-        /// There are no comments for Property Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Description
-        {
-            get
-            {
-                return this._Description;
-            }
-            set
-            {
-                this.OnDescriptionChanging(value);
-                this._Description = value;
-                this.OnDescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Description;
-        partial void OnDescriptionChanging(string value);
-        partial void OnDescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Gen_Prod_Posting_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Gen_Prod_Posting_Group
-        {
-            get
-            {
-                return this._Gen_Prod_Posting_Group;
-            }
-            set
-            {
-                this.OnGen_Prod_Posting_GroupChanging(value);
-                this._Gen_Prod_Posting_Group = value;
-                this.OnGen_Prod_Posting_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Gen_Prod_Posting_Group;
-        partial void OnGen_Prod_Posting_GroupChanging(string value);
-        partial void OnGen_Prod_Posting_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property Item_Disc_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Item_Disc_Group
-        {
-            get
-            {
-                return this._Item_Disc_Group;
-            }
-            set
-            {
-                this.OnItem_Disc_GroupChanging(value);
-                this._Item_Disc_Group = value;
-                this.OnItem_Disc_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Item_Disc_Group;
-        partial void OnItem_Disc_GroupChanging(string value);
-        partial void OnItem_Disc_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property Item_Tracking_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Item_Tracking_Code
-        {
-            get
-            {
-                return this._Item_Tracking_Code;
-            }
-            set
-            {
-                this.OnItem_Tracking_CodeChanging(value);
-                this._Item_Tracking_Code = value;
-                this.OnItem_Tracking_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Item_Tracking_Code;
-        partial void OnItem_Tracking_CodeChanging(string value);
-        partial void OnItem_Tracking_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Profit in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Profit
-        {
-            get
-            {
-                return this._Profit;
-            }
-            set
-            {
-                this.OnProfitChanging(value);
-                this._Profit = value;
-                this.OnProfitChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Profit;
-        partial void OnProfitChanging(global::System.Nullable<decimal> value);
-        partial void OnProfitChanged();
-        /// <summary>
-        /// There are no comments for Property Scrap in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Scrap
-        {
-            get
-            {
-                return this._Scrap;
-            }
-            set
-            {
-                this.OnScrapChanging(value);
-                this._Scrap = value;
-                this.OnScrapChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Scrap;
-        partial void OnScrapChanging(global::System.Nullable<decimal> value);
-        partial void OnScrapChanged();
-        /// <summary>
-        /// There are no comments for Property Sales_Unit_of_Measure in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Sales_Unit_of_Measure
-        {
-            get
-            {
-                return this._Sales_Unit_of_Measure;
-            }
-            set
-            {
-                this.OnSales_Unit_of_MeasureChanging(value);
-                this._Sales_Unit_of_Measure = value;
-                this.OnSales_Unit_of_MeasureChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Sales_Unit_of_Measure;
-        partial void OnSales_Unit_of_MeasureChanging(string value);
-        partial void OnSales_Unit_of_MeasureChanged();
-        /// <summary>
-        /// There are no comments for Property Standard_Cost in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Standard_Cost
-        {
-            get
-            {
-                return this._Standard_Cost;
-            }
-            set
-            {
-                this.OnStandard_CostChanging(value);
-                this._Standard_Cost = value;
-                this.OnStandard_CostChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Standard_Cost;
-        partial void OnStandard_CostChanging(global::System.Nullable<decimal> value);
-        partial void OnStandard_CostChanged();
-        /// <summary>
-        /// There are no comments for Property Unit_Cost in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Unit_Cost
-        {
-            get
-            {
-                return this._Unit_Cost;
-            }
-            set
-            {
-                this.OnUnit_CostChanging(value);
-                this._Unit_Cost = value;
-                this.OnUnit_CostChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Unit_Cost;
-        partial void OnUnit_CostChanging(global::System.Nullable<decimal> value);
-        partial void OnUnit_CostChanged();
-        /// <summary>
-        /// There are no comments for Property Unit_Price in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Unit_Price
-        {
-            get
-            {
-                return this._Unit_Price;
-            }
-            set
-            {
-                this.OnUnit_PriceChanging(value);
-                this._Unit_Price = value;
-                this.OnUnit_PriceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Unit_Price;
-        partial void OnUnit_PriceChanging(global::System.Nullable<decimal> value);
-        partial void OnUnit_PriceChanged();
-        /// <summary>
-        /// There are no comments for Property Unit_Volume in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Unit_Volume
-        {
-            get
-            {
-                return this._Unit_Volume;
-            }
-            set
-            {
-                this.OnUnit_VolumeChanging(value);
-                this._Unit_Volume = value;
-                this.OnUnit_VolumeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Unit_Volume;
-        partial void OnUnit_VolumeChanging(global::System.Nullable<decimal> value);
-        partial void OnUnit_VolumeChanged();
-        /// <summary>
-        /// There are no comments for Property Vendor_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Vendor_No
-        {
-            get
-            {
-                return this._Vendor_No;
-            }
-            set
-            {
-                this.OnVendor_NoChanging(value);
-                this._Vendor_No = value;
-                this.OnVendor_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Vendor_No;
-        partial void OnVendor_NoChanging(string value);
-        partial void OnVendor_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Purch_Unit_of_Measure in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Purch_Unit_of_Measure
-        {
-            get
-            {
-                return this._Purch_Unit_of_Measure;
-            }
-            set
-            {
-                this.OnPurch_Unit_of_MeasureChanging(value);
-                this._Purch_Unit_of_Measure = value;
-                this.OnPurch_Unit_of_MeasureChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Purch_Unit_of_Measure;
-        partial void OnPurch_Unit_of_MeasureChanging(string value);
-        partial void OnPurch_Unit_of_MeasureChanged();
-        /// <summary>
-        /// There are no comments for Property COGS_LCY in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> COGS_LCY
-        {
-            get
-            {
-                return this._COGS_LCY;
-            }
-            set
-            {
-                this.OnCOGS_LCYChanging(value);
-                this._COGS_LCY = value;
-                this.OnCOGS_LCYChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _COGS_LCY;
-        partial void OnCOGS_LCYChanging(global::System.Nullable<decimal> value);
-        partial void OnCOGS_LCYChanged();
-        /// <summary>
-        /// There are no comments for Property Inventory in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Inventory
-        {
-            get
-            {
-                return this._Inventory;
-            }
-            set
-            {
-                this.OnInventoryChanging(value);
-                this._Inventory = value;
-                this.OnInventoryChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Inventory;
-        partial void OnInventoryChanging(global::System.Nullable<decimal> value);
-        partial void OnInventoryChanged();
-        /// <summary>
-        /// There are no comments for Property Net_Change in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Net_Change
-        {
-            get
-            {
-                return this._Net_Change;
-            }
-            set
-            {
-                this.OnNet_ChangeChanging(value);
-                this._Net_Change = value;
-                this.OnNet_ChangeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Net_Change;
-        partial void OnNet_ChangeChanging(global::System.Nullable<decimal> value);
-        partial void OnNet_ChangeChanged();
-        /// <summary>
-        /// There are no comments for Property Net_Invoiced_Qty in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Net_Invoiced_Qty
-        {
-            get
-            {
-                return this._Net_Invoiced_Qty;
-            }
-            set
-            {
-                this.OnNet_Invoiced_QtyChanging(value);
-                this._Net_Invoiced_Qty = value;
-                this.OnNet_Invoiced_QtyChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Net_Invoiced_Qty;
-        partial void OnNet_Invoiced_QtyChanging(global::System.Nullable<decimal> value);
-        partial void OnNet_Invoiced_QtyChanged();
-        /// <summary>
-        /// There are no comments for Property Purchases_LCY in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Purchases_LCY
-        {
-            get
-            {
-                return this._Purchases_LCY;
-            }
-            set
-            {
-                this.OnPurchases_LCYChanging(value);
-                this._Purchases_LCY = value;
-                this.OnPurchases_LCYChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Purchases_LCY;
-        partial void OnPurchases_LCYChanging(global::System.Nullable<decimal> value);
-        partial void OnPurchases_LCYChanged();
-        /// <summary>
-        /// There are no comments for Property Purchases_Qty in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Purchases_Qty
-        {
-            get
-            {
-                return this._Purchases_Qty;
-            }
-            set
-            {
-                this.OnPurchases_QtyChanging(value);
-                this._Purchases_Qty = value;
-                this.OnPurchases_QtyChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Purchases_Qty;
-        partial void OnPurchases_QtyChanging(global::System.Nullable<decimal> value);
-        partial void OnPurchases_QtyChanged();
-        /// <summary>
-        /// There are no comments for Property Sales_LCY in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Sales_LCY
-        {
-            get
-            {
-                return this._Sales_LCY;
-            }
-            set
-            {
-                this.OnSales_LCYChanging(value);
-                this._Sales_LCY = value;
-                this.OnSales_LCYChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Sales_LCY;
-        partial void OnSales_LCYChanging(global::System.Nullable<decimal> value);
-        partial void OnSales_LCYChanged();
-        /// <summary>
-        /// There are no comments for Property Sales_Qty in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Sales_Qty
-        {
-            get
-            {
-                return this._Sales_Qty;
-            }
-            set
-            {
-                this.OnSales_QtyChanging(value);
-                this._Sales_Qty = value;
-                this.OnSales_QtyChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Sales_Qty;
-        partial void OnSales_QtyChanging(global::System.Nullable<decimal> value);
-        partial void OnSales_QtyChanged();
-        /// <summary>
-        /// There are no comments for Property VendorName in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string VendorName
-        {
-            get
-            {
-                return this._VendorName;
-            }
-            set
-            {
-                this.OnVendorNameChanging(value);
-                this._VendorName = value;
-                this.OnVendorNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _VendorName;
-        partial void OnVendorNameChanging(string value);
-        partial void OnVendorNameChanged();
-        /// <summary>
-        /// There are no comments for Property AuxiliaryIndex1 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string AuxiliaryIndex1
-        {
-            get
-            {
-                return this._AuxiliaryIndex1;
-            }
-            set
-            {
-                this.OnAuxiliaryIndex1Changing(value);
-                this._AuxiliaryIndex1 = value;
-                this.OnAuxiliaryIndex1Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _AuxiliaryIndex1;
-        partial void OnAuxiliaryIndex1Changing(string value);
-        partial void OnAuxiliaryIndex1Changed();
-    }
-    /// <summary>
-    /// There are no comments for NAV.ItemSalesByCustomer in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// AuxiliaryIndex1
-    /// CustomerNo
     /// Entry_No
     /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("AuxiliaryIndex1", "CustomerNo", "Entry_No")]
-    public partial class ItemSalesByCustomer
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("Entry_No")]
+    public partial class Banks_BI
     {
         /// <summary>
-        /// Create a new ItemSalesByCustomer object.
+        /// Create a new Banks_BI object.
         /// </summary>
         /// <param name="entry_No">Initial value of Entry_No.</param>
-        /// <param name="customerNo">Initial value of CustomerNo.</param>
-        /// <param name="auxiliaryIndex1">Initial value of AuxiliaryIndex1.</param>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static ItemSalesByCustomer CreateItemSalesByCustomer(int entry_No, string customerNo, string auxiliaryIndex1)
+        public static Banks_BI CreateBanks_BI(int entry_No)
         {
-            ItemSalesByCustomer itemSalesByCustomer = new ItemSalesByCustomer();
-            itemSalesByCustomer.Entry_No = entry_No;
-            itemSalesByCustomer.CustomerNo = customerNo;
-            itemSalesByCustomer.AuxiliaryIndex1 = auxiliaryIndex1;
-            return itemSalesByCustomer;
+            Banks_BI banks_BI = new Banks_BI();
+            banks_BI.Entry_No = entry_No;
+            return banks_BI;
         }
         /// <summary>
-        /// There are no comments for Property Entry_No in the schema.
+        /// There are no comments for Property Amount in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public int Entry_No
+        public global::System.Nullable<decimal> Amount
         {
             get
             {
-                return this._Entry_No;
+                return this._Amount;
             }
             set
             {
-                this.OnEntry_NoChanging(value);
-                this._Entry_No = value;
-                this.OnEntry_NoChanged();
+                this.OnAmountChanging(value);
+                this._Amount = value;
+                this.OnAmountChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private int _Entry_No;
-        partial void OnEntry_NoChanging(int value);
-        partial void OnEntry_NoChanged();
+        private global::System.Nullable<decimal> _Amount;
+        partial void OnAmountChanging(global::System.Nullable<decimal> value);
+        partial void OnAmountChanged();
         /// <summary>
-        /// There are no comments for Property Document_No in the schema.
+        /// There are no comments for Property Amount_LCY in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Document_No
+        public global::System.Nullable<decimal> Amount_LCY
         {
             get
             {
-                return this._Document_No;
+                return this._Amount_LCY;
             }
             set
             {
-                this.OnDocument_NoChanging(value);
-                this._Document_No = value;
-                this.OnDocument_NoChanged();
+                this.OnAmount_LCYChanging(value);
+                this._Amount_LCY = value;
+                this.OnAmount_LCYChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Document_No;
-        partial void OnDocument_NoChanging(string value);
-        partial void OnDocument_NoChanged();
+        private global::System.Nullable<decimal> _Amount_LCY;
+        partial void OnAmount_LCYChanging(global::System.Nullable<decimal> value);
+        partial void OnAmount_LCYChanged();
         /// <summary>
-        /// There are no comments for Property Posting_Date in the schema.
+        /// There are no comments for Property Bal_Account_Type in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Posting_Date
+        public string Bal_Account_Type
         {
             get
             {
-                return this._Posting_Date;
+                return this._Bal_Account_Type;
             }
             set
             {
-                this.OnPosting_DateChanging(value);
-                this._Posting_Date = value;
-                this.OnPosting_DateChanged();
+                this.OnBal_Account_TypeChanging(value);
+                this._Bal_Account_Type = value;
+                this.OnBal_Account_TypeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Posting_Date;
-        partial void OnPosting_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnPosting_DateChanged();
+        private string _Bal_Account_Type;
+        partial void OnBal_Account_TypeChanging(string value);
+        partial void OnBal_Account_TypeChanged();
         /// <summary>
-        /// There are no comments for Property Item_No in the schema.
+        /// There are no comments for Property Bank_Acc_Posting_Group in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Item_No
+        public string Bank_Acc_Posting_Group
         {
             get
             {
-                return this._Item_No;
+                return this._Bank_Acc_Posting_Group;
             }
             set
             {
-                this.OnItem_NoChanging(value);
-                this._Item_No = value;
-                this.OnItem_NoChanged();
+                this.OnBank_Acc_Posting_GroupChanging(value);
+                this._Bank_Acc_Posting_Group = value;
+                this.OnBank_Acc_Posting_GroupChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Item_No;
-        partial void OnItem_NoChanging(string value);
-        partial void OnItem_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Item_Ledger_Entry_Quantity in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Item_Ledger_Entry_Quantity
-        {
-            get
-            {
-                return this._Item_Ledger_Entry_Quantity;
-            }
-            set
-            {
-                this.OnItem_Ledger_Entry_QuantityChanging(value);
-                this._Item_Ledger_Entry_Quantity = value;
-                this.OnItem_Ledger_Entry_QuantityChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Item_Ledger_Entry_Quantity;
-        partial void OnItem_Ledger_Entry_QuantityChanging(global::System.Nullable<decimal> value);
-        partial void OnItem_Ledger_Entry_QuantityChanged();
-        /// <summary>
-        /// There are no comments for Property CustomerNo in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string CustomerNo
-        {
-            get
-            {
-                return this._CustomerNo;
-            }
-            set
-            {
-                this.OnCustomerNoChanging(value);
-                this._CustomerNo = value;
-                this.OnCustomerNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _CustomerNo;
-        partial void OnCustomerNoChanging(string value);
-        partial void OnCustomerNoChanged();
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Description
-        {
-            get
-            {
-                return this._Description;
-            }
-            set
-            {
-                this.OnDescriptionChanging(value);
-                this._Description = value;
-                this.OnDescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Description;
-        partial void OnDescriptionChanging(string value);
-        partial void OnDescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Gen_Prod_Posting_Group in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Gen_Prod_Posting_Group
-        {
-            get
-            {
-                return this._Gen_Prod_Posting_Group;
-            }
-            set
-            {
-                this.OnGen_Prod_Posting_GroupChanging(value);
-                this._Gen_Prod_Posting_Group = value;
-                this.OnGen_Prod_Posting_GroupChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Gen_Prod_Posting_Group;
-        partial void OnGen_Prod_Posting_GroupChanging(string value);
-        partial void OnGen_Prod_Posting_GroupChanged();
-        /// <summary>
-        /// There are no comments for Property AuxiliaryIndex1 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string AuxiliaryIndex1
-        {
-            get
-            {
-                return this._AuxiliaryIndex1;
-            }
-            set
-            {
-                this.OnAuxiliaryIndex1Changing(value);
-                this._AuxiliaryIndex1 = value;
-                this.OnAuxiliaryIndex1Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _AuxiliaryIndex1;
-        partial void OnAuxiliaryIndex1Changing(string value);
-        partial void OnAuxiliaryIndex1Changed();
-    }
-    /// <summary>
-    /// There are no comments for NAV.KeensDetails in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Account_No
-    /// AuxiliaryIndex1
-    /// AuxiliaryIndex2
-    /// Name
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Account_No", "AuxiliaryIndex1", "AuxiliaryIndex2", "Name")]
-    public partial class KeensDetails
-    {
-        /// <summary>
-        /// Create a new KeensDetails object.
-        /// </summary>
-        /// <param name="name">Initial value of Name.</param>
-        /// <param name="account_No">Initial value of Account_No.</param>
-        /// <param name="auxiliaryIndex1">Initial value of AuxiliaryIndex1.</param>
-        /// <param name="auxiliaryIndex2">Initial value of AuxiliaryIndex2.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static KeensDetails CreateKeensDetails(string name, string account_No, string auxiliaryIndex1, string auxiliaryIndex2)
-        {
-            KeensDetails keensDetails = new KeensDetails();
-            keensDetails.Name = name;
-            keensDetails.Account_No = account_No;
-            keensDetails.AuxiliaryIndex1 = auxiliaryIndex1;
-            keensDetails.AuxiliaryIndex2 = auxiliaryIndex2;
-            return keensDetails;
-        }
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property Relationship in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Relationship
-        {
-            get
-            {
-                return this._Relationship;
-            }
-            set
-            {
-                this.OnRelationshipChanging(value);
-                this._Relationship = value;
-                this.OnRelationshipChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Relationship;
-        partial void OnRelationshipChanging(string value);
-        partial void OnRelationshipChanged();
-        /// <summary>
-        /// There are no comments for Property Beneficiary in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Beneficiary
-        {
-            get
-            {
-                return this._Beneficiary;
-            }
-            set
-            {
-                this.OnBeneficiaryChanging(value);
-                this._Beneficiary = value;
-                this.OnBeneficiaryChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Beneficiary;
-        partial void OnBeneficiaryChanging(global::System.Nullable<bool> value);
-        partial void OnBeneficiaryChanged();
-        /// <summary>
-        /// There are no comments for Property Date_of_Birth in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_of_Birth
-        {
-            get
-            {
-                return this._Date_of_Birth;
-            }
-            set
-            {
-                this.OnDate_of_BirthChanging(value);
-                this._Date_of_Birth = value;
-                this.OnDate_of_BirthChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_of_Birth;
-        partial void OnDate_of_BirthChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_of_BirthChanged();
-        /// <summary>
-        /// There are no comments for Property Address in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Address
-        {
-            get
-            {
-                return this._Address;
-            }
-            set
-            {
-                this.OnAddressChanging(value);
-                this._Address = value;
-                this.OnAddressChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Address;
-        partial void OnAddressChanging(string value);
-        partial void OnAddressChanged();
-        /// <summary>
-        /// There are no comments for Property Telephone in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Telephone
-        {
-            get
-            {
-                return this._Telephone;
-            }
-            set
-            {
-                this.OnTelephoneChanging(value);
-                this._Telephone = value;
-                this.OnTelephoneChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Telephone;
-        partial void OnTelephoneChanging(string value);
-        partial void OnTelephoneChanged();
-        /// <summary>
-        /// There are no comments for Property Email in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Email
-        {
-            get
-            {
-                return this._Email;
-            }
-            set
-            {
-                this.OnEmailChanging(value);
-                this._Email = value;
-                this.OnEmailChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Email;
-        partial void OnEmailChanging(string value);
-        partial void OnEmailChanged();
-        /// <summary>
-        /// There are no comments for Property Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_No
-        {
-            get
-            {
-                return this._Account_No;
-            }
-            set
-            {
-                this.OnAccount_NoChanging(value);
-                this._Account_No = value;
-                this.OnAccount_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_No;
-        partial void OnAccount_NoChanging(string value);
-        partial void OnAccount_NoChanged();
-        /// <summary>
-        /// There are no comments for Property ID_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ID_No
-        {
-            get
-            {
-                return this._ID_No;
-            }
-            set
-            {
-                this.OnID_NoChanging(value);
-                this._ID_No = value;
-                this.OnID_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ID_No;
-        partial void OnID_NoChanging(string value);
-        partial void OnID_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Allocation in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Allocation
-        {
-            get
-            {
-                return this._Allocation;
-            }
-            set
-            {
-                this.OnAllocationChanging(value);
-                this._Allocation = value;
-                this.OnAllocationChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Allocation;
-        partial void OnAllocationChanging(global::System.Nullable<decimal> value);
-        partial void OnAllocationChanged();
-        /// <summary>
-        /// There are no comments for Property AuxiliaryIndex1 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string AuxiliaryIndex1
-        {
-            get
-            {
-                return this._AuxiliaryIndex1;
-            }
-            set
-            {
-                this.OnAuxiliaryIndex1Changing(value);
-                this._AuxiliaryIndex1 = value;
-                this.OnAuxiliaryIndex1Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _AuxiliaryIndex1;
-        partial void OnAuxiliaryIndex1Changing(string value);
-        partial void OnAuxiliaryIndex1Changed();
-        /// <summary>
-        /// There are no comments for Property AuxiliaryIndex2 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string AuxiliaryIndex2
-        {
-            get
-            {
-                return this._AuxiliaryIndex2;
-            }
-            set
-            {
-                this.OnAuxiliaryIndex2Changing(value);
-                this._AuxiliaryIndex2 = value;
-                this.OnAuxiliaryIndex2Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _AuxiliaryIndex2;
-        partial void OnAuxiliaryIndex2Changing(string value);
-        partial void OnAuxiliaryIndex2Changed();
-    }
-    /// <summary>
-    /// There are no comments for NAV.kinsdetail in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Account_No
-    /// Name
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Account_No", "Name")]
-    public partial class kinsdetail
-    {
-        /// <summary>
-        /// Create a new kinsdetail object.
-        /// </summary>
-        /// <param name="account_No">Initial value of Account_No.</param>
-        /// <param name="name">Initial value of Name.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static kinsdetail Createkinsdetail(string account_No, string name)
-        {
-            kinsdetail kinsdetail = new kinsdetail();
-            kinsdetail.Account_No = account_No;
-            kinsdetail.Name = name;
-            return kinsdetail;
-        }
-        /// <summary>
-        /// There are no comments for Property Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_No
-        {
-            get
-            {
-                return this._Account_No;
-            }
-            set
-            {
-                this.OnAccount_NoChanging(value);
-                this._Account_No = value;
-                this.OnAccount_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_No;
-        partial void OnAccount_NoChanging(string value);
-        partial void OnAccount_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property Relationship in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Relationship
-        {
-            get
-            {
-                return this._Relationship;
-            }
-            set
-            {
-                this.OnRelationshipChanging(value);
-                this._Relationship = value;
-                this.OnRelationshipChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Relationship;
-        partial void OnRelationshipChanging(string value);
-        partial void OnRelationshipChanged();
-        /// <summary>
-        /// There are no comments for Property Beneficiary in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Beneficiary
-        {
-            get
-            {
-                return this._Beneficiary;
-            }
-            set
-            {
-                this.OnBeneficiaryChanging(value);
-                this._Beneficiary = value;
-                this.OnBeneficiaryChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Beneficiary;
-        partial void OnBeneficiaryChanging(global::System.Nullable<bool> value);
-        partial void OnBeneficiaryChanged();
-        /// <summary>
-        /// There are no comments for Property Date_of_Birth in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_of_Birth
-        {
-            get
-            {
-                return this._Date_of_Birth;
-            }
-            set
-            {
-                this.OnDate_of_BirthChanging(value);
-                this._Date_of_Birth = value;
-                this.OnDate_of_BirthChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_of_Birth;
-        partial void OnDate_of_BirthChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_of_BirthChanged();
-        /// <summary>
-        /// There are no comments for Property Address in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Address
-        {
-            get
-            {
-                return this._Address;
-            }
-            set
-            {
-                this.OnAddressChanging(value);
-                this._Address = value;
-                this.OnAddressChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Address;
-        partial void OnAddressChanging(string value);
-        partial void OnAddressChanged();
-        /// <summary>
-        /// There are no comments for Property Telephone in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Telephone
-        {
-            get
-            {
-                return this._Telephone;
-            }
-            set
-            {
-                this.OnTelephoneChanging(value);
-                this._Telephone = value;
-                this.OnTelephoneChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Telephone;
-        partial void OnTelephoneChanging(string value);
-        partial void OnTelephoneChanged();
-        /// <summary>
-        /// There are no comments for Property Fax in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Fax
-        {
-            get
-            {
-                return this._Fax;
-            }
-            set
-            {
-                this.OnFaxChanging(value);
-                this._Fax = value;
-                this.OnFaxChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Fax;
-        partial void OnFaxChanging(string value);
-        partial void OnFaxChanged();
-        /// <summary>
-        /// There are no comments for Property Email in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Email
-        {
-            get
-            {
-                return this._Email;
-            }
-            set
-            {
-                this.OnEmailChanging(value);
-                this._Email = value;
-                this.OnEmailChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Email;
-        partial void OnEmailChanging(string value);
-        partial void OnEmailChanged();
-        /// <summary>
-        /// There are no comments for Property ID_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ID_No
-        {
-            get
-            {
-                return this._ID_No;
-            }
-            set
-            {
-                this.OnID_NoChanging(value);
-                this._ID_No = value;
-                this.OnID_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ID_No;
-        partial void OnID_NoChanging(string value);
-        partial void OnID_NoChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.LoansReg in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Loan_No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Loan_No")]
-    public partial class LoansReg
-    {
-        /// <summary>
-        /// Create a new LoansReg object.
-        /// </summary>
-        /// <param name="loan_No">Initial value of Loan_No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static LoansReg CreateLoansReg(string loan_No)
-        {
-            LoansReg loansReg = new LoansReg();
-            loansReg.Loan_No = loan_No;
-            return loansReg;
-        }
-        /// <summary>
-        /// There are no comments for Property Loan_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_No
-        {
-            get
-            {
-                return this._Loan_No;
-            }
-            set
-            {
-                this.OnLoan_NoChanging(value);
-                this._Loan_No = value;
-                this.OnLoan_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_No;
-        partial void OnLoan_NoChanging(string value);
-        partial void OnLoan_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Application_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Application_Date
-        {
-            get
-            {
-                return this._Application_Date;
-            }
-            set
-            {
-                this.OnApplication_DateChanging(value);
-                this._Application_Date = value;
-                this.OnApplication_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Application_Date;
-        partial void OnApplication_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnApplication_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Product_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_Product_Type
-        {
-            get
-            {
-                return this._Loan_Product_Type;
-            }
-            set
-            {
-                this.OnLoan_Product_TypeChanging(value);
-                this._Loan_Product_Type = value;
-                this.OnLoan_Product_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_Product_Type;
-        partial void OnLoan_Product_TypeChanging(string value);
-        partial void OnLoan_Product_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Client_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Client_Code
-        {
-            get
-            {
-                return this._Client_Code;
-            }
-            set
-            {
-                this.OnClient_CodeChanging(value);
-                this._Client_Code = value;
-                this.OnClient_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Client_Code;
-        partial void OnClient_CodeChanging(string value);
-        partial void OnClient_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Group_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Group_Code
-        {
-            get
-            {
-                return this._Group_Code;
-            }
-            set
-            {
-                this.OnGroup_CodeChanging(value);
-                this._Group_Code = value;
-                this.OnGroup_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Group_Code;
-        partial void OnGroup_CodeChanging(string value);
-        partial void OnGroup_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Savings in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Savings
-        {
-            get
-            {
-                return this._Savings;
-            }
-            set
-            {
-                this.OnSavingsChanging(value);
-                this._Savings = value;
-                this.OnSavingsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Savings;
-        partial void OnSavingsChanging(global::System.Nullable<decimal> value);
-        partial void OnSavingsChanged();
-        /// <summary>
-        /// There are no comments for Property Approved_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Approved_Amount
-        {
-            get
-            {
-                return this._Approved_Amount;
-            }
-            set
-            {
-                this.OnApproved_AmountChanging(value);
-                this._Approved_Amount = value;
-                this.OnApproved_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Approved_Amount;
-        partial void OnApproved_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnApproved_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Interest in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Interest
-        {
-            get
-            {
-                return this._Interest;
-            }
-            set
-            {
-                this.OnInterestChanging(value);
-                this._Interest = value;
-                this.OnInterestChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Interest;
-        partial void OnInterestChanging(global::System.Nullable<decimal> value);
-        partial void OnInterestChanged();
-        /// <summary>
-        /// There are no comments for Property LastPayDateImport in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> LastPayDateImport
-        {
-            get
-            {
-                return this._LastPayDateImport;
-            }
-            set
-            {
-                this.OnLastPayDateImportChanging(value);
-                this._LastPayDateImport = value;
-                this.OnLastPayDateImportChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _LastPayDateImport;
-        partial void OnLastPayDateImportChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnLastPayDateImportChanged();
-        /// <summary>
-        /// There are no comments for Property Total_Loans_Default in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Total_Loans_Default
-        {
-            get
-            {
-                return this._Total_Loans_Default;
-            }
-            set
-            {
-                this.OnTotal_Loans_DefaultChanging(value);
-                this._Total_Loans_Default = value;
-                this.OnTotal_Loans_DefaultChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Total_Loans_Default;
-        partial void OnTotal_Loans_DefaultChanging(global::System.Nullable<decimal> value);
-        partial void OnTotal_Loans_DefaultChanged();
-        /// <summary>
-        /// There are no comments for Property old_no in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string old_no
-        {
-            get
-            {
-                return this._old_no;
-            }
-            set
-            {
-                this.Onold_noChanging(value);
-                this._old_no = value;
-                this.Onold_noChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _old_no;
-        partial void Onold_noChanging(string value);
-        partial void Onold_noChanged();
-        /// <summary>
-        /// There are no comments for Property Approval_Status in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Approval_Status
-        {
-            get
-            {
-                return this._Approval_Status;
-            }
-            set
-            {
-                this.OnApproval_StatusChanging(value);
-                this._Approval_Status = value;
-                this.OnApproval_StatusChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Approval_Status;
-        partial void OnApproval_StatusChanging(string value);
-        partial void OnApproval_StatusChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_Product_Type_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_Product_Type_Name
-        {
-            get
-            {
-                return this._Loan_Product_Type_Name;
-            }
-            set
-            {
-                this.OnLoan_Product_Type_NameChanging(value);
-                this._Loan_Product_Type_Name = value;
-                this.OnLoan_Product_Type_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_Product_Type_Name;
-        partial void OnLoan_Product_Type_NameChanging(string value);
-        partial void OnLoan_Product_Type_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Totals_Loan_Outstanding in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Totals_Loan_Outstanding
-        {
-            get
-            {
-                return this._Totals_Loan_Outstanding;
-            }
-            set
-            {
-                this.OnTotals_Loan_OutstandingChanging(value);
-                this._Totals_Loan_Outstanding = value;
-                this.OnTotals_Loan_OutstandingChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Totals_Loan_Outstanding;
-        partial void OnTotals_Loan_OutstandingChanging(global::System.Nullable<decimal> value);
-        partial void OnTotals_Loan_OutstandingChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.MemberList in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
-    public partial class MemberList
-    {
-        /// <summary>
-        /// Create a new MemberList object.
-        /// </summary>
-        /// <param name="no">Initial value of No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static MemberList CreateMemberList(string no)
-        {
-            MemberList memberList = new MemberList();
-            memberList.No = no;
-            return memberList;
-        }
-        /// <summary>
-        /// There are no comments for Property No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No
-        {
-            get
-            {
-                return this._No;
-            }
-            set
-            {
-                this.OnNoChanging(value);
-                this._No = value;
-                this.OnNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No;
-        partial void OnNoChanging(string value);
-        partial void OnNoChanged();
-        /// <summary>
-        /// There are no comments for Property Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this._Name = value;
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Name;
-        partial void OnNameChanging(string value);
-        partial void OnNameChanged();
-        /// <summary>
-        /// There are no comments for Property Address_2 in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Address_2
-        {
-            get
-            {
-                return this._Address_2;
-            }
-            set
-            {
-                this.OnAddress_2Changing(value);
-                this._Address_2 = value;
-                this.OnAddress_2Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Address_2;
-        partial void OnAddress_2Changing(string value);
-        partial void OnAddress_2Changed();
-        /// <summary>
-        /// There are no comments for Property Phone_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Phone_No
-        {
-            get
-            {
-                return this._Phone_No;
-            }
-            set
-            {
-                this.OnPhone_NoChanging(value);
-                this._Phone_No = value;
-                this.OnPhone_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Phone_No;
-        partial void OnPhone_NoChanging(string value);
-        partial void OnPhone_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Payroll_Staff_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Payroll_Staff_No
-        {
-            get
-            {
-                return this._Payroll_Staff_No;
-            }
-            set
-            {
-                this.OnPayroll_Staff_NoChanging(value);
-                this._Payroll_Staff_No = value;
-                this.OnPayroll_Staff_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Payroll_Staff_No;
-        partial void OnPayroll_Staff_NoChanging(string value);
-        partial void OnPayroll_Staff_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Account_Category in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_Category
-        {
-            get
-            {
-                return this._Account_Category;
-            }
-            set
-            {
-                this.OnAccount_CategoryChanging(value);
-                this._Account_Category = value;
-                this.OnAccount_CategoryChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_Category;
-        partial void OnAccount_CategoryChanging(string value);
-        partial void OnAccount_CategoryChanged();
-        /// <summary>
-        /// There are no comments for Property E_Mail_Personal in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string E_Mail_Personal
-        {
-            get
-            {
-                return this._E_Mail_Personal;
-            }
-            set
-            {
-                this.OnE_Mail_PersonalChanging(value);
-                this._E_Mail_Personal = value;
-                this.OnE_Mail_PersonalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _E_Mail_Personal;
-        partial void OnE_Mail_PersonalChanging(string value);
-        partial void OnE_Mail_PersonalChanged();
-        /// <summary>
-        /// There are no comments for Property ID_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ID_No
-        {
-            get
-            {
-                return this._ID_No;
-            }
-            set
-            {
-                this.OnID_NoChanging(value);
-                this._ID_No = value;
-                this.OnID_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ID_No;
-        partial void OnID_NoChanging(string value);
-        partial void OnID_NoChanged();
+        private string _Bank_Acc_Posting_Group;
+        partial void OnBank_Acc_Posting_GroupChanging(string value);
+        partial void OnBank_Acc_Posting_GroupChanged();
         /// <summary>
         /// There are no comments for Property Bank_Account_No in the schema.
         /// </summary>
@@ -13054,281 +5573,26 @@ namespace SACCOPortal.NavOData
         partial void OnBank_Account_NoChanging(string value);
         partial void OnBank_Account_NoChanged();
         /// <summary>
-        /// There are no comments for Property E_Mail in the schema.
+        /// There are no comments for Property Closed_by_Entry_No in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string E_Mail
+        public global::System.Nullable<int> Closed_by_Entry_No
         {
             get
             {
-                return this._E_Mail;
+                return this._Closed_by_Entry_No;
             }
             set
             {
-                this.OnE_MailChanging(value);
-                this._E_Mail = value;
-                this.OnE_MailChanged();
+                this.OnClosed_by_Entry_NoChanging(value);
+                this._Closed_by_Entry_No = value;
+                this.OnClosed_by_Entry_NoChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _E_Mail;
-        partial void OnE_MailChanging(string value);
-        partial void OnE_MailChanged();
-        /// <summary>
-        /// There are no comments for Property password in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string password
-        {
-            get
-            {
-                return this._password;
-            }
-            set
-            {
-                this.OnpasswordChanging(value);
-                this._password = value;
-                this.OnpasswordChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _password;
-        partial void OnpasswordChanging(string value);
-        partial void OnpasswordChanged();
-        /// <summary>
-        /// There are no comments for Property Old_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Old_Account_No
-        {
-            get
-            {
-                return this._Old_Account_No;
-            }
-            set
-            {
-                this.OnOld_Account_NoChanging(value);
-                this._Old_Account_No = value;
-                this.OnOld_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Old_Account_No;
-        partial void OnOld_Account_NoChanging(string value);
-        partial void OnOld_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Dividend_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Dividend_Amount
-        {
-            get
-            {
-                return this._Dividend_Amount;
-            }
-            set
-            {
-                this.OnDividend_AmountChanging(value);
-                this._Dividend_Amount = value;
-                this.OnDividend_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Dividend_Amount;
-        partial void OnDividend_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnDividend_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Shares_Retained in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Shares_Retained
-        {
-            get
-            {
-                return this._Shares_Retained;
-            }
-            set
-            {
-                this.OnShares_RetainedChanging(value);
-                this._Shares_Retained = value;
-                this.OnShares_RetainedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Shares_Retained;
-        partial void OnShares_RetainedChanging(global::System.Nullable<decimal> value);
-        partial void OnShares_RetainedChanged();
-        /// <summary>
-        /// There are no comments for Property Current_Shares in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Current_Shares
-        {
-            get
-            {
-                return this._Current_Shares;
-            }
-            set
-            {
-                this.OnCurrent_SharesChanging(value);
-                this._Current_Shares = value;
-                this.OnCurrent_SharesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Current_Shares;
-        partial void OnCurrent_SharesChanging(global::System.Nullable<decimal> value);
-        partial void OnCurrent_SharesChanged();
-        /// <summary>
-        /// There are no comments for Property Un_allocated_Funds in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Un_allocated_Funds
-        {
-            get
-            {
-                return this._Un_allocated_Funds;
-            }
-            set
-            {
-                this.OnUn_allocated_FundsChanging(value);
-                this._Un_allocated_Funds = value;
-                this.OnUn_allocated_FundsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Un_allocated_Funds;
-        partial void OnUn_allocated_FundsChanging(global::System.Nullable<decimal> value);
-        partial void OnUn_allocated_FundsChanged();
-        /// <summary>
-        /// There are no comments for Property Benevolent_Fund in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Benevolent_Fund
-        {
-            get
-            {
-                return this._Benevolent_Fund;
-            }
-            set
-            {
-                this.OnBenevolent_FundChanging(value);
-                this._Benevolent_Fund = value;
-                this.OnBenevolent_FundChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Benevolent_Fund;
-        partial void OnBenevolent_FundChanging(global::System.Nullable<decimal> value);
-        partial void OnBenevolent_FundChanged();
-        /// <summary>
-        /// There are no comments for Property Outstanding_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Outstanding_Balance
-        {
-            get
-            {
-                return this._Outstanding_Balance;
-            }
-            set
-            {
-                this.OnOutstanding_BalanceChanging(value);
-                this._Outstanding_Balance = value;
-                this.OnOutstanding_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Outstanding_Balance;
-        partial void OnOutstanding_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnOutstanding_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Outstanding_Interest in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Outstanding_Interest
-        {
-            get
-            {
-                return this._Outstanding_Interest;
-            }
-            set
-            {
-                this.OnOutstanding_InterestChanging(value);
-                this._Outstanding_Interest = value;
-                this.OnOutstanding_InterestChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Outstanding_Interest;
-        partial void OnOutstanding_InterestChanging(global::System.Nullable<decimal> value);
-        partial void OnOutstanding_InterestChanged();
-        /// <summary>
-        /// There are no comments for Property FOSA_Account_Bal in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> FOSA_Account_Bal
-        {
-            get
-            {
-                return this._FOSA_Account_Bal;
-            }
-            set
-            {
-                this.OnFOSA_Account_BalChanging(value);
-                this._FOSA_Account_Bal = value;
-                this.OnFOSA_Account_BalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _FOSA_Account_Bal;
-        partial void OnFOSA_Account_BalChanging(global::System.Nullable<decimal> value);
-        partial void OnFOSA_Account_BalChanged();
-    }
-    /// <summary>
-    /// There are no comments for NAV.ministatement in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// AuxiliaryIndex1
-    /// Entry_No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("AuxiliaryIndex1", "Entry_No")]
-    public partial class ministatement
-    {
-        /// <summary>
-        /// Create a new ministatement object.
-        /// </summary>
-        /// <param name="entry_No">Initial value of Entry_No.</param>
-        /// <param name="auxiliaryIndex1">Initial value of AuxiliaryIndex1.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static ministatement Createministatement(int entry_No, int auxiliaryIndex1)
-        {
-            ministatement ministatement = new ministatement();
-            ministatement.Entry_No = entry_No;
-            ministatement.AuxiliaryIndex1 = auxiliaryIndex1;
-            return ministatement;
-        }
-        /// <summary>
-        /// There are no comments for Property Debit_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Debit_Amount
-        {
-            get
-            {
-                return this._Debit_Amount;
-            }
-            set
-            {
-                this.OnDebit_AmountChanging(value);
-                this._Debit_Amount = value;
-                this.OnDebit_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Debit_Amount;
-        partial void OnDebit_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnDebit_AmountChanged();
+        private global::System.Nullable<int> _Closed_by_Entry_No;
+        partial void OnClosed_by_Entry_NoChanging(global::System.Nullable<int> value);
+        partial void OnClosed_by_Entry_NoChanged();
         /// <summary>
         /// There are no comments for Property Credit_Amount in the schema.
         /// </summary>
@@ -13351,89 +5615,110 @@ namespace SACCOPortal.NavOData
         partial void OnCredit_AmountChanging(global::System.Nullable<decimal> value);
         partial void OnCredit_AmountChanged();
         /// <summary>
-        /// There are no comments for Property Amount in the schema.
+        /// There are no comments for Property Credit_Amount_LCY in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Amount
+        public global::System.Nullable<decimal> Credit_Amount_LCY
         {
             get
             {
-                return this._Amount;
+                return this._Credit_Amount_LCY;
             }
             set
             {
-                this.OnAmountChanging(value);
-                this._Amount = value;
-                this.OnAmountChanged();
+                this.OnCredit_Amount_LCYChanging(value);
+                this._Credit_Amount_LCY = value;
+                this.OnCredit_Amount_LCYChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Amount;
-        partial void OnAmountChanging(global::System.Nullable<decimal> value);
-        partial void OnAmountChanged();
+        private global::System.Nullable<decimal> _Credit_Amount_LCY;
+        partial void OnCredit_Amount_LCYChanging(global::System.Nullable<decimal> value);
+        partial void OnCredit_Amount_LCYChanged();
         /// <summary>
-        /// There are no comments for Property Vendor_No in the schema.
+        /// There are no comments for Property Debit_Amount in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Vendor_No
+        public global::System.Nullable<decimal> Debit_Amount
         {
             get
             {
-                return this._Vendor_No;
+                return this._Debit_Amount;
             }
             set
             {
-                this.OnVendor_NoChanging(value);
-                this._Vendor_No = value;
-                this.OnVendor_NoChanged();
+                this.OnDebit_AmountChanging(value);
+                this._Debit_Amount = value;
+                this.OnDebit_AmountChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Vendor_No;
-        partial void OnVendor_NoChanging(string value);
-        partial void OnVendor_NoChanged();
+        private global::System.Nullable<decimal> _Debit_Amount;
+        partial void OnDebit_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnDebit_AmountChanged();
         /// <summary>
-        /// There are no comments for Property Vendor_Ledger_Entry_No in the schema.
+        /// There are no comments for Property Debit_Amount_LCY in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Vendor_Ledger_Entry_No
+        public global::System.Nullable<decimal> Debit_Amount_LCY
         {
             get
             {
-                return this._Vendor_Ledger_Entry_No;
+                return this._Debit_Amount_LCY;
             }
             set
             {
-                this.OnVendor_Ledger_Entry_NoChanging(value);
-                this._Vendor_Ledger_Entry_No = value;
-                this.OnVendor_Ledger_Entry_NoChanged();
+                this.OnDebit_Amount_LCYChanging(value);
+                this._Debit_Amount_LCY = value;
+                this.OnDebit_Amount_LCYChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Vendor_Ledger_Entry_No;
-        partial void OnVendor_Ledger_Entry_NoChanging(global::System.Nullable<int> value);
-        partial void OnVendor_Ledger_Entry_NoChanged();
+        private global::System.Nullable<decimal> _Debit_Amount_LCY;
+        partial void OnDebit_Amount_LCYChanging(global::System.Nullable<decimal> value);
+        partial void OnDebit_Amount_LCYChanged();
         /// <summary>
-        /// There are no comments for Property Posting_Date in the schema.
+        /// There are no comments for Property Description in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Posting_Date
+        public string Description
         {
             get
             {
-                return this._Posting_Date;
+                return this._Description;
             }
             set
             {
-                this.OnPosting_DateChanging(value);
-                this._Posting_Date = value;
-                this.OnPosting_DateChanged();
+                this.OnDescriptionChanging(value);
+                this._Description = value;
+                this.OnDescriptionChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Posting_Date;
-        partial void OnPosting_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnPosting_DateChanged();
+        private string _Description;
+        partial void OnDescriptionChanging(string value);
+        partial void OnDescriptionChanged();
+        /// <summary>
+        /// There are no comments for Property Document_Date in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Document_Date
+        {
+            get
+            {
+                return this._Document_Date;
+            }
+            set
+            {
+                this.OnDocument_DateChanging(value);
+                this._Document_Date = value;
+                this.OnDocument_DateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Document_Date;
+        partial void OnDocument_DateChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnDocument_DateChanged();
         /// <summary>
         /// There are no comments for Property Document_No in the schema.
         /// </summary>
@@ -13477,27 +5762,6 @@ namespace SACCOPortal.NavOData
         partial void OnEntry_NoChanging(int value);
         partial void OnEntry_NoChanged();
         /// <summary>
-        /// There are no comments for Property Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Description
-        {
-            get
-            {
-                return this._Description;
-            }
-            set
-            {
-                this.OnDescriptionChanging(value);
-                this._Description = value;
-                this.OnDescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Description;
-        partial void OnDescriptionChanging(string value);
-        partial void OnDescriptionChanged();
-        /// <summary>
         /// There are no comments for Property External_Document_No in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -13519,68 +5783,131 @@ namespace SACCOPortal.NavOData
         partial void OnExternal_Document_NoChanging(string value);
         partial void OnExternal_Document_NoChanged();
         /// <summary>
-        /// There are no comments for Property AuxiliaryIndex1 in the schema.
+        /// There are no comments for Property Global_Dimension_1_Code in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public int AuxiliaryIndex1
+        public string Global_Dimension_1_Code
         {
             get
             {
-                return this._AuxiliaryIndex1;
+                return this._Global_Dimension_1_Code;
             }
             set
             {
-                this.OnAuxiliaryIndex1Changing(value);
-                this._AuxiliaryIndex1 = value;
-                this.OnAuxiliaryIndex1Changed();
+                this.OnGlobal_Dimension_1_CodeChanging(value);
+                this._Global_Dimension_1_Code = value;
+                this.OnGlobal_Dimension_1_CodeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private int _AuxiliaryIndex1;
-        partial void OnAuxiliaryIndex1Changing(int value);
-        partial void OnAuxiliaryIndex1Changed();
-    }
-    /// <summary>
-    /// There are no comments for NAV.PBIATMTransactions in the schema.
-    /// </summary>
-    /// <KeyProperties>
-    /// Entry_No
-    /// </KeyProperties>
-    [global::System.Data.Services.Common.DataServiceKeyAttribute("Entry_No")]
-    public partial class PBIATMTransactions
-    {
+        private string _Global_Dimension_1_Code;
+        partial void OnGlobal_Dimension_1_CodeChanging(string value);
+        partial void OnGlobal_Dimension_1_CodeChanged();
         /// <summary>
-        /// Create a new PBIATMTransactions object.
-        /// </summary>
-        /// <param name="entry_No">Initial value of Entry_No.</param>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static PBIATMTransactions CreatePBIATMTransactions(int entry_No)
-        {
-            PBIATMTransactions pBIATMTransactions = new PBIATMTransactions();
-            pBIATMTransactions.Entry_No = entry_No;
-            return pBIATMTransactions;
-        }
-        /// <summary>
-        /// There are no comments for Property Trace_ID in the schema.
+        /// There are no comments for Property Global_Dimension_2_Code in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Trace_ID
+        public string Global_Dimension_2_Code
         {
             get
             {
-                return this._Trace_ID;
+                return this._Global_Dimension_2_Code;
             }
             set
             {
-                this.OnTrace_IDChanging(value);
-                this._Trace_ID = value;
-                this.OnTrace_IDChanged();
+                this.OnGlobal_Dimension_2_CodeChanging(value);
+                this._Global_Dimension_2_Code = value;
+                this.OnGlobal_Dimension_2_CodeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Trace_ID;
-        partial void OnTrace_IDChanging(string value);
-        partial void OnTrace_IDChanged();
+        private string _Global_Dimension_2_Code;
+        partial void OnGlobal_Dimension_2_CodeChanging(string value);
+        partial void OnGlobal_Dimension_2_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Journal_Batch_Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Journal_Batch_Name
+        {
+            get
+            {
+                return this._Journal_Batch_Name;
+            }
+            set
+            {
+                this.OnJournal_Batch_NameChanging(value);
+                this._Journal_Batch_Name = value;
+                this.OnJournal_Batch_NameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Journal_Batch_Name;
+        partial void OnJournal_Batch_NameChanging(string value);
+        partial void OnJournal_Batch_NameChanged();
+        /// <summary>
+        /// There are no comments for Property Open in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<bool> Open
+        {
+            get
+            {
+                return this._Open;
+            }
+            set
+            {
+                this.OnOpenChanging(value);
+                this._Open = value;
+                this.OnOpenChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<bool> _Open;
+        partial void OnOpenChanging(global::System.Nullable<bool> value);
+        partial void OnOpenChanged();
+        /// <summary>
+        /// There are no comments for Property Our_Contact_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Our_Contact_Code
+        {
+            get
+            {
+                return this._Our_Contact_Code;
+            }
+            set
+            {
+                this.OnOur_Contact_CodeChanging(value);
+                this._Our_Contact_Code = value;
+                this.OnOur_Contact_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Our_Contact_Code;
+        partial void OnOur_Contact_CodeChanging(string value);
+        partial void OnOur_Contact_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Positive in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<bool> Positive
+        {
+            get
+            {
+                return this._Positive;
+            }
+            set
+            {
+                this.OnPositiveChanging(value);
+                this._Positive = value;
+                this.OnPositiveChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<bool> _Positive;
+        partial void OnPositiveChanging(global::System.Nullable<bool> value);
+        partial void OnPositiveChanged();
         /// <summary>
         /// There are no comments for Property Posting_Date in the schema.
         /// </summary>
@@ -13603,236 +5930,26 @@ namespace SACCOPortal.NavOData
         partial void OnPosting_DateChanging(global::System.Nullable<global::System.DateTime> value);
         partial void OnPosting_DateChanged();
         /// <summary>
-        /// There are no comments for Property Account_No in the schema.
+        /// There are no comments for Property Remaining_Amount in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_No
+        public global::System.Nullable<decimal> Remaining_Amount
         {
             get
             {
-                return this._Account_No;
+                return this._Remaining_Amount;
             }
             set
             {
-                this.OnAccount_NoChanging(value);
-                this._Account_No = value;
-                this.OnAccount_NoChanged();
+                this.OnRemaining_AmountChanging(value);
+                this._Remaining_Amount = value;
+                this.OnRemaining_AmountChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_No;
-        partial void OnAccount_NoChanging(string value);
-        partial void OnAccount_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Description
-        {
-            get
-            {
-                return this._Description;
-            }
-            set
-            {
-                this.OnDescriptionChanging(value);
-                this._Description = value;
-                this.OnDescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Description;
-        partial void OnDescriptionChanging(string value);
-        partial void OnDescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Amount
-        {
-            get
-            {
-                return this._Amount;
-            }
-            set
-            {
-                this.OnAmountChanging(value);
-                this._Amount = value;
-                this.OnAmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Amount;
-        partial void OnAmountChanging(global::System.Nullable<decimal> value);
-        partial void OnAmountChanged();
-        /// <summary>
-        /// There are no comments for Property Posting_S in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Posting_S
-        {
-            get
-            {
-                return this._Posting_S;
-            }
-            set
-            {
-                this.OnPosting_SChanging(value);
-                this._Posting_S = value;
-                this.OnPosting_SChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Posting_S;
-        partial void OnPosting_SChanging(string value);
-        partial void OnPosting_SChanged();
-        /// <summary>
-        /// There are no comments for Property Posted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Posted
-        {
-            get
-            {
-                return this._Posted;
-            }
-            set
-            {
-                this.OnPostedChanging(value);
-                this._Posted = value;
-                this.OnPostedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Posted;
-        partial void OnPostedChanging(global::System.Nullable<bool> value);
-        partial void OnPostedChanged();
-        /// <summary>
-        /// There are no comments for Property Unit_ID in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Unit_ID
-        {
-            get
-            {
-                return this._Unit_ID;
-            }
-            set
-            {
-                this.OnUnit_IDChanging(value);
-                this._Unit_ID = value;
-                this.OnUnit_IDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Unit_ID;
-        partial void OnUnit_IDChanging(string value);
-        partial void OnUnit_IDChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Type
-        {
-            get
-            {
-                return this._Transaction_Type;
-            }
-            set
-            {
-                this.OnTransaction_TypeChanging(value);
-                this._Transaction_Type = value;
-                this.OnTransaction_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Type;
-        partial void OnTransaction_TypeChanging(string value);
-        partial void OnTransaction_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Trans_Time in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Trans_Time
-        {
-            get
-            {
-                return this._Trans_Time;
-            }
-            set
-            {
-                this.OnTrans_TimeChanging(value);
-                this._Trans_Time = value;
-                this.OnTrans_TimeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Trans_Time;
-        partial void OnTrans_TimeChanging(string value);
-        partial void OnTrans_TimeChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Time in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Time
-        {
-            get
-            {
-                return this._Transaction_Time;
-            }
-            set
-            {
-                this.OnTransaction_TimeChanging(value);
-                this._Transaction_Time = value;
-                this.OnTransaction_TimeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Time;
-        partial void OnTransaction_TimeChanging(string value);
-        partial void OnTransaction_TimeChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Transaction_Date
-        {
-            get
-            {
-                return this._Transaction_Date;
-            }
-            set
-            {
-                this.OnTransaction_DateChanging(value);
-                this._Transaction_Date = value;
-                this.OnTransaction_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Transaction_Date;
-        partial void OnTransaction_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnTransaction_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Source in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Source
-        {
-            get
-            {
-                return this._Source;
-            }
-            set
-            {
-                this.OnSourceChanging(value);
-                this._Source = value;
-                this.OnSourceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Source;
-        partial void OnSourceChanging(string value);
-        partial void OnSourceChanged();
+        private global::System.Nullable<decimal> _Remaining_Amount;
+        partial void OnRemaining_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnRemaining_AmountChanged();
         /// <summary>
         /// There are no comments for Property Reversed in the schema.
         /// </summary>
@@ -13855,530 +5972,110 @@ namespace SACCOPortal.NavOData
         partial void OnReversedChanging(global::System.Nullable<bool> value);
         partial void OnReversedChanged();
         /// <summary>
-        /// There are no comments for Property Reversed_Posted in the schema.
+        /// There are no comments for Property Source_Code in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Reversed_Posted
+        public string Source_Code
         {
             get
             {
-                return this._Reversed_Posted;
+                return this._Source_Code;
             }
             set
             {
-                this.OnReversed_PostedChanging(value);
-                this._Reversed_Posted = value;
-                this.OnReversed_PostedChanged();
+                this.OnSource_CodeChanging(value);
+                this._Source_Code = value;
+                this.OnSource_CodeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Reversed_Posted;
-        partial void OnReversed_PostedChanging(global::System.Nullable<bool> value);
-        partial void OnReversed_PostedChanged();
+        private string _Source_Code;
+        partial void OnSource_CodeChanging(string value);
+        partial void OnSource_CodeChanged();
         /// <summary>
-        /// There are no comments for Property Reversal_Trace_ID in the schema.
+        /// There are no comments for Property Statement_Status in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Reversal_Trace_ID
+        public string Statement_Status
         {
             get
             {
-                return this._Reversal_Trace_ID;
+                return this._Statement_Status;
             }
             set
             {
-                this.OnReversal_Trace_IDChanging(value);
-                this._Reversal_Trace_ID = value;
-                this.OnReversal_Trace_IDChanged();
+                this.OnStatement_StatusChanging(value);
+                this._Statement_Status = value;
+                this.OnStatement_StatusChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Reversal_Trace_ID;
-        partial void OnReversal_Trace_IDChanging(string value);
-        partial void OnReversal_Trace_IDChanged();
+        private string _Statement_Status;
+        partial void OnStatement_StatusChanging(string value);
+        partial void OnStatement_StatusChanged();
         /// <summary>
-        /// There are no comments for Property Transaction_Description in the schema.
+        /// There are no comments for Property Transaction_No in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Description
+        public global::System.Nullable<int> Transaction_No
         {
             get
             {
-                return this._Transaction_Description;
+                return this._Transaction_No;
             }
             set
             {
-                this.OnTransaction_DescriptionChanging(value);
-                this._Transaction_Description = value;
-                this.OnTransaction_DescriptionChanged();
+                this.OnTransaction_NoChanging(value);
+                this._Transaction_No = value;
+                this.OnTransaction_NoChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Description;
-        partial void OnTransaction_DescriptionChanging(string value);
-        partial void OnTransaction_DescriptionChanged();
+        private global::System.Nullable<int> _Transaction_No;
+        partial void OnTransaction_NoChanging(global::System.Nullable<int> value);
+        partial void OnTransaction_NoChanged();
         /// <summary>
-        /// There are no comments for Property Withdrawal_Location in the schema.
+        /// There are no comments for Property User_ID in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Withdrawal_Location
+        public string User_ID
         {
             get
             {
-                return this._Withdrawal_Location;
+                return this._User_ID;
             }
             set
             {
-                this.OnWithdrawal_LocationChanging(value);
-                this._Withdrawal_Location = value;
-                this.OnWithdrawal_LocationChanged();
+                this.OnUser_IDChanging(value);
+                this._User_ID = value;
+                this.OnUser_IDChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Withdrawal_Location;
-        partial void OnWithdrawal_LocationChanging(string value);
-        partial void OnWithdrawal_LocationChanged();
-        /// <summary>
-        /// There are no comments for Property Entry_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public int Entry_No
-        {
-            get
-            {
-                return this._Entry_No;
-            }
-            set
-            {
-                this.OnEntry_NoChanging(value);
-                this._Entry_No = value;
-                this.OnEntry_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private int _Entry_No;
-        partial void OnEntry_NoChanging(int value);
-        partial void OnEntry_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Type_Charges in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Type_Charges
-        {
-            get
-            {
-                return this._Transaction_Type_Charges;
-            }
-            set
-            {
-                this.OnTransaction_Type_ChargesChanging(value);
-                this._Transaction_Type_Charges = value;
-                this.OnTransaction_Type_ChargesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Type_Charges;
-        partial void OnTransaction_Type_ChargesChanging(string value);
-        partial void OnTransaction_Type_ChargesChanged();
-        /// <summary>
-        /// There are no comments for Property Card_Acceptor_Terminal_ID in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Card_Acceptor_Terminal_ID
-        {
-            get
-            {
-                return this._Card_Acceptor_Terminal_ID;
-            }
-            set
-            {
-                this.OnCard_Acceptor_Terminal_IDChanging(value);
-                this._Card_Acceptor_Terminal_ID = value;
-                this.OnCard_Acceptor_Terminal_IDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Card_Acceptor_Terminal_ID;
-        partial void OnCard_Acceptor_Terminal_IDChanging(string value);
-        partial void OnCard_Acceptor_Terminal_IDChanged();
-        /// <summary>
-        /// There are no comments for Property ATM_Card_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ATM_Card_No
-        {
-            get
-            {
-                return this._ATM_Card_No;
-            }
-            set
-            {
-                this.OnATM_Card_NoChanging(value);
-                this._ATM_Card_No = value;
-                this.OnATM_Card_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ATM_Card_No;
-        partial void OnATM_Card_NoChanging(string value);
-        partial void OnATM_Card_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Customer_Names in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Customer_Names
-        {
-            get
-            {
-                return this._Customer_Names;
-            }
-            set
-            {
-                this.OnCustomer_NamesChanging(value);
-                this._Customer_Names = value;
-                this.OnCustomer_NamesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Customer_Names;
-        partial void OnCustomer_NamesChanging(string value);
-        partial void OnCustomer_NamesChanged();
-        /// <summary>
-        /// There are no comments for Property Process_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Process_Code
-        {
-            get
-            {
-                return this._Process_Code;
-            }
-            set
-            {
-                this.OnProcess_CodeChanging(value);
-                this._Process_Code = value;
-                this.OnProcess_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Process_Code;
-        partial void OnProcess_CodeChanging(string value);
-        partial void OnProcess_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Reference_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Reference_No
-        {
-            get
-            {
-                return this._Reference_No;
-            }
-            set
-            {
-                this.OnReference_NoChanging(value);
-                this._Reference_No = value;
-                this.OnReference_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Reference_No;
-        partial void OnReference_NoChanging(string value);
-        partial void OnReference_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Is_Coop_Bank in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Is_Coop_Bank
-        {
-            get
-            {
-                return this._Is_Coop_Bank;
-            }
-            set
-            {
-                this.OnIs_Coop_BankChanging(value);
-                this._Is_Coop_Bank = value;
-                this.OnIs_Coop_BankChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Is_Coop_Bank;
-        partial void OnIs_Coop_BankChanging(global::System.Nullable<bool> value);
-        partial void OnIs_Coop_BankChanged();
-        /// <summary>
-        /// There are no comments for Property POS_Vendor in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string POS_Vendor
-        {
-            get
-            {
-                return this._POS_Vendor;
-            }
-            set
-            {
-                this.OnPOS_VendorChanging(value);
-                this._POS_Vendor = value;
-                this.OnPOS_VendorChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _POS_Vendor;
-        partial void OnPOS_VendorChanging(string value);
-        partial void OnPOS_VendorChanged();
-        /// <summary>
-        /// There are no comments for Property Account_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_Name
-        {
-            get
-            {
-                return this._Account_Name;
-            }
-            set
-            {
-                this.OnAccount_NameChanging(value);
-                this._Account_Name = value;
-                this.OnAccount_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_Name;
-        partial void OnAccount_NameChanging(string value);
-        partial void OnAccount_NameChanged();
+        private string _User_ID;
+        partial void OnUser_IDChanging(string value);
+        partial void OnUser_IDChanged();
     }
     /// <summary>
-    /// There are no comments for NAV.PBICASHIERTransactions in the schema.
+    /// There are no comments for NAV.COA in the schema.
     /// </summary>
     /// <KeyProperties>
     /// No
     /// </KeyProperties>
     [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
-    public partial class PBICASHIERTransactions
+    public partial class COA
     {
         /// <summary>
-        /// Create a new PBICASHIERTransactions object.
+        /// Create a new COA object.
         /// </summary>
         /// <param name="no">Initial value of No.</param>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static PBICASHIERTransactions CreatePBICASHIERTransactions(string no)
+        public static COA CreateCOA(string no)
         {
-            PBICASHIERTransactions pBICASHIERTransactions = new PBICASHIERTransactions();
-            pBICASHIERTransactions.No = no;
-            return pBICASHIERTransactions;
+            COA cOA = new COA();
+            cOA.No = no;
+            return cOA;
         }
-        /// <summary>
-        /// There are no comments for Property No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No
-        {
-            get
-            {
-                return this._No;
-            }
-            set
-            {
-                this.OnNoChanging(value);
-                this._No = value;
-                this.OnNoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No;
-        partial void OnNoChanging(string value);
-        partial void OnNoChanged();
-        /// <summary>
-        /// There are no comments for Property Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_No
-        {
-            get
-            {
-                return this._Account_No;
-            }
-            set
-            {
-                this.OnAccount_NoChanging(value);
-                this._Account_No = value;
-                this.OnAccount_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_No;
-        partial void OnAccount_NoChanging(string value);
-        partial void OnAccount_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Account_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_Name
-        {
-            get
-            {
-                return this._Account_Name;
-            }
-            set
-            {
-                this.OnAccount_NameChanging(value);
-                this._Account_Name = value;
-                this.OnAccount_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_Name;
-        partial void OnAccount_NameChanging(string value);
-        partial void OnAccount_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Type
-        {
-            get
-            {
-                return this._Transaction_Type;
-            }
-            set
-            {
-                this.OnTransaction_TypeChanging(value);
-                this._Transaction_Type = value;
-                this.OnTransaction_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Type;
-        partial void OnTransaction_TypeChanging(string value);
-        partial void OnTransaction_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Amount
-        {
-            get
-            {
-                return this._Amount;
-            }
-            set
-            {
-                this.OnAmountChanging(value);
-                this._Amount = value;
-                this.OnAmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Amount;
-        partial void OnAmountChanging(global::System.Nullable<decimal> value);
-        partial void OnAmountChanged();
-        /// <summary>
-        /// There are no comments for Property Cashier in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Cashier
-        {
-            get
-            {
-                return this._Cashier;
-            }
-            set
-            {
-                this.OnCashierChanging(value);
-                this._Cashier = value;
-                this.OnCashierChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Cashier;
-        partial void OnCashierChanging(string value);
-        partial void OnCashierChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Transaction_Date
-        {
-            get
-            {
-                return this._Transaction_Date;
-            }
-            set
-            {
-                this.OnTransaction_DateChanging(value);
-                this._Transaction_Date = value;
-                this.OnTransaction_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Transaction_Date;
-        partial void OnTransaction_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnTransaction_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Time in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Time
-        {
-            get
-            {
-                return this._Transaction_Time;
-            }
-            set
-            {
-                this.OnTransaction_TimeChanging(value);
-                this._Transaction_Time = value;
-                this.OnTransaction_TimeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Time;
-        partial void OnTransaction_TimeChanging(string value);
-        partial void OnTransaction_TimeChanged();
-        /// <summary>
-        /// There are no comments for Property Posted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Posted
-        {
-            get
-            {
-                return this._Posted;
-            }
-            set
-            {
-                this.OnPostedChanging(value);
-                this._Posted = value;
-                this.OnPostedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Posted;
-        partial void OnPostedChanging(global::System.Nullable<bool> value);
-        partial void OnPostedChanged();
-        /// <summary>
-        /// There are no comments for Property No_Series in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string No_Series
-        {
-            get
-            {
-                return this._No_Series;
-            }
-            set
-            {
-                this.OnNo_SeriesChanging(value);
-                this._No_Series = value;
-                this.OnNo_SeriesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _No_Series;
-        partial void OnNo_SeriesChanging(string value);
-        partial void OnNo_SeriesChanged();
         /// <summary>
         /// There are no comments for Property Account_Type in the schema.
         /// </summary>
@@ -14401,2713 +6098,193 @@ namespace SACCOPortal.NavOData
         partial void OnAccount_TypeChanging(string value);
         partial void OnAccount_TypeChanged();
         /// <summary>
-        /// There are no comments for Property Account_Description in the schema.
+        /// There are no comments for Property Direct_Posting in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Account_Description
+        public global::System.Nullable<bool> Direct_Posting
         {
             get
             {
-                return this._Account_Description;
+                return this._Direct_Posting;
             }
             set
             {
-                this.OnAccount_DescriptionChanging(value);
-                this._Account_Description = value;
-                this.OnAccount_DescriptionChanged();
+                this.OnDirect_PostingChanging(value);
+                this._Direct_Posting = value;
+                this.OnDirect_PostingChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Account_Description;
-        partial void OnAccount_DescriptionChanging(string value);
-        partial void OnAccount_DescriptionChanged();
+        private global::System.Nullable<bool> _Direct_Posting;
+        partial void OnDirect_PostingChanging(global::System.Nullable<bool> value);
+        partial void OnDirect_PostingChanged();
         /// <summary>
-        /// There are no comments for Property Denomination_Total in the schema.
+        /// There are no comments for Property Income_Balance in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Denomination_Total
+        public string Income_Balance
         {
             get
             {
-                return this._Denomination_Total;
+                return this._Income_Balance;
             }
             set
             {
-                this.OnDenomination_TotalChanging(value);
-                this._Denomination_Total = value;
-                this.OnDenomination_TotalChanged();
+                this.OnIncome_BalanceChanging(value);
+                this._Income_Balance = value;
+                this.OnIncome_BalanceChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Denomination_Total;
-        partial void OnDenomination_TotalChanging(global::System.Nullable<decimal> value);
-        partial void OnDenomination_TotalChanged();
+        private string _Income_Balance;
+        partial void OnIncome_BalanceChanging(string value);
+        partial void OnIncome_BalanceChanged();
         /// <summary>
-        /// There are no comments for Property Cheque_Type in the schema.
+        /// There are no comments for Property Name in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Cheque_Type
+        public string Name
         {
             get
             {
-                return this._Cheque_Type;
+                return this._Name;
             }
             set
             {
-                this.OnCheque_TypeChanging(value);
-                this._Cheque_Type = value;
-                this.OnCheque_TypeChanged();
+                this.OnNameChanging(value);
+                this._Name = value;
+                this.OnNameChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Cheque_Type;
-        partial void OnCheque_TypeChanging(string value);
-        partial void OnCheque_TypeChanged();
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
         /// <summary>
-        /// There are no comments for Property Cheque_No in the schema.
+        /// There are no comments for Property No in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Cheque_No
+        public string No
         {
             get
             {
-                return this._Cheque_No;
+                return this._No;
             }
             set
             {
-                this.OnCheque_NoChanging(value);
-                this._Cheque_No = value;
-                this.OnCheque_NoChanged();
+                this.OnNoChanging(value);
+                this._No = value;
+                this.OnNoChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Cheque_No;
-        partial void OnCheque_NoChanging(string value);
-        partial void OnCheque_NoChanged();
+        private string _No;
+        partial void OnNoChanging(string value);
+        partial void OnNoChanged();
         /// <summary>
-        /// There are no comments for Property Cheque_Date in the schema.
+        /// There are no comments for Property Totaling in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Cheque_Date
+        public string Totaling
         {
             get
             {
-                return this._Cheque_Date;
+                return this._Totaling;
             }
             set
             {
-                this.OnCheque_DateChanging(value);
-                this._Cheque_Date = value;
-                this.OnCheque_DateChanged();
+                this.OnTotalingChanging(value);
+                this._Totaling = value;
+                this.OnTotalingChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Cheque_Date;
-        partial void OnCheque_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnCheque_DateChanged();
+        private string _Totaling;
+        partial void OnTotalingChanging(string value);
+        partial void OnTotalingChanged();
         /// <summary>
-        /// There are no comments for Property Payee in the schema.
+        /// There are no comments for Property Balance in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Payee
+        public global::System.Nullable<decimal> Balance
         {
             get
             {
-                return this._Payee;
+                return this._Balance;
             }
             set
             {
-                this.OnPayeeChanging(value);
-                this._Payee = value;
-                this.OnPayeeChanged();
+                this.OnBalanceChanging(value);
+                this._Balance = value;
+                this.OnBalanceChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Payee;
-        partial void OnPayeeChanging(string value);
-        partial void OnPayeeChanged();
+        private global::System.Nullable<decimal> _Balance;
+        partial void OnBalanceChanging(global::System.Nullable<decimal> value);
+        partial void OnBalanceChanged();
         /// <summary>
-        /// There are no comments for Property Bank_No in the schema.
+        /// There are no comments for Property Balance_at_Date in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bank_No
+        public global::System.Nullable<decimal> Balance_at_Date
         {
             get
             {
-                return this._Bank_No;
+                return this._Balance_at_Date;
             }
             set
             {
-                this.OnBank_NoChanging(value);
-                this._Bank_No = value;
-                this.OnBank_NoChanged();
+                this.OnBalance_at_DateChanging(value);
+                this._Balance_at_Date = value;
+                this.OnBalance_at_DateChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bank_No;
-        partial void OnBank_NoChanging(string value);
-        partial void OnBank_NoChanged();
+        private global::System.Nullable<decimal> _Balance_at_Date;
+        partial void OnBalance_at_DateChanging(global::System.Nullable<decimal> value);
+        partial void OnBalance_at_DateChanged();
         /// <summary>
-        /// There are no comments for Property Branch_No in the schema.
+        /// There are no comments for Property Net_Change in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Branch_No
+        public global::System.Nullable<decimal> Net_Change
         {
             get
             {
-                return this._Branch_No;
+                return this._Net_Change;
             }
             set
             {
-                this.OnBranch_NoChanging(value);
-                this._Branch_No = value;
-                this.OnBranch_NoChanged();
+                this.OnNet_ChangeChanging(value);
+                this._Net_Change = value;
+                this.OnNet_ChangeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Branch_No;
-        partial void OnBranch_NoChanging(string value);
-        partial void OnBranch_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Clearing_Charges in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Clearing_Charges
-        {
-            get
-            {
-                return this._Clearing_Charges;
-            }
-            set
-            {
-                this.OnClearing_ChargesChanging(value);
-                this._Clearing_Charges = value;
-                this.OnClearing_ChargesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Clearing_Charges;
-        partial void OnClearing_ChargesChanging(global::System.Nullable<decimal> value);
-        partial void OnClearing_ChargesChanged();
-        /// <summary>
-        /// There are no comments for Property Clearing_Days in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Clearing_Days
-        {
-            get
-            {
-                return this._Clearing_Days;
-            }
-            set
-            {
-                this.OnClearing_DaysChanging(value);
-                this._Clearing_Days = value;
-                this.OnClearing_DaysChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Clearing_Days;
-        partial void OnClearing_DaysChanging(string value);
-        partial void OnClearing_DaysChanged();
-        /// <summary>
-        /// There are no comments for Property Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Description
-        {
-            get
-            {
-                return this._Description;
-            }
-            set
-            {
-                this.OnDescriptionChanging(value);
-                this._Description = value;
-                this.OnDescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Description;
-        partial void OnDescriptionChanging(string value);
-        partial void OnDescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Bank_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bank_Name
-        {
-            get
-            {
-                return this._Bank_Name;
-            }
-            set
-            {
-                this.OnBank_NameChanging(value);
-                this._Bank_Name = value;
-                this.OnBank_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bank_Name;
-        partial void OnBank_NameChanging(string value);
-        partial void OnBank_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Branch_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Branch_Name
-        {
-            get
-            {
-                return this._Branch_Name;
-            }
-            set
-            {
-                this.OnBranch_NameChanging(value);
-                this._Branch_Name = value;
-                this.OnBranch_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Branch_Name;
-        partial void OnBranch_NameChanging(string value);
-        partial void OnBranch_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Mode in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Mode
-        {
-            get
-            {
-                return this._Transaction_Mode;
-            }
-            set
-            {
-                this.OnTransaction_ModeChanging(value);
-                this._Transaction_Mode = value;
-                this.OnTransaction_ModeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Mode;
-        partial void OnTransaction_ModeChanging(string value);
-        partial void OnTransaction_ModeChanged();
-        /// <summary>
-        /// There are no comments for Property Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Type
-        {
-            get
-            {
-                return this._Type;
-            }
-            set
-            {
-                this.OnTypeChanging(value);
-                this._Type = value;
-                this.OnTypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Type;
-        partial void OnTypeChanging(string value);
-        partial void OnTypeChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Description
-        {
-            get
-            {
-                return this._Transaction_Description;
-            }
-            set
-            {
-                this.OnTransaction_DescriptionChanging(value);
-                this._Transaction_Description = value;
-                this.OnTransaction_DescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Description;
-        partial void OnTransaction_DescriptionChanging(string value);
-        partial void OnTransaction_DescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Minimum_Account_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Minimum_Account_Balance
-        {
-            get
-            {
-                return this._Minimum_Account_Balance;
-            }
-            set
-            {
-                this.OnMinimum_Account_BalanceChanging(value);
-                this._Minimum_Account_Balance = value;
-                this.OnMinimum_Account_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Minimum_Account_Balance;
-        partial void OnMinimum_Account_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnMinimum_Account_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Fee_Below_Minimum_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Fee_Below_Minimum_Balance
-        {
-            get
-            {
-                return this._Fee_Below_Minimum_Balance;
-            }
-            set
-            {
-                this.OnFee_Below_Minimum_BalanceChanging(value);
-                this._Fee_Below_Minimum_Balance = value;
-                this.OnFee_Below_Minimum_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Fee_Below_Minimum_Balance;
-        partial void OnFee_Below_Minimum_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnFee_Below_Minimum_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Normal_Withdrawal_Charge in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Normal_Withdrawal_Charge
-        {
-            get
-            {
-                return this._Normal_Withdrawal_Charge;
-            }
-            set
-            {
-                this.OnNormal_Withdrawal_ChargeChanging(value);
-                this._Normal_Withdrawal_Charge = value;
-                this.OnNormal_Withdrawal_ChargeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Normal_Withdrawal_Charge;
-        partial void OnNormal_Withdrawal_ChargeChanging(global::System.Nullable<decimal> value);
-        partial void OnNormal_Withdrawal_ChargeChanged();
-        /// <summary>
-        /// There are no comments for Property Authorised in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Authorised
-        {
-            get
-            {
-                return this._Authorised;
-            }
-            set
-            {
-                this.OnAuthorisedChanging(value);
-                this._Authorised = value;
-                this.OnAuthorisedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Authorised;
-        partial void OnAuthorisedChanging(string value);
-        partial void OnAuthorisedChanged();
-        /// <summary>
-        /// There are no comments for Property Checked_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Checked_By
-        {
-            get
-            {
-                return this._Checked_By;
-            }
-            set
-            {
-                this.OnChecked_ByChanging(value);
-                this._Checked_By = value;
-                this.OnChecked_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Checked_By;
-        partial void OnChecked_ByChanging(string value);
-        partial void OnChecked_ByChanged();
-        /// <summary>
-        /// There are no comments for Property Fee_on_Withdrawal_Interval in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Fee_on_Withdrawal_Interval
-        {
-            get
-            {
-                return this._Fee_on_Withdrawal_Interval;
-            }
-            set
-            {
-                this.OnFee_on_Withdrawal_IntervalChanging(value);
-                this._Fee_on_Withdrawal_Interval = value;
-                this.OnFee_on_Withdrawal_IntervalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Fee_on_Withdrawal_Interval;
-        partial void OnFee_on_Withdrawal_IntervalChanging(global::System.Nullable<decimal> value);
-        partial void OnFee_on_Withdrawal_IntervalChanged();
-        /// <summary>
-        /// There are no comments for Property Remarks in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Remarks
-        {
-            get
-            {
-                return this._Remarks;
-            }
-            set
-            {
-                this.OnRemarksChanging(value);
-                this._Remarks = value;
-                this.OnRemarksChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Remarks;
-        partial void OnRemarksChanging(string value);
-        partial void OnRemarksChanged();
-        /// <summary>
-        /// There are no comments for Property Status in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Status
-        {
-            get
-            {
-                return this._Status;
-            }
-            set
-            {
-                this.OnStatusChanging(value);
-                this._Status = value;
-                this.OnStatusChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Status;
-        partial void OnStatusChanging(string value);
-        partial void OnStatusChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Posted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_Posted
-        {
-            get
-            {
-                return this._Date_Posted;
-            }
-            set
-            {
-                this.OnDate_PostedChanging(value);
-                this._Date_Posted = value;
-                this.OnDate_PostedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_Posted;
-        partial void OnDate_PostedChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_PostedChanged();
-        /// <summary>
-        /// There are no comments for Property Time_Posted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Time_Posted
-        {
-            get
-            {
-                return this._Time_Posted;
-            }
-            set
-            {
-                this.OnTime_PostedChanging(value);
-                this._Time_Posted = value;
-                this.OnTime_PostedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Time_Posted;
-        partial void OnTime_PostedChanging(string value);
-        partial void OnTime_PostedChanged();
-        /// <summary>
-        /// There are no comments for Property Posted_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Posted_By
-        {
-            get
-            {
-                return this._Posted_By;
-            }
-            set
-            {
-                this.OnPosted_ByChanging(value);
-                this._Posted_By = value;
-                this.OnPosted_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Posted_By;
-        partial void OnPosted_ByChanging(string value);
-        partial void OnPosted_ByChanged();
-        /// <summary>
-        /// There are no comments for Property Expected_Maturity_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Expected_Maturity_Date
-        {
-            get
-            {
-                return this._Expected_Maturity_Date;
-            }
-            set
-            {
-                this.OnExpected_Maturity_DateChanging(value);
-                this._Expected_Maturity_Date = value;
-                this.OnExpected_Maturity_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Expected_Maturity_Date;
-        partial void OnExpected_Maturity_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnExpected_Maturity_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Currency_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Currency_Code
-        {
-            get
-            {
-                return this._Currency_Code;
-            }
-            set
-            {
-                this.OnCurrency_CodeChanging(value);
-                this._Currency_Code = value;
-                this.OnCurrency_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Currency_Code;
-        partial void OnCurrency_CodeChanging(string value);
-        partial void OnCurrency_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Category in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Category
-        {
-            get
-            {
-                return this._Transaction_Category;
-            }
-            set
-            {
-                this.OnTransaction_CategoryChanging(value);
-                this._Transaction_Category = value;
-                this.OnTransaction_CategoryChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Category;
-        partial void OnTransaction_CategoryChanging(string value);
-        partial void OnTransaction_CategoryChanged();
-        /// <summary>
-        /// There are no comments for Property Deposited in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Deposited
-        {
-            get
-            {
-                return this._Deposited;
-            }
-            set
-            {
-                this.OnDepositedChanging(value);
-                this._Deposited = value;
-                this.OnDepositedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Deposited;
-        partial void OnDepositedChanging(global::System.Nullable<bool> value);
-        partial void OnDepositedChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Deposited in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_Deposited
-        {
-            get
-            {
-                return this._Date_Deposited;
-            }
-            set
-            {
-                this.OnDate_DepositedChanging(value);
-                this._Date_Deposited = value;
-                this.OnDate_DepositedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_Deposited;
-        partial void OnDate_DepositedChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_DepositedChanged();
-        /// <summary>
-        /// There are no comments for Property Time_Deposited in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Time_Deposited
-        {
-            get
-            {
-                return this._Time_Deposited;
-            }
-            set
-            {
-                this.OnTime_DepositedChanging(value);
-                this._Time_Deposited = value;
-                this.OnTime_DepositedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Time_Deposited;
-        partial void OnTime_DepositedChanging(string value);
-        partial void OnTime_DepositedChanged();
-        /// <summary>
-        /// There are no comments for Property Deposited_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Deposited_By
-        {
-            get
-            {
-                return this._Deposited_By;
-            }
-            set
-            {
-                this.OnDeposited_ByChanging(value);
-                this._Deposited_By = value;
-                this.OnDeposited_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Deposited_By;
-        partial void OnDeposited_ByChanging(string value);
-        partial void OnDeposited_ByChanged();
-        /// <summary>
-        /// There are no comments for Property Post_Dated in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Post_Dated
-        {
-            get
-            {
-                return this._Post_Dated;
-            }
-            set
-            {
-                this.OnPost_DatedChanging(value);
-                this._Post_Dated = value;
-                this.OnPost_DatedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Post_Dated;
-        partial void OnPost_DatedChanging(global::System.Nullable<bool> value);
-        partial void OnPost_DatedChanged();
-        /// <summary>
-        /// There are no comments for Property Select in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Select
-        {
-            get
-            {
-                return this._Select;
-            }
-            set
-            {
-                this.OnSelectChanging(value);
-                this._Select = value;
-                this.OnSelectChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Select;
-        partial void OnSelectChanging(global::System.Nullable<bool> value);
-        partial void OnSelectChanged();
-        /// <summary>
-        /// There are no comments for Property Status_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Status_Date
-        {
-            get
-            {
-                return this._Status_Date;
-            }
-            set
-            {
-                this.OnStatus_DateChanging(value);
-                this._Status_Date = value;
-                this.OnStatus_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Status_Date;
-        partial void OnStatus_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnStatus_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Status_Time in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Status_Time
-        {
-            get
-            {
-                return this._Status_Time;
-            }
-            set
-            {
-                this.OnStatus_TimeChanging(value);
-                this._Status_Time = value;
-                this.OnStatus_TimeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Status_Time;
-        partial void OnStatus_TimeChanging(string value);
-        partial void OnStatus_TimeChanged();
-        /// <summary>
-        /// There are no comments for Property Supervisor_Checked in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Supervisor_Checked
-        {
-            get
-            {
-                return this._Supervisor_Checked;
-            }
-            set
-            {
-                this.OnSupervisor_CheckedChanging(value);
-                this._Supervisor_Checked = value;
-                this.OnSupervisor_CheckedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Supervisor_Checked;
-        partial void OnSupervisor_CheckedChanging(global::System.Nullable<bool> value);
-        partial void OnSupervisor_CheckedChanged();
-        /// <summary>
-        /// There are no comments for Property Book_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Book_Balance
-        {
-            get
-            {
-                return this._Book_Balance;
-            }
-            set
-            {
-                this.OnBook_BalanceChanging(value);
-                this._Book_Balance = value;
-                this.OnBook_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Book_Balance;
-        partial void OnBook_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnBook_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Notice_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Notice_No
-        {
-            get
-            {
-                return this._Notice_No;
-            }
-            set
-            {
-                this.OnNotice_NoChanging(value);
-                this._Notice_No = value;
-                this.OnNotice_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Notice_No;
-        partial void OnNotice_NoChanging(string value);
-        partial void OnNotice_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Notice_Cleared in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Notice_Cleared
-        {
-            get
-            {
-                return this._Notice_Cleared;
-            }
-            set
-            {
-                this.OnNotice_ClearedChanging(value);
-                this._Notice_Cleared = value;
-                this.OnNotice_ClearedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Notice_Cleared;
-        partial void OnNotice_ClearedChanging(string value);
-        partial void OnNotice_ClearedChanged();
-        /// <summary>
-        /// There are no comments for Property Schedule_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Schedule_Amount
-        {
-            get
-            {
-                return this._Schedule_Amount;
-            }
-            set
-            {
-                this.OnSchedule_AmountChanging(value);
-                this._Schedule_Amount = value;
-                this.OnSchedule_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Schedule_Amount;
-        partial void OnSchedule_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnSchedule_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Has_Schedule in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Has_Schedule
-        {
-            get
-            {
-                return this._Has_Schedule;
-            }
-            set
-            {
-                this.OnHas_ScheduleChanging(value);
-                this._Has_Schedule = value;
-                this.OnHas_ScheduleChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Has_Schedule;
-        partial void OnHas_ScheduleChanging(global::System.Nullable<bool> value);
-        partial void OnHas_ScheduleChanged();
-        /// <summary>
-        /// There are no comments for Property Requested in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Requested
-        {
-            get
-            {
-                return this._Requested;
-            }
-            set
-            {
-                this.OnRequestedChanging(value);
-                this._Requested = value;
-                this.OnRequestedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Requested;
-        partial void OnRequestedChanging(global::System.Nullable<bool> value);
-        partial void OnRequestedChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Requested in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_Requested
-        {
-            get
-            {
-                return this._Date_Requested;
-            }
-            set
-            {
-                this.OnDate_RequestedChanging(value);
-                this._Date_Requested = value;
-                this.OnDate_RequestedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_Requested;
-        partial void OnDate_RequestedChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_RequestedChanged();
-        /// <summary>
-        /// There are no comments for Property Time_Requested in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Time_Requested
-        {
-            get
-            {
-                return this._Time_Requested;
-            }
-            set
-            {
-                this.OnTime_RequestedChanging(value);
-                this._Time_Requested = value;
-                this.OnTime_RequestedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Time_Requested;
-        partial void OnTime_RequestedChanging(string value);
-        partial void OnTime_RequestedChanged();
-        /// <summary>
-        /// There are no comments for Property Requested_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Requested_By
-        {
-            get
-            {
-                return this._Requested_By;
-            }
-            set
-            {
-                this.OnRequested_ByChanging(value);
-                this._Requested_By = value;
-                this.OnRequested_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Requested_By;
-        partial void OnRequested_ByChanging(string value);
-        partial void OnRequested_ByChanged();
-        /// <summary>
-        /// There are no comments for Property Overdraft in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Overdraft
-        {
-            get
-            {
-                return this._Overdraft;
-            }
-            set
-            {
-                this.OnOverdraftChanging(value);
-                this._Overdraft = value;
-                this.OnOverdraftChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Overdraft;
-        partial void OnOverdraftChanging(global::System.Nullable<bool> value);
-        partial void OnOverdraftChanged();
-        /// <summary>
-        /// There are no comments for Property Cheque_Processed in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Cheque_Processed
-        {
-            get
-            {
-                return this._Cheque_Processed;
-            }
-            set
-            {
-                this.OnCheque_ProcessedChanging(value);
-                this._Cheque_Processed = value;
-                this.OnCheque_ProcessedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Cheque_Processed;
-        partial void OnCheque_ProcessedChanging(global::System.Nullable<bool> value);
-        partial void OnCheque_ProcessedChanged();
-        /// <summary>
-        /// There are no comments for Property Staff_Payroll_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Staff_Payroll_No
-        {
-            get
-            {
-                return this._Staff_Payroll_No;
-            }
-            set
-            {
-                this.OnStaff_Payroll_NoChanging(value);
-                this._Staff_Payroll_No = value;
-                this.OnStaff_Payroll_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Staff_Payroll_No;
-        partial void OnStaff_Payroll_NoChanging(string value);
-        partial void OnStaff_Payroll_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Cheque_Transferred in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Cheque_Transferred
-        {
-            get
-            {
-                return this._Cheque_Transferred;
-            }
-            set
-            {
-                this.OnCheque_TransferredChanging(value);
-                this._Cheque_Transferred = value;
-                this.OnCheque_TransferredChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Cheque_Transferred;
-        partial void OnCheque_TransferredChanging(string value);
-        partial void OnCheque_TransferredChanged();
-        /// <summary>
-        /// There are no comments for Property Expected_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Expected_Amount
-        {
-            get
-            {
-                return this._Expected_Amount;
-            }
-            set
-            {
-                this.OnExpected_AmountChanging(value);
-                this._Expected_Amount = value;
-                this.OnExpected_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Expected_Amount;
-        partial void OnExpected_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnExpected_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Line_Totals in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Line_Totals
-        {
-            get
-            {
-                return this._Line_Totals;
-            }
-            set
-            {
-                this.OnLine_TotalsChanging(value);
-                this._Line_Totals = value;
-                this.OnLine_TotalsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Line_Totals;
-        partial void OnLine_TotalsChanging(global::System.Nullable<decimal> value);
-        partial void OnLine_TotalsChanged();
-        /// <summary>
-        /// There are no comments for Property Transfer_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Transfer_Date
-        {
-            get
-            {
-                return this._Transfer_Date;
-            }
-            set
-            {
-                this.OnTransfer_DateChanging(value);
-                this._Transfer_Date = value;
-                this.OnTransfer_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Transfer_Date;
-        partial void OnTransfer_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnTransfer_DateChanged();
-        /// <summary>
-        /// There are no comments for Property BIH_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string BIH_No
-        {
-            get
-            {
-                return this._BIH_No;
-            }
-            set
-            {
-                this.OnBIH_NoChanging(value);
-                this._BIH_No = value;
-                this.OnBIH_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _BIH_No;
-        partial void OnBIH_NoChanging(string value);
-        partial void OnBIH_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Transfer_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transfer_No
-        {
-            get
-            {
-                return this._Transfer_No;
-            }
-            set
-            {
-                this.OnTransfer_NoChanging(value);
-                this._Transfer_No = value;
-                this.OnTransfer_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transfer_No;
-        partial void OnTransfer_NoChanging(string value);
-        partial void OnTransfer_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Attached in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Attached
-        {
-            get
-            {
-                return this._Attached;
-            }
-            set
-            {
-                this.OnAttachedChanging(value);
-                this._Attached = value;
-                this.OnAttachedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Attached;
-        partial void OnAttachedChanging(global::System.Nullable<bool> value);
-        partial void OnAttachedChanged();
-        /// <summary>
-        /// There are no comments for Property BOSA_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string BOSA_Account_No
-        {
-            get
-            {
-                return this._BOSA_Account_No;
-            }
-            set
-            {
-                this.OnBOSA_Account_NoChanging(value);
-                this._BOSA_Account_No = value;
-                this.OnBOSA_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _BOSA_Account_No;
-        partial void OnBOSA_Account_NoChanging(string value);
-        partial void OnBOSA_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Salary_Processing in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Salary_Processing
-        {
-            get
-            {
-                return this._Salary_Processing;
-            }
-            set
-            {
-                this.OnSalary_ProcessingChanging(value);
-                this._Salary_Processing = value;
-                this.OnSalary_ProcessingChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Salary_Processing;
-        partial void OnSalary_ProcessingChanging(string value);
-        partial void OnSalary_ProcessingChanged();
-        /// <summary>
-        /// There are no comments for Property Expense_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Expense_Account
-        {
-            get
-            {
-                return this._Expense_Account;
-            }
-            set
-            {
-                this.OnExpense_AccountChanging(value);
-                this._Expense_Account = value;
-                this.OnExpense_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Expense_Account;
-        partial void OnExpense_AccountChanging(string value);
-        partial void OnExpense_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Expense_Description in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Expense_Description
-        {
-            get
-            {
-                return this._Expense_Description;
-            }
-            set
-            {
-                this.OnExpense_DescriptionChanging(value);
-                this._Expense_Description = value;
-                this.OnExpense_DescriptionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Expense_Description;
-        partial void OnExpense_DescriptionChanging(string value);
-        partial void OnExpense_DescriptionChanged();
-        /// <summary>
-        /// There are no comments for Property Company_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Company_Code
-        {
-            get
-            {
-                return this._Company_Code;
-            }
-            set
-            {
-                this.OnCompany_CodeChanging(value);
-                this._Company_Code = value;
-                this.OnCompany_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Company_Code;
-        partial void OnCompany_CodeChanging(string value);
-        partial void OnCompany_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property Schedule_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Schedule_Type
-        {
-            get
-            {
-                return this._Schedule_Type;
-            }
-            set
-            {
-                this.OnSchedule_TypeChanging(value);
-                this._Schedule_Type = value;
-                this.OnSchedule_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Schedule_Type;
-        partial void OnSchedule_TypeChanging(string value);
-        partial void OnSchedule_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Banked_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Banked_By
-        {
-            get
-            {
-                return this._Banked_By;
-            }
-            set
-            {
-                this.OnBanked_ByChanging(value);
-                this._Banked_By = value;
-                this.OnBanked_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Banked_By;
-        partial void OnBanked_ByChanging(string value);
-        partial void OnBanked_ByChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Banked in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_Banked
-        {
-            get
-            {
-                return this._Date_Banked;
-            }
-            set
-            {
-                this.OnDate_BankedChanging(value);
-                this._Date_Banked = value;
-                this.OnDate_BankedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_Banked;
-        partial void OnDate_BankedChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_BankedChanged();
-        /// <summary>
-        /// There are no comments for Property Time_Banked in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Time_Banked
-        {
-            get
-            {
-                return this._Time_Banked;
-            }
-            set
-            {
-                this.OnTime_BankedChanging(value);
-                this._Time_Banked = value;
-                this.OnTime_BankedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Time_Banked;
-        partial void OnTime_BankedChanging(string value);
-        partial void OnTime_BankedChanged();
-        /// <summary>
-        /// There are no comments for Property Banking_Posted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Banking_Posted
-        {
-            get
-            {
-                return this._Banking_Posted;
-            }
-            set
-            {
-                this.OnBanking_PostedChanging(value);
-                this._Banking_Posted = value;
-                this.OnBanking_PostedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Banking_Posted;
-        partial void OnBanking_PostedChanging(global::System.Nullable<bool> value);
-        partial void OnBanking_PostedChanged();
-        /// <summary>
-        /// There are no comments for Property Cleared_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Cleared_By
-        {
-            get
-            {
-                return this._Cleared_By;
-            }
-            set
-            {
-                this.OnCleared_ByChanging(value);
-                this._Cleared_By = value;
-                this.OnCleared_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Cleared_By;
-        partial void OnCleared_ByChanging(string value);
-        partial void OnCleared_ByChanged();
-        /// <summary>
-        /// There are no comments for Property Date_Cleared in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Date_Cleared
-        {
-            get
-            {
-                return this._Date_Cleared;
-            }
-            set
-            {
-                this.OnDate_ClearedChanging(value);
-                this._Date_Cleared = value;
-                this.OnDate_ClearedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Date_Cleared;
-        partial void OnDate_ClearedChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnDate_ClearedChanged();
-        /// <summary>
-        /// There are no comments for Property Time_Cleared in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Time_Cleared
-        {
-            get
-            {
-                return this._Time_Cleared;
-            }
-            set
-            {
-                this.OnTime_ClearedChanging(value);
-                this._Time_Cleared = value;
-                this.OnTime_ClearedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Time_Cleared;
-        partial void OnTime_ClearedChanging(string value);
-        partial void OnTime_ClearedChanged();
-        /// <summary>
-        /// There are no comments for Property Clearing_Posted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Clearing_Posted
-        {
-            get
-            {
-                return this._Clearing_Posted;
-            }
-            set
-            {
-                this.OnClearing_PostedChanging(value);
-                this._Clearing_Posted = value;
-                this.OnClearing_PostedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Clearing_Posted;
-        partial void OnClearing_PostedChanging(global::System.Nullable<bool> value);
-        partial void OnClearing_PostedChanged();
-        /// <summary>
-        /// There are no comments for Property Needs_Approval in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Needs_Approval
-        {
-            get
-            {
-                return this._Needs_Approval;
-            }
-            set
-            {
-                this.OnNeeds_ApprovalChanging(value);
-                this._Needs_Approval = value;
-                this.OnNeeds_ApprovalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Needs_Approval;
-        partial void OnNeeds_ApprovalChanging(string value);
-        partial void OnNeeds_ApprovalChanged();
-        /// <summary>
-        /// There are no comments for Property ID_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ID_Type
-        {
-            get
-            {
-                return this._ID_Type;
-            }
-            set
-            {
-                this.OnID_TypeChanging(value);
-                this._ID_Type = value;
-                this.OnID_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ID_Type;
-        partial void OnID_TypeChanging(string value);
-        partial void OnID_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property ID_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ID_No
-        {
-            get
-            {
-                return this._ID_No;
-            }
-            set
-            {
-                this.OnID_NoChanging(value);
-                this._ID_No = value;
-                this.OnID_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ID_No;
-        partial void OnID_NoChanging(string value);
-        partial void OnID_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Reference_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Reference_No
-        {
-            get
-            {
-                return this._Reference_No;
-            }
-            set
-            {
-                this.OnReference_NoChanging(value);
-                this._Reference_No = value;
-                this.OnReference_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Reference_No;
-        partial void OnReference_NoChanging(string value);
-        partial void OnReference_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Refund_Cheque in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Refund_Cheque
-        {
-            get
-            {
-                return this._Refund_Cheque;
-            }
-            set
-            {
-                this.OnRefund_ChequeChanging(value);
-                this._Refund_Cheque = value;
-                this.OnRefund_ChequeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Refund_Cheque;
-        partial void OnRefund_ChequeChanging(global::System.Nullable<bool> value);
-        partial void OnRefund_ChequeChanged();
-        /// <summary>
-        /// There are no comments for Property Imported in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Imported
-        {
-            get
-            {
-                return this._Imported;
-            }
-            set
-            {
-                this.OnImportedChanging(value);
-                this._Imported = value;
-                this.OnImportedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Imported;
-        partial void OnImportedChanging(global::System.Nullable<bool> value);
-        partial void OnImportedChanged();
-        /// <summary>
-        /// There are no comments for Property External_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string External_Account_No
-        {
-            get
-            {
-                return this._External_Account_No;
-            }
-            set
-            {
-                this.OnExternal_Account_NoChanging(value);
-                this._External_Account_No = value;
-                this.OnExternal_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _External_Account_No;
-        partial void OnExternal_Account_NoChanging(string value);
-        partial void OnExternal_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property BOSA_Transactions in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> BOSA_Transactions
-        {
-            get
-            {
-                return this._BOSA_Transactions;
-            }
-            set
-            {
-                this.OnBOSA_TransactionsChanging(value);
-                this._BOSA_Transactions = value;
-                this.OnBOSA_TransactionsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _BOSA_Transactions;
-        partial void OnBOSA_TransactionsChanging(global::System.Nullable<decimal> value);
-        partial void OnBOSA_TransactionsChanged();
-        /// <summary>
-        /// There are no comments for Property Bank_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bank_Account
-        {
-            get
-            {
-                return this._Bank_Account;
-            }
-            set
-            {
-                this.OnBank_AccountChanging(value);
-                this._Bank_Account = value;
-                this.OnBank_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bank_Account;
-        partial void OnBank_AccountChanging(string value);
-        partial void OnBank_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Savers_Total in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Savers_Total
-        {
-            get
-            {
-                return this._Savers_Total;
-            }
-            set
-            {
-                this.OnSavers_TotalChanging(value);
-                this._Savers_Total = value;
-                this.OnSavers_TotalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Savers_Total;
-        partial void OnSavers_TotalChanging(global::System.Nullable<decimal> value);
-        partial void OnSavers_TotalChanged();
-        /// <summary>
-        /// There are no comments for Property Mustaafu_Total in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Mustaafu_Total
-        {
-            get
-            {
-                return this._Mustaafu_Total;
-            }
-            set
-            {
-                this.OnMustaafu_TotalChanging(value);
-                this._Mustaafu_Total = value;
-                this.OnMustaafu_TotalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Mustaafu_Total;
-        partial void OnMustaafu_TotalChanging(global::System.Nullable<decimal> value);
-        partial void OnMustaafu_TotalChanged();
-        /// <summary>
-        /// There are no comments for Property Junior_Star_Total in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Junior_Star_Total
-        {
-            get
-            {
-                return this._Junior_Star_Total;
-            }
-            set
-            {
-                this.OnJunior_Star_TotalChanging(value);
-                this._Junior_Star_Total = value;
-                this.OnJunior_Star_TotalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Junior_Star_Total;
-        partial void OnJunior_Star_TotalChanging(global::System.Nullable<decimal> value);
-        partial void OnJunior_Star_TotalChanged();
-        /// <summary>
-        /// There are no comments for Property Printed in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Printed
-        {
-            get
-            {
-                return this._Printed;
-            }
-            set
-            {
-                this.OnPrintedChanging(value);
-                this._Printed = value;
-                this.OnPrintedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Printed;
-        partial void OnPrintedChanging(global::System.Nullable<bool> value);
-        partial void OnPrintedChanged();
-        /// <summary>
-        /// There are no comments for Property Withdrawal_FrequencyAuthorised in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Withdrawal_FrequencyAuthorised
-        {
-            get
-            {
-                return this._Withdrawal_FrequencyAuthorised;
-            }
-            set
-            {
-                this.OnWithdrawal_FrequencyAuthorisedChanging(value);
-                this._Withdrawal_FrequencyAuthorised = value;
-                this.OnWithdrawal_FrequencyAuthorisedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Withdrawal_FrequencyAuthorised;
-        partial void OnWithdrawal_FrequencyAuthorisedChanging(string value);
-        partial void OnWithdrawal_FrequencyAuthorisedChanged();
-        /// <summary>
-        /// There are no comments for Property Frequency_Needs_Approval in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Frequency_Needs_Approval
-        {
-            get
-            {
-                return this._Frequency_Needs_Approval;
-            }
-            set
-            {
-                this.OnFrequency_Needs_ApprovalChanging(value);
-                this._Frequency_Needs_Approval = value;
-                this.OnFrequency_Needs_ApprovalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Frequency_Needs_Approval;
-        partial void OnFrequency_Needs_ApprovalChanging(string value);
-        partial void OnFrequency_Needs_ApprovalChanged();
-        /// <summary>
-        /// There are no comments for Property Special_Advance_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Special_Advance_No
-        {
-            get
-            {
-                return this._Special_Advance_No;
-            }
-            set
-            {
-                this.OnSpecial_Advance_NoChanging(value);
-                this._Special_Advance_No = value;
-                this.OnSpecial_Advance_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Special_Advance_No;
-        partial void OnSpecial_Advance_NoChanging(string value);
-        partial void OnSpecial_Advance_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Bankers_Cheque_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bankers_Cheque_Type
-        {
-            get
-            {
-                return this._Bankers_Cheque_Type;
-            }
-            set
-            {
-                this.OnBankers_Cheque_TypeChanging(value);
-                this._Bankers_Cheque_Type = value;
-                this.OnBankers_Cheque_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bankers_Cheque_Type;
-        partial void OnBankers_Cheque_TypeChanging(string value);
-        partial void OnBankers_Cheque_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property Suspended_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Suspended_Amount
-        {
-            get
-            {
-                return this._Suspended_Amount;
-            }
-            set
-            {
-                this.OnSuspended_AmountChanging(value);
-                this._Suspended_Amount = value;
-                this.OnSuspended_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Suspended_Amount;
-        partial void OnSuspended_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnSuspended_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Transferred_By_EFT in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Transferred_By_EFT
-        {
-            get
-            {
-                return this._Transferred_By_EFT;
-            }
-            set
-            {
-                this.OnTransferred_By_EFTChanging(value);
-                this._Transferred_By_EFT = value;
-                this.OnTransferred_By_EFTChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Transferred_By_EFT;
-        partial void OnTransferred_By_EFTChanging(global::System.Nullable<bool> value);
-        partial void OnTransferred_By_EFTChanged();
-        /// <summary>
-        /// There are no comments for Property Banking_User in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Banking_User
-        {
-            get
-            {
-                return this._Banking_User;
-            }
-            set
-            {
-                this.OnBanking_UserChanging(value);
-                this._Banking_User = value;
-                this.OnBanking_UserChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Banking_User;
-        partial void OnBanking_UserChanging(string value);
-        partial void OnBanking_UserChanged();
-        /// <summary>
-        /// There are no comments for Property Company_Text_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Company_Text_Name
-        {
-            get
-            {
-                return this._Company_Text_Name;
-            }
-            set
-            {
-                this.OnCompany_Text_NameChanging(value);
-                this._Company_Text_Name = value;
-                this.OnCompany_Text_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Company_Text_Name;
-        partial void OnCompany_Text_NameChanging(string value);
-        partial void OnCompany_Text_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Total_Salaries in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Total_Salaries
-        {
-            get
-            {
-                return this._Total_Salaries;
-            }
-            set
-            {
-                this.OnTotal_SalariesChanging(value);
-                this._Total_Salaries = value;
-                this.OnTotal_SalariesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Total_Salaries;
-        partial void OnTotal_SalariesChanging(global::System.Nullable<int> value);
-        partial void OnTotal_SalariesChanged();
-        /// <summary>
-        /// There are no comments for Property EFT_Transferred in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> EFT_Transferred
-        {
-            get
-            {
-                return this._EFT_Transferred;
-            }
-            set
-            {
-                this.OnEFT_TransferredChanging(value);
-                this._EFT_Transferred = value;
-                this.OnEFT_TransferredChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _EFT_Transferred;
-        partial void OnEFT_TransferredChanging(global::System.Nullable<bool> value);
-        partial void OnEFT_TransferredChanged();
-        /// <summary>
-        /// There are no comments for Property ATM_Transactions_Total in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> ATM_Transactions_Total
-        {
-            get
-            {
-                return this._ATM_Transactions_Total;
-            }
-            set
-            {
-                this.OnATM_Transactions_TotalChanging(value);
-                this._ATM_Transactions_Total = value;
-                this.OnATM_Transactions_TotalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _ATM_Transactions_Total;
-        partial void OnATM_Transactions_TotalChanging(global::System.Nullable<decimal> value);
-        partial void OnATM_Transactions_TotalChanged();
-        /// <summary>
-        /// There are no comments for Property Bank_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bank_Code
-        {
-            get
-            {
-                return this._Bank_Code;
-            }
-            set
-            {
-                this.OnBank_CodeChanging(value);
-                this._Bank_Code = value;
-                this.OnBank_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bank_Code;
-        partial void OnBank_CodeChanging(string value);
-        partial void OnBank_CodeChanged();
-        /// <summary>
-        /// There are no comments for Property External_Account_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string External_Account_Name
-        {
-            get
-            {
-                return this._External_Account_Name;
-            }
-            set
-            {
-                this.OnExternal_Account_NameChanging(value);
-                this._External_Account_Name = value;
-                this.OnExternal_Account_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _External_Account_Name;
-        partial void OnExternal_Account_NameChanging(string value);
-        partial void OnExternal_Account_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Overdraft_Limit in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Overdraft_Limit
-        {
-            get
-            {
-                return this._Overdraft_Limit;
-            }
-            set
-            {
-                this.OnOverdraft_LimitChanging(value);
-                this._Overdraft_Limit = value;
-                this.OnOverdraft_LimitChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Overdraft_Limit;
-        partial void OnOverdraft_LimitChanging(global::System.Nullable<decimal> value);
-        partial void OnOverdraft_LimitChanged();
-        /// <summary>
-        /// There are no comments for Property Overdraft_Allowed in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Overdraft_Allowed
-        {
-            get
-            {
-                return this._Overdraft_Allowed;
-            }
-            set
-            {
-                this.OnOverdraft_AllowedChanging(value);
-                this._Overdraft_Allowed = value;
-                this.OnOverdraft_AllowedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Overdraft_Allowed;
-        partial void OnOverdraft_AllowedChanging(global::System.Nullable<bool> value);
-        partial void OnOverdraft_AllowedChanged();
-        /// <summary>
-        /// There are no comments for Property Available_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Available_Balance
-        {
-            get
-            {
-                return this._Available_Balance;
-            }
-            set
-            {
-                this.OnAvailable_BalanceChanging(value);
-                this._Available_Balance = value;
-                this.OnAvailable_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Available_Balance;
-        partial void OnAvailable_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnAvailable_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Authorisation_Requirement in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Authorisation_Requirement
-        {
-            get
-            {
-                return this._Authorisation_Requirement;
-            }
-            set
-            {
-                this.OnAuthorisation_RequirementChanging(value);
-                this._Authorisation_Requirement = value;
-                this.OnAuthorisation_RequirementChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Authorisation_Requirement;
-        partial void OnAuthorisation_RequirementChanging(string value);
-        partial void OnAuthorisation_RequirementChanged();
-        /// <summary>
-        /// There are no comments for Property Bankers_Cheque_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bankers_Cheque_No
-        {
-            get
-            {
-                return this._Bankers_Cheque_No;
-            }
-            set
-            {
-                this.OnBankers_Cheque_NoChanging(value);
-                this._Bankers_Cheque_No = value;
-                this.OnBankers_Cheque_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bankers_Cheque_No;
-        partial void OnBankers_Cheque_NoChanging(string value);
-        partial void OnBankers_Cheque_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Span in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transaction_Span
-        {
-            get
-            {
-                return this._Transaction_Span;
-            }
-            set
-            {
-                this.OnTransaction_SpanChanging(value);
-                this._Transaction_Span = value;
-                this.OnTransaction_SpanChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transaction_Span;
-        partial void OnTransaction_SpanChanging(string value);
-        partial void OnTransaction_SpanChanged();
-        /// <summary>
-        /// There are no comments for Property Transaction_Available_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Transaction_Available_Balance
-        {
-            get
-            {
-                return this._Transaction_Available_Balance;
-            }
-            set
-            {
-                this.OnTransaction_Available_BalanceChanging(value);
-                this._Transaction_Available_Balance = value;
-                this.OnTransaction_Available_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Transaction_Available_Balance;
-        partial void OnTransaction_Available_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnTransaction_Available_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Branch_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Branch_Account
-        {
-            get
-            {
-                return this._Branch_Account;
-            }
-            set
-            {
-                this.OnBranch_AccountChanging(value);
-                this._Branch_Account = value;
-                this.OnBranch_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Branch_Account;
-        partial void OnBranch_AccountChanging(string value);
-        partial void OnBranch_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Branch_Transaction in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Branch_Transaction
-        {
-            get
-            {
-                return this._Branch_Transaction;
-            }
-            set
-            {
-                this.OnBranch_TransactionChanging(value);
-                this._Branch_Transaction = value;
-                this.OnBranch_TransactionChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Branch_Transaction;
-        partial void OnBranch_TransactionChanging(global::System.Nullable<bool> value);
-        partial void OnBranch_TransactionChanged();
-        /// <summary>
-        /// There are no comments for Property FOSA_Branch_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string FOSA_Branch_Name
-        {
-            get
-            {
-                return this._FOSA_Branch_Name;
-            }
-            set
-            {
-                this.OnFOSA_Branch_NameChanging(value);
-                this._FOSA_Branch_Name = value;
-                this.OnFOSA_Branch_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _FOSA_Branch_Name;
-        partial void OnFOSA_Branch_NameChanging(string value);
-        partial void OnFOSA_Branch_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Branch_Refference in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Branch_Refference
-        {
-            get
-            {
-                return this._Branch_Refference;
-            }
-            set
-            {
-                this.OnBranch_RefferenceChanging(value);
-                this._Branch_Refference = value;
-                this.OnBranch_RefferenceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Branch_Refference;
-        partial void OnBranch_RefferenceChanging(string value);
-        partial void OnBranch_RefferenceChanged();
-        /// <summary>
-        /// There are no comments for Property Branch_Account_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Branch_Account_No
-        {
-            get
-            {
-                return this._Branch_Account_No;
-            }
-            set
-            {
-                this.OnBranch_Account_NoChanging(value);
-                this._Branch_Account_No = value;
-                this.OnBranch_Account_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Branch_Account_No;
-        partial void OnBranch_Account_NoChanging(string value);
-        partial void OnBranch_Account_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Branch_Transaction_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Branch_Transaction_Date
-        {
-            get
-            {
-                return this._Branch_Transaction_Date;
-            }
-            set
-            {
-                this.OnBranch_Transaction_DateChanging(value);
-                this._Branch_Transaction_Date = value;
-                this.OnBranch_Transaction_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Branch_Transaction_Date;
-        partial void OnBranch_Transaction_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnBranch_Transaction_DateChanged();
-        /// <summary>
-        /// There are no comments for Property Post_Attempted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Post_Attempted
-        {
-            get
-            {
-                return this._Post_Attempted;
-            }
-            set
-            {
-                this.OnPost_AttemptedChanging(value);
-                this._Post_Attempted = value;
-                this.OnPost_AttemptedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Post_Attempted;
-        partial void OnPost_AttemptedChanging(global::System.Nullable<bool> value);
-        partial void OnPost_AttemptedChanged();
-        /// <summary>
-        /// There are no comments for Property Transacting_Branch in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transacting_Branch
-        {
-            get
-            {
-                return this._Transacting_Branch;
-            }
-            set
-            {
-                this.OnTransacting_BranchChanging(value);
-                this._Transacting_Branch = value;
-                this.OnTransacting_BranchChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transacting_Branch;
-        partial void OnTransacting_BranchChanging(string value);
-        partial void OnTransacting_BranchChanged();
-        /// <summary>
-        /// There are no comments for Property Amount_Discounted in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Amount_Discounted
-        {
-            get
-            {
-                return this._Amount_Discounted;
-            }
-            set
-            {
-                this.OnAmount_DiscountedChanging(value);
-                this._Amount_Discounted = value;
-                this.OnAmount_DiscountedChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Amount_Discounted;
-        partial void OnAmount_DiscountedChanging(global::System.Nullable<decimal> value);
-        partial void OnAmount_DiscountedChanged();
-        /// <summary>
-        /// There are no comments for Property Dont_Clear in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Dont_Clear
-        {
-            get
-            {
-                return this._Dont_Clear;
-            }
-            set
-            {
-                this.OnDont_ClearChanging(value);
-                this._Dont_Clear = value;
-                this.OnDont_ClearChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Dont_Clear;
-        partial void OnDont_ClearChanging(global::System.Nullable<bool> value);
-        partial void OnDont_ClearChanged();
-        /// <summary>
-        /// There are no comments for Property Other_Bankers_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Other_Bankers_No
-        {
-            get
-            {
-                return this._Other_Bankers_No;
-            }
-            set
-            {
-                this.OnOther_Bankers_NoChanging(value);
-                this._Other_Bankers_No = value;
-                this.OnOther_Bankers_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Other_Bankers_No;
-        partial void OnOther_Bankers_NoChanging(string value);
-        partial void OnOther_Bankers_NoChanged();
-        /// <summary>
-        /// There are no comments for Property N_A_H_Balance in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> N_A_H_Balance
-        {
-            get
-            {
-                return this._N_A_H_Balance;
-            }
-            set
-            {
-                this.OnN_A_H_BalanceChanging(value);
-                this._N_A_H_Balance = value;
-                this.OnN_A_H_BalanceChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _N_A_H_Balance;
-        partial void OnN_A_H_BalanceChanging(global::System.Nullable<decimal> value);
-        partial void OnN_A_H_BalanceChanged();
-        /// <summary>
-        /// There are no comments for Property Cheque_Deposit_Remarks in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Cheque_Deposit_Remarks
-        {
-            get
-            {
-                return this._Cheque_Deposit_Remarks;
-            }
-            set
-            {
-                this.OnCheque_Deposit_RemarksChanging(value);
-                this._Cheque_Deposit_Remarks = value;
-                this.OnCheque_Deposit_RemarksChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Cheque_Deposit_Remarks;
-        partial void OnCheque_Deposit_RemarksChanging(string value);
-        partial void OnCheque_Deposit_RemarksChanged();
-        /// <summary>
-        /// There are no comments for Property Balancing_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Balancing_Account
-        {
-            get
-            {
-                return this._Balancing_Account;
-            }
-            set
-            {
-                this.OnBalancing_AccountChanging(value);
-                this._Balancing_Account = value;
-                this.OnBalancing_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Balancing_Account;
-        partial void OnBalancing_AccountChanging(string value);
-        partial void OnBalancing_AccountChanged();
-        /// <summary>
-        /// There are no comments for Property Balancing_Account_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Balancing_Account_Name
-        {
-            get
-            {
-                return this._Balancing_Account_Name;
-            }
-            set
-            {
-                this.OnBalancing_Account_NameChanging(value);
-                this._Balancing_Account_Name = value;
-                this.OnBalancing_Account_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Balancing_Account_Name;
-        partial void OnBalancing_Account_NameChanging(string value);
-        partial void OnBalancing_Account_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Bankers_Cheque_Payee in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Bankers_Cheque_Payee
-        {
-            get
-            {
-                return this._Bankers_Cheque_Payee;
-            }
-            set
-            {
-                this.OnBankers_Cheque_PayeeChanging(value);
-                this._Bankers_Cheque_Payee = value;
-                this.OnBankers_Cheque_PayeeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Bankers_Cheque_Payee;
-        partial void OnBankers_Cheque_PayeeChanging(string value);
-        partial void OnBankers_Cheque_PayeeChanged();
-        /// <summary>
-        /// There are no comments for Property Atm_Number in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Atm_Number
-        {
-            get
-            {
-                return this._Atm_Number;
-            }
-            set
-            {
-                this.OnAtm_NumberChanging(value);
-                this._Atm_Number = value;
-                this.OnAtm_NumberChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Atm_Number;
-        partial void OnAtm_NumberChanging(string value);
-        partial void OnAtm_NumberChanged();
-        /// <summary>
-        /// There are no comments for Property Member_Name in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Member_Name
-        {
-            get
-            {
-                return this._Member_Name;
-            }
-            set
-            {
-                this.OnMember_NameChanging(value);
-                this._Member_Name = value;
-                this.OnMember_NameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Member_Name;
-        partial void OnMember_NameChanging(string value);
-        partial void OnMember_NameChanged();
-        /// <summary>
-        /// There are no comments for Property Savings_Product in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Savings_Product
-        {
-            get
-            {
-                return this._Savings_Product;
-            }
-            set
-            {
-                this.OnSavings_ProductChanging(value);
-                this._Savings_Product = value;
-                this.OnSavings_ProductChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Savings_Product;
-        partial void OnSavings_ProductChanging(string value);
-        partial void OnSavings_ProductChanged();
-        /// <summary>
-        /// There are no comments for Property Member_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Member_No
-        {
-            get
-            {
-                return this._Member_No;
-            }
-            set
-            {
-                this.OnMember_NoChanging(value);
-                this._Member_No = value;
-                this.OnMember_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Member_No;
-        partial void OnMember_NoChanging(string value);
-        partial void OnMember_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Withdarawal in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Withdarawal
-        {
-            get
-            {
-                return this._Withdarawal;
-            }
-            set
-            {
-                this.OnWithdarawalChanging(value);
-                this._Withdarawal = value;
-                this.OnWithdarawalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Withdarawal;
-        partial void OnWithdarawalChanging(global::System.Nullable<bool> value);
-        partial void OnWithdarawalChanged();
-        /// <summary>
-        /// There are no comments for Property Uncleared_Cheques in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Uncleared_Cheques
-        {
-            get
-            {
-                return this._Uncleared_Cheques;
-            }
-            set
-            {
-                this.OnUncleared_ChequesChanging(value);
-                this._Uncleared_Cheques = value;
-                this.OnUncleared_ChequesChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Uncleared_Cheques;
-        partial void OnUncleared_ChequesChanging(global::System.Nullable<decimal> value);
-        partial void OnUncleared_ChequesChanged();
-        /// <summary>
-        /// There are no comments for Property Allocated_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Allocated_Amount
-        {
-            get
-            {
-                return this._Allocated_Amount;
-            }
-            set
-            {
-                this.OnAllocated_AmountChanging(value);
-                this._Allocated_Amount = value;
-                this.OnAllocated_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Allocated_Amount;
-        partial void OnAllocated_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnAllocated_AmountChanged();
+        private global::System.Nullable<decimal> _Net_Change;
+        partial void OnNet_ChangeChanging(global::System.Nullable<decimal> value);
+        partial void OnNet_ChangeChanged();
     }
     /// <summary>
-    /// There are no comments for NAV.PBIVendors in the schema.
+    /// There are no comments for NAV.FosaAccounts in the schema.
     /// </summary>
     /// <KeyProperties>
     /// No
     /// </KeyProperties>
     [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
-    public partial class PBIVendors
+    public partial class FosaAccounts
     {
         /// <summary>
-        /// Create a new PBIVendors object.
+        /// Create a new FosaAccounts object.
         /// </summary>
         /// <param name="no">Initial value of No.</param>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static PBIVendors CreatePBIVendors(string no)
+        public static FosaAccounts CreateFosaAccounts(string no)
         {
-            PBIVendors pBIVendors = new PBIVendors();
-            pBIVendors.No = no;
-            return pBIVendors;
+            FosaAccounts fosaAccounts = new FosaAccounts();
+            fosaAccounts.No = no;
+            return fosaAccounts;
         }
         /// <summary>
         /// There are no comments for Property No in the schema.
@@ -18181,27 +7358,6 @@ namespace SACCOPortal.NavOData
         partial void OnCreditor_NoChanging(string value);
         partial void OnCreditor_NoChanged();
         /// <summary>
-        /// There are no comments for Property Preferred_Bank_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Preferred_Bank_Account
-        {
-            get
-            {
-                return this._Preferred_Bank_Account;
-            }
-            set
-            {
-                this.OnPreferred_Bank_AccountChanging(value);
-                this._Preferred_Bank_Account = value;
-                this.OnPreferred_Bank_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Preferred_Bank_Account;
-        partial void OnPreferred_Bank_AccountChanging(string value);
-        partial void OnPreferred_Bank_AccountChanged();
-        /// <summary>
         /// There are no comments for Property Cash_Flow_Payment_Terms_Code in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -18831,27 +7987,6 @@ namespace SACCOPortal.NavOData
         private string _Passport_No;
         partial void OnPassport_NoChanging(string value);
         partial void OnPassport_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Company_Code in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Company_Code
-        {
-            get
-            {
-                return this._Company_Code;
-            }
-            set
-            {
-                this.OnCompany_CodeChanging(value);
-                this._Company_Code = value;
-                this.OnCompany_CodeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Company_Code;
-        partial void OnCompany_CodeChanging(string value);
-        partial void OnCompany_CodeChanged();
         /// <summary>
         /// There are no comments for Property Status in the schema.
         /// </summary>
@@ -19549,7 +8684,7 @@ namespace SACCOPortal.NavOData
         /// There are no comments for Property Fixed_Duration in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Fixed_Duration
+        public global::System.Nullable<int> Fixed_Duration
         {
             get
             {
@@ -19563,8 +8698,8 @@ namespace SACCOPortal.NavOData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Fixed_Duration;
-        partial void OnFixed_DurationChanging(string value);
+        private global::System.Nullable<int> _Fixed_Duration;
+        partial void OnFixed_DurationChanging(global::System.Nullable<int> value);
         partial void OnFixed_DurationChanged();
         /// <summary>
         /// There are no comments for Property System_Created in the schema.
@@ -19776,6 +8911,27 @@ namespace SACCOPortal.NavOData
         private global::System.Nullable<global::System.DateTime> _Date_Renewed;
         partial void OnDate_RenewedChanging(global::System.Nullable<global::System.DateTime> value);
         partial void OnDate_RenewedChanged();
+        /// <summary>
+        /// There are no comments for Property Last_Interest_Date in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Last_Interest_Date
+        {
+            get
+            {
+                return this._Last_Interest_Date;
+            }
+            set
+            {
+                this.OnLast_Interest_DateChanging(value);
+                this._Last_Interest_Date = value;
+                this.OnLast_Interest_DateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Last_Interest_Date;
+        partial void OnLast_Interest_DateChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnLast_Interest_DateChanged();
         /// <summary>
         /// There are no comments for Property Don_t_Transfer_to_Savings in the schema.
         /// </summary>
@@ -20515,7 +9671,7 @@ namespace SACCOPortal.NavOData
         /// There are no comments for Property Fixed_duration2 in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Fixed_duration2
+        public string Fixed_duration2
         {
             get
             {
@@ -20529,8 +9685,8 @@ namespace SACCOPortal.NavOData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Fixed_duration2;
-        partial void OnFixed_duration2Changing(global::System.Nullable<int> value);
+        private string _Fixed_duration2;
+        partial void OnFixed_duration2Changing(string value);
         partial void OnFixed_duration2Changed();
         /// <summary>
         /// There are no comments for Property FDR_Deposit_Status_Type in the schema.
@@ -20575,258 +9731,6 @@ namespace SACCOPortal.NavOData
         partial void OnATM_Expiry_DateChanging(global::System.Nullable<global::System.DateTime> value);
         partial void OnATM_Expiry_DateChanged();
         /// <summary>
-        /// There are no comments for Property Net_Salary in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Net_Salary
-        {
-            get
-            {
-                return this._Net_Salary;
-            }
-            set
-            {
-                this.OnNet_SalaryChanging(value);
-                this._Net_Salary = value;
-                this.OnNet_SalaryChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Net_Salary;
-        partial void OnNet_SalaryChanging(global::System.Nullable<decimal> value);
-        partial void OnNet_SalaryChanged();
-        /// <summary>
-        /// There are no comments for Property FD_Maturity_Instructions in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string FD_Maturity_Instructions
-        {
-            get
-            {
-                return this._FD_Maturity_Instructions;
-            }
-            set
-            {
-                this.OnFD_Maturity_InstructionsChanging(value);
-                this._FD_Maturity_Instructions = value;
-                this.OnFD_Maturity_InstructionsChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _FD_Maturity_Instructions;
-        partial void OnFD_Maturity_InstructionsChanging(string value);
-        partial void OnFD_Maturity_InstructionsChanged();
-        /// <summary>
-        /// There are no comments for Property ATM_Card_Approved_by in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string ATM_Card_Approved_by
-        {
-            get
-            {
-                return this._ATM_Card_Approved_by;
-            }
-            set
-            {
-                this.OnATM_Card_Approved_byChanging(value);
-                this._ATM_Card_Approved_by = value;
-                this.OnATM_Card_Approved_byChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _ATM_Card_Approved_by;
-        partial void OnATM_Card_Approved_byChanging(string value);
-        partial void OnATM_Card_Approved_byChanged();
-        /// <summary>
-        /// There are no comments for Property Disabled_ATM_Card_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Disabled_ATM_Card_No
-        {
-            get
-            {
-                return this._Disabled_ATM_Card_No;
-            }
-            set
-            {
-                this.OnDisabled_ATM_Card_NoChanging(value);
-                this._Disabled_ATM_Card_No = value;
-                this.OnDisabled_ATM_Card_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Disabled_ATM_Card_No;
-        partial void OnDisabled_ATM_Card_NoChanging(string value);
-        partial void OnDisabled_ATM_Card_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Reason_For_Disabling_ATM_Card in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Reason_For_Disabling_ATM_Card
-        {
-            get
-            {
-                return this._Reason_For_Disabling_ATM_Card;
-            }
-            set
-            {
-                this.OnReason_For_Disabling_ATM_CardChanging(value);
-                this._Reason_For_Disabling_ATM_Card = value;
-                this.OnReason_For_Disabling_ATM_CardChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Reason_For_Disabling_ATM_Card;
-        partial void OnReason_For_Disabling_ATM_CardChanging(string value);
-        partial void OnReason_For_Disabling_ATM_CardChanged();
-        /// <summary>
-        /// There are no comments for Property Disable_ATM_Card in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Disable_ATM_Card
-        {
-            get
-            {
-                return this._Disable_ATM_Card;
-            }
-            set
-            {
-                this.OnDisable_ATM_CardChanging(value);
-                this._Disable_ATM_Card = value;
-                this.OnDisable_ATM_CardChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Disable_ATM_Card;
-        partial void OnDisable_ATM_CardChanging(global::System.Nullable<bool> value);
-        partial void OnDisable_ATM_CardChanged();
-        /// <summary>
-        /// There are no comments for Property Disabled_By in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Disabled_By
-        {
-            get
-            {
-                return this._Disabled_By;
-            }
-            set
-            {
-                this.OnDisabled_ByChanging(value);
-                this._Disabled_By = value;
-                this.OnDisabled_ByChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Disabled_By;
-        partial void OnDisabled_ByChanging(string value);
-        partial void OnDisabled_ByChanged();
-        /// <summary>
-        /// There are no comments for Property Transfer_Type in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Transfer_Type
-        {
-            get
-            {
-                return this._Transfer_Type;
-            }
-            set
-            {
-                this.OnTransfer_TypeChanging(value);
-                this._Transfer_Type = value;
-                this.OnTransfer_TypeChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Transfer_Type;
-        partial void OnTransfer_TypeChanging(string value);
-        partial void OnTransfer_TypeChanged();
-        /// <summary>
-        /// There are no comments for Property ATM_Alert_Sent in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> ATM_Alert_Sent
-        {
-            get
-            {
-                return this._ATM_Alert_Sent;
-            }
-            set
-            {
-                this.OnATM_Alert_SentChanging(value);
-                this._ATM_Alert_Sent = value;
-                this.OnATM_Alert_SentChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _ATM_Alert_Sent;
-        partial void OnATM_Alert_SentChanging(global::System.Nullable<bool> value);
-        partial void OnATM_Alert_SentChanged();
-        /// <summary>
-        /// There are no comments for Property Old_Vendor_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Old_Vendor_No
-        {
-            get
-            {
-                return this._Old_Vendor_No;
-            }
-            set
-            {
-                this.OnOld_Vendor_NoChanging(value);
-                this._Old_Vendor_No = value;
-                this.OnOld_Vendor_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Old_Vendor_No;
-        partial void OnOld_Vendor_NoChanging(string value);
-        partial void OnOld_Vendor_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Loan_No in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Loan_No
-        {
-            get
-            {
-                return this._Loan_No;
-            }
-            set
-            {
-                this.OnLoan_NoChanging(value);
-                this._Loan_No = value;
-                this.OnLoan_NoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Loan_No;
-        partial void OnLoan_NoChanging(string value);
-        partial void OnLoan_NoChanged();
-        /// <summary>
-        /// There are no comments for Property Principle_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Principle_Amount
-        {
-            get
-            {
-                return this._Principle_Amount;
-            }
-            set
-            {
-                this.OnPrinciple_AmountChanging(value);
-                this._Principle_Amount = value;
-                this.OnPrinciple_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Principle_Amount;
-        partial void OnPrinciple_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnPrinciple_AmountChanged();
-        /// <summary>
         /// There are no comments for Property Interest_Amount in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -20847,90 +9751,6 @@ namespace SACCOPortal.NavOData
         private global::System.Nullable<decimal> _Interest_Amount;
         partial void OnInterest_AmountChanging(global::System.Nullable<decimal> value);
         partial void OnInterest_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Bankers_Cheque_Amount in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Bankers_Cheque_Amount
-        {
-            get
-            {
-                return this._Bankers_Cheque_Amount;
-            }
-            set
-            {
-                this.OnBankers_Cheque_AmountChanging(value);
-                this._Bankers_Cheque_Amount = value;
-                this.OnBankers_Cheque_AmountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Bankers_Cheque_Amount;
-        partial void OnBankers_Cheque_AmountChanging(global::System.Nullable<decimal> value);
-        partial void OnBankers_Cheque_AmountChanged();
-        /// <summary>
-        /// There are no comments for Property Registered_M_Sacco in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Registered_M_Sacco
-        {
-            get
-            {
-                return this._Registered_M_Sacco;
-            }
-            set
-            {
-                this.OnRegistered_M_SaccoChanging(value);
-                this._Registered_M_Sacco = value;
-                this.OnRegistered_M_SaccoChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Registered_M_Sacco;
-        partial void OnRegistered_M_SaccoChanging(global::System.Nullable<bool> value);
-        partial void OnRegistered_M_SaccoChanged();
-        /// <summary>
-        /// There are no comments for Property Sms_Notification in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<bool> Sms_Notification
-        {
-            get
-            {
-                return this._Sms_Notification;
-            }
-            set
-            {
-                this.OnSms_NotificationChanging(value);
-                this._Sms_Notification = value;
-                this.OnSms_NotificationChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<bool> _Sms_Notification;
-        partial void OnSms_NotificationChanging(global::System.Nullable<bool> value);
-        partial void OnSms_NotificationChanged();
-        /// <summary>
-        /// There are no comments for Property Parent_Account in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Parent_Account
-        {
-            get
-            {
-                return this._Parent_Account;
-            }
-            set
-            {
-                this.OnParent_AccountChanging(value);
-                this._Parent_Account = value;
-                this.OnParent_AccountChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Parent_Account;
-        partial void OnParent_AccountChanging(string value);
-        partial void OnParent_AccountChanged();
         /// <summary>
         /// There are no comments for Property Comment in the schema.
         /// </summary>
@@ -22360,27 +11180,6 @@ namespace SACCOPortal.NavOData
         partial void OnEFT_TransactionsChanging(global::System.Nullable<decimal> value);
         partial void OnEFT_TransactionsChanged();
         /// <summary>
-        /// There are no comments for Property Last_Interest_Date in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<global::System.DateTime> Last_Interest_Date
-        {
-            get
-            {
-                return this._Last_Interest_Date;
-            }
-            set
-            {
-                this.OnLast_Interest_DateChanging(value);
-                this._Last_Interest_Date = value;
-                this.OnLast_Interest_DateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<global::System.DateTime> _Last_Interest_Date;
-        partial void OnLast_Interest_DateChanging(global::System.Nullable<global::System.DateTime> value);
-        partial void OnLast_Interest_DateChanged();
-        /// <summary>
         /// There are no comments for Property FOSA_Default_Dimension in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -22485,48 +11284,3612 @@ namespace SACCOPortal.NavOData
         private global::System.Nullable<decimal> _NetDis;
         partial void OnNetDisChanging(global::System.Nullable<decimal> value);
         partial void OnNetDisChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.FosaProducts in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// Code
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("Code")]
+    public partial class FosaProducts
+    {
         /// <summary>
-        /// There are no comments for Property Authorised_Over_Draft in the schema.
+        /// Create a new FosaProducts object.
+        /// </summary>
+        /// <param name="code">Initial value of Code.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static FosaProducts CreateFosaProducts(string code)
+        {
+            FosaProducts fosaProducts = new FosaProducts();
+            fosaProducts.Code = code;
+            return fosaProducts;
+        }
+        /// <summary>
+        /// There are no comments for Property Code in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<decimal> Authorised_Over_Draft
+        public string Code
         {
             get
             {
-                return this._Authorised_Over_Draft;
+                return this._Code;
             }
             set
             {
-                this.OnAuthorised_Over_DraftChanging(value);
-                this._Authorised_Over_Draft = value;
-                this.OnAuthorised_Over_DraftChanged();
+                this.OnCodeChanging(value);
+                this._Code = value;
+                this.OnCodeChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<decimal> _Authorised_Over_Draft;
-        partial void OnAuthorised_Over_DraftChanging(global::System.Nullable<decimal> value);
-        partial void OnAuthorised_Over_DraftChanged();
+        private string _Code;
+        partial void OnCodeChanging(string value);
+        partial void OnCodeChanged();
         /// <summary>
-        /// There are no comments for Property Change_Log in the schema.
+        /// There are no comments for Property Date_Entered in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Nullable<int> Change_Log
+        public global::System.Nullable<global::System.DateTime> Date_Entered
         {
             get
             {
-                return this._Change_Log;
+                return this._Date_Entered;
             }
             set
             {
-                this.OnChange_LogChanging(value);
-                this._Change_Log = value;
-                this.OnChange_LogChanged();
+                this.OnDate_EnteredChanging(value);
+                this._Date_Entered = value;
+                this.OnDate_EnteredChanged();
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Nullable<int> _Change_Log;
-        partial void OnChange_LogChanging(global::System.Nullable<int> value);
-        partial void OnChange_LogChanged();
+        private global::System.Nullable<global::System.DateTime> _Date_Entered;
+        partial void OnDate_EnteredChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnDate_EnteredChanged();
+        /// <summary>
+        /// There are no comments for Property Description in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Description
+        {
+            get
+            {
+                return this._Description;
+            }
+            set
+            {
+                this.OnDescriptionChanging(value);
+                this._Description = value;
+                this.OnDescriptionChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Description;
+        partial void OnDescriptionChanging(string value);
+        partial void OnDescriptionChanged();
+        /// <summary>
+        /// There are no comments for Property Dormancy_Period_M in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Dormancy_Period_M
+        {
+            get
+            {
+                return this._Dormancy_Period_M;
+            }
+            set
+            {
+                this.OnDormancy_Period_MChanging(value);
+                this._Dormancy_Period_M = value;
+                this.OnDormancy_Period_MChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Dormancy_Period_M;
+        partial void OnDormancy_Period_MChanging(string value);
+        partial void OnDormancy_Period_MChanged();
+        /// <summary>
+        /// There are no comments for Property Entered_By in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Entered_By
+        {
+            get
+            {
+                return this._Entered_By;
+            }
+            set
+            {
+                this.OnEntered_ByChanging(value);
+                this._Entered_By = value;
+                this.OnEntered_ByChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Entered_By;
+        partial void OnEntered_ByChanging(string value);
+        partial void OnEntered_ByChanged();
+        /// <summary>
+        /// There are no comments for Property Last_Date_Modified in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Last_Date_Modified
+        {
+            get
+            {
+                return this._Last_Date_Modified;
+            }
+            set
+            {
+                this.OnLast_Date_ModifiedChanging(value);
+                this._Last_Date_Modified = value;
+                this.OnLast_Date_ModifiedChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Last_Date_Modified;
+        partial void OnLast_Date_ModifiedChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnLast_Date_ModifiedChanged();
+        /// <summary>
+        /// There are no comments for Property Modified_By in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Modified_By
+        {
+            get
+            {
+                return this._Modified_By;
+            }
+            set
+            {
+                this.OnModified_ByChanging(value);
+                this._Modified_By = value;
+                this.OnModified_ByChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Modified_By;
+        partial void OnModified_ByChanging(string value);
+        partial void OnModified_ByChanged();
+        /// <summary>
+        /// There are no comments for Property Time_Entered in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Time_Entered
+        {
+            get
+            {
+                return this._Time_Entered;
+            }
+            set
+            {
+                this.OnTime_EnteredChanging(value);
+                this._Time_Entered = value;
+                this.OnTime_EnteredChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Time_Entered;
+        partial void OnTime_EnteredChanging(string value);
+        partial void OnTime_EnteredChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.ItemSalesAndProfit in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// AuxiliaryIndex1
+    /// No
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("AuxiliaryIndex1", "No")]
+    public partial class ItemSalesAndProfit
+    {
+        /// <summary>
+        /// Create a new ItemSalesAndProfit object.
+        /// </summary>
+        /// <param name="no">Initial value of No.</param>
+        /// <param name="auxiliaryIndex1">Initial value of AuxiliaryIndex1.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static ItemSalesAndProfit CreateItemSalesAndProfit(string no, string auxiliaryIndex1)
+        {
+            ItemSalesAndProfit itemSalesAndProfit = new ItemSalesAndProfit();
+            itemSalesAndProfit.No = no;
+            itemSalesAndProfit.AuxiliaryIndex1 = auxiliaryIndex1;
+            return itemSalesAndProfit;
+        }
+        /// <summary>
+        /// There are no comments for Property No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string No
+        {
+            get
+            {
+                return this._No;
+            }
+            set
+            {
+                this.OnNoChanging(value);
+                this._No = value;
+                this.OnNoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _No;
+        partial void OnNoChanging(string value);
+        partial void OnNoChanged();
+        /// <summary>
+        /// There are no comments for Property Description in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Description
+        {
+            get
+            {
+                return this._Description;
+            }
+            set
+            {
+                this.OnDescriptionChanging(value);
+                this._Description = value;
+                this.OnDescriptionChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Description;
+        partial void OnDescriptionChanging(string value);
+        partial void OnDescriptionChanged();
+        /// <summary>
+        /// There are no comments for Property Gen_Prod_Posting_Group in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Gen_Prod_Posting_Group
+        {
+            get
+            {
+                return this._Gen_Prod_Posting_Group;
+            }
+            set
+            {
+                this.OnGen_Prod_Posting_GroupChanging(value);
+                this._Gen_Prod_Posting_Group = value;
+                this.OnGen_Prod_Posting_GroupChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Gen_Prod_Posting_Group;
+        partial void OnGen_Prod_Posting_GroupChanging(string value);
+        partial void OnGen_Prod_Posting_GroupChanged();
+        /// <summary>
+        /// There are no comments for Property Item_Disc_Group in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Item_Disc_Group
+        {
+            get
+            {
+                return this._Item_Disc_Group;
+            }
+            set
+            {
+                this.OnItem_Disc_GroupChanging(value);
+                this._Item_Disc_Group = value;
+                this.OnItem_Disc_GroupChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Item_Disc_Group;
+        partial void OnItem_Disc_GroupChanging(string value);
+        partial void OnItem_Disc_GroupChanged();
+        /// <summary>
+        /// There are no comments for Property Item_Tracking_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Item_Tracking_Code
+        {
+            get
+            {
+                return this._Item_Tracking_Code;
+            }
+            set
+            {
+                this.OnItem_Tracking_CodeChanging(value);
+                this._Item_Tracking_Code = value;
+                this.OnItem_Tracking_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Item_Tracking_Code;
+        partial void OnItem_Tracking_CodeChanging(string value);
+        partial void OnItem_Tracking_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Profit in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Profit
+        {
+            get
+            {
+                return this._Profit;
+            }
+            set
+            {
+                this.OnProfitChanging(value);
+                this._Profit = value;
+                this.OnProfitChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Profit;
+        partial void OnProfitChanging(global::System.Nullable<decimal> value);
+        partial void OnProfitChanged();
+        /// <summary>
+        /// There are no comments for Property Scrap in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Scrap
+        {
+            get
+            {
+                return this._Scrap;
+            }
+            set
+            {
+                this.OnScrapChanging(value);
+                this._Scrap = value;
+                this.OnScrapChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Scrap;
+        partial void OnScrapChanging(global::System.Nullable<decimal> value);
+        partial void OnScrapChanged();
+        /// <summary>
+        /// There are no comments for Property Sales_Unit_of_Measure in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Sales_Unit_of_Measure
+        {
+            get
+            {
+                return this._Sales_Unit_of_Measure;
+            }
+            set
+            {
+                this.OnSales_Unit_of_MeasureChanging(value);
+                this._Sales_Unit_of_Measure = value;
+                this.OnSales_Unit_of_MeasureChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Sales_Unit_of_Measure;
+        partial void OnSales_Unit_of_MeasureChanging(string value);
+        partial void OnSales_Unit_of_MeasureChanged();
+        /// <summary>
+        /// There are no comments for Property Standard_Cost in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Standard_Cost
+        {
+            get
+            {
+                return this._Standard_Cost;
+            }
+            set
+            {
+                this.OnStandard_CostChanging(value);
+                this._Standard_Cost = value;
+                this.OnStandard_CostChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Standard_Cost;
+        partial void OnStandard_CostChanging(global::System.Nullable<decimal> value);
+        partial void OnStandard_CostChanged();
+        /// <summary>
+        /// There are no comments for Property Unit_Cost in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Unit_Cost
+        {
+            get
+            {
+                return this._Unit_Cost;
+            }
+            set
+            {
+                this.OnUnit_CostChanging(value);
+                this._Unit_Cost = value;
+                this.OnUnit_CostChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Unit_Cost;
+        partial void OnUnit_CostChanging(global::System.Nullable<decimal> value);
+        partial void OnUnit_CostChanged();
+        /// <summary>
+        /// There are no comments for Property Unit_Price in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Unit_Price
+        {
+            get
+            {
+                return this._Unit_Price;
+            }
+            set
+            {
+                this.OnUnit_PriceChanging(value);
+                this._Unit_Price = value;
+                this.OnUnit_PriceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Unit_Price;
+        partial void OnUnit_PriceChanging(global::System.Nullable<decimal> value);
+        partial void OnUnit_PriceChanged();
+        /// <summary>
+        /// There are no comments for Property Unit_Volume in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Unit_Volume
+        {
+            get
+            {
+                return this._Unit_Volume;
+            }
+            set
+            {
+                this.OnUnit_VolumeChanging(value);
+                this._Unit_Volume = value;
+                this.OnUnit_VolumeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Unit_Volume;
+        partial void OnUnit_VolumeChanging(global::System.Nullable<decimal> value);
+        partial void OnUnit_VolumeChanged();
+        /// <summary>
+        /// There are no comments for Property Vendor_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Vendor_No
+        {
+            get
+            {
+                return this._Vendor_No;
+            }
+            set
+            {
+                this.OnVendor_NoChanging(value);
+                this._Vendor_No = value;
+                this.OnVendor_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Vendor_No;
+        partial void OnVendor_NoChanging(string value);
+        partial void OnVendor_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Purch_Unit_of_Measure in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Purch_Unit_of_Measure
+        {
+            get
+            {
+                return this._Purch_Unit_of_Measure;
+            }
+            set
+            {
+                this.OnPurch_Unit_of_MeasureChanging(value);
+                this._Purch_Unit_of_Measure = value;
+                this.OnPurch_Unit_of_MeasureChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Purch_Unit_of_Measure;
+        partial void OnPurch_Unit_of_MeasureChanging(string value);
+        partial void OnPurch_Unit_of_MeasureChanged();
+        /// <summary>
+        /// There are no comments for Property COGS_LCY in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> COGS_LCY
+        {
+            get
+            {
+                return this._COGS_LCY;
+            }
+            set
+            {
+                this.OnCOGS_LCYChanging(value);
+                this._COGS_LCY = value;
+                this.OnCOGS_LCYChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _COGS_LCY;
+        partial void OnCOGS_LCYChanging(global::System.Nullable<decimal> value);
+        partial void OnCOGS_LCYChanged();
+        /// <summary>
+        /// There are no comments for Property Inventory in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Inventory
+        {
+            get
+            {
+                return this._Inventory;
+            }
+            set
+            {
+                this.OnInventoryChanging(value);
+                this._Inventory = value;
+                this.OnInventoryChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Inventory;
+        partial void OnInventoryChanging(global::System.Nullable<decimal> value);
+        partial void OnInventoryChanged();
+        /// <summary>
+        /// There are no comments for Property Net_Change in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Net_Change
+        {
+            get
+            {
+                return this._Net_Change;
+            }
+            set
+            {
+                this.OnNet_ChangeChanging(value);
+                this._Net_Change = value;
+                this.OnNet_ChangeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Net_Change;
+        partial void OnNet_ChangeChanging(global::System.Nullable<decimal> value);
+        partial void OnNet_ChangeChanged();
+        /// <summary>
+        /// There are no comments for Property Net_Invoiced_Qty in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Net_Invoiced_Qty
+        {
+            get
+            {
+                return this._Net_Invoiced_Qty;
+            }
+            set
+            {
+                this.OnNet_Invoiced_QtyChanging(value);
+                this._Net_Invoiced_Qty = value;
+                this.OnNet_Invoiced_QtyChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Net_Invoiced_Qty;
+        partial void OnNet_Invoiced_QtyChanging(global::System.Nullable<decimal> value);
+        partial void OnNet_Invoiced_QtyChanged();
+        /// <summary>
+        /// There are no comments for Property Purchases_LCY in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Purchases_LCY
+        {
+            get
+            {
+                return this._Purchases_LCY;
+            }
+            set
+            {
+                this.OnPurchases_LCYChanging(value);
+                this._Purchases_LCY = value;
+                this.OnPurchases_LCYChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Purchases_LCY;
+        partial void OnPurchases_LCYChanging(global::System.Nullable<decimal> value);
+        partial void OnPurchases_LCYChanged();
+        /// <summary>
+        /// There are no comments for Property Purchases_Qty in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Purchases_Qty
+        {
+            get
+            {
+                return this._Purchases_Qty;
+            }
+            set
+            {
+                this.OnPurchases_QtyChanging(value);
+                this._Purchases_Qty = value;
+                this.OnPurchases_QtyChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Purchases_Qty;
+        partial void OnPurchases_QtyChanging(global::System.Nullable<decimal> value);
+        partial void OnPurchases_QtyChanged();
+        /// <summary>
+        /// There are no comments for Property Sales_LCY in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Sales_LCY
+        {
+            get
+            {
+                return this._Sales_LCY;
+            }
+            set
+            {
+                this.OnSales_LCYChanging(value);
+                this._Sales_LCY = value;
+                this.OnSales_LCYChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Sales_LCY;
+        partial void OnSales_LCYChanging(global::System.Nullable<decimal> value);
+        partial void OnSales_LCYChanged();
+        /// <summary>
+        /// There are no comments for Property Sales_Qty in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Sales_Qty
+        {
+            get
+            {
+                return this._Sales_Qty;
+            }
+            set
+            {
+                this.OnSales_QtyChanging(value);
+                this._Sales_Qty = value;
+                this.OnSales_QtyChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Sales_Qty;
+        partial void OnSales_QtyChanging(global::System.Nullable<decimal> value);
+        partial void OnSales_QtyChanged();
+        /// <summary>
+        /// There are no comments for Property VendorName in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string VendorName
+        {
+            get
+            {
+                return this._VendorName;
+            }
+            set
+            {
+                this.OnVendorNameChanging(value);
+                this._VendorName = value;
+                this.OnVendorNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _VendorName;
+        partial void OnVendorNameChanging(string value);
+        partial void OnVendorNameChanged();
+        /// <summary>
+        /// There are no comments for Property AuxiliaryIndex1 in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string AuxiliaryIndex1
+        {
+            get
+            {
+                return this._AuxiliaryIndex1;
+            }
+            set
+            {
+                this.OnAuxiliaryIndex1Changing(value);
+                this._AuxiliaryIndex1 = value;
+                this.OnAuxiliaryIndex1Changed();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _AuxiliaryIndex1;
+        partial void OnAuxiliaryIndex1Changing(string value);
+        partial void OnAuxiliaryIndex1Changed();
+    }
+    /// <summary>
+    /// There are no comments for NAV.ItemSalesByCustomer in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// AuxiliaryIndex1
+    /// CustomerNo
+    /// Entry_No
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("AuxiliaryIndex1", "CustomerNo", "Entry_No")]
+    public partial class ItemSalesByCustomer
+    {
+        /// <summary>
+        /// Create a new ItemSalesByCustomer object.
+        /// </summary>
+        /// <param name="entry_No">Initial value of Entry_No.</param>
+        /// <param name="customerNo">Initial value of CustomerNo.</param>
+        /// <param name="auxiliaryIndex1">Initial value of AuxiliaryIndex1.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static ItemSalesByCustomer CreateItemSalesByCustomer(int entry_No, string customerNo, string auxiliaryIndex1)
+        {
+            ItemSalesByCustomer itemSalesByCustomer = new ItemSalesByCustomer();
+            itemSalesByCustomer.Entry_No = entry_No;
+            itemSalesByCustomer.CustomerNo = customerNo;
+            itemSalesByCustomer.AuxiliaryIndex1 = auxiliaryIndex1;
+            return itemSalesByCustomer;
+        }
+        /// <summary>
+        /// There are no comments for Property Entry_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public int Entry_No
+        {
+            get
+            {
+                return this._Entry_No;
+            }
+            set
+            {
+                this.OnEntry_NoChanging(value);
+                this._Entry_No = value;
+                this.OnEntry_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private int _Entry_No;
+        partial void OnEntry_NoChanging(int value);
+        partial void OnEntry_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Document_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Document_No
+        {
+            get
+            {
+                return this._Document_No;
+            }
+            set
+            {
+                this.OnDocument_NoChanging(value);
+                this._Document_No = value;
+                this.OnDocument_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Document_No;
+        partial void OnDocument_NoChanging(string value);
+        partial void OnDocument_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Posting_Date in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Posting_Date
+        {
+            get
+            {
+                return this._Posting_Date;
+            }
+            set
+            {
+                this.OnPosting_DateChanging(value);
+                this._Posting_Date = value;
+                this.OnPosting_DateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Posting_Date;
+        partial void OnPosting_DateChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnPosting_DateChanged();
+        /// <summary>
+        /// There are no comments for Property Item_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Item_No
+        {
+            get
+            {
+                return this._Item_No;
+            }
+            set
+            {
+                this.OnItem_NoChanging(value);
+                this._Item_No = value;
+                this.OnItem_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Item_No;
+        partial void OnItem_NoChanging(string value);
+        partial void OnItem_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Item_Ledger_Entry_Quantity in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Item_Ledger_Entry_Quantity
+        {
+            get
+            {
+                return this._Item_Ledger_Entry_Quantity;
+            }
+            set
+            {
+                this.OnItem_Ledger_Entry_QuantityChanging(value);
+                this._Item_Ledger_Entry_Quantity = value;
+                this.OnItem_Ledger_Entry_QuantityChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Item_Ledger_Entry_Quantity;
+        partial void OnItem_Ledger_Entry_QuantityChanging(global::System.Nullable<decimal> value);
+        partial void OnItem_Ledger_Entry_QuantityChanged();
+        /// <summary>
+        /// There are no comments for Property Dimension_Set_ID in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<int> Dimension_Set_ID
+        {
+            get
+            {
+                return this._Dimension_Set_ID;
+            }
+            set
+            {
+                this.OnDimension_Set_IDChanging(value);
+                this._Dimension_Set_ID = value;
+                this.OnDimension_Set_IDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<int> _Dimension_Set_ID;
+        partial void OnDimension_Set_IDChanging(global::System.Nullable<int> value);
+        partial void OnDimension_Set_IDChanged();
+        /// <summary>
+        /// There are no comments for Property CustomerNo in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string CustomerNo
+        {
+            get
+            {
+                return this._CustomerNo;
+            }
+            set
+            {
+                this.OnCustomerNoChanging(value);
+                this._CustomerNo = value;
+                this.OnCustomerNoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _CustomerNo;
+        partial void OnCustomerNoChanging(string value);
+        partial void OnCustomerNoChanged();
+        /// <summary>
+        /// There are no comments for Property Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this._Name = value;
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
+        /// <summary>
+        /// There are no comments for Property Description in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Description
+        {
+            get
+            {
+                return this._Description;
+            }
+            set
+            {
+                this.OnDescriptionChanging(value);
+                this._Description = value;
+                this.OnDescriptionChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Description;
+        partial void OnDescriptionChanging(string value);
+        partial void OnDescriptionChanged();
+        /// <summary>
+        /// There are no comments for Property Gen_Prod_Posting_Group in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Gen_Prod_Posting_Group
+        {
+            get
+            {
+                return this._Gen_Prod_Posting_Group;
+            }
+            set
+            {
+                this.OnGen_Prod_Posting_GroupChanging(value);
+                this._Gen_Prod_Posting_Group = value;
+                this.OnGen_Prod_Posting_GroupChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Gen_Prod_Posting_Group;
+        partial void OnGen_Prod_Posting_GroupChanging(string value);
+        partial void OnGen_Prod_Posting_GroupChanged();
+        /// <summary>
+        /// There are no comments for Property AuxiliaryIndex1 in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string AuxiliaryIndex1
+        {
+            get
+            {
+                return this._AuxiliaryIndex1;
+            }
+            set
+            {
+                this.OnAuxiliaryIndex1Changing(value);
+                this._AuxiliaryIndex1 = value;
+                this.OnAuxiliaryIndex1Changed();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _AuxiliaryIndex1;
+        partial void OnAuxiliaryIndex1Changing(string value);
+        partial void OnAuxiliaryIndex1Changed();
+    }
+    /// <summary>
+    /// There are no comments for NAV.juniors in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// No
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
+    public partial class juniors
+    {
+        /// <summary>
+        /// Create a new juniors object.
+        /// </summary>
+        /// <param name="no">Initial value of No.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static juniors Createjuniors(string no)
+        {
+            juniors juniors = new juniors();
+            juniors.No = no;
+            return juniors;
+        }
+        /// <summary>
+        /// There are no comments for Property No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string No
+        {
+            get
+            {
+                return this._No;
+            }
+            set
+            {
+                this.OnNoChanging(value);
+                this._No = value;
+                this.OnNoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _No;
+        partial void OnNoChanging(string value);
+        partial void OnNoChanged();
+        /// <summary>
+        /// There are no comments for Property Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this._Name = value;
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
+        /// <summary>
+        /// There are no comments for Property Account_Category in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Account_Category
+        {
+            get
+            {
+                return this._Account_Category;
+            }
+            set
+            {
+                this.OnAccount_CategoryChanging(value);
+                this._Account_Category = value;
+                this.OnAccount_CategoryChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Account_Category;
+        partial void OnAccount_CategoryChanging(string value);
+        partial void OnAccount_CategoryChanged();
+        /// <summary>
+        /// There are no comments for Property Parent_Membership_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Parent_Membership_No
+        {
+            get
+            {
+                return this._Parent_Membership_No;
+            }
+            set
+            {
+                this.OnParent_Membership_NoChanging(value);
+                this._Parent_Membership_No = value;
+                this.OnParent_Membership_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Parent_Membership_No;
+        partial void OnParent_Membership_NoChanging(string value);
+        partial void OnParent_Membership_NoChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.KeensDetails in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// Account_No
+    /// Name
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("Account_No", "Name")]
+    public partial class KeensDetails
+    {
+        /// <summary>
+        /// Create a new KeensDetails object.
+        /// </summary>
+        /// <param name="name">Initial value of Name.</param>
+        /// <param name="account_No">Initial value of Account_No.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static KeensDetails CreateKeensDetails(string name, string account_No)
+        {
+            KeensDetails keensDetails = new KeensDetails();
+            keensDetails.Name = name;
+            keensDetails.Account_No = account_No;
+            return keensDetails;
+        }
+        /// <summary>
+        /// There are no comments for Property Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this._Name = value;
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
+        /// <summary>
+        /// There are no comments for Property Relationship in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Relationship
+        {
+            get
+            {
+                return this._Relationship;
+            }
+            set
+            {
+                this.OnRelationshipChanging(value);
+                this._Relationship = value;
+                this.OnRelationshipChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Relationship;
+        partial void OnRelationshipChanging(string value);
+        partial void OnRelationshipChanged();
+        /// <summary>
+        /// There are no comments for Property Beneficiary in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<bool> Beneficiary
+        {
+            get
+            {
+                return this._Beneficiary;
+            }
+            set
+            {
+                this.OnBeneficiaryChanging(value);
+                this._Beneficiary = value;
+                this.OnBeneficiaryChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<bool> _Beneficiary;
+        partial void OnBeneficiaryChanging(global::System.Nullable<bool> value);
+        partial void OnBeneficiaryChanged();
+        /// <summary>
+        /// There are no comments for Property Date_of_Birth in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Date_of_Birth
+        {
+            get
+            {
+                return this._Date_of_Birth;
+            }
+            set
+            {
+                this.OnDate_of_BirthChanging(value);
+                this._Date_of_Birth = value;
+                this.OnDate_of_BirthChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Date_of_Birth;
+        partial void OnDate_of_BirthChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnDate_of_BirthChanged();
+        /// <summary>
+        /// There are no comments for Property Address in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Address
+        {
+            get
+            {
+                return this._Address;
+            }
+            set
+            {
+                this.OnAddressChanging(value);
+                this._Address = value;
+                this.OnAddressChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Address;
+        partial void OnAddressChanging(string value);
+        partial void OnAddressChanged();
+        /// <summary>
+        /// There are no comments for Property Telephone in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Telephone
+        {
+            get
+            {
+                return this._Telephone;
+            }
+            set
+            {
+                this.OnTelephoneChanging(value);
+                this._Telephone = value;
+                this.OnTelephoneChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Telephone;
+        partial void OnTelephoneChanging(string value);
+        partial void OnTelephoneChanged();
+        /// <summary>
+        /// There are no comments for Property Email in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Email
+        {
+            get
+            {
+                return this._Email;
+            }
+            set
+            {
+                this.OnEmailChanging(value);
+                this._Email = value;
+                this.OnEmailChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Email;
+        partial void OnEmailChanging(string value);
+        partial void OnEmailChanged();
+        /// <summary>
+        /// There are no comments for Property Account_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Account_No
+        {
+            get
+            {
+                return this._Account_No;
+            }
+            set
+            {
+                this.OnAccount_NoChanging(value);
+                this._Account_No = value;
+                this.OnAccount_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Account_No;
+        partial void OnAccount_NoChanging(string value);
+        partial void OnAccount_NoChanged();
+        /// <summary>
+        /// There are no comments for Property ID_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string ID_No
+        {
+            get
+            {
+                return this._ID_No;
+            }
+            set
+            {
+                this.OnID_NoChanging(value);
+                this._ID_No = value;
+                this.OnID_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _ID_No;
+        partial void OnID_NoChanging(string value);
+        partial void OnID_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Allocation in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Allocation
+        {
+            get
+            {
+                return this._Allocation;
+            }
+            set
+            {
+                this.OnAllocationChanging(value);
+                this._Allocation = value;
+                this.OnAllocationChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Allocation;
+        partial void OnAllocationChanging(global::System.Nullable<decimal> value);
+        partial void OnAllocationChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.kinsdetail in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// Account_No
+    /// Name
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("Account_No", "Name")]
+    public partial class kinsdetail
+    {
+        /// <summary>
+        /// Create a new kinsdetail object.
+        /// </summary>
+        /// <param name="account_No">Initial value of Account_No.</param>
+        /// <param name="name">Initial value of Name.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static kinsdetail Createkinsdetail(string account_No, string name)
+        {
+            kinsdetail kinsdetail = new kinsdetail();
+            kinsdetail.Account_No = account_No;
+            kinsdetail.Name = name;
+            return kinsdetail;
+        }
+        /// <summary>
+        /// There are no comments for Property Account_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Account_No
+        {
+            get
+            {
+                return this._Account_No;
+            }
+            set
+            {
+                this.OnAccount_NoChanging(value);
+                this._Account_No = value;
+                this.OnAccount_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Account_No;
+        partial void OnAccount_NoChanging(string value);
+        partial void OnAccount_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this._Name = value;
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
+        /// <summary>
+        /// There are no comments for Property Relationship in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Relationship
+        {
+            get
+            {
+                return this._Relationship;
+            }
+            set
+            {
+                this.OnRelationshipChanging(value);
+                this._Relationship = value;
+                this.OnRelationshipChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Relationship;
+        partial void OnRelationshipChanging(string value);
+        partial void OnRelationshipChanged();
+        /// <summary>
+        /// There are no comments for Property Beneficiary in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<bool> Beneficiary
+        {
+            get
+            {
+                return this._Beneficiary;
+            }
+            set
+            {
+                this.OnBeneficiaryChanging(value);
+                this._Beneficiary = value;
+                this.OnBeneficiaryChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<bool> _Beneficiary;
+        partial void OnBeneficiaryChanging(global::System.Nullable<bool> value);
+        partial void OnBeneficiaryChanged();
+        /// <summary>
+        /// There are no comments for Property Date_of_Birth in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Date_of_Birth
+        {
+            get
+            {
+                return this._Date_of_Birth;
+            }
+            set
+            {
+                this.OnDate_of_BirthChanging(value);
+                this._Date_of_Birth = value;
+                this.OnDate_of_BirthChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Date_of_Birth;
+        partial void OnDate_of_BirthChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnDate_of_BirthChanged();
+        /// <summary>
+        /// There are no comments for Property Address in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Address
+        {
+            get
+            {
+                return this._Address;
+            }
+            set
+            {
+                this.OnAddressChanging(value);
+                this._Address = value;
+                this.OnAddressChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Address;
+        partial void OnAddressChanging(string value);
+        partial void OnAddressChanged();
+        /// <summary>
+        /// There are no comments for Property Telephone in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Telephone
+        {
+            get
+            {
+                return this._Telephone;
+            }
+            set
+            {
+                this.OnTelephoneChanging(value);
+                this._Telephone = value;
+                this.OnTelephoneChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Telephone;
+        partial void OnTelephoneChanging(string value);
+        partial void OnTelephoneChanged();
+        /// <summary>
+        /// There are no comments for Property Fax in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Fax
+        {
+            get
+            {
+                return this._Fax;
+            }
+            set
+            {
+                this.OnFaxChanging(value);
+                this._Fax = value;
+                this.OnFaxChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Fax;
+        partial void OnFaxChanging(string value);
+        partial void OnFaxChanged();
+        /// <summary>
+        /// There are no comments for Property Email in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Email
+        {
+            get
+            {
+                return this._Email;
+            }
+            set
+            {
+                this.OnEmailChanging(value);
+                this._Email = value;
+                this.OnEmailChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Email;
+        partial void OnEmailChanging(string value);
+        partial void OnEmailChanged();
+        /// <summary>
+        /// There are no comments for Property ID_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string ID_No
+        {
+            get
+            {
+                return this._ID_No;
+            }
+            set
+            {
+                this.OnID_NoChanging(value);
+                this._ID_No = value;
+                this.OnID_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _ID_No;
+        partial void OnID_NoChanging(string value);
+        partial void OnID_NoChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.LoansFinal in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// Loan_No
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("Loan_No")]
+    public partial class LoansFinal
+    {
+        /// <summary>
+        /// Create a new LoansFinal object.
+        /// </summary>
+        /// <param name="loan_No">Initial value of Loan_No.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static LoansFinal CreateLoansFinal(string loan_No)
+        {
+            LoansFinal loansFinal = new LoansFinal();
+            loansFinal.Loan_No = loan_No;
+            return loansFinal;
+        }
+        /// <summary>
+        /// There are no comments for Property Loan_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Loan_No
+        {
+            get
+            {
+                return this._Loan_No;
+            }
+            set
+            {
+                this.OnLoan_NoChanging(value);
+                this._Loan_No = value;
+                this.OnLoan_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Loan_No;
+        partial void OnLoan_NoChanging(string value);
+        partial void OnLoan_NoChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.LoansProductSetUp in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// Code
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("Code")]
+    public partial class LoansProductSetUp
+    {
+        /// <summary>
+        /// Create a new LoansProductSetUp object.
+        /// </summary>
+        /// <param name="code">Initial value of Code.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static LoansProductSetUp CreateLoansProductSetUp(string code)
+        {
+            LoansProductSetUp loansProductSetUp = new LoansProductSetUp();
+            loansProductSetUp.Code = code;
+            return loansProductSetUp;
+        }
+        /// <summary>
+        /// There are no comments for Property Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Code
+        {
+            get
+            {
+                return this._Code;
+            }
+            set
+            {
+                this.OnCodeChanging(value);
+                this._Code = value;
+                this.OnCodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Code;
+        partial void OnCodeChanging(string value);
+        partial void OnCodeChanged();
+        /// <summary>
+        /// There are no comments for Property Product_Description in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Product_Description
+        {
+            get
+            {
+                return this._Product_Description;
+            }
+            set
+            {
+                this.OnProduct_DescriptionChanging(value);
+                this._Product_Description = value;
+                this.OnProduct_DescriptionChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Product_Description;
+        partial void OnProduct_DescriptionChanging(string value);
+        partial void OnProduct_DescriptionChanged();
+        /// <summary>
+        /// There are no comments for Property Source_of_Financing in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Source_of_Financing
+        {
+            get
+            {
+                return this._Source_of_Financing;
+            }
+            set
+            {
+                this.OnSource_of_FinancingChanging(value);
+                this._Source_of_Financing = value;
+                this.OnSource_of_FinancingChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Source_of_Financing;
+        partial void OnSource_of_FinancingChanging(string value);
+        partial void OnSource_of_FinancingChanged();
+        /// <summary>
+        /// There are no comments for Property Interest_rate in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Interest_rate
+        {
+            get
+            {
+                return this._Interest_rate;
+            }
+            set
+            {
+                this.OnInterest_rateChanging(value);
+                this._Interest_rate = value;
+                this.OnInterest_rateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Interest_rate;
+        partial void OnInterest_rateChanging(global::System.Nullable<decimal> value);
+        partial void OnInterest_rateChanged();
+        /// <summary>
+        /// There are no comments for Property Interest_Calculation_Method in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Interest_Calculation_Method
+        {
+            get
+            {
+                return this._Interest_Calculation_Method;
+            }
+            set
+            {
+                this.OnInterest_Calculation_MethodChanging(value);
+                this._Interest_Calculation_Method = value;
+                this.OnInterest_Calculation_MethodChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Interest_Calculation_Method;
+        partial void OnInterest_Calculation_MethodChanging(string value);
+        partial void OnInterest_Calculation_MethodChanged();
+        /// <summary>
+        /// There are no comments for Property Insurance in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Insurance
+        {
+            get
+            {
+                return this._Insurance;
+            }
+            set
+            {
+                this.OnInsuranceChanging(value);
+                this._Insurance = value;
+                this.OnInsuranceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Insurance;
+        partial void OnInsuranceChanging(global::System.Nullable<decimal> value);
+        partial void OnInsuranceChanged();
+        /// <summary>
+        /// There are no comments for Property Grace_Period in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Grace_Period
+        {
+            get
+            {
+                return this._Grace_Period;
+            }
+            set
+            {
+                this.OnGrace_PeriodChanging(value);
+                this._Grace_Period = value;
+                this.OnGrace_PeriodChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Grace_Period;
+        partial void OnGrace_PeriodChanging(string value);
+        partial void OnGrace_PeriodChanged();
+        /// <summary>
+        /// There are no comments for Property Name_of_Source_of_Funding in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Name_of_Source_of_Funding
+        {
+            get
+            {
+                return this._Name_of_Source_of_Funding;
+            }
+            set
+            {
+                this.OnName_of_Source_of_FundingChanging(value);
+                this._Name_of_Source_of_Funding = value;
+                this.OnName_of_Source_of_FundingChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Name_of_Source_of_Funding;
+        partial void OnName_of_Source_of_FundingChanging(string value);
+        partial void OnName_of_Source_of_FundingChanged();
+        /// <summary>
+        /// There are no comments for Property Rounding in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Rounding
+        {
+            get
+            {
+                return this._Rounding;
+            }
+            set
+            {
+                this.OnRoundingChanging(value);
+                this._Rounding = value;
+                this.OnRoundingChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Rounding;
+        partial void OnRoundingChanging(string value);
+        partial void OnRoundingChanged();
+        /// <summary>
+        /// There are no comments for Property Rounding_Precision in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Rounding_Precision
+        {
+            get
+            {
+                return this._Rounding_Precision;
+            }
+            set
+            {
+                this.OnRounding_PrecisionChanging(value);
+                this._Rounding_Precision = value;
+                this.OnRounding_PrecisionChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Rounding_Precision;
+        partial void OnRounding_PrecisionChanging(global::System.Nullable<decimal> value);
+        partial void OnRounding_PrecisionChanged();
+        /// <summary>
+        /// There are no comments for Property Loan_Appraisal in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Loan_Appraisal
+        {
+            get
+            {
+                return this._Loan_Appraisal;
+            }
+            set
+            {
+                this.OnLoan_AppraisalChanging(value);
+                this._Loan_Appraisal = value;
+                this.OnLoan_AppraisalChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Loan_Appraisal;
+        partial void OnLoan_AppraisalChanging(global::System.Nullable<decimal> value);
+        partial void OnLoan_AppraisalChanged();
+        /// <summary>
+        /// There are no comments for Property No_of_Installment in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<int> No_of_Installment
+        {
+            get
+            {
+                return this._No_of_Installment;
+            }
+            set
+            {
+                this.OnNo_of_InstallmentChanging(value);
+                this._No_of_Installment = value;
+                this.OnNo_of_InstallmentChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<int> _No_of_Installment;
+        partial void OnNo_of_InstallmentChanging(global::System.Nullable<int> value);
+        partial void OnNo_of_InstallmentChanged();
+        /// <summary>
+        /// There are no comments for Property Instalment_Period in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Instalment_Period
+        {
+            get
+            {
+                return this._Instalment_Period;
+            }
+            set
+            {
+                this.OnInstalment_PeriodChanging(value);
+                this._Instalment_Period = value;
+                this.OnInstalment_PeriodChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Instalment_Period;
+        partial void OnInstalment_PeriodChanging(string value);
+        partial void OnInstalment_PeriodChanged();
+        /// <summary>
+        /// There are no comments for Property Loan_to_Share_Ratio in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Loan_to_Share_Ratio
+        {
+            get
+            {
+                return this._Loan_to_Share_Ratio;
+            }
+            set
+            {
+                this.OnLoan_to_Share_RatioChanging(value);
+                this._Loan_to_Share_Ratio = value;
+                this.OnLoan_to_Share_RatioChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Loan_to_Share_Ratio;
+        partial void OnLoan_to_Share_RatioChanging(global::System.Nullable<decimal> value);
+        partial void OnLoan_to_Share_RatioChanged();
+        /// <summary>
+        /// There are no comments for Property Penalty_Calculation_Days in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Penalty_Calculation_Days
+        {
+            get
+            {
+                return this._Penalty_Calculation_Days;
+            }
+            set
+            {
+                this.OnPenalty_Calculation_DaysChanging(value);
+                this._Penalty_Calculation_Days = value;
+                this.OnPenalty_Calculation_DaysChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Penalty_Calculation_Days;
+        partial void OnPenalty_Calculation_DaysChanging(string value);
+        partial void OnPenalty_Calculation_DaysChanged();
+        /// <summary>
+        /// There are no comments for Property Penalty_Percentage in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Penalty_Percentage
+        {
+            get
+            {
+                return this._Penalty_Percentage;
+            }
+            set
+            {
+                this.OnPenalty_PercentageChanging(value);
+                this._Penalty_Percentage = value;
+                this.OnPenalty_PercentageChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Penalty_Percentage;
+        partial void OnPenalty_PercentageChanging(global::System.Nullable<decimal> value);
+        partial void OnPenalty_PercentageChanged();
+        /// <summary>
+        /// There are no comments for Property Penalty_Calculation_Method in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Penalty_Calculation_Method
+        {
+            get
+            {
+                return this._Penalty_Calculation_Method;
+            }
+            set
+            {
+                this.OnPenalty_Calculation_MethodChanging(value);
+                this._Penalty_Calculation_Method = value;
+                this.OnPenalty_Calculation_MethodChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Penalty_Calculation_Method;
+        partial void OnPenalty_Calculation_MethodChanging(string value);
+        partial void OnPenalty_Calculation_MethodChanged();
+        /// <summary>
+        /// There are no comments for Property Penalty_Paid_Account in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Penalty_Paid_Account
+        {
+            get
+            {
+                return this._Penalty_Paid_Account;
+            }
+            set
+            {
+                this.OnPenalty_Paid_AccountChanging(value);
+                this._Penalty_Paid_Account = value;
+                this.OnPenalty_Paid_AccountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Penalty_Paid_Account;
+        partial void OnPenalty_Paid_AccountChanging(string value);
+        partial void OnPenalty_Paid_AccountChanged();
+        /// <summary>
+        /// There are no comments for Property Max_Loan_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Max_Loan_Amount
+        {
+            get
+            {
+                return this._Max_Loan_Amount;
+            }
+            set
+            {
+                this.OnMax_Loan_AmountChanging(value);
+                this._Max_Loan_Amount = value;
+                this.OnMax_Loan_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Max_Loan_Amount;
+        partial void OnMax_Loan_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnMax_Loan_AmountChanged();
+        /// <summary>
+        /// There are no comments for Property Min_Loan_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Min_Loan_Amount
+        {
+            get
+            {
+                return this._Min_Loan_Amount;
+            }
+            set
+            {
+                this.OnMin_Loan_AmountChanging(value);
+                this._Min_Loan_Amount = value;
+                this.OnMin_Loan_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Min_Loan_Amount;
+        partial void OnMin_Loan_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnMin_Loan_AmountChanged();
+        /// <summary>
+        /// There are no comments for Property Recovery_Priority in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<int> Recovery_Priority
+        {
+            get
+            {
+                return this._Recovery_Priority;
+            }
+            set
+            {
+                this.OnRecovery_PriorityChanging(value);
+                this._Recovery_Priority = value;
+                this.OnRecovery_PriorityChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<int> _Recovery_Priority;
+        partial void OnRecovery_PriorityChanging(global::System.Nullable<int> value);
+        partial void OnRecovery_PriorityChanged();
+        /// <summary>
+        /// There are no comments for Property Repayment_Method in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Repayment_Method
+        {
+            get
+            {
+                return this._Repayment_Method;
+            }
+            set
+            {
+                this.OnRepayment_MethodChanging(value);
+                this._Repayment_Method = value;
+                this.OnRepayment_MethodChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Repayment_Method;
+        partial void OnRepayment_MethodChanging(string value);
+        partial void OnRepayment_MethodChanged();
+        /// <summary>
+        /// There are no comments for Property Repayment_Frequency in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Repayment_Frequency
+        {
+            get
+            {
+                return this._Repayment_Frequency;
+            }
+            set
+            {
+                this.OnRepayment_FrequencyChanging(value);
+                this._Repayment_Frequency = value;
+                this.OnRepayment_FrequencyChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Repayment_Frequency;
+        partial void OnRepayment_FrequencyChanging(string value);
+        partial void OnRepayment_FrequencyChanged();
+        /// <summary>
+        /// There are no comments for Property Source in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Source
+        {
+            get
+            {
+                return this._Source;
+            }
+            set
+            {
+                this.OnSourceChanging(value);
+                this._Source = value;
+                this.OnSourceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Source;
+        partial void OnSourceChanging(string value);
+        partial void OnSourceChanged();
+        /// <summary>
+        /// There are no comments for Property Recovery_Mode in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Recovery_Mode
+        {
+            get
+            {
+                return this._Recovery_Mode;
+            }
+            set
+            {
+                this.OnRecovery_ModeChanging(value);
+                this._Recovery_Mode = value;
+                this.OnRecovery_ModeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Recovery_Mode;
+        partial void OnRecovery_ModeChanging(string value);
+        partial void OnRecovery_ModeChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.LoansReg in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// Loan_No
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("Loan_No")]
+    public partial class LoansReg
+    {
+        /// <summary>
+        /// Create a new LoansReg object.
+        /// </summary>
+        /// <param name="loan_No">Initial value of Loan_No.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static LoansReg CreateLoansReg(string loan_No)
+        {
+            LoansReg loansReg = new LoansReg();
+            loansReg.Loan_No = loan_No;
+            return loansReg;
+        }
+        /// <summary>
+        /// There are no comments for Property Loan_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Loan_No
+        {
+            get
+            {
+                return this._Loan_No;
+            }
+            set
+            {
+                this.OnLoan_NoChanging(value);
+                this._Loan_No = value;
+                this.OnLoan_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Loan_No;
+        partial void OnLoan_NoChanging(string value);
+        partial void OnLoan_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Application_Date in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> Application_Date
+        {
+            get
+            {
+                return this._Application_Date;
+            }
+            set
+            {
+                this.OnApplication_DateChanging(value);
+                this._Application_Date = value;
+                this.OnApplication_DateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _Application_Date;
+        partial void OnApplication_DateChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnApplication_DateChanged();
+        /// <summary>
+        /// There are no comments for Property Loan_Product_Type in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Loan_Product_Type
+        {
+            get
+            {
+                return this._Loan_Product_Type;
+            }
+            set
+            {
+                this.OnLoan_Product_TypeChanging(value);
+                this._Loan_Product_Type = value;
+                this.OnLoan_Product_TypeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Loan_Product_Type;
+        partial void OnLoan_Product_TypeChanging(string value);
+        partial void OnLoan_Product_TypeChanged();
+        /// <summary>
+        /// There are no comments for Property Client_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Client_Code
+        {
+            get
+            {
+                return this._Client_Code;
+            }
+            set
+            {
+                this.OnClient_CodeChanging(value);
+                this._Client_Code = value;
+                this.OnClient_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Client_Code;
+        partial void OnClient_CodeChanging(string value);
+        partial void OnClient_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Group_Code in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Group_Code
+        {
+            get
+            {
+                return this._Group_Code;
+            }
+            set
+            {
+                this.OnGroup_CodeChanging(value);
+                this._Group_Code = value;
+                this.OnGroup_CodeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Group_Code;
+        partial void OnGroup_CodeChanging(string value);
+        partial void OnGroup_CodeChanged();
+        /// <summary>
+        /// There are no comments for Property Savings in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Savings
+        {
+            get
+            {
+                return this._Savings;
+            }
+            set
+            {
+                this.OnSavingsChanging(value);
+                this._Savings = value;
+                this.OnSavingsChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Savings;
+        partial void OnSavingsChanging(global::System.Nullable<decimal> value);
+        partial void OnSavingsChanged();
+        /// <summary>
+        /// There are no comments for Property Approved_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Approved_Amount
+        {
+            get
+            {
+                return this._Approved_Amount;
+            }
+            set
+            {
+                this.OnApproved_AmountChanging(value);
+                this._Approved_Amount = value;
+                this.OnApproved_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Approved_Amount;
+        partial void OnApproved_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnApproved_AmountChanged();
+        /// <summary>
+        /// There are no comments for Property Interest in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Interest
+        {
+            get
+            {
+                return this._Interest;
+            }
+            set
+            {
+                this.OnInterestChanging(value);
+                this._Interest = value;
+                this.OnInterestChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Interest;
+        partial void OnInterestChanging(global::System.Nullable<decimal> value);
+        partial void OnInterestChanged();
+        /// <summary>
+        /// There are no comments for Property old_no in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string old_no
+        {
+            get
+            {
+                return this._old_no;
+            }
+            set
+            {
+                this.Onold_noChanging(value);
+                this._old_no = value;
+                this.Onold_noChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _old_no;
+        partial void Onold_noChanging(string value);
+        partial void Onold_noChanged();
+        /// <summary>
+        /// There are no comments for Property Approval_Status in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Approval_Status
+        {
+            get
+            {
+                return this._Approval_Status;
+            }
+            set
+            {
+                this.OnApproval_StatusChanging(value);
+                this._Approval_Status = value;
+                this.OnApproval_StatusChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Approval_Status;
+        partial void OnApproval_StatusChanging(string value);
+        partial void OnApproval_StatusChanged();
+        /// <summary>
+        /// There are no comments for Property Loan_Product_Type_Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Loan_Product_Type_Name
+        {
+            get
+            {
+                return this._Loan_Product_Type_Name;
+            }
+            set
+            {
+                this.OnLoan_Product_Type_NameChanging(value);
+                this._Loan_Product_Type_Name = value;
+                this.OnLoan_Product_Type_NameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Loan_Product_Type_Name;
+        partial void OnLoan_Product_Type_NameChanging(string value);
+        partial void OnLoan_Product_Type_NameChanged();
+        /// <summary>
+        /// There are no comments for Property Client_Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Client_Name
+        {
+            get
+            {
+                return this._Client_Name;
+            }
+            set
+            {
+                this.OnClient_NameChanging(value);
+                this._Client_Name = value;
+                this.OnClient_NameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Client_Name;
+        partial void OnClient_NameChanging(string value);
+        partial void OnClient_NameChanged();
+        /// <summary>
+        /// There are no comments for Property Requested_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Requested_Amount
+        {
+            get
+            {
+                return this._Requested_Amount;
+            }
+            set
+            {
+                this.OnRequested_AmountChanging(value);
+                this._Requested_Amount = value;
+                this.OnRequested_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Requested_Amount;
+        partial void OnRequested_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnRequested_AmountChanged();
+        /// <summary>
+        /// There are no comments for Property Insurance in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Insurance
+        {
+            get
+            {
+                return this._Insurance;
+            }
+            set
+            {
+                this.OnInsuranceChanging(value);
+                this._Insurance = value;
+                this.OnInsuranceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Insurance;
+        partial void OnInsuranceChanging(global::System.Nullable<decimal> value);
+        partial void OnInsuranceChanged();
+        /// <summary>
+        /// There are no comments for Property Installments in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<int> Installments
+        {
+            get
+            {
+                return this._Installments;
+            }
+            set
+            {
+                this.OnInstallmentsChanging(value);
+                this._Installments = value;
+                this.OnInstallmentsChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<int> _Installments;
+        partial void OnInstallmentsChanging(global::System.Nullable<int> value);
+        partial void OnInstallmentsChanged();
+        /// <summary>
+        /// There are no comments for Property Source in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Source
+        {
+            get
+            {
+                return this._Source;
+            }
+            set
+            {
+                this.OnSourceChanging(value);
+                this._Source = value;
+                this.OnSourceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Source;
+        partial void OnSourceChanging(string value);
+        partial void OnSourceChanged();
+        /// <summary>
+        /// There are no comments for Property Loan_Status in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Loan_Status
+        {
+            get
+            {
+                return this._Loan_Status;
+            }
+            set
+            {
+                this.OnLoan_StatusChanging(value);
+                this._Loan_Status = value;
+                this.OnLoan_StatusChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Loan_Status;
+        partial void OnLoan_StatusChanging(string value);
+        partial void OnLoan_StatusChanged();
+        /// <summary>
+        /// There are no comments for Property Repayment_Method in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Repayment_Method
+        {
+            get
+            {
+                return this._Repayment_Method;
+            }
+            set
+            {
+                this.OnRepayment_MethodChanging(value);
+                this._Repayment_Method = value;
+                this.OnRepayment_MethodChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Repayment_Method;
+        partial void OnRepayment_MethodChanging(string value);
+        partial void OnRepayment_MethodChanged();
+        /// <summary>
+        /// There are no comments for Property LastPayDateImport in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTime> LastPayDateImport
+        {
+            get
+            {
+                return this._LastPayDateImport;
+            }
+            set
+            {
+                this.OnLastPayDateImportChanging(value);
+                this._LastPayDateImport = value;
+                this.OnLastPayDateImportChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTime> _LastPayDateImport;
+        partial void OnLastPayDateImportChanging(global::System.Nullable<global::System.DateTime> value);
+        partial void OnLastPayDateImportChanged();
+        /// <summary>
+        /// There are no comments for Property Total_Loans_Default in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Total_Loans_Default
+        {
+            get
+            {
+                return this._Total_Loans_Default;
+            }
+            set
+            {
+                this.OnTotal_Loans_DefaultChanging(value);
+                this._Total_Loans_Default = value;
+                this.OnTotal_Loans_DefaultChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Total_Loans_Default;
+        partial void OnTotal_Loans_DefaultChanging(global::System.Nullable<decimal> value);
+        partial void OnTotal_Loans_DefaultChanged();
+        /// <summary>
+        /// There are no comments for Property Oustanding_Interest in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Oustanding_Interest
+        {
+            get
+            {
+                return this._Oustanding_Interest;
+            }
+            set
+            {
+                this.OnOustanding_InterestChanging(value);
+                this._Oustanding_Interest = value;
+                this.OnOustanding_InterestChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Oustanding_Interest;
+        partial void OnOustanding_InterestChanging(global::System.Nullable<decimal> value);
+        partial void OnOustanding_InterestChanged();
+        /// <summary>
+        /// There are no comments for Property Outstanding_Balance in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Outstanding_Balance
+        {
+            get
+            {
+                return this._Outstanding_Balance;
+            }
+            set
+            {
+                this.OnOutstanding_BalanceChanging(value);
+                this._Outstanding_Balance = value;
+                this.OnOutstanding_BalanceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Outstanding_Balance;
+        partial void OnOutstanding_BalanceChanging(global::System.Nullable<decimal> value);
+        partial void OnOutstanding_BalanceChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.MemberList in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// No
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
+    public partial class MemberList
+    {
+        /// <summary>
+        /// Create a new MemberList object.
+        /// </summary>
+        /// <param name="no">Initial value of No.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static MemberList CreateMemberList(string no)
+        {
+            MemberList memberList = new MemberList();
+            memberList.No = no;
+            return memberList;
+        }
+        /// <summary>
+        /// There are no comments for Property No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string No
+        {
+            get
+            {
+                return this._No;
+            }
+            set
+            {
+                this.OnNoChanging(value);
+                this._No = value;
+                this.OnNoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _No;
+        partial void OnNoChanging(string value);
+        partial void OnNoChanged();
+        /// <summary>
+        /// There are no comments for Property Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this._Name = value;
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
+        /// <summary>
+        /// There are no comments for Property Address_2 in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Address_2
+        {
+            get
+            {
+                return this._Address_2;
+            }
+            set
+            {
+                this.OnAddress_2Changing(value);
+                this._Address_2 = value;
+                this.OnAddress_2Changed();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Address_2;
+        partial void OnAddress_2Changing(string value);
+        partial void OnAddress_2Changed();
+        /// <summary>
+        /// There are no comments for Property Phone_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Phone_No
+        {
+            get
+            {
+                return this._Phone_No;
+            }
+            set
+            {
+                this.OnPhone_NoChanging(value);
+                this._Phone_No = value;
+                this.OnPhone_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Phone_No;
+        partial void OnPhone_NoChanging(string value);
+        partial void OnPhone_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Payroll_Staff_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Payroll_Staff_No
+        {
+            get
+            {
+                return this._Payroll_Staff_No;
+            }
+            set
+            {
+                this.OnPayroll_Staff_NoChanging(value);
+                this._Payroll_Staff_No = value;
+                this.OnPayroll_Staff_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Payroll_Staff_No;
+        partial void OnPayroll_Staff_NoChanging(string value);
+        partial void OnPayroll_Staff_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Account_Category in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Account_Category
+        {
+            get
+            {
+                return this._Account_Category;
+            }
+            set
+            {
+                this.OnAccount_CategoryChanging(value);
+                this._Account_Category = value;
+                this.OnAccount_CategoryChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Account_Category;
+        partial void OnAccount_CategoryChanging(string value);
+        partial void OnAccount_CategoryChanged();
+        /// <summary>
+        /// There are no comments for Property E_Mail_Personal in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string E_Mail_Personal
+        {
+            get
+            {
+                return this._E_Mail_Personal;
+            }
+            set
+            {
+                this.OnE_Mail_PersonalChanging(value);
+                this._E_Mail_Personal = value;
+                this.OnE_Mail_PersonalChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _E_Mail_Personal;
+        partial void OnE_Mail_PersonalChanging(string value);
+        partial void OnE_Mail_PersonalChanged();
+        /// <summary>
+        /// There are no comments for Property ID_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string ID_No
+        {
+            get
+            {
+                return this._ID_No;
+            }
+            set
+            {
+                this.OnID_NoChanging(value);
+                this._ID_No = value;
+                this.OnID_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _ID_No;
+        partial void OnID_NoChanging(string value);
+        partial void OnID_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Bank_Account_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Bank_Account_No
+        {
+            get
+            {
+                return this._Bank_Account_No;
+            }
+            set
+            {
+                this.OnBank_Account_NoChanging(value);
+                this._Bank_Account_No = value;
+                this.OnBank_Account_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Bank_Account_No;
+        partial void OnBank_Account_NoChanging(string value);
+        partial void OnBank_Account_NoChanged();
+        /// <summary>
+        /// There are no comments for Property E_Mail in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string E_Mail
+        {
+            get
+            {
+                return this._E_Mail;
+            }
+            set
+            {
+                this.OnE_MailChanging(value);
+                this._E_Mail = value;
+                this.OnE_MailChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _E_Mail;
+        partial void OnE_MailChanging(string value);
+        partial void OnE_MailChanged();
+        /// <summary>
+        /// There are no comments for Property Old_Account_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Old_Account_No
+        {
+            get
+            {
+                return this._Old_Account_No;
+            }
+            set
+            {
+                this.OnOld_Account_NoChanging(value);
+                this._Old_Account_No = value;
+                this.OnOld_Account_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Old_Account_No;
+        partial void OnOld_Account_NoChanging(string value);
+        partial void OnOld_Account_NoChanged();
+        /// <summary>
+        /// There are no comments for Property FOSA_Account_Bal in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> FOSA_Account_Bal
+        {
+            get
+            {
+                return this._FOSA_Account_Bal;
+            }
+            set
+            {
+                this.OnFOSA_Account_BalChanging(value);
+                this._FOSA_Account_Bal = value;
+                this.OnFOSA_Account_BalChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _FOSA_Account_Bal;
+        partial void OnFOSA_Account_BalChanging(global::System.Nullable<decimal> value);
+        partial void OnFOSA_Account_BalChanged();
+        /// <summary>
+        /// There are no comments for Property Password in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Password
+        {
+            get
+            {
+                return this._Password;
+            }
+            set
+            {
+                this.OnPasswordChanging(value);
+                this._Password = value;
+                this.OnPasswordChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Password;
+        partial void OnPasswordChanging(string value);
+        partial void OnPasswordChanged();
+        /// <summary>
+        /// There are no comments for Property Personal_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Personal_No
+        {
+            get
+            {
+                return this._Personal_No;
+            }
+            set
+            {
+                this.OnPersonal_NoChanging(value);
+                this._Personal_No = value;
+                this.OnPersonal_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Personal_No;
+        partial void OnPersonal_NoChanging(string value);
+        partial void OnPersonal_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Monthly_Contribution in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Monthly_Contribution
+        {
+            get
+            {
+                return this._Monthly_Contribution;
+            }
+            set
+            {
+                this.OnMonthly_ContributionChanging(value);
+                this._Monthly_Contribution = value;
+                this.OnMonthly_ContributionChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Monthly_Contribution;
+        partial void OnMonthly_ContributionChanging(global::System.Nullable<decimal> value);
+        partial void OnMonthly_ContributionChanged();
+        /// <summary>
+        /// There are no comments for Property Free_Shares in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Free_Shares
+        {
+            get
+            {
+                return this._Free_Shares;
+            }
+            set
+            {
+                this.OnFree_SharesChanging(value);
+                this._Free_Shares = value;
+                this.OnFree_SharesChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Free_Shares;
+        partial void OnFree_SharesChanging(global::System.Nullable<decimal> value);
+        partial void OnFree_SharesChanged();
+        /// <summary>
+        /// There are no comments for Property Shares_Retained in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Shares_Retained
+        {
+            get
+            {
+                return this._Shares_Retained;
+            }
+            set
+            {
+                this.OnShares_RetainedChanging(value);
+                this._Shares_Retained = value;
+                this.OnShares_RetainedChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Shares_Retained;
+        partial void OnShares_RetainedChanging(global::System.Nullable<decimal> value);
+        partial void OnShares_RetainedChanged();
+        /// <summary>
+        /// There are no comments for Property Current_Shares in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Current_Shares
+        {
+            get
+            {
+                return this._Current_Shares;
+            }
+            set
+            {
+                this.OnCurrent_SharesChanging(value);
+                this._Current_Shares = value;
+                this.OnCurrent_SharesChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Current_Shares;
+        partial void OnCurrent_SharesChanging(global::System.Nullable<decimal> value);
+        partial void OnCurrent_SharesChanged();
+        /// <summary>
+        /// There are no comments for Property Holiday_Savings in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Holiday_Savings
+        {
+            get
+            {
+                return this._Holiday_Savings;
+            }
+            set
+            {
+                this.OnHoliday_SavingsChanging(value);
+                this._Holiday_Savings = value;
+                this.OnHoliday_SavingsChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Holiday_Savings;
+        partial void OnHoliday_SavingsChanging(global::System.Nullable<decimal> value);
+        partial void OnHoliday_SavingsChanged();
+        /// <summary>
+        /// There are no comments for Property Dividend_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Dividend_Amount
+        {
+            get
+            {
+                return this._Dividend_Amount;
+            }
+            set
+            {
+                this.OnDividend_AmountChanging(value);
+                this._Dividend_Amount = value;
+                this.OnDividend_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Dividend_Amount;
+        partial void OnDividend_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnDividend_AmountChanged();
+        /// <summary>
+        /// There are no comments for Property Outstanding_Balance in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Outstanding_Balance
+        {
+            get
+            {
+                return this._Outstanding_Balance;
+            }
+            set
+            {
+                this.OnOutstanding_BalanceChanging(value);
+                this._Outstanding_Balance = value;
+                this.OnOutstanding_BalanceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Outstanding_Balance;
+        partial void OnOutstanding_BalanceChanging(global::System.Nullable<decimal> value);
+        partial void OnOutstanding_BalanceChanged();
+        /// <summary>
+        /// There are no comments for Property Outstanding_Interest in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Outstanding_Interest
+        {
+            get
+            {
+                return this._Outstanding_Interest;
+            }
+            set
+            {
+                this.OnOutstanding_InterestChanging(value);
+                this._Outstanding_Interest = value;
+                this.OnOutstanding_InterestChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Outstanding_Interest;
+        partial void OnOutstanding_InterestChanging(global::System.Nullable<decimal> value);
+        partial void OnOutstanding_InterestChanged();
+        /// <summary>
+        /// There are no comments for Property Current_Loan in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Current_Loan
+        {
+            get
+            {
+                return this._Current_Loan;
+            }
+            set
+            {
+                this.OnCurrent_LoanChanging(value);
+                this._Current_Loan = value;
+                this.OnCurrent_LoanChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Current_Loan;
+        partial void OnCurrent_LoanChanging(global::System.Nullable<decimal> value);
+        partial void OnCurrent_LoanChanged();
+        /// <summary>
+        /// There are no comments for Property Current_Savings in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Current_Savings
+        {
+            get
+            {
+                return this._Current_Savings;
+            }
+            set
+            {
+                this.OnCurrent_SavingsChanging(value);
+                this._Current_Savings = value;
+                this.OnCurrent_SavingsChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Current_Savings;
+        partial void OnCurrent_SavingsChanging(global::System.Nullable<decimal> value);
+        partial void OnCurrent_SavingsChanged();
+        /// <summary>
+        /// There are no comments for Property Accrued_Interest in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Accrued_Interest
+        {
+            get
+            {
+                return this._Accrued_Interest;
+            }
+            set
+            {
+                this.OnAccrued_InterestChanging(value);
+                this._Accrued_Interest = value;
+                this.OnAccrued_InterestChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Accrued_Interest;
+        partial void OnAccrued_InterestChanging(global::System.Nullable<decimal> value);
+        partial void OnAccrued_InterestChanged();
+        /// <summary>
+        /// There are no comments for Property Total_Loans_Outstanding in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Total_Loans_Outstanding
+        {
+            get
+            {
+                return this._Total_Loans_Outstanding;
+            }
+            set
+            {
+                this.OnTotal_Loans_OutstandingChanging(value);
+                this._Total_Loans_Outstanding = value;
+                this.OnTotal_Loans_OutstandingChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Total_Loans_Outstanding;
+        partial void OnTotal_Loans_OutstandingChanging(global::System.Nullable<decimal> value);
+        partial void OnTotal_Loans_OutstandingChanged();
+    }
+    /// <summary>
+    /// There are no comments for NAV.Members in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// No
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
+    public partial class Members
+    {
+        /// <summary>
+        /// Create a new Members object.
+        /// </summary>
+        /// <param name="no">Initial value of No.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static Members CreateMembers(string no)
+        {
+            Members members = new Members();
+            members.No = no;
+            return members;
+        }
+        /// <summary>
+        /// There are no comments for Property No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string No
+        {
+            get
+            {
+                return this._No;
+            }
+            set
+            {
+                this.OnNoChanging(value);
+                this._No = value;
+                this.OnNoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _No;
+        partial void OnNoChanging(string value);
+        partial void OnNoChanged();
+        /// <summary>
+        /// There are no comments for Property Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this._Name = value;
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
+        /// <summary>
+        /// There are no comments for Property Address_2 in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Address_2
+        {
+            get
+            {
+                return this._Address_2;
+            }
+            set
+            {
+                this.OnAddress_2Changing(value);
+                this._Address_2 = value;
+                this.OnAddress_2Changed();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Address_2;
+        partial void OnAddress_2Changing(string value);
+        partial void OnAddress_2Changed();
+        /// <summary>
+        /// There are no comments for Property Phone_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Phone_No
+        {
+            get
+            {
+                return this._Phone_No;
+            }
+            set
+            {
+                this.OnPhone_NoChanging(value);
+                this._Phone_No = value;
+                this.OnPhone_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Phone_No;
+        partial void OnPhone_NoChanging(string value);
+        partial void OnPhone_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Payroll_Staff_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Payroll_Staff_No
+        {
+            get
+            {
+                return this._Payroll_Staff_No;
+            }
+            set
+            {
+                this.OnPayroll_Staff_NoChanging(value);
+                this._Payroll_Staff_No = value;
+                this.OnPayroll_Staff_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Payroll_Staff_No;
+        partial void OnPayroll_Staff_NoChanging(string value);
+        partial void OnPayroll_Staff_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Account_Category in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Account_Category
+        {
+            get
+            {
+                return this._Account_Category;
+            }
+            set
+            {
+                this.OnAccount_CategoryChanging(value);
+                this._Account_Category = value;
+                this.OnAccount_CategoryChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Account_Category;
+        partial void OnAccount_CategoryChanging(string value);
+        partial void OnAccount_CategoryChanged();
+        /// <summary>
+        /// There are no comments for Property E_Mail_Personal in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string E_Mail_Personal
+        {
+            get
+            {
+                return this._E_Mail_Personal;
+            }
+            set
+            {
+                this.OnE_Mail_PersonalChanging(value);
+                this._E_Mail_Personal = value;
+                this.OnE_Mail_PersonalChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _E_Mail_Personal;
+        partial void OnE_Mail_PersonalChanging(string value);
+        partial void OnE_Mail_PersonalChanged();
+        /// <summary>
+        /// There are no comments for Property ID_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string ID_No
+        {
+            get
+            {
+                return this._ID_No;
+            }
+            set
+            {
+                this.OnID_NoChanging(value);
+                this._ID_No = value;
+                this.OnID_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _ID_No;
+        partial void OnID_NoChanging(string value);
+        partial void OnID_NoChanged();
+        /// <summary>
+        /// There are no comments for Property Bank_Account_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Bank_Account_No
+        {
+            get
+            {
+                return this._Bank_Account_No;
+            }
+            set
+            {
+                this.OnBank_Account_NoChanging(value);
+                this._Bank_Account_No = value;
+                this.OnBank_Account_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Bank_Account_No;
+        partial void OnBank_Account_NoChanging(string value);
+        partial void OnBank_Account_NoChanged();
+        /// <summary>
+        /// There are no comments for Property E_Mail in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string E_Mail
+        {
+            get
+            {
+                return this._E_Mail;
+            }
+            set
+            {
+                this.OnE_MailChanging(value);
+                this._E_Mail = value;
+                this.OnE_MailChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _E_Mail;
+        partial void OnE_MailChanging(string value);
+        partial void OnE_MailChanged();
+        /// <summary>
+        /// There are no comments for Property Old_Account_No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Old_Account_No
+        {
+            get
+            {
+                return this._Old_Account_No;
+            }
+            set
+            {
+                this.OnOld_Account_NoChanging(value);
+                this._Old_Account_No = value;
+                this.OnOld_Account_NoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Old_Account_No;
+        partial void OnOld_Account_NoChanging(string value);
+        partial void OnOld_Account_NoChanged();
+        /// <summary>
+        /// There are no comments for Property FOSA_Account_Bal in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> FOSA_Account_Bal
+        {
+            get
+            {
+                return this._FOSA_Account_Bal;
+            }
+            set
+            {
+                this.OnFOSA_Account_BalChanging(value);
+                this._FOSA_Account_Bal = value;
+                this.OnFOSA_Account_BalChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _FOSA_Account_Bal;
+        partial void OnFOSA_Account_BalChanging(global::System.Nullable<decimal> value);
+        partial void OnFOSA_Account_BalChanged();
+        /// <summary>
+        /// There are no comments for Property Password in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Password
+        {
+            get
+            {
+                return this._Password;
+            }
+            set
+            {
+                this.OnPasswordChanging(value);
+                this._Password = value;
+                this.OnPasswordChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Password;
+        partial void OnPasswordChanging(string value);
+        partial void OnPasswordChanged();
+        /// <summary>
+        /// There are no comments for Property Shares_Retained in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Shares_Retained
+        {
+            get
+            {
+                return this._Shares_Retained;
+            }
+            set
+            {
+                this.OnShares_RetainedChanging(value);
+                this._Shares_Retained = value;
+                this.OnShares_RetainedChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Shares_Retained;
+        partial void OnShares_RetainedChanging(global::System.Nullable<decimal> value);
+        partial void OnShares_RetainedChanged();
+        /// <summary>
+        /// There are no comments for Property Current_Shares in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Current_Shares
+        {
+            get
+            {
+                return this._Current_Shares;
+            }
+            set
+            {
+                this.OnCurrent_SharesChanging(value);
+                this._Current_Shares = value;
+                this.OnCurrent_SharesChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Current_Shares;
+        partial void OnCurrent_SharesChanging(global::System.Nullable<decimal> value);
+        partial void OnCurrent_SharesChanged();
+        /// <summary>
+        /// There are no comments for Property Un_allocated_Funds in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Un_allocated_Funds
+        {
+            get
+            {
+                return this._Un_allocated_Funds;
+            }
+            set
+            {
+                this.OnUn_allocated_FundsChanging(value);
+                this._Un_allocated_Funds = value;
+                this.OnUn_allocated_FundsChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Un_allocated_Funds;
+        partial void OnUn_allocated_FundsChanging(global::System.Nullable<decimal> value);
+        partial void OnUn_allocated_FundsChanged();
+        /// <summary>
+        /// There are no comments for Property Dividend_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Dividend_Amount
+        {
+            get
+            {
+                return this._Dividend_Amount;
+            }
+            set
+            {
+                this.OnDividend_AmountChanging(value);
+                this._Dividend_Amount = value;
+                this.OnDividend_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Dividend_Amount;
+        partial void OnDividend_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnDividend_AmountChanged();
+        /// <summary>
+        /// There are no comments for Property Outstanding_Balance in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Outstanding_Balance
+        {
+            get
+            {
+                return this._Outstanding_Balance;
+            }
+            set
+            {
+                this.OnOutstanding_BalanceChanging(value);
+                this._Outstanding_Balance = value;
+                this.OnOutstanding_BalanceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Outstanding_Balance;
+        partial void OnOutstanding_BalanceChanging(global::System.Nullable<decimal> value);
+        partial void OnOutstanding_BalanceChanged();
+        /// <summary>
+        /// There are no comments for Property Outstanding_Interest in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Outstanding_Interest
+        {
+            get
+            {
+                return this._Outstanding_Interest;
+            }
+            set
+            {
+                this.OnOutstanding_InterestChanging(value);
+                this._Outstanding_Interest = value;
+                this.OnOutstanding_InterestChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Outstanding_Interest;
+        partial void OnOutstanding_InterestChanging(global::System.Nullable<decimal> value);
+        partial void OnOutstanding_InterestChanged();
     }
     /// <summary>
     /// There are no comments for NAV.SalesDashboard in the schema.
@@ -22665,6 +15028,27 @@ namespace SACCOPortal.NavOData
         private global::System.Nullable<decimal> _Quantity;
         partial void OnQuantityChanging(global::System.Nullable<decimal> value);
         partial void OnQuantityChanged();
+        /// <summary>
+        /// There are no comments for Property Dimension_Set_ID in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<int> Dimension_Set_ID
+        {
+            get
+            {
+                return this._Dimension_Set_ID;
+            }
+            set
+            {
+                this.OnDimension_Set_IDChanging(value);
+                this._Dimension_Set_ID = value;
+                this.OnDimension_Set_IDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<int> _Dimension_Set_ID;
+        partial void OnDimension_Set_IDChanging(global::System.Nullable<int> value);
+        partial void OnDimension_Set_IDChanged();
         /// <summary>
         /// There are no comments for Property Sales_Amount_Actual in the schema.
         /// </summary>
@@ -23482,6 +15866,27 @@ namespace SACCOPortal.NavOData
         partial void OnLine_NoChanging(int value);
         partial void OnLine_NoChanged();
         /// <summary>
+        /// There are no comments for Property Dimension_Set_ID in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<int> Dimension_Set_ID
+        {
+            get
+            {
+                return this._Dimension_Set_ID;
+            }
+            set
+            {
+                this.OnDimension_Set_IDChanging(value);
+                this._Dimension_Set_ID = value;
+                this.OnDimension_Set_IDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<int> _Dimension_Set_ID;
+        partial void OnDimension_Set_IDChanging(global::System.Nullable<int> value);
+        partial void OnDimension_Set_IDChanged();
+        /// <summary>
         /// There are no comments for Property Posting_Date in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -23670,6 +16075,153 @@ namespace SACCOPortal.NavOData
         private string _AuxiliaryIndex4;
         partial void OnAuxiliaryIndex4Changing(string value);
         partial void OnAuxiliaryIndex4Changed();
+    }
+    /// <summary>
+    /// There are no comments for NAV.SavingsAccounts in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// No
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("No")]
+    public partial class SavingsAccounts
+    {
+        /// <summary>
+        /// Create a new SavingsAccounts object.
+        /// </summary>
+        /// <param name="no">Initial value of No.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static SavingsAccounts CreateSavingsAccounts(string no)
+        {
+            SavingsAccounts savingsAccounts = new SavingsAccounts();
+            savingsAccounts.No = no;
+            return savingsAccounts;
+        }
+        /// <summary>
+        /// There are no comments for Property No in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string No
+        {
+            get
+            {
+                return this._No;
+            }
+            set
+            {
+                this.OnNoChanging(value);
+                this._No = value;
+                this.OnNoChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _No;
+        partial void OnNoChanging(string value);
+        partial void OnNoChanged();
+        /// <summary>
+        /// There are no comments for Property Name in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this._Name = value;
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
+        /// <summary>
+        /// There are no comments for Property Account_Type in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Account_Type
+        {
+            get
+            {
+                return this._Account_Type;
+            }
+            set
+            {
+                this.OnAccount_TypeChanging(value);
+                this._Account_Type = value;
+                this.OnAccount_TypeChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Account_Type;
+        partial void OnAccount_TypeChanging(string value);
+        partial void OnAccount_TypeChanged();
+        /// <summary>
+        /// There are no comments for Property Balance in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Balance
+        {
+            get
+            {
+                return this._Balance;
+            }
+            set
+            {
+                this.OnBalanceChanging(value);
+                this._Balance = value;
+                this.OnBalanceChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Balance;
+        partial void OnBalanceChanging(global::System.Nullable<decimal> value);
+        partial void OnBalanceChanged();
+        /// <summary>
+        /// There are no comments for Property Credit_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Credit_Amount
+        {
+            get
+            {
+                return this._Credit_Amount;
+            }
+            set
+            {
+                this.OnCredit_AmountChanging(value);
+                this._Credit_Amount = value;
+                this.OnCredit_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Credit_Amount;
+        partial void OnCredit_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnCredit_AmountChanged();
+        /// <summary>
+        /// There are no comments for Property Debit_Amount in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<decimal> Debit_Amount
+        {
+            get
+            {
+                return this._Debit_Amount;
+            }
+            set
+            {
+                this.OnDebit_AmountChanging(value);
+                this._Debit_Amount = value;
+                this.OnDebit_AmountChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<decimal> _Debit_Amount;
+        partial void OnDebit_AmountChanging(global::System.Nullable<decimal> value);
+        partial void OnDebit_AmountChanged();
     }
     /// <summary>
     /// There are no comments for NAV.TopCustomerOverview in the schema.
@@ -24013,166 +16565,6 @@ namespace SACCOPortal.NavOData
         partial void OnNameChanging(string value);
         partial void OnNameChanged();
         /// <summary>
-        /// There are no comments for ACC_Schedules in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<ACC_Schedules> ACC_Schedules
-        {
-            get
-            {
-                return this._ACC_Schedules;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._ACC_Schedules = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<ACC_Schedules> _ACC_Schedules = new global::System.Collections.ObjectModel.Collection<ACC_Schedules>();
-        /// <summary>
-        /// There are no comments for COA in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<COA> COA
-        {
-            get
-            {
-                return this._COA;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._COA = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<COA> _COA = new global::System.Collections.ObjectModel.Collection<COA>();
-        /// <summary>
-        /// There are no comments for Loan_Products in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<Loan_Products> Loan_Products
-        {
-            get
-            {
-                return this._Loan_Products;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._Loan_Products = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<Loan_Products> _Loan_Products = new global::System.Collections.ObjectModel.Collection<Loan_Products>();
-        /// <summary>
-        /// There are no comments for Members in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<Members> Members
-        {
-            get
-            {
-                return this._Members;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._Members = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<Members> _Members = new global::System.Collections.ObjectModel.Collection<Members>();
-        /// <summary>
-        /// There are no comments for PBIAccount_Types in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<PBIAccount_Types> PBIAccount_Types
-        {
-            get
-            {
-                return this._PBIAccount_Types;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._PBIAccount_Types = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<PBIAccount_Types> _PBIAccount_Types = new global::System.Collections.ObjectModel.Collection<PBIAccount_Types>();
-        /// <summary>
-        /// There are no comments for PBIBankLedgerxz in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<PBIBankLedgerxz> PBIBankLedgerxz
-        {
-            get
-            {
-                return this._PBIBankLedgerxz;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._PBIBankLedgerxz = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<PBIBankLedgerxz> _PBIBankLedgerxz = new global::System.Collections.ObjectModel.Collection<PBIBankLedgerxz>();
-        /// <summary>
-        /// There are no comments for PBILoan_Register in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<PBILoan_Register> PBILoan_Register
-        {
-            get
-            {
-                return this._PBILoan_Register;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._PBILoan_Register = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<PBILoan_Register> _PBILoan_Register = new global::System.Collections.ObjectModel.Collection<PBILoan_Register>();
-        /// <summary>
-        /// There are no comments for PBIMembers in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<PBIMembers> PBIMembers
-        {
-            get
-            {
-                return this._PBIMembers;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._PBIMembers = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<PBIMembers> _PBIMembers = new global::System.Collections.ObjectModel.Collection<PBIMembers>();
-        /// <summary>
         /// There are no comments for powerbifinance in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -24233,25 +16625,45 @@ namespace SACCOPortal.NavOData
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Collections.ObjectModel.Collection<SalesOrderSalesLines> _SalesOrderSalesLines = new global::System.Collections.ObjectModel.Collection<SalesOrderSalesLines>();
         /// <summary>
-        /// There are no comments for bankdetails in the schema.
+        /// There are no comments for Banks_BI in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<bankdetails> bankdetails
+        public global::System.Collections.ObjectModel.Collection<Banks_BI> Banks_BI
         {
             get
             {
-                return this._bankdetails;
+                return this._Banks_BI;
             }
             set
             {
                 if ((value != null))
                 {
-                    this._bankdetails = value;
+                    this._Banks_BI = value;
                 }
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<bankdetails> _bankdetails = new global::System.Collections.ObjectModel.Collection<bankdetails>();
+        private global::System.Collections.ObjectModel.Collection<Banks_BI> _Banks_BI = new global::System.Collections.ObjectModel.Collection<Banks_BI>();
+        /// <summary>
+        /// There are no comments for COA in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Collections.ObjectModel.Collection<COA> COA
+        {
+            get
+            {
+                return this._COA;
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    this._COA = value;
+                }
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Collections.ObjectModel.Collection<COA> _COA = new global::System.Collections.ObjectModel.Collection<COA>();
         /// <summary>
         /// There are no comments for FosaAccounts in the schema.
         /// </summary>
@@ -24272,6 +16684,26 @@ namespace SACCOPortal.NavOData
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Collections.ObjectModel.Collection<FosaAccounts> _FosaAccounts = new global::System.Collections.ObjectModel.Collection<FosaAccounts>();
+        /// <summary>
+        /// There are no comments for FosaProducts in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Collections.ObjectModel.Collection<FosaProducts> FosaProducts
+        {
+            get
+            {
+                return this._FosaProducts;
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    this._FosaProducts = value;
+                }
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Collections.ObjectModel.Collection<FosaProducts> _FosaProducts = new global::System.Collections.ObjectModel.Collection<FosaProducts>();
         /// <summary>
         /// There are no comments for ItemSalesAndProfit in the schema.
         /// </summary>
@@ -24313,6 +16745,26 @@ namespace SACCOPortal.NavOData
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Collections.ObjectModel.Collection<ItemSalesByCustomer> _ItemSalesByCustomer = new global::System.Collections.ObjectModel.Collection<ItemSalesByCustomer>();
         /// <summary>
+        /// There are no comments for juniors in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Collections.ObjectModel.Collection<juniors> juniors
+        {
+            get
+            {
+                return this._juniors;
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    this._juniors = value;
+                }
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Collections.ObjectModel.Collection<juniors> _juniors = new global::System.Collections.ObjectModel.Collection<juniors>();
+        /// <summary>
         /// There are no comments for KeensDetails in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
@@ -24352,6 +16804,46 @@ namespace SACCOPortal.NavOData
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Collections.ObjectModel.Collection<kinsdetail> _kinsdetail = new global::System.Collections.ObjectModel.Collection<kinsdetail>();
+        /// <summary>
+        /// There are no comments for LoansFinal in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Collections.ObjectModel.Collection<LoansFinal> LoansFinal
+        {
+            get
+            {
+                return this._LoansFinal;
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    this._LoansFinal = value;
+                }
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Collections.ObjectModel.Collection<LoansFinal> _LoansFinal = new global::System.Collections.ObjectModel.Collection<LoansFinal>();
+        /// <summary>
+        /// There are no comments for LoansProductSetUp in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Collections.ObjectModel.Collection<LoansProductSetUp> LoansProductSetUp
+        {
+            get
+            {
+                return this._LoansProductSetUp;
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    this._LoansProductSetUp = value;
+                }
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Collections.ObjectModel.Collection<LoansProductSetUp> _LoansProductSetUp = new global::System.Collections.ObjectModel.Collection<LoansProductSetUp>();
         /// <summary>
         /// There are no comments for LoansReg in the schema.
         /// </summary>
@@ -24393,85 +16885,25 @@ namespace SACCOPortal.NavOData
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Collections.ObjectModel.Collection<MemberList> _MemberList = new global::System.Collections.ObjectModel.Collection<MemberList>();
         /// <summary>
-        /// There are no comments for ministatement in the schema.
+        /// There are no comments for Members in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<ministatement> ministatement
+        public global::System.Collections.ObjectModel.Collection<Members> Members
         {
             get
             {
-                return this._ministatement;
+                return this._Members;
             }
             set
             {
                 if ((value != null))
                 {
-                    this._ministatement = value;
+                    this._Members = value;
                 }
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<ministatement> _ministatement = new global::System.Collections.ObjectModel.Collection<ministatement>();
-        /// <summary>
-        /// There are no comments for PBIATMTransactions in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<PBIATMTransactions> PBIATMTransactions
-        {
-            get
-            {
-                return this._PBIATMTransactions;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._PBIATMTransactions = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<PBIATMTransactions> _PBIATMTransactions = new global::System.Collections.ObjectModel.Collection<PBIATMTransactions>();
-        /// <summary>
-        /// There are no comments for PBICASHIERTransactions in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<PBICASHIERTransactions> PBICASHIERTransactions
-        {
-            get
-            {
-                return this._PBICASHIERTransactions;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._PBICASHIERTransactions = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<PBICASHIERTransactions> _PBICASHIERTransactions = new global::System.Collections.ObjectModel.Collection<PBICASHIERTransactions>();
-        /// <summary>
-        /// There are no comments for PBIVendors in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Collections.ObjectModel.Collection<PBIVendors> PBIVendors
-        {
-            get
-            {
-                return this._PBIVendors;
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    this._PBIVendors = value;
-                }
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Collections.ObjectModel.Collection<PBIVendors> _PBIVendors = new global::System.Collections.ObjectModel.Collection<PBIVendors>();
+        private global::System.Collections.ObjectModel.Collection<Members> _Members = new global::System.Collections.ObjectModel.Collection<Members>();
         /// <summary>
         /// There are no comments for SalesDashboard in the schema.
         /// </summary>
@@ -24532,6 +16964,26 @@ namespace SACCOPortal.NavOData
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Collections.ObjectModel.Collection<SalesOrdersBySalesPerson> _SalesOrdersBySalesPerson = new global::System.Collections.ObjectModel.Collection<SalesOrdersBySalesPerson>();
+        /// <summary>
+        /// There are no comments for SavingsAccounts in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Collections.ObjectModel.Collection<SavingsAccounts> SavingsAccounts
+        {
+            get
+            {
+                return this._SavingsAccounts;
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    this._SavingsAccounts = value;
+                }
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Collections.ObjectModel.Collection<SavingsAccounts> _SavingsAccounts = new global::System.Collections.ObjectModel.Collection<SavingsAccounts>();
         /// <summary>
         /// There are no comments for TopCustomerOverview in the schema.
         /// </summary>

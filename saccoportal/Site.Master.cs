@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Net;
+using System.Linq;
+using System.Web.Providers.Entities;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Web;
@@ -10,6 +12,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using SACCOPortal.NavOData;
+
 
 namespace SACCOPortal
 {
@@ -69,7 +72,7 @@ namespace SACCOPortal
                 }
             }
         }
-        public NAV nav = new NAV(new Uri(ConfigurationManager.AppSettings["ODATA_URI"]))
+        public NAV Nav = new NAV(new Uri(ConfigurationManager.AppSettings["ODATA_URI"]))
         {
             Credentials =
             new NetworkCredential(ConfigurationManager.AppSettings["W_USER"], ConfigurationManager.AppSettings["W_PWD"],
@@ -77,21 +80,25 @@ namespace SACCOPortal
         };
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["username"] != null)
+            //if (Session["username"] != null)
+            //{
+            //    ReturnMember();
+
+
+            //}
+            GetMemberDetails();
+        }
+        protected void GetMemberDetails()
+        {
+            var memberdetails = Nav.MemberList.Where(r => r.No == Session["username"].ToString()).FirstOrDefault();
+
+            if (memberdetails != null)
             {
-                ReturnMember();
+                memberName.InnerHtml = memberdetails.Name;
             }
 
         }
-        protected Member ReturnMember()
-        {
-            return new Member(Session["username"].ToString());
-        }
 
-        protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
-        {
-            Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-        }
     }
 
 }

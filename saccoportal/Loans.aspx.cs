@@ -38,6 +38,7 @@ namespace SACCOPortal
             gvLoans.AutoGenerateColumns = false;
             gvLoans.DataBind();
 
+
         }
 
         protected void gvLoans_SelectedIndexChanged(object sender, EventArgs e)

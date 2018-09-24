@@ -16,6 +16,11 @@ namespace SACCOPortal
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //if (HttpContext.Current.Request.IsSecureConnection.Equals(false) && HttpContext.Current.Request.IsLocal.Equals(false))
+            //{
+            //    Response.Redirect("https://" + Request.ServerVariables["HTTP_HOST"]
+            //+ HttpContext.Current.Request.RawUrl);
+            //}
         }
     }
 }

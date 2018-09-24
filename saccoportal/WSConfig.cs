@@ -9,7 +9,7 @@ using SACCOPortal.NAVWS;
 
 namespace SACCOPortal
 {
-    
+
     public class WSConfig
     {
         public static Portals ObjNav
@@ -33,13 +33,14 @@ namespace SACCOPortal
             }
         }
 
+
         public static bool MailFunction(string body, string recepient, string subject)
         {
             bool x = false;
 
             try
             {
-                const string fromAddress = "shirikanoreply@gmail.com";
+                const string fromAddress = "unitedwomenportal@gmail.com";
                 string toAddress = recepient;
                 var mail = new MailMessage();
                 mail.To.Add(toAddress);
@@ -50,7 +51,7 @@ namespace SACCOPortal
                 var client = new SmtpClient
                 {
                     UseDefaultCredentials = false,
-                    Credentials = new NetworkCredential("shirikanoreply@gmail.com", "IJustLikeIt16"),
+                    Credentials = new NetworkCredential("unitedwomenportal@gmail.com", "@united123!"),
                     Port = 587,
                     Host = "smtp.gmail.com",
                     DeliveryMethod = SmtpDeliveryMethod.Network,
@@ -66,7 +67,7 @@ namespace SACCOPortal
             return x;
         }
 
-        
+
     }
 
 }

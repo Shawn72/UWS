@@ -1,0 +1,469 @@
+OBJECT Query 50001 Members
+{
+  OBJECT-PROPERTIES
+  {
+    Date=07/12/17;
+    Time=12:02:22;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  ELEMENTS
+  {
+    { 1000000000;;DataItem;                  ;
+               DataItemTable=Table51516223 }
+
+    { 1000000001;1;Column;                   ;
+               DataSource=No. }
+
+    { 1000000002;1;Column;                   ;
+               DataSource=Name }
+
+    { 1000000006;1;Column;                   ;
+               DataSource=Address 2 }
+
+    { 1000000009;1;Column;                   ;
+               DataSource=Phone No. }
+
+    { 1000000010;1;Column;                   ;
+               DataSource=Payroll/Staff No }
+
+    { 1000000008;1;Column;                   ;
+               DataSource=Account Category }
+
+    { 1000000004;1;Column;                   ;
+               DataSource=E-Mail (Personal) }
+
+    { 1000000005;1;Column;                   ;
+               DataSource=ID No. }
+
+    { 1000000007;1;Column;                   ;
+               DataSource=Bank Account No. }
+
+    { 1000000003;1;Column;                   ;
+               DataSource=E-Mail }
+
+    { 1000000011;1;Column;                   ;
+               DataSource=Old Account No. }
+
+    { 1000000013;1;Column;                   ;
+               DataSource=Shares Retained }
+
+    { 1000000014;1;Column;                   ;
+               DataSource=Current Shares }
+
+    { 1000000015;1;Column;                   ;
+               DataSource=Un-allocated Funds }
+
+    { 1000000016;1;Column;                   ;
+               DataSource=Benevolent Fund }
+
+    { 1000000017;1;Column;                   ;
+               DataSource=Dividend Amount }
+
+    { 1000000018;1;Column;                   ;
+               DataSource=Outstanding Balance }
+
+    { 1000000019;1;Column;                   ;
+               DataSource=Outstanding Interest }
+
+    { 1000000020;1;Column;                   ;
+               DataSource=FOSA  Account Bal }
+
+    { 1000000021;1;Column;                   ;
+               DataSource=Password }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
+OBJECT Query 50002 NextOfKeenDetails
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/29/16;
+    Time=16:25:49;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  ELEMENTS
+  {
+    { 1000000000;;DataItem;                  ;
+               DataItemTable=Table51516225 }
+
+    { 1000000001;1;Column;                   ;
+               DataSource=Name }
+
+    { 1000000003;1;Column;                   ;
+               DataSource=Beneficiary }
+
+    { 1000000004;1;Column;                   ;
+               DataSource=Date of Birth }
+
+    { 1000000005;1;Column;                   ;
+               DataSource=Address }
+
+    { 1000000006;1;Column;                   ;
+               DataSource=Telephone }
+
+    { 1000000008;1;Column;                   ;
+               DataSource=Email }
+
+    { 1000000009;1;Column;                   ;
+               DataSource=Account No }
+
+    { 1000000010;1;Column;                   ;
+               DataSource=ID No. }
+
+    { 1000000011;1;Column;                   ;
+               DataSource=%Allocation }
+
+    { 1000000002;1;DataItem;                 ;
+               DataItemTable=Table51516318;
+               DataItemLink=code=Members_Next_Kin_Details.Relationship }
+
+    { 1000000007;2;Column;Relationship       ;
+               DataSource=Describution }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
+OBJECT Query 50003 BankDetails
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/29/16;
+    Time=14:33:55;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  ELEMENTS
+  {
+    { 1000000000;;DataItem;                  ;
+               DataItemTable=Table270 }
+
+    { 1000000001;1;Column;                   ;
+               DataSource=No. }
+
+    { 1000000002;1;Column;                   ;
+               DataSource=Name }
+
+    { 1000000003;1;Column;                   ;
+               DataSource=Search Name }
+
+    { 1000000004;1;Column;                   ;
+               DataSource=Name 2 }
+
+    { 1000000005;1;Column;                   ;
+               DataSource=Address }
+
+    { 1000000006;1;Column;                   ;
+               DataSource=Address 2 }
+
+    { 1000000007;1;Column;                   ;
+               DataSource=City }
+
+    { 1000000008;1;Column;                   ;
+               DataSource=Contact }
+
+    { 1000000009;1;Column;                   ;
+               DataSource=Phone No. }
+
+    { 1000000010;1;Column;                   ;
+               DataSource=Telex No. }
+
+    { 1000000011;1;Column;                   ;
+               DataSource=Bank Account No. }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
+OBJECT Query 50004 nextofkin
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/29/16;
+    Time=14:34:00;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  ELEMENTS
+  {
+    { 1000000000;;DataItem;                  ;
+               DataItemTable=Table51516221 }
+
+    { 1000000001;1;Column;                   ;
+               DataSource=Account No }
+
+    { 1000000002;1;Column;                   ;
+               DataSource=Name }
+
+    { 1000000003;1;Column;                   ;
+               DataSource=Relationship }
+
+    { 1000000004;1;Column;                   ;
+               DataSource=Beneficiary }
+
+    { 1000000005;1;Column;                   ;
+               DataSource=Date of Birth }
+
+    { 1000000006;1;Column;                   ;
+               DataSource=Address }
+
+    { 1000000007;1;Column;                   ;
+               DataSource=Telephone }
+
+    { 1000000008;1;Column;                   ;
+               DataSource=Fax }
+
+    { 1000000009;1;Column;                   ;
+               DataSource=Email }
+
+    { 1000000010;1;Column;                   ;
+               DataSource=ID No. }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
+OBJECT Query 50005 LoansRegister
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/29/16;
+    Time=14:34:06;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  ELEMENTS
+  {
+    { 1000000000;;DataItem;                  ;
+               DataItemTable=Table51516230 }
+
+    { 1000000001;1;Column;                   ;
+               DataSource=Loan  No. }
+
+    { 1000000002;1;Column;                   ;
+               DataSource=Application Date }
+
+    { 1000000003;1;Column;                   ;
+               DataSource=Loan Product Type }
+
+    { 1000000004;1;Column;                   ;
+               DataSource=Client Code }
+
+    { 1000000005;1;Column;                   ;
+               DataSource=Group Code }
+
+    { 1000000006;1;Column;                   ;
+               DataSource=Savings }
+
+    { 1000000007;1;Column;                   ;
+               DataSource=Approved Amount }
+
+    { 1000000008;1;Column;                   ;
+               DataSource=Interest }
+
+    { 1000000009;1;Column;                   ;
+               DataSource=LastPayDateImport }
+
+    { 1000000010;1;Column;                   ;
+               DataSource=Total Loans Default }
+
+    { 1000000011;1;Column;                   ;
+               DataSource=old no }
+
+    { 1000000013;1;Column;                   ;
+               DataSource=Approval Status }
+
+    { 1000000012;1;Column;                   ;
+               DataSource=Totals Loan Outstanding }
+
+    { 1000000014;1;Column;                   ;
+               DataSource=Loan Product Type Name }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
+OBJECT Query 50006 ministatement
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/28/16;
+    Time=10:24:13;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  ELEMENTS
+  {
+    { 1000000000;;DataItem;                  ;
+               DataItemTable=Table380 }
+
+    { 1000000004;1;Column;                   ;
+               DataSource=Debit Amount }
+
+    { 1000000005;1;Column;                   ;
+               DataSource=Credit Amount }
+
+    { 1000000002;1;Column;                   ;
+               DataSource=Amount }
+
+    { 1000000003;1;Column;                   ;
+               DataSource=Vendor No. }
+
+    { 1000000006;1;Column;                   ;
+               DataSource=Vendor Ledger Entry No. }
+
+    { 1000000010;1;Column;                   ;
+               DataSource=Posting Date }
+
+    { 1000000007;1;Column;                   ;
+               DataSource=Document No. }
+
+    { 1000000008;1;DataItem;                 ;
+               DataItemTable=Table25;
+               DataItemLink=Entry No.=Detailed_Vendor_Ledg_Entry."Vendor Ledger Entry No.";
+               DataItemLinkType=SQL Advanced Options }
+
+    { 1000000001;2;Column;                   ;
+               DataSource=Entry No. }
+
+    { 1000000009;2;Column;                   ;
+               DataSource=Description }
+
+    { 1000000011;2;Column;                   ;
+               DataSource=External Document No. }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
+OBJECT Query 50008 VendorFosaAcount
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/29/16;
+    Time=14:34:40;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  ELEMENTS
+  {
+    { 1000000000;;DataItem;                  ;
+               DataItemTable=Table23 }
+
+    { 1000000001;1;Column;                   ;
+               DataSource=No. }
+
+    { 1000000002;1;Column;                   ;
+               DataSource=Name }
+
+    { 1000000003;1;Column;                   ;
+               DataSource=BOSA Account No }
+
+    { 1000000004;1;Column;                   ;
+               DataSource=Blocked }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
+OBJECT Query 50009 ATMStatus
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/29/16;
+    Time=14:34:56;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  ELEMENTS
+  {
+    { 1000000000;;DataItem;                  ;
+               DataItemTable=Table51516321 }
+
+    { 1000000002;1;Column;                   ;
+               DataSource=ATM Expiry Date }
+
+    { 1000000003;1;Column;                   ;
+               DataSource=Date Issued }
+
+    { 1000000005;1;Column;                   ;
+               DataSource=Card Status }
+
+    { 1000000004;1;Column;                   ;
+               DataSource=Card No }
+
+    { 1000000001;1;Column;                   ;
+               DataSource=Account No }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
